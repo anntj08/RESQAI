@@ -1,0 +1,36 @@
+src_sl_no,location,district,latitude_dd,longitude_dd,landslide_type,length_m,width_m,depth_m,slope_context,source_report,coord_precision_deg,date_of_event,source_pdf,pdf_page
+65,Puthupadi Village,Wayanad,11.51,76.03,Rock fall,,,,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+66,Muppainadu village,Wayanad,11.53,76.15,Debris avalanche,,,,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+67,Muppainadu village,Wayanad,11.53,76.23,Debris avalanche,50,15,1,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+68,Kottapadi Village,Wayanad,11.53,76.09,Debris flow,450,180,7,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+69,Muppainadu village,Wayanad,11.53,76.23,Debris avalanche,200,5,1,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+70,Muppainadu village,Wayanad,11.54,76.23,Debris avalanche,300,40,3,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+71,Kottapadi Village,Wayanad,11.54,76.13,Debris slide,,,,Cut slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+72,Kottapadi Village,Wayanad,11.54,76.14,Subsidence,,,,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+73,Muppainadu village,Wayanad,11.54,76.21,Debris avalanche,,,,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+74,Muppainadu village,Wayanad,11.54,76.18,Crack,,,,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+75,Kottapadi Village,Wayanad,11.55,76.12,Debris flow,100,5,2,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+76,Muppainadu village,Wayanad,11.55,76.21,Debris slide,,,,Cut slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+77,Kottapadi Village,Wayanad,11.55,76.1,Subsidence,50,50,0.1,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+78,Kottapadi Village,Wayanad,11.55,76.09,Debris flow,50,15,3,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+79,Kottapadi Village,Wayanad,11.55,76.13,Subsidence,,,,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+80,Kottapadi Village,Wayanad,11.56,76.13,Debris slide,,,,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+81,Kottapadi Village,Wayanad,11.56,76.13,Subsidence,15,15,4,Cut slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+82,Thariyodu village,Wayanad,11.63,75.95,Debris slide,10,4,3,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+83,Thariyodu village,Wayanad,11.63,75.96,Debris slide,15,20,15,Cut slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+84,Thariyodu village,Wayanad,11.63,75.95,Debris flow,75,10,4,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+85,Padinjarethara Village,Wayanad,11.67,75.94,Debris flow,150,10,5,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+86,Padinjarethara Village,Wayanad,11.67,75.96,subsidence,,,,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+87,Padinjarethara Village,Wayanad,11.68,75.94,Debris slide,10,3,1,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+88,Kokikalada,Wayanad,11.68,76.28,Debris slide,10,15,0,Cut slope,087LHZ/SR/TNP/2006/2006-2008,0.01,,gsi_14337.pdf,56
+89,Padinjarethara Village,Wayanad,11.68,75.94,Debris flow,100,10,1,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,56
+90,Padinjarethara Village,Wayanad,11.68,75.94,Slump,,,,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,57
+91,Padinjarethara Village,Wayanad,11.68,75.94,Debris flow,100,10,2,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,57
+92,Padinjarethara Village,Wayanad,11.69,75.94,Crack,30,5,1,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,57
+93,Padinjarethara Village,Wayanad,11.69,75.94,Debris flow,,,,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,57
+94,Vellamunda Village,Wayanad,11.71,75.94,Debris flow,100,20,4,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,57
+95,Thondarnadu Village,Wayanad,11.73,75.83,Debris flow,75,25,2,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,57
+96,Mananthavady Village,Wayanad,11.82,76.03,Debris slide,15,20,15,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,57
+97,Thallamal Village,Wayanad,11.85,76.02,Debris slide,,,,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,57
+98,Thirunelly Village,Wayanad,11.91,76.01,Debris flow,200,50,7,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,57
+99,Thirunelly Village,Wayanad,11.92,76.02,Debris flow,100,10,2,Natural slope,LHZ/SR/KRL/2007/071/2007-10,0.01,,gsi_14337.pdf,57

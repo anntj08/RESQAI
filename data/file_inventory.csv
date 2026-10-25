@@ -1,0 +1,405 @@
+relative_path,filename,size_bytes,size_mb,sha256
+data\raw\additional\hydrorivers\HydroRIVERS_TechDoc_v10.pdf,HydroRIVERS_TechDoc_v10.pdf,534461,0.534,4afcdb2b54b93793a0196c2795ffe8ba6e7364a2ef31ecc2f783a7dd3b5df573
+data\raw\additional\hydrorivers\HydroRIVERS_v10_as_shp\HydroRIVERS_v10_as.dbf,HydroRIVERS_v10_as.dbf,147183259,147.183,676f21c0ffa68f4655d21263067e57a99f05608a03db20cbdd5a3d1904d325ff
+data\raw\additional\hydrorivers\HydroRIVERS_v10_as_shp\HydroRIVERS_v10_as.prj,HydroRIVERS_v10_as.prj,145,0.0,a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4
+data\raw\additional\hydrorivers\HydroRIVERS_v10_as_shp\HydroRIVERS_v10_as.sbn,HydroRIVERS_v10_as.sbn,12055780,12.056,7335a4e6d72abe4ce2572cd1099fdb9798582ca39d51508d55fdc31e765cf2ec
+data\raw\additional\hydrorivers\HydroRIVERS_v10_as_shp\HydroRIVERS_v10_as.sbx,HydroRIVERS_v10_as.sbx,182788,0.183,489f64c2adf5eb8c5981e8125fb69cfa4ca65f0b96cf457f31b6ea9f6742f0d6
+data\raw\additional\hydrorivers\HydroRIVERS_v10_as_shp\HydroRIVERS_v10_as.shp,HydroRIVERS_v10_as.shp,207445068,207.445,827e03a8e419b9578d5f246bcce1c93de1a0bd561a9f572fe84606c5d36d31fa
+data\raw\additional\hydrorivers\HydroRIVERS_v10_as_shp\HydroRIVERS_v10_as.shx,HydroRIVERS_v10_as.shx,11431772,11.432,c2627246c48acddb2a9b748964d3e7cbe39b5fdd0c94cbd480f6644a707a6654
+data\raw\additional\hydrorivers\HydroRIVERS_v10_as_shp.zip,HydroRIVERS_v10_as_shp.zip,90510995,90.511,29780b0a75f90024f22e7e2029e5e3045f7325cda0528db65c5cc4c864b98525
+data\raw\additional\osm_roads_wayanad.geojson,osm_roads_wayanad.geojson,14072749,14.073,64e7e7e1fb42bf6144aeddd55f5ff1639a23abc5215e29399df0ee01baf203ef
+data\raw\boundary\gadm41_IND_2\gadm41_IND_2.json,gadm41_IND_2.json,5118236,5.118,ca884ac75aa052473d0bff0745810c2684edf59354aabaf668ffbb42ab2b7675
+data\raw\boundary\gadm41_IND_2.json.zip,gadm41_IND_2.json.zip,1489046,1.489,4b2aa08c7adec0475282bb9ada1dfcb7c10074eff410b5f476656260d03fc5ab
+data\raw\boundary\osm_nominatim_wayanad.geojson,osm_nominatim_wayanad.geojson,85575,0.086,34c1457b0d6033d725fd0d8c3717ed36f53d20c4df3ae06a25ad4edfa8f77e81
+data\raw\dem\copernicus_glo30\Copernicus_DSM_COG_10_N11_00_E075_00_DEM.tif,Copernicus_DSM_COG_10_N11_00_E075_00_DEM.tif,20008561,20.009,dbddab328128c5874aa94a035b28488279ffc0762a1c2d348d7bd86772567bba
+data\raw\dem\copernicus_glo30\Copernicus_DSM_COG_10_N11_00_E076_00_DEM.tif,Copernicus_DSM_COG_10_N11_00_E076_00_DEM.tif,44177013,44.177,717edb70dcd7f132ebf44466189a9f461d8137b3c36713ee407b8456f1f14884
+data\raw\dem\srtm_1arcsec_skadi\N11E075.hgt,N11E075.hgt,25934402,25.934,6f0ed44875b94368973ae1fe4502bcdc8598b4b5e783e0e888953c4564e29ac9
+data\raw\dem\srtm_1arcsec_skadi\N11E075.hgt.gz,N11E075.hgt.gz,5468520,5.469,cb788205f6c8da68a121e0ae7b678520a232f9349a9fc63bb022bfe40c431f6c
+data\raw\dem\srtm_1arcsec_skadi\N11E076.hgt,N11E076.hgt,25934402,25.934,138f435256d7a689780778788e011c1141748d9e3485f3f3611e8abd258ecbdd
+data\raw\dem\srtm_1arcsec_skadi\N11E076.hgt.gz,N11E076.hgt.gz,13254841,13.255,7ba2967a032f8cba5f3bbd03b7009dff97184588e92c1a40a2db90f0dd0f7406
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000001.gdbindexes,a00000001.gdbindexes,110,0.0,80ba95b873e151074244f7655f9e29ce8967aab1bd57ff4c06a329b723a3d46c
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000001.gdbtable,a00000001.gdbtable,322,0.0,0411241de08833fc4fb5e3fbd59cd5303219e3c5fa62f1ddc3a4d50f45f435b0
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000001.gdbtablx,a00000001.gdbtablx,5152,0.005,b65d6bdd23b973033884654531d2ed75d5c4e55fd260bf23631bbecf9f7edab5
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000001.TablesByName.atx,a00000001.TablesByName.atx,4118,0.004,e730b64cdc5e52af63f86ecbff7369ff94759f725fab849717304b1cf1071d17
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000002.gdbtable,a00000002.gdbtable,2055,0.002,9efa50dc62a40e109a546054943ae5ad4b3d41aa81ece0dfa026b7b23cb09da8
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000002.gdbtablx,a00000002.gdbtablx,5152,0.005,f3ac9865dec6ab40e73d91dd1f5c2eef0248e66e359d4abb1d97edba92b5df88
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000003.gdbindexes,a00000003.gdbindexes,42,0.0,de0911d18e2f304380c04ae123ea18057d262d788301f7cc3148298231c7c618
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000003.gdbtable,a00000003.gdbtable,923,0.001,467c7586e8efbf52aa7b7774aa8904d45e771202d3fb4e3264d8d654d712bfa0
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000003.gdbtablx,a00000003.gdbtablx,5152,0.005,d63fd5f8a490aa6aeffde1336e80ce35b5399af5752a72b316570a670b09d167
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000004.CatItemsByPhysicalName.atx,a00000004.CatItemsByPhysicalName.atx,4118,0.004,1c599dc5f0a7b226e813a1536f0882645ef8657564dbee43add2e97e0e8a4e93
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000004.CatItemsByType.atx,a00000004.CatItemsByType.atx,4118,0.004,fe36a6d3d27e3e5eedd1690a214d0ce6ba877965109dbe25de95f98d15233d15
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000004.FDO_UUID.atx,a00000004.FDO_UUID.atx,4118,0.004,5a8679f657ec2f852522ce9faa4cf365577a0f101e10f67994b6fea8849acf4f
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000004.freelist,a00000004.freelist,8536,0.009,f5fdaa783cdc0b1b2e695744ecd0afd268b09161caf7be6db86985dc322eed62
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000004.gdbindexes,a00000004.gdbindexes,310,0.0,f29887c93b126a3feb0e20958cd73cc774f76ab79284b9c7286dc12eb05db858
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000004.gdbtable,a00000004.gdbtable,177715,0.178,26b10d89248c2105f614862f1688ad4d0596094b9714b9c5546bd943b1cfa42c
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000004.gdbtablx,a00000004.gdbtablx,5152,0.005,eefe6858e8c4c1b75f6ab43f5a55555f2531a6ae55e8c00af0721de5b1de1e97
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000004.spx,a00000004.spx,4118,0.004,027866f78134de031571290fab2599ab7879bd7df84030ee324b233b891058aa
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000005.CatItemTypesByName.atx,a00000005.CatItemTypesByName.atx,12310,0.012,38ebd7f55baf15ea4517b52f44b62b088ecbbec23c60838328ca25f8361bf596
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000005.CatItemTypesByParentTypeID.atx,a00000005.CatItemTypesByParentTypeID.atx,4118,0.004,f27f8ab6c9cce20af434f26838c5c6dd167c7638d3a6223743d80fc1c80bf29c
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000005.CatItemTypesByUUID.atx,a00000005.CatItemTypesByUUID.atx,4118,0.004,d4ad5b4c16925c3295c1ebdf269c58fb96c3ee05980c6a26739824872efa9b33
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000005.gdbindexes,a00000005.gdbindexes,296,0.0,c21e650994b48cc72d174b3caf2ac1bd19e2d7305c8087aaae97e24caecf98a5
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000005.gdbtable,a00000005.gdbtable,1803,0.002,9486f2b40fd86afae05266663b070b9e7c9b1d4f2ee78e5ed3b4ef54ba365ba4
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000005.gdbtablx,a00000005.gdbtablx,5152,0.005,e2ace839b698302d619192d8d9e351aba6fea9d99b5a073057aea2c88339e2ad
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000006.CatRelsByDestinationID.atx,a00000006.CatRelsByDestinationID.atx,4118,0.004,bce2a8f38bbdc2e24823a1d29c0c9b5e98101892e325cae6a87e056b1d2514f7
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000006.CatRelsByOriginID.atx,a00000006.CatRelsByOriginID.atx,4118,0.004,07adef748671507aacb14ea56786db282a47fb53d5255aaeef735667412c836c
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000006.CatRelsByType.atx,a00000006.CatRelsByType.atx,4118,0.004,977cbde080bcdb9a2b35b955610e57cfb4c3790bc657c01c61d89362d5d82b7d
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000006.FDO_UUID.atx,a00000006.FDO_UUID.atx,4118,0.004,27e2e21af9044d3ca991bbbf631eb2bb649cf5dec0d1075deb86e73c8aa36624
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000006.gdbindexes,a00000006.gdbindexes,318,0.0,1919a00326f198a90dc97545ec448c10b2b90d367020222212f7b00433fe09b5
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000006.gdbtable,a00000006.gdbtable,263,0.0,516503c6924bed4763125084f38d5b6ebbffec9debd5dc16a279c705a74d8210
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000006.gdbtablx,a00000006.gdbtablx,5152,0.005,d9c498cb200741d86e8fd4adbd17f8b5dd4f35abf4dfad3f88239c84ac999d0e
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000007.CatRelTypesByBackwardLabel.atx,a00000007.CatRelTypesByBackwardLabel.atx,4118,0.004,417a3ed9e7322e61dfbea912afb0fd4d8da31e6e61c00cc3af5029e3e1e93021
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000007.CatRelTypesByDestItemTypeID.atx,a00000007.CatRelTypesByDestItemTypeID.atx,4118,0.004,2fe821282efcd451627317190fafcd8b23942de4577e64b66e8d55908f693fc8
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000007.CatRelTypesByForwardLabel.atx,a00000007.CatRelTypesByForwardLabel.atx,4118,0.004,d680a399296fda5cded5f5063c9513d51bdf926f23ff0cf9832ee406c2324022
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000007.CatRelTypesByName.atx,a00000007.CatRelTypesByName.atx,4118,0.004,78c847f8b0f31ec9924957b1d304b509314a526355f98368192e1db0aac9ad40
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000007.CatRelTypesByOriginItemTypeID.atx,a00000007.CatRelTypesByOriginItemTypeID.atx,4118,0.004,93efe12917560c264891757d677c462820f8d7b6977a3f59dd68a8dd94bbb498
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000007.CatRelTypesByUUID.atx,a00000007.CatRelTypesByUUID.atx,4118,0.004,02e283967612ac7e4c43687cb26119f7bd6f5d3612e80cdc52c25b139f2ab28d
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000007.gdbindexes,a00000007.gdbindexes,602,0.001,dc98e24d04eddd7f38905d176c1ea43c547a3a2daa0c80091a20d3443c726621
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000007.gdbtable,a00000007.gdbtable,2504,0.003,d15d66e1685cb304d48109f64bd0aa3aa3033d76a1ad405d3509c25722eb8e50
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000007.gdbtablx,a00000007.gdbtablx,5152,0.005,3a1a308fb0c0669b55ad16f4d44bd7241028d50b34bac5254385d9075bfd516b
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000009.gdbindexes,a00000009.gdbindexes,116,0.0,760bd4864717c60d5e7c0c6461a622062680e6f79f51250f49456aa609b43774
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000009.gdbtable,a00000009.gdbtable,1233837082,1233.837,3d7322131ccb60dcdf05a0379e0e003b5ab090458933f73cc373589a8129347c
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000009.gdbtablx,a00000009.gdbtablx,6179872,6.18,254a3ee4ee7ff40c1df5f1ee8273cbac221291b46bebb448ecd4fefb0d848b94
+data\raw\geology\glim\LiMW_GIS 2015.gdb\a00000009.spx,a00000009.spx,17448982,17.449,8992977a2396ee1cc76b57933343ffc1b909449fe0d21f769be172529db27542
+data\raw\geology\glim\LiMW_GIS 2015.gdb\gdb,gdb,4,0.0,2594b6a92ebfb1c3312deb7d01c015fb95e9fbe9bd7bc6b527af07813ec7b910
+data\raw\geology\glim\LiMW_GIS 2015.gdb\GLiM_v1_1.lyr,GLiM_v1_1.lyr,13312,0.013,19469819d74334f78570a2754684b71c20d6859229f445752ee96b6f9ff35911
+data\raw\geology\glim\LiMW_GIS 2015.gdb\timestamps,timestamps,400,0.0,bf0d7b964d2ff658d80d0cf001f6bf7424af909bcd4956cad015b9386d7de3d5
+data\raw\geology\glim\LiMW_GIS_2015.gdb.zip,LiMW_GIS_2015.gdb.zip,1138691332,1138.691,895be0cde43f68d1fe6a24dafafbde715d9c9893adfea28916a9a69f88cc320c
+data\raw\landcover\ESA_WorldCover_10m_2021_v200_N09E075_Map.tif,ESA_WorldCover_10m_2021_v200_N09E075_Map.tif,75590338,75.59,913f22dd9ba2b05f52eeb104ca88aa5162ec2d0a5dcef1124d4f19546ac49558
+data\raw\landslide_inventory\gsi_bhusanket\config.json,config.json,5855,0.006,64bea814e7901bd303e459a9aa7e4bc92eecca67297add0e9e0678ba2d4a6786
+data\raw\landslide_inventory\gsi_bhusanket\LandslideReport.json,LandslideReport.json,426135,0.426,59c2c831d359ec981a0500e0a009edc6b6ddb8bcbaede506aa53304ae0b645ca
+data\raw\landslide_inventory\gsi_bhusanket\pdf\gsi_14252.pdf,gsi_14252.pdf,2947304,2.947,d1ab32cf548dbfec6ca38beeb494d1d3402835582c88bba15b4f7009b0aa289b
+data\raw\landslide_inventory\gsi_bhusanket\pdf\gsi_14253.pdf,gsi_14253.pdf,10759194,10.759,621f3e341b34883e3ca67de1b0cfb61d84522855206f36cfa51b246ffeab6c8c
+data\raw\landslide_inventory\gsi_bhusanket\pdf\gsi_14337.pdf,gsi_14337.pdf,1620117,1.62,0f9af68c67650541307f451006d28f7d94abc7d9cab0a6e54781a43073c300c7
+data\raw\landslide_inventory\gsi_bhusanket\pdf\gsi_14767.pdf,gsi_14767.pdf,10852124,10.852,81629fe69517aa8be008f66c6a52f515c3e23076847e1558b8ea7702a95a96e9
+data\raw\landslide_inventory\gsi_bhusanket\pdf\gsi_14768.pdf,gsi_14768.pdf,9050019,9.05,46701193731084d7d820f4d58ee636f9358f152d070ee9be3006f5c2f8b28096
+data\raw\landslide_inventory\gsi_bhusanket\pdf\gsi_14999.pdf,gsi_14999.pdf,8898319,8.898,3f4440b3fe27f387bbdaa034d910657a93f2a79cf153df1d7f72a1ccbb151082
+data\raw\landslide_inventory\gsi_bhusanket\pdf\gsi_15990.pdf,gsi_15990.pdf,3221214,3.221,1561e7b942f2adb427edb8362df4ac01d9784b98a62343fa60434e0ddc1e0b9b
+data\raw\landslide_inventory\gsi_bhusanket\pdf\gsi_2018_post_disaster_wayanad.pdf,gsi_2018_post_disaster_wayanad.pdf,2480655,2.481,766ac1c35cd5572a93248dc323dee16a3b227dbb69ce7db0f76675348461c69b
+data\raw\landslide_inventory\gsi_bhusanket\statewiseLandslideReport.js,statewiseLandslideReport.js,10581,0.011,070f75cd30cb8faba73608d98a3fa3fcbae360a00b07c9d1aca42a3255a54578
+data\raw\landslide_inventory\nasa_glc\Global_Landslide_Catalog_Export_rows.csv,Global_Landslide_Catalog_Export_rows.csv,8479717,8.48,2c4898899dd4f373c4320e121c5b655ebb5394d431fa42e57ec4828d07d48b04
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2000.01.tif.gz,chirps-v2.0.2000.01.tif.gz,14461830,14.462,c462e768cf84d3ad7f07e998def6f06d40e3b15db810cb31e4a697c0995f0e7f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2000.02.tif.gz,chirps-v2.0.2000.02.tif.gz,14552466,14.552,c242a8474bf6c4e15280e71c8ed8042e7e1f7a42f7aaa3f001f29388d5075e84
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2000.03.tif.gz,chirps-v2.0.2000.03.tif.gz,14514806,14.515,c27bd9de16de5b0c27492de47b9182293f3dcf314139d9c04461c43219c3e222
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2000.04.tif.gz,chirps-v2.0.2000.04.tif.gz,14509801,14.51,20300d0bd45be0aa8ed8064dc75f01d3c03d92af1e2e49f8d6e2c0f6005fd958
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2000.05.tif.gz,chirps-v2.0.2000.05.tif.gz,14557704,14.558,1297dfac8022053d087952d3c226dd8db459545e485ed67a1603a679ce46c246
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2000.06.tif.gz,chirps-v2.0.2000.06.tif.gz,14620424,14.62,e539d308b0d12f796962dc1ddd6be239b0174a32725f23406bf61a158fb8073b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2000.07.tif.gz,chirps-v2.0.2000.07.tif.gz,14664211,14.664,f6d539eb8213962ce0cdc08bf5457f18c07ec177470fe95ff4974f0f20c13ede
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2000.08.tif.gz,chirps-v2.0.2000.08.tif.gz,14657301,14.657,827cf2a52df9580d062988a82712679f88ae379988d18926217e57d87e4e246d
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2000.09.tif.gz,chirps-v2.0.2000.09.tif.gz,14628740,14.629,0d2486f4d38e9a0fb4afd3218b43a683b18015f10975712a6e7c9e2536f6c301
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2000.10.tif.gz,chirps-v2.0.2000.10.tif.gz,14570150,14.57,cb4c5c16960d5de014c24b2ce592ca7563e48f746bd832ce2533e95378cdeda2
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2000.11.tif.gz,chirps-v2.0.2000.11.tif.gz,14598578,14.599,7bde2c54f638359f0ab426de25fce1eb49ccdd924358358ae708bae2ff127f09
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2000.12.tif.gz,chirps-v2.0.2000.12.tif.gz,14578955,14.579,4ba672f1cdb1c628dfff6dc105202a7d4e1c03a4cf0edf64c5cfa938da955338
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2001.01.tif.gz,chirps-v2.0.2001.01.tif.gz,14482697,14.483,45e8fd3ad941c96e4f277faca5720454dc8691f9b994a6013f18df09984b8cf1
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2001.02.tif.gz,chirps-v2.0.2001.02.tif.gz,14565283,14.565,32138b532f52a0eee051e50f5d02efef4fcb7d364dbdbf451a5c64d669881c3a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2001.03.tif.gz,chirps-v2.0.2001.03.tif.gz,14530143,14.53,7460d16a8723cf943d3330e9461c698418872e2580a6dc17839129c4058b4648
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2001.04.tif.gz,chirps-v2.0.2001.04.tif.gz,14494187,14.494,0ee8894083c8f0a5e6f1ebad14d2ab5bd2d6c076eb62f6ec7d82d4d427991f31
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2001.05.tif.gz,chirps-v2.0.2001.05.tif.gz,14531448,14.531,7e44bb4a0024707a6d6913a2e6c6006896b504ea44dbb9674e32326323eb3b60
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2001.06.tif.gz,chirps-v2.0.2001.06.tif.gz,14614096,14.614,a636b0112675d0ab1bcbe7a03766e66131a425d5f1b51d63ebdd18555d4619b8
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2001.07.tif.gz,chirps-v2.0.2001.07.tif.gz,14664872,14.665,a1211a67eb49933016e7c71b5488cf8cc631bf047845d7f5a2d0a87d4c1f2488
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2001.08.tif.gz,chirps-v2.0.2001.08.tif.gz,14635709,14.636,bc87e0a8a6e9099f02b99f2d02f059715238f073a50d89da954ce8d8835afd09
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2001.09.tif.gz,chirps-v2.0.2001.09.tif.gz,14633000,14.633,3423443dcec1503e8d360d48e3ed786af687bbc9cd8945af9d3f87a7260b57da
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2001.10.tif.gz,chirps-v2.0.2001.10.tif.gz,14591266,14.591,b4d489a273a464afa119ea6c8ede4fed6a72917c27af9963ab3d02019575e433
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2001.11.tif.gz,chirps-v2.0.2001.11.tif.gz,14607482,14.607,2cf444571fa6b54273eafbd637cb8af9174515887e75402d197829e95b034df1
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2001.12.tif.gz,chirps-v2.0.2001.12.tif.gz,14609549,14.61,cd2fa862b5dcc0909f2f5a7a22905406b3f4311f21a66d0058bdc44a38e1b20b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2002.01.tif.gz,chirps-v2.0.2002.01.tif.gz,14453562,14.454,fff33da75cfebb38d089dd39f77ffbc4b91f76c9c8fef08130939fecdad833ec
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2002.02.tif.gz,chirps-v2.0.2002.02.tif.gz,14554110,14.554,712927612d394ebbbda1134c77f051faa246242540022e2f84aa02d6f444ea47
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2002.03.tif.gz,chirps-v2.0.2002.03.tif.gz,14532826,14.533,3854f251103798daa601b7150202fff631a47b21df38f8b2b87600d3c5a156a1
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2002.04.tif.gz,chirps-v2.0.2002.04.tif.gz,14479103,14.479,19643bbade007d7240aa69603c55cb026eeeba45d48bf1ab3f7d4f57933c6ea5
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2002.05.tif.gz,chirps-v2.0.2002.05.tif.gz,14566737,14.567,88ba3bed6870dbdaba1cbaf8be15b6201c7606b7544b6fdf358cc6a615b894be
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2002.06.tif.gz,chirps-v2.0.2002.06.tif.gz,14606871,14.607,4fff8ac9af29efcf39c932e1ce613991b03dea91948ea125e05bc11c84fc762c
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2002.07.tif.gz,chirps-v2.0.2002.07.tif.gz,14675521,14.676,267aca65e95ba2ec5cf3f3095edd9192f0c2683dcd741e86008420e55e7e2318
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2002.08.tif.gz,chirps-v2.0.2002.08.tif.gz,14666330,14.666,e1c401e32750c94b37889e2c45afb1cc1c54bd4e813c58c956778b33801579d4
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2002.09.tif.gz,chirps-v2.0.2002.09.tif.gz,14629637,14.63,1c5a3b7121afe01c331c9f948844e97772cbcee388a880579b127e1b2ddb503f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2002.10.tif.gz,chirps-v2.0.2002.10.tif.gz,14599223,14.599,5d440555d559431a3e68391cc67277faeb826f0d6aee52a9b449a6f2634a26b5
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2002.11.tif.gz,chirps-v2.0.2002.11.tif.gz,14609120,14.609,8f72f8cb7e1f1f7dd7f9cdc364d358f3486f43919d5da1e15023b279e3fd3670
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2002.12.tif.gz,chirps-v2.0.2002.12.tif.gz,14603944,14.604,e2a5d840083df69d63510e69e20d56fe3e2d3cfd34dfd27d0d781f1c79156bd6
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2003.01.tif.gz,chirps-v2.0.2003.01.tif.gz,14488570,14.489,aed3cca7fef5a3507b9960a024a00473f81bb58f32c78800afc9b61286c1212a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2003.02.tif.gz,chirps-v2.0.2003.02.tif.gz,14557169,14.557,f920f1e78e1b25db01a4598812b899e9da0c38204768ddaa0f437417e2e98f98
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2003.03.tif.gz,chirps-v2.0.2003.03.tif.gz,14527584,14.528,353fddcf38f0a4f83cc2c53aec125b1352a02714f474096231b2639b2b2eeadd
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2003.04.tif.gz,chirps-v2.0.2003.04.tif.gz,14492422,14.492,219b3911a3e3854d8dd7c92a180c7c59ee1b407581c8503a7aa4d4659bae9892
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2003.05.tif.gz,chirps-v2.0.2003.05.tif.gz,14537202,14.537,9bacad2fc8223551e0252aa12ab9167c0b19b280af1f8e725c416e034832cdc1
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2003.06.tif.gz,chirps-v2.0.2003.06.tif.gz,14600449,14.6,60e7bfefc63575fd0c3e94de50e63c36bd1ff523c7a6f13ec5323794bca79600
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2003.07.tif.gz,chirps-v2.0.2003.07.tif.gz,14657338,14.657,b487705094c62bd706416aff73d1b6edca8ee98eb4cb17867b665e5bdf06a450
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2003.08.tif.gz,chirps-v2.0.2003.08.tif.gz,14648557,14.649,8bf5446ee2d9a3d38f3ec65fdfe44abd49442d804edb875dc141ac99e0aef5d1
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2003.09.tif.gz,chirps-v2.0.2003.09.tif.gz,14620190,14.62,4efb375cded163461e4b14551792944a6610680835cc77de9c39f2322c29c1c5
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2003.10.tif.gz,chirps-v2.0.2003.10.tif.gz,14603608,14.604,2711a530fcb27672267c92b8a98aded2fee25e1d899f553b1519a36eaefd1aa9
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2003.11.tif.gz,chirps-v2.0.2003.11.tif.gz,14592184,14.592,111cbd434f8a6fa8d404644561fc00fe867a75fef909c629a1245f94063472f8
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2003.12.tif.gz,chirps-v2.0.2003.12.tif.gz,14592673,14.593,12bff1f4da40fa7e6ff1404f890b46dabac9413efedb6c66d6583abdddde0fa4
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2004.01.tif.gz,chirps-v2.0.2004.01.tif.gz,14465524,14.466,712ec31358e2afa94bd586dad6bf7b2ee183ee4734eeeff75d46fa05028ebccc
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2004.02.tif.gz,chirps-v2.0.2004.02.tif.gz,14536491,14.536,f71d577a1f8844a82fbd5dbf71683ef86206b27eed0c4e0859c474b61246603a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2004.03.tif.gz,chirps-v2.0.2004.03.tif.gz,14506810,14.507,0da7fdcb2cbc71ab7f48d8e89b144f29fd1936000790ee5d82e9c7ba9ff7257f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2004.04.tif.gz,chirps-v2.0.2004.04.tif.gz,14518156,14.518,8f1bd2a2a0ab7cba9abc11c8a526fbddcf5e10e0f8625ba58efa02d7f4d413ba
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2004.05.tif.gz,chirps-v2.0.2004.05.tif.gz,14588467,14.588,47bc1992835a244d52e53e5ae06a67a165c6cee706ce87b97cbc5f9747c53176
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2004.06.tif.gz,chirps-v2.0.2004.06.tif.gz,14628944,14.629,e587e4f69d47c25c7a27b12fc48172538948ed9b6d07a94e09fc37f599b739a5
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2004.07.tif.gz,chirps-v2.0.2004.07.tif.gz,14671524,14.672,61a97914e559f09c3646611d954abd573076808d8074b677c8ca928e54926a79
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2004.08.tif.gz,chirps-v2.0.2004.08.tif.gz,14635271,14.635,a76ce9398c57b5ae2f50640433bcd5930023305383db9b2fb929fa8c5104c511
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2004.09.tif.gz,chirps-v2.0.2004.09.tif.gz,14623769,14.624,9b2fd6aa8e5a948973318111820c364746fcf57af1cded0c319c856d463321dd
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2004.10.tif.gz,chirps-v2.0.2004.10.tif.gz,14589117,14.589,1cb336fdb185c08dac7505b97bc86858a3c0da925c3024455f84eed18825d3fe
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2004.11.tif.gz,chirps-v2.0.2004.11.tif.gz,14590702,14.591,3ee5de8cec19da57e7c763e54577ea7277c1ba40f68463d8c6c3574bca567a24
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2004.12.tif.gz,chirps-v2.0.2004.12.tif.gz,14600231,14.6,945609a77e9626261ab769b99bd078ff6599b584fe1ec9cae362e9d5ac9491eb
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2005.01.tif.gz,chirps-v2.0.2005.01.tif.gz,14491911,14.492,5a4d8dc71f4f6b83afe6662dc1b367f53247c6fa727a28e21af96cf00c5d8ca7
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2005.02.tif.gz,chirps-v2.0.2005.02.tif.gz,14559216,14.559,55a33bf077da96a9a0fa3a80eb1a4bc2da9be801ae04db882cb9d2c7b2325e87
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2005.03.tif.gz,chirps-v2.0.2005.03.tif.gz,14531425,14.531,81985db0e1d29891a5bd244f52859010767ce7bfa7b73c09b875782f4df5327a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2005.04.tif.gz,chirps-v2.0.2005.04.tif.gz,14508264,14.508,255bba62d94a9ae487955ca97e84181bf5ea77631672fc676eb30b8f9b0e9457
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2005.05.tif.gz,chirps-v2.0.2005.05.tif.gz,14525695,14.526,03a0f9cd2a2837571c71dedfa1db0528ac0cacd5dd75b3820bcdd49ac8f5b78b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2005.06.tif.gz,chirps-v2.0.2005.06.tif.gz,14645214,14.645,b792a519c612c5cb0de1b6f28f102115b06afbd45b4765305f099cc01fe947bc
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2005.07.tif.gz,chirps-v2.0.2005.07.tif.gz,14665935,14.666,1ff8571ca9af80f3371887eca96bfa63f2ffec607a1262b95d060953dccdb1fe
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2005.08.tif.gz,chirps-v2.0.2005.08.tif.gz,14650974,14.651,05a4486564fac52db134b7de954c8f0f7c1c4dbc190d21cccd7924bcde820a30
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2005.09.tif.gz,chirps-v2.0.2005.09.tif.gz,14632352,14.632,313bb09cfc1ab7ca51d39c0c4da355d11e57c1d12bb746a56a61a4b204ddaeba
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2005.10.tif.gz,chirps-v2.0.2005.10.tif.gz,14605224,14.605,f830bb810b21720a10e92b0e0b41b136b9c32cd7c51035e0629648f140c950f0
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2005.11.tif.gz,chirps-v2.0.2005.11.tif.gz,14609137,14.609,41aaab712a540290b7f0e51e10299389a97f1567e1f690fda5e9601757c4f4a1
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2005.12.tif.gz,chirps-v2.0.2005.12.tif.gz,14600619,14.601,ecccdd75f65cd6ce1b0ab455bd20954fdad941428e8ec9ea960dcee795c8a5d5
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2006.01.tif.gz,chirps-v2.0.2006.01.tif.gz,14475926,14.476,f3edeb855ba9a8d9eb1840d2836bc437ca84755970c90848515e0710098675c0
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2006.02.tif.gz,chirps-v2.0.2006.02.tif.gz,14558744,14.559,e4bc115e8c1f3dc9fba03fd3be8b88521e5d77e5a968fe41430f4acf06be3f6f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2006.03.tif.gz,chirps-v2.0.2006.03.tif.gz,14500266,14.5,d586fb5c396f60065c5d6117d80de252d8480d5d8ca8ff0af92500d21a8da300
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2006.04.tif.gz,chirps-v2.0.2006.04.tif.gz,14503988,14.504,7ca3c889055ce241b3de6bdfc80eeeae7f1ba088bd3a3fa4c4064b0aa2de55dc
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2006.05.tif.gz,chirps-v2.0.2006.05.tif.gz,14540536,14.541,062cca2a891b66f29e95c632df705b280dd939f758c1bff3a1a21950fd5a6503
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2006.06.tif.gz,chirps-v2.0.2006.06.tif.gz,14636157,14.636,a9894700ca7c450bcca8d2c0ea1f24cbbd5693e7f4ce2e53fa6eeae6089d0c53
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2006.07.tif.gz,chirps-v2.0.2006.07.tif.gz,14682546,14.683,9c9e06d451c65508102e718e7b860c5346f4903a03ac002f91b5a4a001dcdf34
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2006.08.tif.gz,chirps-v2.0.2006.08.tif.gz,14659085,14.659,d4bc468c13c90a5010cdf78227b2406706f8746951bf794e19f56c5467a83bf3
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2006.09.tif.gz,chirps-v2.0.2006.09.tif.gz,14612874,14.613,3dc97637419e941fdab14284a62cd457be585f7a621a819a766a9db89d6e856d
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2006.10.tif.gz,chirps-v2.0.2006.10.tif.gz,14592599,14.593,095f30f5bd5b318cae57af7e8f50165a4f2bccd3e825e4e0c57a38a4163d4d67
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2006.11.tif.gz,chirps-v2.0.2006.11.tif.gz,14590475,14.59,f11aa6f07a1d46d97adf71888d852751d55b1ffbfb81053e61c1db25fa176230
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2006.12.tif.gz,chirps-v2.0.2006.12.tif.gz,14596262,14.596,c29ee79f158a7608eff4d306abf7efa7a9e54c7ccf287064ed964d85af01f8e8
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2007.01.tif.gz,chirps-v2.0.2007.01.tif.gz,14495244,14.495,1f77ab76b578ef198f9d6007fc8ce675f1a5b362b5ccf313a1e5b5c2e25c72ca
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2007.02.tif.gz,chirps-v2.0.2007.02.tif.gz,14562294,14.562,5eda6534e12bbe5bace1feb68eb96e4045bb05ce26c4f901aec9b3158b91183c
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2007.03.tif.gz,chirps-v2.0.2007.03.tif.gz,14519846,14.52,addc7a3ecf239c281cd6c32ea85fc5f469ea82de6b0ac1531cf98bef2b61dd28
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2007.04.tif.gz,chirps-v2.0.2007.04.tif.gz,14501151,14.501,9d99774f71d7cf57d6d1629ee911dbbe5f56b88a578c721ce4b2d7315f1176d5
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2007.05.tif.gz,chirps-v2.0.2007.05.tif.gz,14551125,14.551,349c32f2e4256947ec201602c4114c31579acfef8c0fe3417c8afa7a8a6db045
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2007.06.tif.gz,chirps-v2.0.2007.06.tif.gz,14607094,14.607,b98cd12a5349b3bd1edb97962a861f3356be50c60dbd5ed0eb16a040e910ec78
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2007.07.tif.gz,chirps-v2.0.2007.07.tif.gz,14650257,14.65,044aa83b2728dc4f79895ac0d0b22e871ca2a583b74d8904751886a2e5c13cd3
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2007.08.tif.gz,chirps-v2.0.2007.08.tif.gz,14638257,14.638,cdf51529b6541024e126cc2f9b62a569d290ee18615e0ec4e0761dab10e6aa80
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2007.09.tif.gz,chirps-v2.0.2007.09.tif.gz,14613890,14.614,2e2bafcfd14aa37abb8146d7cd7a78a8cd424678a26a80f5213a0ba16dea894e
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2007.10.tif.gz,chirps-v2.0.2007.10.tif.gz,14595935,14.596,15ff41981d31cfd094f3633da975803cc966a2f766a3b321ddfc2fd5ac108bf2
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2007.11.tif.gz,chirps-v2.0.2007.11.tif.gz,14594336,14.594,5293237e696de46cc6e24fb136c5d66aad2d0eaf9ca23e83cd33e8c8ad7c74ad
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2007.12.tif.gz,chirps-v2.0.2007.12.tif.gz,14579962,14.58,d78987e6639ec3cfb159506aab4e1ba033ca2ae151ba61af30f4a9930bdf131a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2008.01.tif.gz,chirps-v2.0.2008.01.tif.gz,14484399,14.484,5348ef3a4410503ffa9f72aebb45abaafb523b5383efeca976f7539b6d4fc033
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2008.02.tif.gz,chirps-v2.0.2008.02.tif.gz,14568520,14.569,448c9d48b555233170dbdce00ee18bae01dc404ccec7060fe2373469bd7df471
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2008.03.tif.gz,chirps-v2.0.2008.03.tif.gz,14521850,14.522,1b539c2c5184c3f2ac48e2713d9d17b160982474b623ab1e301501b9d6a409a3
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2008.04.tif.gz,chirps-v2.0.2008.04.tif.gz,14525676,14.526,629938053c8334161b38e478c2392c27cf6ed7d7656b26094601cf1f368393f1
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2008.05.tif.gz,chirps-v2.0.2008.05.tif.gz,14542620,14.543,9cca853f5a9560c8e43a9d5a89a92eab4520e5c30a70e95cdb56c00fc923110b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2008.06.tif.gz,chirps-v2.0.2008.06.tif.gz,14619786,14.62,017c0662593ace556ea506fdaeb3326d7a6c2d026624613ab15933697b5fc7d0
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2008.07.tif.gz,chirps-v2.0.2008.07.tif.gz,14671906,14.672,ae5177007f5f3af0e4c45834686abfe3efdb3f76635f812cb776d936d6ff344f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2008.08.tif.gz,chirps-v2.0.2008.08.tif.gz,14642587,14.643,9b5c74738cb44b85362de3535bdaabfed92cb5db4b18433dfc45aa43daab1e83
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2008.09.tif.gz,chirps-v2.0.2008.09.tif.gz,14606294,14.606,4aeed1cfbd260c4bd83daf484f80990de999ed9ba346bcd44076e09c917f1e0f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2008.10.tif.gz,chirps-v2.0.2008.10.tif.gz,14574688,14.575,d9d94279ebaf895841e9806281dbc826638a6e4eeead9ea19f6ab6cead25df88
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2008.11.tif.gz,chirps-v2.0.2008.11.tif.gz,14598891,14.599,5ff37171df376827dd5e773391a9336611c080d3240ef693ae70253c7782e3a6
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2008.12.tif.gz,chirps-v2.0.2008.12.tif.gz,14578631,14.579,c94a765ee3c0fe0e247c374160e1afe4472fcf1ea48925222e185e7c4c683331
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2009.01.tif.gz,chirps-v2.0.2009.01.tif.gz,14461157,14.461,308a5eeaf29c5d8bf3971831177146b5bd8f4452cd274d642d0cd682d2a10343
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2009.02.tif.gz,chirps-v2.0.2009.02.tif.gz,14557343,14.557,b5e328a2a53170bfcc8d885c201bebefb4ea825e3bf9b2224d7b3b5ea12dad52
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2009.03.tif.gz,chirps-v2.0.2009.03.tif.gz,14528528,14.529,dd433d8223baf78ccb29305238e64ec6a725f74e0654c20b6ac522d157da1f50
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2009.04.tif.gz,chirps-v2.0.2009.04.tif.gz,14513381,14.513,9c7cd8c6d9c5c4bca699c447558a136d7658cea5e99bfbbaed42c79214b96fc4
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2009.05.tif.gz,chirps-v2.0.2009.05.tif.gz,14542202,14.542,6c7b642c56395790206c1dfa2856eeb4a71506364fc41ae6cd3a3af2677a2d49
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2009.06.tif.gz,chirps-v2.0.2009.06.tif.gz,14642159,14.642,5b827f0ac67833612e840f32c7ff80c91e8e65302fe4914deb3de8e6490e9745
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2009.07.tif.gz,chirps-v2.0.2009.07.tif.gz,14691585,14.692,425b9868c90c7507b7cc8f3d42157dfd6e9c5c8e4beaa5b954ba72a7636d3655
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2009.08.tif.gz,chirps-v2.0.2009.08.tif.gz,14662531,14.663,abc1d9a6e648f71f35c050ffeb4ccd1828779be61a4c087ba1348281585d6762
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2009.09.tif.gz,chirps-v2.0.2009.09.tif.gz,14623117,14.623,f947b04b266f44d539e482dcb22cfddc1e3c34c332cc762ae312a802cde57566
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2009.10.tif.gz,chirps-v2.0.2009.10.tif.gz,14605287,14.605,2c3a0a9e80d8b630bfe501d8b2fae043e8daa3625e41ae705b029b596005a254
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2009.11.tif.gz,chirps-v2.0.2009.11.tif.gz,14615536,14.616,336c8eb1eb5c060f7328da08f6ed454cbf63ab4ad65038378d0009df3eb22590
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2009.12.tif.gz,chirps-v2.0.2009.12.tif.gz,14593823,14.594,954ff00b5977667a013987cf7de3f32a359bc72d1954aff301d6a188057a6142
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2010.01.tif.gz,chirps-v2.0.2010.01.tif.gz,14491009,14.491,ab3f2e211aec0e8c2cdb416e61e9107945acbc99d93f5cc4ff79b81479af9b17
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2010.02.tif.gz,chirps-v2.0.2010.02.tif.gz,14552930,14.553,202dde9f8bebf1c1eca70c02f9b6f51d59696dc370952285f7929f1bfc548109
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2010.03.tif.gz,chirps-v2.0.2010.03.tif.gz,14489289,14.489,a32c86960935e9fc04f473a1001653ee9177c710dffe2017696ead47d87e388b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2010.04.tif.gz,chirps-v2.0.2010.04.tif.gz,14485451,14.485,c0c39009aa0dc8c6e6a2a24705ec231b21f38d8c07b05759911e6f71de69538a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2010.05.tif.gz,chirps-v2.0.2010.05.tif.gz,14536095,14.536,0c62f25409468964d074588f25113443c0cfe17748871203a016e95915cc3b51
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2010.06.tif.gz,chirps-v2.0.2010.06.tif.gz,14625464,14.625,4577209728377ae4f03dbafca2cfec8498dd3599172ea299d314cf1eae9f58b2
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2010.07.tif.gz,chirps-v2.0.2010.07.tif.gz,14664952,14.665,54ba540ab32dfaedd787d98cfb4cf9dc02a548fd25be53269bda0bedcc9d85bb
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2010.08.tif.gz,chirps-v2.0.2010.08.tif.gz,14660396,14.66,45dbed76b68dec1d09adea287dfade33f7d3b4b3bc8d6ea9d980dcdd50bea3fd
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2010.09.tif.gz,chirps-v2.0.2010.09.tif.gz,14634695,14.635,7e18cc9ed9eac627115f52762a38a9f6dfcb94328c067700aeacf421bf2d5dd2
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2010.10.tif.gz,chirps-v2.0.2010.10.tif.gz,14577784,14.578,c9e1c710742ea0165900d21e74d0136cda8c2a8eec9200a35d753879633f3658
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2010.11.tif.gz,chirps-v2.0.2010.11.tif.gz,14579293,14.579,3e5e00e5b29a4eded2fb1702dbeeb81334d76f4799aa99517da2437000df5290
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2010.12.tif.gz,chirps-v2.0.2010.12.tif.gz,14578980,14.579,5891021d2d83929ba56e4cc1b411ea56ea66a9ac8529b7eec0b40017549ab898
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2011.01.tif.gz,chirps-v2.0.2011.01.tif.gz,14465149,14.465,aa5d6947fc10fdeab5b6050260890c2e4771a7ca54a072bc485c8896ad1143f3
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2011.02.tif.gz,chirps-v2.0.2011.02.tif.gz,14533192,14.533,5f0801852f832f2b167518d903bdfd0f190a3a9ad805aadb646b24b8fef00a0b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2011.03.tif.gz,chirps-v2.0.2011.03.tif.gz,14522222,14.522,eeee941822724df64cff41990c3c8ed9c8981851b1eec2e7375efbb5be78641f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2011.04.tif.gz,chirps-v2.0.2011.04.tif.gz,14521278,14.521,9f425582e07024a9b48cb64305b0fd64d58ff97c1abe83c501c5a6391ceaf54b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2011.05.tif.gz,chirps-v2.0.2011.05.tif.gz,14543566,14.544,d8681e86d174eb20e5cc5b9a7eb21c3201c2e1f5e9bdbb581f44659856b4e819
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2011.06.tif.gz,chirps-v2.0.2011.06.tif.gz,14617400,14.617,3ff1b65b8eb9a42d5f16f752a8f09a36f56b47471687dcabcca45cefa3b454a0
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2011.07.tif.gz,chirps-v2.0.2011.07.tif.gz,14680246,14.68,b0c68952078ac1eebd05f2debe6e310b2e6f8f3aa5c27b6c264af52ce6c9b255
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2011.08.tif.gz,chirps-v2.0.2011.08.tif.gz,14657354,14.657,518c7687f373ec41e8aaa1f99090f0a6865aa69df15904808c4514b1091435a1
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2011.09.tif.gz,chirps-v2.0.2011.09.tif.gz,14631946,14.632,c7c51bae4e30d80b415750188cab01452cdffd9b88a75c11f2b085a75bcb576f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2011.10.tif.gz,chirps-v2.0.2011.10.tif.gz,14557050,14.557,b7ab4b304fcb39d791d329a79ef0bea4a8f5ad5b9e0156cb3a21043ca1277896
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2011.11.tif.gz,chirps-v2.0.2011.11.tif.gz,14577431,14.577,d1ef1a0f299b5ec0b5727e8c98d1cc48a408880584c1ae3883173f7969e6f922
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2011.12.tif.gz,chirps-v2.0.2011.12.tif.gz,14589786,14.59,5b3b68adb2a8545cf098a6beaecd6c55bb521e9d6971227c67e369a97ff6141f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2012.01.tif.gz,chirps-v2.0.2012.01.tif.gz,14495683,14.496,5c99e0512e396c5197d6cdea0620d04eac948ca98d1226acf286c0a4763be1f6
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2012.02.tif.gz,chirps-v2.0.2012.02.tif.gz,14566724,14.567,bf2334c50e7baa8b9b3d951397131ff0229b29d74b4c93947733db4abb755fea
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2012.03.tif.gz,chirps-v2.0.2012.03.tif.gz,14528959,14.529,9ea0117b4d4340194b37cf9c2908e5c2a3b2815ffdbe115a92714caa31d5920b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2012.04.tif.gz,chirps-v2.0.2012.04.tif.gz,14520161,14.52,c22091e6ae1f2fcdff1b2b52eba1f5c09d2cafce643d2c3e471e26f326a7f8b3
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2012.05.tif.gz,chirps-v2.0.2012.05.tif.gz,14545043,14.545,118ed8ef0596bbb9e2a1f493b48703e9f432533ea69ec361d31b567f575760ba
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2012.06.tif.gz,chirps-v2.0.2012.06.tif.gz,14622465,14.622,2230222640cb904a5c9766c6d4ee4bce4406ef9e213f444d43a3e114c2a79ddb
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2012.07.tif.gz,chirps-v2.0.2012.07.tif.gz,14661300,14.661,ae2b99091c14cf7dc5e1b180f40a7a5dfefb1217974b6d50752a8f7a6c991811
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2012.08.tif.gz,chirps-v2.0.2012.08.tif.gz,14641112,14.641,3a27788886199cd025b29dc6d2da81f30b2d0d5fbab8cc39fd360ee11651ba87
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2012.09.tif.gz,chirps-v2.0.2012.09.tif.gz,14639508,14.64,4f7b7f0f9a6b35fdc97c7692e462f792dee282ec497969262c76f6c05355785d
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2012.10.tif.gz,chirps-v2.0.2012.10.tif.gz,14570875,14.571,f839903e3920fb9342a7d1f05e65edb06811e67b82f60e8ddf5a4cb6f78c40cd
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2012.11.tif.gz,chirps-v2.0.2012.11.tif.gz,14528536,14.529,d8f18276180eec8fe8190b0d197295f9cb7eb06a67e0fe1c407000037a4b26fb
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2012.12.tif.gz,chirps-v2.0.2012.12.tif.gz,14540711,14.541,f5fc7ab4c4553bdb0645a2b8e25bebd11322373c318dbd3ac9224825fba7f9bf
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2013.01.tif.gz,chirps-v2.0.2013.01.tif.gz,14427748,14.428,c9a221ed7ccbe8494ff704c636a63ac2d81f583e59af9825286789adb9269dcf
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2013.02.tif.gz,chirps-v2.0.2013.02.tif.gz,14533434,14.533,943a89724937ce789a18c8cbdd2e4911f9c370b5fa588c63ec7aa8e444707584
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2013.03.tif.gz,chirps-v2.0.2013.03.tif.gz,14460207,14.46,3cfdceac8157df4f4fd9db7a4b06598363e7dd4ddc36cf8ff09809dd851f6924
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2013.04.tif.gz,chirps-v2.0.2013.04.tif.gz,14461103,14.461,ab90b321237a9cdcc21ee38e8b6d4cd05e45ac25328a5e9a571b37f4c76a01db
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2013.05.tif.gz,chirps-v2.0.2013.05.tif.gz,14570731,14.571,9e5115fc7295f7b4c990d41cf5959f5576e51a7f8e8aa8c54211db26bed9be9c
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2013.06.tif.gz,chirps-v2.0.2013.06.tif.gz,14587404,14.587,1f57b6649fdb5dffd330a44926f7c67e29fe49c94cb64b95bc8d6ff1ef848818
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2013.07.tif.gz,chirps-v2.0.2013.07.tif.gz,14618221,14.618,1583c9ff2359add84632cb84d803c7bc9a76f45c4b37c2140754fecec0d5040c
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2013.08.tif.gz,chirps-v2.0.2013.08.tif.gz,14590936,14.591,14540a383b56a410ff116bf587eb02e7f56808ba3c6e0d58a16fdc47e8ebd59e
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2013.09.tif.gz,chirps-v2.0.2013.09.tif.gz,14528856,14.529,248078faa9efd21a6fbee72701203e9a7bd427baa3a485396824f60cac39aa14
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2013.10.tif.gz,chirps-v2.0.2013.10.tif.gz,14557436,14.557,6272c4928861635592af12e87797f189bd956a3c7d2dc3d21fb0d954936d0c40
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2013.11.tif.gz,chirps-v2.0.2013.11.tif.gz,14537569,14.538,709ae0b04ae0127f660f6cfb13eeae7814cbcd25752206dff66e7b5e9e30403d
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2013.12.tif.gz,chirps-v2.0.2013.12.tif.gz,14529532,14.53,dc4d738007c6f1291d8a8d667e6c248b3c8aa02479c5b46db021661c8b111240
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2014.01.tif.gz,chirps-v2.0.2014.01.tif.gz,14434613,14.435,4d6ba712a6d797508e13cebc42f2345d40081d5ab473149721a204892241ef7a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2014.02.tif.gz,chirps-v2.0.2014.02.tif.gz,14522359,14.522,0130900c4405eef8e27a56a90cf43c351e3a520dde86fa4620bc6a20b6a914ae
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2014.03.tif.gz,chirps-v2.0.2014.03.tif.gz,14482737,14.483,6177dd6b0c983998270b9ef2b4c300ff411752cd7a3399a566d82899c49eea39
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2014.04.tif.gz,chirps-v2.0.2014.04.tif.gz,14457202,14.457,0ecb148953eadeb0c9dbe693313d939136ef470cdc9aa324742838233b1fe77f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2014.05.tif.gz,chirps-v2.0.2014.05.tif.gz,14494299,14.494,5bb7b1f14fb9b14ce73041c72695e7035083dfee9978665fd64e1a708c125ce5
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2014.06.tif.gz,chirps-v2.0.2014.06.tif.gz,14591121,14.591,eae4a8466e9a02adc9de2c78038f27bf32671111a01747dd835c78d3bf8f2b9b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2014.07.tif.gz,chirps-v2.0.2014.07.tif.gz,14638349,14.638,d9baaf20a28b91fed5c354c89f12bfefc593a27203c74e674fa553cc3603b24a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2014.08.tif.gz,chirps-v2.0.2014.08.tif.gz,14586427,14.586,7ce288676ffe3779488da401481a583db3756961edc5b62cf7449dd54038d413
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2014.09.tif.gz,chirps-v2.0.2014.09.tif.gz,14565712,14.566,b3f4b1a9e10ede91d4e9fccb2dc7746106b3458edc4f847da26527b46a56c5e5
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2014.10.tif.gz,chirps-v2.0.2014.10.tif.gz,14520385,14.52,be29530155c8d0a450e4b6d2d4063dec076e050e6cb92f9f21dc85b95ad66a1b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2014.11.tif.gz,chirps-v2.0.2014.11.tif.gz,14539666,14.54,a65f9c23b7a9d3d7ebe1bbe56bbd67a4038bc8c420947090a772cf4063c722f7
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2014.12.tif.gz,chirps-v2.0.2014.12.tif.gz,14545711,14.546,130d0d97995618e58b6769c9b8ab852b92fe861b7a81ca1ec05337651330c32b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2015.01.tif.gz,chirps-v2.0.2015.01.tif.gz,14454607,14.455,607edb881a29283889cbe53c8abc7ba35e067fb9b8fb5a0bc737af4beddab0da
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2015.02.tif.gz,chirps-v2.0.2015.02.tif.gz,14507734,14.508,a6343fc49ae088630948b405775bef110841a4a37fad1475925e339a143edccf
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2015.03.tif.gz,chirps-v2.0.2015.03.tif.gz,14458508,14.459,be0849c03d55a7f97140e0d9e4be747d10d9b5d1714a2eaf0ee4e476d91d6b03
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2015.04.tif.gz,chirps-v2.0.2015.04.tif.gz,14441063,14.441,70c21dbece1deda180406128e329554cd8295301ca556067a9e62cccedf78766
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2015.05.tif.gz,chirps-v2.0.2015.05.tif.gz,14502395,14.502,5e4de170db0db02d1cee2df26f8559a34f71fb3e094ef533e0021cde73d7b80c
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2015.06.tif.gz,chirps-v2.0.2015.06.tif.gz,14585525,14.586,cdfd5c9a3b8a87af3bc0532de3212d233cf75d6eead6f3cecd770add4bdca2e0
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2015.07.tif.gz,chirps-v2.0.2015.07.tif.gz,14620388,14.62,0daea85cce33543e5df812f6127ad55f5c6b625289f97f6bf98c80dae94c47f1
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2015.08.tif.gz,chirps-v2.0.2015.08.tif.gz,14594978,14.595,ad5442b571af8b8ec98dfad232fbe30dd88a07321e09f530611ca6bd968b52e0
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2015.09.tif.gz,chirps-v2.0.2015.09.tif.gz,14568063,14.568,0ecda278d4e7c557062862c25c5180f32cc3978385c1638e89bd25853b05493f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2015.10.tif.gz,chirps-v2.0.2015.10.tif.gz,14525620,14.526,e0022ca1f7fd4cd9671b55be0c5f813b029345628bc114fa671c9a76a8cdc47a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2015.11.tif.gz,chirps-v2.0.2015.11.tif.gz,14543764,14.544,efee73ef2f202c77f6842b866abb6709f4812f89a440d8bc991d16c5730d34f8
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2015.12.tif.gz,chirps-v2.0.2015.12.tif.gz,14570760,14.571,d3f5e590bb8a015f2ed04fe2af9489c9d9a6da038b574a3674a87d9f8b49d5d1
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2016.01.tif.gz,chirps-v2.0.2016.01.tif.gz,14426968,14.427,a2d0b925467a429ca5a332e90d744c8df08597fc1f45cd45bbf27d89054aea07
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2016.02.tif.gz,chirps-v2.0.2016.02.tif.gz,14539188,14.539,777545e2094e228ddcbe157b910bf54741a3ad6cfd973b8b4897715a2a411dfd
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2016.03.tif.gz,chirps-v2.0.2016.03.tif.gz,14473092,14.473,64463bba57602de8ce267e370d79864ff1b97b729d2b307eefd5ea7b3f74d087
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2016.04.tif.gz,chirps-v2.0.2016.04.tif.gz,14438127,14.438,1f5dfee38b5b70cfc2cfc1d47f23c5717084f2643b21a837300f74bcdc66d05b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2016.05.tif.gz,chirps-v2.0.2016.05.tif.gz,14477589,14.478,6f5d4ab27f2e7c5769b85faead13a9338fcbcf40b767f401a2ce79552ed8a6bb
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2016.06.tif.gz,chirps-v2.0.2016.06.tif.gz,14554008,14.554,b84567cf1626c1ba9e440e6bb7bf547f9df1f3e175703e93efcfc4326ef8184f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2016.07.tif.gz,chirps-v2.0.2016.07.tif.gz,14611226,14.611,880445dc4b944a9ce8825a3acd04f3e0119862a8228598eb4bbb471f515a1c8d
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2016.08.tif.gz,chirps-v2.0.2016.08.tif.gz,14610433,14.61,d4731c5d6f24d609d829cf64b6f598dce71c1686fa4c15e4bbb74b7d79d0b00d
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2016.09.tif.gz,chirps-v2.0.2016.09.tif.gz,14566140,14.566,87e53c433f12c866bb9b9fe6e6afde493ff78d1a81062d8386116b40514186e7
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2016.10.tif.gz,chirps-v2.0.2016.10.tif.gz,14528828,14.529,d9f843a87ceadafb9484d74dec1c5440f8401c325154f86878689f01767c392d
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2016.11.tif.gz,chirps-v2.0.2016.11.tif.gz,14537810,14.538,19eebb32cb9eb83c08676ee88b1c18612f5f2cfbd43a80d6a75732110d580b9e
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2016.12.tif.gz,chirps-v2.0.2016.12.tif.gz,14528816,14.529,6bde9e115d095147f11a5dcf861b4346ad0c50e66749fc6a55dd369ca486727d
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2017.01.tif.gz,chirps-v2.0.2017.01.tif.gz,14425533,14.426,5f1a90994ee34f0d98e5a69e3a9c8c493a50476b22eee54a73c41fa0d6763627
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2017.02.tif.gz,chirps-v2.0.2017.02.tif.gz,14507198,14.507,a8d567cbff2e2b7972f7c88e1814389e50d98e9b10187aa85d056316edac6ce1
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2017.03.tif.gz,chirps-v2.0.2017.03.tif.gz,14486453,14.486,d4508cdef03cb000640965092167dddeee43111c0d78f9d098b45243846808bc
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2017.04.tif.gz,chirps-v2.0.2017.04.tif.gz,14464122,14.464,6656c078de3d5faaf74818b7c4c59752ca756b145d4f8f4b716eba8d2362362d
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2017.05.tif.gz,chirps-v2.0.2017.05.tif.gz,14506246,14.506,08659e342edc9598a2480255c828b6394d000c6b54a28dd23d8d734faba18409
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2017.06.tif.gz,chirps-v2.0.2017.06.tif.gz,14561683,14.562,5d2a67f067db05fa650e9f43beee4de113926bd44424469fb1b9ac4943c390d2
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2017.07.tif.gz,chirps-v2.0.2017.07.tif.gz,14604198,14.604,f9421c4ee1bec883b1268f21936ccf20d32a22eec12fdf41a46c86ffef01e2da
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2017.08.tif.gz,chirps-v2.0.2017.08.tif.gz,14611514,14.612,f33d60da664b4fc2c493f453b23610007b5c51c08e90502756685ff5d034bef8
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2017.09.tif.gz,chirps-v2.0.2017.09.tif.gz,14550990,14.551,abb03bdba0b08ec780ae3d766b6216cbdd8f0a1bedf49ed92e1748f1ab2fe8c4
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2017.10.tif.gz,chirps-v2.0.2017.10.tif.gz,14530476,14.53,f571e650d650358b506732d0f1a3c867079fe6f6fc0e54797f0d33828ff46779
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2017.11.tif.gz,chirps-v2.0.2017.11.tif.gz,14515791,14.516,a964bdfd57b664b003fbdb14a6600d0553260593d20592df3428d5fc95f5a8c5
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2017.12.tif.gz,chirps-v2.0.2017.12.tif.gz,14525803,14.526,3f5af1779c9f90f65e79c618b480a64bde7e98c297cb04c331dc3ac279d3452e
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2018.01.tif.gz,chirps-v2.0.2018.01.tif.gz,14495458,14.495,6acfa5c47b9fd9cdd61f0c9a55709da370b99f92e9e5e78d367cf06761c43b49
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2018.02.tif.gz,chirps-v2.0.2018.02.tif.gz,14559203,14.559,2041791e8ac9e6df306833d9f9156c538c44036dc40dc94c529528f8c3a79aa8
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2018.03.tif.gz,chirps-v2.0.2018.03.tif.gz,14516401,14.516,0501addb245c29205c41a0f3911535d25bb8de81eaaa28cdeb40682eb0c2ee73
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2018.04.tif.gz,chirps-v2.0.2018.04.tif.gz,14497653,14.498,5b0c9d12c1e0139198eacd68a356aa5913f58eaa0e1baf4a57cbbd14fba88a98
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2018.05.tif.gz,chirps-v2.0.2018.05.tif.gz,14541934,14.542,709077e75c21070cd7d1f5c84c0c167091897760aaf8b19b2b1deae0d116dc59
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2018.06.tif.gz,chirps-v2.0.2018.06.tif.gz,14637823,14.638,fc77258240c7d198acfdb2f30494d4b394fb904d9b4e3e0e753bf2c0dcade1fa
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2018.07.tif.gz,chirps-v2.0.2018.07.tif.gz,14666866,14.667,4139c23364b3771a6ea8dda79540db7cc0df7e2addfcac68776c6d33f81ed9e2
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2018.08.tif.gz,chirps-v2.0.2018.08.tif.gz,14660802,14.661,0ecce9bf33c3e170fc1e31e45edf2badcf54951bde7ef8a3f41474a363d76374
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2018.09.tif.gz,chirps-v2.0.2018.09.tif.gz,14627815,14.628,4965d06f5f0b911e5b89957595f3ae8487a5f38ac69d78fcf7ba4c2fe52c72ca
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2018.10.tif.gz,chirps-v2.0.2018.10.tif.gz,14574243,14.574,ca6a1b134eef861f469de86c56991b6ca3138006ae9f5505e95597b39ed0d7d9
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2018.11.tif.gz,chirps-v2.0.2018.11.tif.gz,14596603,14.597,f9bde73c7fdab4cc805bf21e5ece264d5894df0e64c21c559433e535814d7c8a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2018.12.tif.gz,chirps-v2.0.2018.12.tif.gz,14585410,14.585,e0031593c777ccd9131706049e151781bd39945a551410b9d7f6e8c38300c15e
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2019.01.tif.gz,chirps-v2.0.2019.01.tif.gz,14510259,14.51,11c5f3d11560c1f59693685a915d7cb86ecf5e4e6054c052dda367174251519f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2019.02.tif.gz,chirps-v2.0.2019.02.tif.gz,14572250,14.572,26a8923cf617dedaa11bf107b588ba0cb39c7a7c1e786858d063fea23fba6a32
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2019.03.tif.gz,chirps-v2.0.2019.03.tif.gz,14534197,14.534,b11f97f2c5d10f4bcbe3f9678623c95bba8f335856c82cefbd00d8a467f118b6
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2019.04.tif.gz,chirps-v2.0.2019.04.tif.gz,14506474,14.506,5924d98a96f44b2f10d6fa5b35a6081d91a025e0d05146d9235533ad1d563e21
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2019.05.tif.gz,chirps-v2.0.2019.05.tif.gz,14542471,14.542,d06f9ae4b2a0427f4411fc529f88e1a018baae26bb2e80704009d16564d054b5
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2019.06.tif.gz,chirps-v2.0.2019.06.tif.gz,14626321,14.626,aed38356d3893a8c4c3835ba552899e9594541072851e0cba44c5811bf24b924
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2019.07.tif.gz,chirps-v2.0.2019.07.tif.gz,14664308,14.664,7708d518692b29646f043ace2b03549571119acf2b73aebc5c79ae2672f5ddad
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2019.08.tif.gz,chirps-v2.0.2019.08.tif.gz,14654909,14.655,12e0ad33a2262d86202894934e93e9e3b66796be5f69bac81150781bc5066d58
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2019.09.tif.gz,chirps-v2.0.2019.09.tif.gz,14617839,14.618,58b48ebdc53fdabf1371c74b1cbb399b0bc3dd9c718615235caafa49634489ca
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2019.10.tif.gz,chirps-v2.0.2019.10.tif.gz,14572246,14.572,4edc5b13dff8bce916be6020021bc4fb3564b64bfb0f964051638c6358121184
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2019.11.tif.gz,chirps-v2.0.2019.11.tif.gz,14585643,14.586,b6eafbbeddc2cb5497190825e077505b457030c60bb087ca84c8a3fbbdd1cbfb
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2019.12.tif.gz,chirps-v2.0.2019.12.tif.gz,14594203,14.594,b742d1b21d79f4b28cdb44a0688c1f5133805e6d1b7049eaedbc18837e88e061
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2020.01.tif.gz,chirps-v2.0.2020.01.tif.gz,14474246,14.474,a143b62598bc48b5f6deda7604afa66df76fd2534896108da771ee869e9f0395
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2020.02.tif.gz,chirps-v2.0.2020.02.tif.gz,14550346,14.55,45acbcafc2c88abd1c5c18487ed4c5615241beef768dbad25eca3b1f7c410280
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2020.03.tif.gz,chirps-v2.0.2020.03.tif.gz,14504705,14.505,28b0529c4fde1b86e790b2e1b7446adc56d707e966a9719863784b68f85a39c2
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2020.04.tif.gz,chirps-v2.0.2020.04.tif.gz,14478524,14.479,2fe70705b96f8facdfeb999528510bed7463f701f4762fe6dbc2ec76c57c8e11
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2020.05.tif.gz,chirps-v2.0.2020.05.tif.gz,14540160,14.54,4495bd133caecdcb6c1c4bafb09de408df75a76d82431898437a7533107e14e8
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2020.06.tif.gz,chirps-v2.0.2020.06.tif.gz,14630014,14.63,7a97b6b327c6b43e1e798496b4a38a3ae7d0e7fd0a1dec0171e9b44221a19171
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2020.07.tif.gz,chirps-v2.0.2020.07.tif.gz,14655197,14.655,2977d678da2b319f4c822016e7e998c18d11cdc7ba4cd9b70cc204bc3fb78e23
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2020.08.tif.gz,chirps-v2.0.2020.08.tif.gz,14666986,14.667,57b0ed8a4a3874c224b879d5e5b573aed0ceb881f80aa69186491d77b3104761
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2020.09.tif.gz,chirps-v2.0.2020.09.tif.gz,14619128,14.619,00615c702eacf226dff1dafb13d0f26f46b175aa75ef07c2a251109e2941ea10
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2020.10.tif.gz,chirps-v2.0.2020.10.tif.gz,14585662,14.586,aa4d3362f28c185e3ef032771815298ebe4ec72e3d0413289b4d0063a52c6a6e
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2020.11.tif.gz,chirps-v2.0.2020.11.tif.gz,14559726,14.56,82f2f0908660dc02da5dd41eb760f0d4d274ae7693314019e1f4d8a187ef19cd
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2020.12.tif.gz,chirps-v2.0.2020.12.tif.gz,14582861,14.583,8919c91c2547e22b5a9937a8d3fe5614c293b99e9be90e7dd595ec5675a0fe34
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2021.01.tif.gz,chirps-v2.0.2021.01.tif.gz,14474905,14.475,0a1c29f63795df4ece37a5ff2e70de79c1be037ec7713a9077a03b2f106c56d4
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2021.02.tif.gz,chirps-v2.0.2021.02.tif.gz,14560615,14.561,4d1882c69124368a4b8af3efced2e5615f63f634feab6e0a2cde5165c194682a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2021.03.tif.gz,chirps-v2.0.2021.03.tif.gz,14502445,14.502,12dfdfab191ef60b6aaf8cd14e969751767907a7b8f65a18b582fd0ac29c81a2
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2021.04.tif.gz,chirps-v2.0.2021.04.tif.gz,14507826,14.508,cf3b58ecb9201afab0d47881c4526b1d66baf54f2c9e0da21fe5b718123db882
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2021.05.tif.gz,chirps-v2.0.2021.05.tif.gz,14542899,14.543,20ad94c54968ae59235b2d352a022f32fe8124add4ed02d74e9e34f73ccb6439
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2021.06.tif.gz,chirps-v2.0.2021.06.tif.gz,14626652,14.627,df87fa9c8572b51109aff3717b0e18319c08cb20adc291bfd6004828dd52a1c8
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2021.07.tif.gz,chirps-v2.0.2021.07.tif.gz,14661491,14.661,83ed74812ed423fc1a6e9bb1675e92405d2bba9f963ef5d9f6b20d088baaa112
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2021.08.tif.gz,chirps-v2.0.2021.08.tif.gz,14648834,14.649,2ff67c024f10987b7433e6a1ca44d77b685313f356ec11872345eb89b11b7d33
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2021.09.tif.gz,chirps-v2.0.2021.09.tif.gz,14632044,14.632,af7d1fcfbf5e405526358490600a94203f56463420b10760a6c334b9307b54b9
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2021.10.tif.gz,chirps-v2.0.2021.10.tif.gz,14568544,14.569,b84088451b2693eaeb7d942d8fa669ecbdc5cfa6e12cb6ba7f6832214cd2269e
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2021.11.tif.gz,chirps-v2.0.2021.11.tif.gz,14581567,14.582,b1344167d74c7363d9b62822f1fd3b6d6f99ce699f4dca2444cdea8f26a03233
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2021.12.tif.gz,chirps-v2.0.2021.12.tif.gz,14591021,14.591,79c15e5fe2a691a73d0b0d7714bc8b78bcb40abbde7049496f128bfb1cd451af
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2022.01.tif.gz,chirps-v2.0.2022.01.tif.gz,14474572,14.475,4c4edbcb92433bba4e300b19507e87c219e58092a5a21caea1e89eea1e68bfec
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2022.02.tif.gz,chirps-v2.0.2022.02.tif.gz,14576256,14.576,700408ba0a8f73053c7ec195688e185c36928f2343eacb97ce8dbfce79d85a5a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2022.03.tif.gz,chirps-v2.0.2022.03.tif.gz,14538682,14.539,997c92e5d0a8a17c9a460deee6ce3127510ca83cae4f2e9bc5812aba8a13731e
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2022.04.tif.gz,chirps-v2.0.2022.04.tif.gz,14508968,14.509,ba5b689ca4d72679cd2514dec71963260b3b6f5b888e69cd6023073369ed7f28
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2022.05.tif.gz,chirps-v2.0.2022.05.tif.gz,14551058,14.551,1c3752f3a0e1a9a69be1002809ef15c7382b8429c6a16dd0192bec9f43671c63
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2022.06.tif.gz,chirps-v2.0.2022.06.tif.gz,14623884,14.624,d4dad8a67693294812e13ac1d93dcb00a2140716ed229f3c71daf2b1412ce751
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2022.07.tif.gz,chirps-v2.0.2022.07.tif.gz,14669139,14.669,d23a8dc0e76d3d60693a872d29e64b0ce0c9bb50294c28b79bee8d9b3fd8a28e
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2022.08.tif.gz,chirps-v2.0.2022.08.tif.gz,14647247,14.647,3f3b9c4d206449617afa0cd950b65b6f16767a0e6de961836cad1bd540cfe26a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2022.09.tif.gz,chirps-v2.0.2022.09.tif.gz,14617828,14.618,e49def0e05e09dbae448f66477ffd36e5f5d16e3e24ad00a1b4565a750455a0f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2022.10.tif.gz,chirps-v2.0.2022.10.tif.gz,14588874,14.589,6ff4040abd5ed016ae427aaa14aa24d9768881dabd89cd4a55a52b0d840c51f9
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2022.11.tif.gz,chirps-v2.0.2022.11.tif.gz,14581202,14.581,14b12507434e9caa6d1845083c740ef1389af46757daad28232230ae1b07c52e
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2022.12.tif.gz,chirps-v2.0.2022.12.tif.gz,14578630,14.579,a2d1aac2f20bd2f11ab19e9fd7733484c2d6255d9d8adab485ec7cd4553411cb
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2023.01.tif.gz,chirps-v2.0.2023.01.tif.gz,14489865,14.49,3fe59c6f5a68ae0f8e805ff64e67ac72aff4057e3ddac98f4e398b9753622ee0
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2023.02.tif.gz,chirps-v2.0.2023.02.tif.gz,14584312,14.584,dfcc4894ca682d7d47c22f62b62df403b55bd9608912712f15a405051ec52913
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2023.03.tif.gz,chirps-v2.0.2023.03.tif.gz,14530239,14.53,fb76328768d806ae2bcfc271d3b34caff92f07cb7e1efd6b6926e194b836825e
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2023.04.tif.gz,chirps-v2.0.2023.04.tif.gz,14489296,14.489,252b6c15e12d510d3556411905a88ce9adbc749bce00329a2794350b269b63c4
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2023.05.tif.gz,chirps-v2.0.2023.05.tif.gz,14539570,14.54,aa7c4221614e22d70af075535492327cb4de2b578dbaf239d329344b927c2f9f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2023.06.tif.gz,chirps-v2.0.2023.06.tif.gz,14619113,14.619,b898da1e49b6960d17663b6a34a83e47d929eb92336679c67ff4dc985db07675
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2023.07.tif.gz,chirps-v2.0.2023.07.tif.gz,14688530,14.689,ada7dcbb93bb0bdb7cb3ec03ac3e32eda46e708574a2cb3f97d74f2af00ed16c
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2023.08.tif.gz,chirps-v2.0.2023.08.tif.gz,14656237,14.656,e76c3da8f411dcc784d4921fb0d6b799999104213d9b4ed5541fad3dffdfa3ef
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2023.09.tif.gz,chirps-v2.0.2023.09.tif.gz,14608708,14.609,0ec6309e9ef88d6db54000ddef268f8134e061436689d35d769a8a8bf7ea0f36
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2023.10.tif.gz,chirps-v2.0.2023.10.tif.gz,14586211,14.586,9f818dc324212e2832ad6abb54819b598cb4fcc92c1b3029bd5fd545b12d04c3
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2023.11.tif.gz,chirps-v2.0.2023.11.tif.gz,14589662,14.59,0b00019ad160e75dfe495cb74b7ddceacfea02e126323c1a07ac982610bbb73b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2023.12.tif.gz,chirps-v2.0.2023.12.tif.gz,14597702,14.598,ebfd5b474246be52389c620c48e8f2be9357f69df2b2c7b0dd0ece99ffaa92e0
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2024.01.tif.gz,chirps-v2.0.2024.01.tif.gz,14493531,14.494,c2087dfdd414ef85884f3d1e815c18b221b370d4f0d647f0f9b8ef4934a9e5b8
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2024.02.tif.gz,chirps-v2.0.2024.02.tif.gz,14554620,14.555,e3fe9cfe287469d48c43c9b1ac937d98a5cf0789cbeeabbb039d41bb1f0498c3
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2024.03.tif.gz,chirps-v2.0.2024.03.tif.gz,14547981,14.548,e5e7ee33fbb73ec33fc3db342705870222af98626322e766e5aeb411c67642d5
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2024.04.tif.gz,chirps-v2.0.2024.04.tif.gz,14515579,14.516,ac27216dfcf81d23dd893995493d2a1f37ca53ffb18a40b1a57781280a3b2830
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2024.05.tif.gz,chirps-v2.0.2024.05.tif.gz,14569745,14.57,b5b17e726234010044f7e87056086a814e9224e7766fbf4cfec83a0e025d71ee
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2024.06.tif.gz,chirps-v2.0.2024.06.tif.gz,14621552,14.622,845ba07f95b46b7d60162d21b3cb2caba3ed3d9670ef74f58f8b8a0f0192ff8c
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2024.07.tif.gz,chirps-v2.0.2024.07.tif.gz,14660389,14.66,21041db5693c47b90dcbab98d23cbbe57dd80dd7c1d10b2ab81c953844dac48a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2024.08.tif.gz,chirps-v2.0.2024.08.tif.gz,14648217,14.648,0b9033c375d4c94870778090eb2b143653a375983f9fcd6f6f528dc2292507cb
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2024.09.tif.gz,chirps-v2.0.2024.09.tif.gz,14632886,14.633,9e92acc8248408806e226be4b07d53264df4f0aa61dc16d01fa508c0c2887703
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2024.10.tif.gz,chirps-v2.0.2024.10.tif.gz,14571212,14.571,3189273dcb62d4d59535d4b042cd1ba55d670dae593b598950e781884c74135a
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2024.11.tif.gz,chirps-v2.0.2024.11.tif.gz,14579254,14.579,721e98b29dad7d42fbf9298b6958c009bc890461504bfec50d31e67e31596acd
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2024.12.tif.gz,chirps-v2.0.2024.12.tif.gz,14588182,14.588,9344bfe6308076d8b8f5469594aba43810dc69056f3eeeb4ea205dc1ed38c99f
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2025.01.tif.gz,chirps-v2.0.2025.01.tif.gz,14457958,14.458,d2e84b008f39d21928325350290b6a3f383422248d96f9631980b63ef08823e1
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2025.02.tif.gz,chirps-v2.0.2025.02.tif.gz,14595139,14.595,70e4c6dd30c62f3d8607dd89f7a2b0d9217f08cd674e1fb8cc14ca8d475142e0
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2025.03.tif.gz,chirps-v2.0.2025.03.tif.gz,14521589,14.522,3f8388e448d6ee8046f1a1b2f1433ae41e47e3341b1742c0c5f0a235f266fcb6
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2025.04.tif.gz,chirps-v2.0.2025.04.tif.gz,14504812,14.505,53741c34336253322e2bcd3656673f373b7f791a9f8cdf214b2f067b0eb40bb3
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2025.05.tif.gz,chirps-v2.0.2025.05.tif.gz,14570173,14.57,eee4a9d8696c18b27e862465ccde4a935cd85739dfe55fa37f2b51a41dbe454b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2025.06.tif.gz,chirps-v2.0.2025.06.tif.gz,14640896,14.641,90190bb427ee57092e5baa7232555b3fc853b585241a3ae387ec139c0236933d
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2025.07.tif.gz,chirps-v2.0.2025.07.tif.gz,14663416,14.663,68576dc74fc9e23ace0d8e17a78e4c08b7e37bc3599e2f1bac4d8f602f021b0b
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2025.08.tif.gz,chirps-v2.0.2025.08.tif.gz,14651786,14.652,cb657688e0d820a9f7155661c728f40ef736e73ccab386306a592673dcf2a109
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2025.09.tif.gz,chirps-v2.0.2025.09.tif.gz,14617187,14.617,275bd270b7932d3194d71622554428489781aaba7b1d9254dd93876c57e911d4
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2025.10.tif.gz,chirps-v2.0.2025.10.tif.gz,14583699,14.584,000a14e4bb6c235d639c06135896db5fc4ef6fa0719bd65507b95b47cd6ca561
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2025.11.tif.gz,chirps-v2.0.2025.11.tif.gz,14602803,14.603,f43ad01b546c1bbbdd78a05557b5780ff96351b4f6edacb2dbe81dd7f76c0277
+data\raw\rainfall\chirps_v2_monthly\chirps-v2.0.2025.12.tif.gz,chirps-v2.0.2025.12.tif.gz,14589610,14.59,818817a6051fae7fe2a7b75348882bc3bd70784f59d82951080c904ae90fa80c
+data\raw\soil\soilgrids250m\soilgrids_bdod_0-5cm_mean_wayanad.tif,soilgrids_bdod_0-5cm_mean_wayanad.tif,79478,0.079,715f32b52b9d3e00b14c507157165c2852e0ff20b1cb91b30a3f3265ed7de0fb
+data\raw\soil\soilgrids250m\soilgrids_bdod_15-30cm_mean_wayanad.tif,soilgrids_bdod_15-30cm_mean_wayanad.tif,73924,0.074,705708381f42824c621da3c5cbfeb268fe236d200ebc3733b514afd9252cbf5c
+data\raw\soil\soilgrids250m\soilgrids_cec_0-5cm_mean_wayanad.tif,soilgrids_cec_0-5cm_mean_wayanad.tif,110318,0.11,7d5577c15742273c63a4adf11b0e8ce27a3e7ceb7844f3d358e9ab9710bd6397
+data\raw\soil\soilgrids250m\soilgrids_cec_15-30cm_mean_wayanad.tif,soilgrids_cec_15-30cm_mean_wayanad.tif,111437,0.111,a294a7c84fa35dc3a18ca6678862841f50c0fba57317a4db263da2673c0d5610
+data\raw\soil\soilgrids250m\soilgrids_cfvo_0-5cm_mean_wayanad.tif,soilgrids_cfvo_0-5cm_mean_wayanad.tif,136028,0.136,734d83d4b5e2df74a6995becb5b22b7359e273b3ae030f4b03ce0bae258ef143
+data\raw\soil\soilgrids250m\soilgrids_cfvo_15-30cm_mean_wayanad.tif,soilgrids_cfvo_15-30cm_mean_wayanad.tif,139654,0.14,c4be01603bfaa51a069548dc8b2b794cbfd8e65778d2d620d3a81c77b1bad2d3
+data\raw\soil\soilgrids250m\soilgrids_clay_0-5cm_mean_wayanad.tif,soilgrids_clay_0-5cm_mean_wayanad.tif,118440,0.118,4092de98eb9f056b5d4924607d339097883ca2a5fd165f1311a10eb531481aa9
+data\raw\soil\soilgrids250m\soilgrids_clay_15-30cm_mean_wayanad.tif,soilgrids_clay_15-30cm_mean_wayanad.tif,119315,0.119,ad2fe16f83367fa5425afa7e06ae1170286fe52b7a5e91bbe1def0e69a9bb6a5
+data\raw\soil\soilgrids250m\soilgrids_sand_0-5cm_mean_wayanad.tif,soilgrids_sand_0-5cm_mean_wayanad.tif,119385,0.119,f5bda752103db7780bb922b8e830d6d3350aa44932ef5ba16cca8d47b47c179c
+data\raw\soil\soilgrids250m\soilgrids_sand_15-30cm_mean_wayanad.tif,soilgrids_sand_15-30cm_mean_wayanad.tif,118529,0.119,f1a865efead2d393c29e58ea5c152e065b9d2a1ff5fa56c7c09ffd432b09fc3f
+data\raw\soil\soilgrids250m\soilgrids_silt_0-5cm_mean_wayanad.tif,soilgrids_silt_0-5cm_mean_wayanad.tif,120705,0.121,5e878ecefdd9b4e8d9aca1e19626672e6f89de2583ef8f661f721aa83ce46739
+data\raw\soil\soilgrids250m\soilgrids_silt_15-30cm_mean_wayanad.tif,soilgrids_silt_15-30cm_mean_wayanad.tif,119701,0.12,ecf1cf9a097873d1632d4e656859b350035683cdaa226584e60afd57773a8fa3
+data\raw\soil\soilgrids250m\soilgrids_soc_0-5cm_mean_wayanad.tif,soilgrids_soc_0-5cm_mean_wayanad.tif,156994,0.157,65c1fbb1ceaa2ff7863082d6176ffafd71f16aca873fd47d218e36a918c9955c
+data\raw\soil\soilgrids250m\soilgrids_soc_15-30cm_mean_wayanad.tif,soilgrids_soc_15-30cm_mean_wayanad.tif,140175,0.14,23ced7a255f6cb2743a76401982118a9e9a4cb644e6ad3733618b02da0ed8043

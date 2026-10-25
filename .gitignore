@@ -1,0 +1,42 @@
+# Raw and derived geospatial data are not committed.
+data/raw/**
+data/processed/**
+data/interim/gsi_pdf_text/
+data/interim/table_review.txt
+
+# Large binary formats, wherever they appear
+*.tif
+*.tiff
+*.hgt
+*.gz
+*.zip
+*.7z
+*.gdb
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.nc
+*.h5
+
+# Keep the small provenance artefacts
+!data/file_inventory.csv
+!data/interim/inventory_extracts/*.csv
+!docs/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Credentials — never commit
+.netrc
+_netrc
+*.token
+.env
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store

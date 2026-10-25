@@ -1,0 +1,9 @@
+slide_no,landslide_name,latitude_dd,longitude_dd,length,width,height,depth,area,volume,material,movement_type,geology,landuse,event_history,trigger,coord_precision_deg,source_pdf
+KER/WYD/58A2/2018/01,Aramalakunnu Landslide,11.5294,76.0293,18 m,8 m,12 m,2 m,144 m2,288 m3,Soil,Slide,Charnockite,Mixed cultivation,14th June 2018 (05:30 hrs),Heavy Rainfall,0.0001,gsi_2018_post_disaster_wayanad.pdf
+KER/WYD/58A2/2018/02,Jawaharvidhya Nagar Landslide,11.5356,76.0215,18 m,60 m,10 m,4 m,1080 m2,4320 m3,Soil,Slide,Charnockite,Mixed cultivation,14th June 2018 (05:00 hrs),Heavy Rainfall,0.0001,gsi_2018_post_disaster_wayanad.pdf
+KER/WYD/58A2/2018/03,Veterinary College  Landslide,11.5346,76.0244,22 m,8 m,18 m,1 m,176 m2,176 m3,Debris,Slide,Charnockite,Mixed cultivation,14th June 2018 (05:30 hrs),Heavy Rainfall,0.0001,gsi_2018_post_disaster_wayanad.pdf
+KER/WYD/58A2/2018/04,Achoor (6th mile) Landslide,11.6066,76.0077,20 m,45 m,15 m,1.5 m,900 m2,1350 m3,Soil,Slide,Schistose rock,,14th June 2018 (08:30 hrs),Heavy Rainfall,0.0001,gsi_2018_post_disaster_wayanad.pdf
+KER/WYD/49M14/2018/05,Valaramkunnu Landslide,11.6941,75.9371,15 m,8 m,10 m,0.5 m,120 m2,60 m3,Debris,Slide,Charnockite gneiss,Mixed cultivation,14th June 2018 (08:00 hrs),Heavy Rainfall,0.0001,gsi_2018_post_disaster_wayanad.pdf
+KER/WYD/49M14/2018/06,Veetikunnu Landslide,11.7013,75.9359,70 m,12 m,45 m,6 m,840 m2,5040 m3,Rock cum Debris,Slide,Charnockite gneiss,Mixed cultivation,14th June 2018 (10:00 hrs),Heavy Rainfall,0.0001,gsi_2018_post_disaster_wayanad.pdf
+KER/WYD/49M14/2018/07,Pulipparakunnu Landslide,11.7034,75.9369,25 m,12 m,18 m,4 m,300 m2,1200 m3,Debris,Flow,Charnockite gneiss,Mixed cultivation,14th June 2018,Heavy Rainfall,0.0001,gsi_2018_post_disaster_wayanad.pdf
+KER/WYD/49M13/2018/08,Thazhe Kunnothmala Landslide,11.8297,75.9298,25 m,40 m,18 m,3 m,1000 m2,3000 m3,Debris,Slide,Schistose/Phyllitic,Mixed vegetation,14th June 2018,Heavy Rainfall,0.0001,gsi_2018_post_disaster_wayanad.pdf
