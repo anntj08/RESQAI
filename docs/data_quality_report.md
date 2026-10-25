@@ -194,6 +194,47 @@ that must be made and documented explicitly — not silently.
 Wayanad. Absence of a record is not absence of a landslide, which is exactly why background/negative sampling
 must be designed rather than assumed.
 
+### 7.1 Phase 2 update — supersedes the paragraphs above where they conflict
+
+The phase-1 text above describes 89 records from 4 GSI extracts. Phase 2 added four more sources and resolved
+several of the open questions. Full detail: `docs/INVENTORY_VERIFICATION_REPORT.md`.
+
+| Source | Records | Dated | Coordinate precision | Status |
+|---|---:|---:|---|---|
+| KER2018 (Hao/van Westen 2018 Kerala inventory) | 331 | 331 (year only) | 5 dp | `VERIFIED`, composite (NRSC+GSI) |
+| GSI 14768 Tables 4+5 | 46 | 0 | 0.1–1 arc-sec | `DOWNLOADED_NOT_FULLY_VALIDATED` |
+| GSI 14115 Wayanad table | 35 | 33 | arc-second | `VERIFIED` (13/13 spot checks) |
+| GSI 14337 Annexure-1 | 35 | 0 | 2 dp (~1.1 km) | `DOWNLOADED_NOT_FULLY_VALIDATED` |
+| NASA GLC | 9 | 9 | 2 dp | `VERIFIED` |
+| GSI 2018 post-disaster | 8 | 8 | 4 dp | `DOWNLOADED_NOT_FULLY_VALIDATED` |
+| GSI PDLS 2024 + 2025 | 2 | 2 | arc-second | `VERIFIED` |
+| Sreekumar et al. 2025 Table 1 | 2 | 2 | whole-second DMS | `DOWNLOADED_NOT_FULLY_VALIDATED` |
+| **Total** | **468** | **385** | mixed | **83 undated site records** |
+
+**Overlap is now measured, not estimated.** 45 candidate pairs in `duplicate_crosswalk.csv`:
+
+- **33/35 GSI 14337 rows are within 1.5 km of a GSI 14115 row**, median separation **471 m**, 7 within 300 m.
+  These are the same investigation sites, so the 14115 coordinate supersedes the 2-decimal one.
+- **8 GSI 2018 slides are 361–1,453 m from any mapped 2018 point** — same monsoon cluster, **no duplicate
+  confirmed**. Keeping them separate is deliberate.
+- The July 2024 GSI record and an independent publication agree to **495 m**.
+
+**The 2-decimal problem is partly solved.** 44 of 468 records remain at 2 dp (GSI 14337 + NASA GLC), down
+from "35 of 89" in proportional terms. Where a 14115 match exists, usable precision improves from ~1.1 km to
+sub-30 m. The remaining 44 rows must still not be used as point labels without widening or snapping, exactly
+as the phase-1 caveat says.
+
+**Temporal problems — partly resolved.**
+- 385 records now carry a date; **332 of the 372 in-window records resolve only to a year**, so antecedent
+  event-window rainfall still cannot be attached to most of them.
+- The **30 July 2024 Mundakkai-Chooralmala** event is now recorded (GSI PDLS 2024) and its coordinate
+  corroborated. It is no longer a gap.
+- **2020–2023 still have no records**, because no GSI post-disaster volume exists for those years. That is an
+  observation gap and must be treated as such.
+- The 6 GSI 14768 archival points outside the GADM polygon were resolved by a measured distance rule:
+  **5 at Vazhikkadavu are 17.1–17.4 km outside** and are now excluded; the rest sit within 1.2 km of the
+  boundary and are retained with a flag. See `INVENTORY_VERIFICATION_REPORT.md` §8.
+
 ---
 
 ## 8. Additional layers
@@ -218,13 +259,14 @@ anthropogenic slope disturbance, not a physical trigger.
 3. **NoData conventions differ:** −9999 (CHIRPS, undeclared), 0 (WorldCover class nodata), −32768 (SRTM HGT),
    absent (Copernicus, SoilGrids). A single harmonisation rule is needed before any stack is built.
 4. **Registration:** SRTM HGT point-registered vs GeoTIFF area-registered — half-pixel shift if mixed naively.
-5. **Spatial autocorrelation:** 89 (or ~60) points in 2,121 km², clustered in a few villages (Kottapadi,
-   Muppainadu, Vythiri, Thirunelly). Random train/test splits will leak. Any validation must be spatially blocked
-   (or grouped by landslide cluster). This is a design constraint on the *next* phase, recorded now so it is not
-   forgotten.
-6. **Class balance:** with ~60 positive events, a 1:1 background sample gives ~120 rows. That is a very small
-   training set. Any performance estimate from it will have wide confidence intervals, and the result should be
-   reported as such — or the inventory expanded first.
+5. **Spatial autocorrelation:** 371 in-window event groups in 2,121 km², but 339 are the 2018 monsoon and
+   332 resolve only to a year. The *independent* time spread is much smaller than the record count suggests.
+   Records cluster in a few villages (Kottapadi, Muppainadu, Vythiri, Thirunelly). Random train/test splits
+   will leak. Any validation must be spatially blocked (or grouped by landslide cluster). This is a design
+   constraint on the *next* phase, recorded now so it is not forgotten.
+6. **Class balance:** the count of independently dated, precisely located events is far below 371. Background
+   sampling and any performance estimate must reflect that; a metric from a handful of clusters will have
+   wide confidence intervals and should be reported as such — or the inventory expanded first.
 
 ---
 
@@ -238,7 +280,7 @@ anthropogenic slope disturbance, not a physical trigger.
 | Geology (GLiM) | Yes | **Poor** | 1:3.75 M scale for a 2,121 km² district |
 | Soil (SoilGrids) | Yes | Fair | Global prediction, no regolith depth |
 | Boundary (GADM) | Yes | Good | Not an official boundary |
-| Inventory (GSI) | Partly | **Conditional** | ~1.1 km coordinates, undated, pre-2019 only |
+| Inventory (GSI + KER2018 + literature) | Yes | **Conditional** | 83 undated; 44 at ~1.1 km; 332 year-only; 2020–2023 missing |
 | Roads / rivers | Yes | Fair | Proxies, uneven completeness |
 
 **Nothing in this report is a model result.** No performance metric has been produced and none should be quoted

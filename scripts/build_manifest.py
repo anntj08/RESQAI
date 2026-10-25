@@ -154,6 +154,146 @@ add(dataset_id="BND-03", category="boundary", dataset_name="Kerala Spatial Data 
     local_path="(not downloaded)", size_mb="0", validation_status="UNAVAILABLE",
     limitations="Host did not respond (connection timeout) from this network")
 
+# ---------------------------------------------------------------------------
+# Phase 2 additions
+# ---------------------------------------------------------------------------
+
+add(dataset_id="INV-05", category="landslide_inventory",
+    dataset_name="GSI 14115 Landslide Inventory of Kerala (FS 2007-2010), Wayanad district table",
+    provider="Geological Survey of India", product_version="Acc. No. 14115",
+    source_url="https://bhusanket.gsi.gov.in/Output/LandslideReport/Kerala/Post%20Disaster%20Studies/14115.pdf",
+    acquisition_date="2026-10-25", time_period="1961-2009 (27 of 35 records fall in 2006-2009)",
+    spatial_extent="35 records, all Wayanad (2 flagged as outside the district boundary)",
+    native_resolution="point data, arc-second coordinates", crs="unstated (geographic degrees)",
+    format="PDF + extracted CSV", local_path="data/raw/landslide_inventory/gsi_bhusanket/pdf/gsi_14115.pdf",
+    size_mb="4.9", validation_status="VERIFIED",
+    limitations="Table holds 35 records under 34 printed serial numbers (Sl. 21 used twice); row 17 prints an impossible longitude (76d56'58\"E) and is retained as published; 2 rows undated; source columns interleave across page breaks so unstructured cells are kept verbatim rather than parsed")
+
+add(dataset_id="INV-06", category="landslide_inventory",
+    dataset_name="GSI Post-Disaster Studies of Landslides in Kerala, 2024 (PDLS 2024)",
+    provider="Geological Survey of India", product_version="Acc. No. PDLS_2024_51817",
+    source_url="https://bhusanket.gsi.gov.in/Output/LandslideReport/Kerala/Post%20Disaster%20Studies/PDLS_2024_51817.pdf",
+    acquisition_date="2026-10-25", time_period="2024 monsoon (event dated 2024-07-30)",
+    spatial_extent="15 slide records statewide, 1 in Wayanad (Mundakkai-Chooralmala)",
+    native_resolution="point data, arc-second coordinates", crs="unstated (geographic degrees)",
+    format="PDF + extracted CSV",
+    local_path="data/raw/landslide_inventory/gsi_bhusanket/pdf/gsi_PDLS_2024_51817.pdf",
+    size_mb="15.1", validation_status="VERIFIED",
+    limitations="Single Wayanad record for a multi-lobe disaster; extent/area fields left blank ('--') by GSI; coordinate is the source area, 4.91 km from Chooralmala settlement and 1.98 km from Mundakkai village")
+
+add(dataset_id="INV-07", category="landslide_inventory",
+    dataset_name="GSI Post-Disaster Studies of Landslides in Kerala, 2025 (PDLS 2025)",
+    provider="Geological Survey of India", product_version="Acc. No. PDLS_2025_61074",
+    source_url="https://bhusanket.gsi.gov.in/Output/LandslideReport/Kerala/Post%20Disaster%20Studies/PDLS_2025_61074.pdf",
+    acquisition_date="2026-10-25", time_period="reported 2025-05-21; declared event history 'June 2024'",
+    spatial_extent="16 slide records statewide, 1 in Wayanad (Meenakshi Bridge)",
+    native_resolution="point data, arc-second coordinates", crs="unstated (geographic degrees)",
+    format="PDF + extracted CSV",
+    local_path="data/raw/landslide_inventory/gsi_bhusanket/pdf/gsi_PDLS_2025_61074.pdf",
+    size_mb="22.5", validation_status="VERIFIED",
+    limitations="The only Wayanad record is a small (90 m2) road-cut rotational slide dated June 2024, not a 2025 event; its printed longitude uses a minute glyph instead of a degree glyph")
+
+add(dataset_id="INV-08", category="landslide_inventory",
+    dataset_name="Landslide inventory of the 2018 monsoon rainfall in Kerala, India",
+    provider="Hao, van Westen et al.; DANS Data Station Physical and Technical Sciences",
+    product_version="v2.0 (doi:10.17026/dans-x6c-y7x2)",
+    source_url="https://doi.org/10.17026/dans-x6c-y7x2", acquisition_date="2026-10-25",
+    time_period="2018 monsoon (June-August 2018)",
+    spatial_extent="4,728 points statewide; 331 in Wayanad",
+    native_resolution="point data (mapped landslide centroids)", crs="EPSG:4326",
+    format="ESRI Shapefile + MIF/MID", local_path="data/raw/landslide_inventory/kerala_2018_dans/",
+    size_mb="15.2", validation_status="VERIFIED",
+    limitations="CC-BY-4.0 and openly licensed, but composite: built from NRSC and GSI sources plus new mapping, so it is not independent of GSI; per-event dates are not recorded (only '2018 monsoon'); 'easy-migration.zip' failed to download from objectstore.surf.nl and is a Dataverse export artefact, not data")
+
+add(dataset_id="INV-09", category="landslide_inventory",
+    dataset_name="Meppadi Landslide Post-Disaster Needs Assessment (PDNA), 2024",
+    provider="Kerala State Disaster Management Authority",
+    product_version="final, 2025-10 upload",
+    source_url="https://sdma.kerala.gov.in/wp-content/uploads/2025/10/Meppadi-Landslide-PDNA_final_new1-2_compressed-compressed.pdf",
+    acquisition_date="2026-10-25", time_period="2024-07-30 event, recovery period to 2025",
+    spatial_extent="Meppadi Grama Panchayath, Vythiri Taluk, Wayanad",
+    native_resolution="text report (647 pp)", crs="n/a", format="PDF + extracted text",
+    local_path="data/raw/landslide_inventory/ksdma/ksdma_meppadi_pdna_2024.pdf",
+    size_mb="19.8", validation_status="DOWNLOADED_NOT_FULLY_VALIDATED",
+    limitations="Impact and recovery assessment, not an event inventory; contains no dated multi-event list; narrative figures not independently re-derived from underlying tables")
+
+add(dataset_id="INV-10", category="landslide_inventory",
+    dataset_name="Kerala Memorandum on the July 2024 disaster (17082024)",
+    provider="Revenue Department / KSDMA, Government of Kerala",
+    product_version="Memorandum dated 2024-08-17",
+    source_url="https://sdma.kerala.gov.in/wp-content/uploads/2025/07/Memorandum_17082024.pdf",
+    acquisition_date="2026-10-25", time_period="2024-07-30 event",
+    spatial_extent="Wayanad (Meppadi GP) with statewide context",
+    native_resolution="text report (35 pp)", crs="n/a", format="PDF + extracted text",
+    local_path="data/raw/landslide_inventory/ksdma/ksdma_memorandum_17082024.pdf",
+    size_mb="4.1", validation_status="DOWNLOADED_NOT_FULLY_VALIDATED",
+    limitations="Primary evidence for event timing (about 01:15 on 2024-07-30), rainfall at Kalladi (200.2 mm on 29-07, 372.6 mm on 30-07) and the crown's distance to Mundakkai (~3 km) and Chooralmala (~5 km); fatality totals are interim government figures")
+
+add(dataset_id="INV-11", category="landslide_inventory",
+    dataset_name="KSDMA event report, October 2021 floods and landslides",
+    provider="Kerala State Emergency Operations Centre / KSDMA", product_version="2022-05 upload",
+    source_url="http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Event-report_October-2021.pdf",
+    acquisition_date="2026-10-25", time_period="2021-10-13 to 2021-10-25",
+    spatial_extent="statewide", native_resolution="text report (115 pp)", crs="n/a",
+    format="PDF + extracted text", local_path="data/raw/landslide_inventory/ksdma/ksdma_event_report_october2021.pdf",
+    size_mb="10.7", validation_status="DOWNLOADED_NOT_FULLY_VALIDATED",
+    limitations="Verified to be a SEOC daily situation log (reservoir and alert decisions), NOT a landslide inventory: Wayanad appears only in rainfall-alert lists. Contributes no event record")
+
+add(dataset_id="INV-12", category="landslide_inventory",
+    dataset_name="Global Fatal Landslide Database (GFLD) supplementary tables",
+    provider="Froude & Petley 2018, NHESS (Copernicus)",
+    product_version="nhess-18-2161-2018-t01..t03",
+    source_url="https://nhess.copernicus.org/articles/18/2161/2018/",
+    acquisition_date="2026-10-25", time_period="2004-2016 (database scope)",
+    spatial_extent="global", native_resolution="n/a", crs="n/a", format="XLSX",
+    local_path="data/raw/landslide_inventory/gfld/", size_mb="0.02",
+    validation_status="DOWNLOADED_NOT_FULLY_VALIDATED",
+    limitations="Supplements contain only the trigger-classification scheme and summary-statistic tables. The event-level database (dates, coordinates, fatalities) is NOT redistributed with the article, so GFLD contributed no Wayanad records")
+
+add(dataset_id="INV-13", category="landslide_inventory",
+    dataset_name="Recent Kerala landslide event tables from two 2025 open-access papers",
+    provider="Scientific Reports (Ramesh et al. 2025; Sreekumar et al. 2025)",
+    product_version="PMC12290006 / PMC12749052",
+    source_url="https://doi.org/10.1038/s41598-025-07828-3 ; https://doi.org/10.1038/s41598-025-33065-9",
+    acquisition_date="2026-10-25", time_period="2018-2024 events",
+    spatial_extent="Kerala; 2 Wayanad records (Mundakkai 2024, Puthumala 2019)",
+    native_resolution="event point (whole-second DMS)", crs="unstated (geographic degrees)",
+    format="JATS XML full text", local_path="data/raw/literature_events/", size_mb="0.3",
+    validation_status="DOWNLOADED_NOT_FULLY_VALIDATED",
+    limitations="Event metadata only. Coordinates are compiled rather than surveyed by these authors, so their Puthumala 2019 record remains SECONDARY_SOURCE_ONLY; modelling results in these papers are out of scope for this project")
+
+add(dataset_id="INV-14", category="landslide_inventory",
+    dataset_name="GSI 15990 Detailed site-specific study of Plamoola subsidence, Wayanad (FS 2020-21)",
+    provider="Geological Survey of India", product_version="Item M4LS/NC/SR/SU-KRL/2020/30826",
+    source_url="https://bhusanket.gsi.gov.in/Output/LandslideReport/Kerala/Site%20Specific%20Studies/15990.pdf",
+    acquisition_date="2026-10-25", time_period="subsidence 2018-08-13 to 2018-08-17",
+    spatial_extent="Plamoola (Jessee Estate area), Wayanad", native_resolution="site map 1:1,000 (raster plate)",
+    crs="unstated", format="PDF + extracted text",
+    local_path="data/raw/landslide_inventory/gsi_bhusanket/pdf/gsi_15990.pdf",
+    size_mb="3.2", validation_status="DOWNLOADED_NOT_FULLY_VALIDATED",
+    limitations="The 2020-21 label is the field season, not the event year: the report dates the subsidence to 13-17 August 2018. No DMS coordinate appears in the text layer, so no point could be extracted; contributing areas are given only in km2")
+
+add(dataset_id="INV-15", category="landslide_inventory",
+    dataset_name="GSI 12272 / 12236 geo-environmental studies of landslide-prone Wynad (1992-94)",
+    provider="Geological Survey of India", product_version="Acc. Nos 12272 and 12236",
+    source_url="https://bhusanket.gsi.gov.in/Output/LandslideReport/Kerala/Macro%20scale%20studies/12272.pdf",
+    acquisition_date="2026-10-25", time_period="1992-1994 fieldwork, pre-2000 events",
+    spatial_extent="Wynad/Wayanad and Calicut districts", native_resolution="1:50,000-report plates",
+    crs="unstated", format="PDF + extracted text",
+    local_path="data/raw/landslide_inventory/gsi_bhusanket/pdf/", size_mb="11.1",
+    validation_status="DOWNLOADED_NOT_FULLY_VALIDATED",
+    limitations="Predate the 2000-2026 window; useful only as historical/geological context. 12236 has no text layer (scanned images only) and would require OCR")
+
+add(dataset_id="INV-16", category="derived",
+    dataset_name="Phase-2 consolidated Wayanad inventory (source records, events, crosswalk, coverage)",
+    provider="This project", product_version="phase2-v1",
+    source_url="(local derivation from INV-01..INV-14)", acquisition_date="2026-10-25",
+    time_period="1961-2025, coverage table for 2000-2026",
+    spatial_extent="Wayanad district", native_resolution="point data", crs="EPSG:4326",
+    format="CSV", local_path="data/processed/inventory/", size_mb="0.6",
+    validation_status="VERIFIED",
+    limitations="A derived product, not an original source. 468 source records with 372 in the 2000-2026 window forming 371 event groups; 445/468 points fall inside the GADM polygon; no record is a field-verified observation by this project")
+
 out = pathlib.Path(r"C:\Major\docs\data_manifest.csv")
 with open(out, "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=COLS)

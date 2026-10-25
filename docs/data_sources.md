@@ -79,7 +79,7 @@ Cross-check: GADM 2,121.0 km² vs OSM 2,128.6 km² (0.36% difference), bounds ag
 
 The GSI "Bhusanket" portal was reverse-engineered to its static resources rather than clicked through:
 
-- Report index: `https://bhusanket.gsi.gov.in/json/LandslideReport/LandslideReport.json` — 1,188 reports total, 8 mention Wayanad.
+- Report index: `https://bhusanket.gsi.gov.in/json/LandslideReport/LandslideReport.json` — 1,188 reports total, **10 relate to Wayanad** (the phase-1 count of 8 came from a narrower title filter; the full enumeration is in `docs/SOURCE_DISCOVERY_REPORT.md`).
 - PDF pattern (from `js/statewiseLandslideReport.js`): `https://bhusanket.gsi.gov.in/Output/LandslideReport/{State}/{ProjectType}/{AccNo}.pdf`
 
 All 8 Kerala/Wayanad PDFs downloaded (49.9 MB cumulative) and text-extracted with pypdf:
@@ -94,6 +94,34 @@ All 8 Kerala/Wayanad PDFs downloaded (49.9 MB cumulative) and text-extracted wit
 | 14252, 14253, 15990 | Site-specific: Narippara, Kunnamangalam Vayal, Plamoola | PDF only | single-site reports, no tabular inventory |
 
 Plus NASA GLC export CSV (8.5 MB, 11,033 records globally; 50 tagged Kerala, 9 in the Wayanad bbox).
+
+### 1.9 Landslide inventory — phase 2 additions
+
+Phase 2 returned to the same publishers but asked a different question: not "what exists?"
+but "what is on disk that has never been parsed?" That re-read produced more than the
+downloads did.
+
+| Source | Endpoint / access route | Result |
+|---|---|---|
+| **GSI 14115** Landslide Inventory of Kerala (FS 2007-2010) | already on disk from phase 1; Wayanad table pp.135-148 | **35 records**, arc-second coordinates, per-event dates 1961–2009, lithology, morphometry, impacts |
+| **GSI PDLS 2024** (`gsi_PDLS_2024_51817.pdf`) | `.../Kerala/Post%20Disaster%20Studies/PDLS_2024_51817.pdf` | 4.9→15.1 MB, 1 Wayanad 42-point datasheet (Mundakkai-Chooralmala) |
+| **GSI PDLS 2025** (`gsi_PDLS_2025_61074.pdf`) | same pattern | 22.5 MB, 1 Wayanad 42-point datasheet (Meenakshi Bridge, June 2024) |
+| **GSI 14336 / 12272 / 12236** | same pattern | 12.7 MB; 12236 is image-only (no text layer) |
+| **2018 Kerala monsoon inventory** (Hao, van Westen et al.) | `doi:10.17026/dans-x6c-y7x2`, DANS Dataverse, CC-BY-4.0 | 15.2 MB; 4,728 points statewide → **331 in Wayanad** |
+| **KSDMA Meppadi PDNA 2024** | `sdma.kerala.gov.in/wp-content/uploads/2025/10/...` | 19.8 MB, 647 pp |
+| **KSDMA Memorandum 17082024** | `sdma.kerala.gov.in/wp-content/uploads/2025/07/...` | 4.1 MB, 35 pp — event timing, rainfall, crown-to-village distances |
+| **KSDMA October 2021 event report** | `sdma.kerala.gov.in/wp-content/uploads/2022/05/...` | 10.7 MB, 115 pp — **verified to contain no landslide inventory** (SEOC daily log) |
+| **GFLD supplementary tables** t01–t03 | `nhess.copernicus.org/articles/18/2161/2018/` | 0.02 MB — **classification scheme only, no event database** |
+| **PMC12290006 / PMC12749052** full text | NCBI efetch `db=pmc` | 0.3 MB JATS XML; event tables extracted |
+
+Two phase-2 source classes were **closed rather than pursued**:
+
+- **GFLD** does not redistribute its event database. The supplementary tables are the trigger
+  taxonomy and summary statistics. It can contribute no Wayanad records.
+- **KSDMA per-year pages** lead to needs assessments and memoranda, not inventories. They are
+  excellent for verifying a known event and useless for discovering unknown ones.
+
+See `docs/INVENTORY_VERIFICATION_REPORT.md` for what these records show.
 
 ### 1.8 Additional conditioning layers
 
@@ -116,6 +144,10 @@ Plus NASA GLC export CSV (8.5 MB, 11,033 records globally; 50 tagged Kerala, 9 i
 | IMD Pune 0.25° gridded rainfall | **ACCESS_RESTRICTED** | Requires account registration/login; no automated route. CHIRPS used as the open alternative. |
 | ESA WorldCover via Terrascope | Superseded | Working AWS S3 GeoTIFF route found; avoids the preview-vs-data ambiguity from the earlier attempt. |
 | Bhuvan WMS geology | Not pursued | Would return rendered map images, not attributable vector data. |
+| Kerala ILDM (`ildm.kerala.gov.in`) | **UNAVAILABLE** | TLS handshake fails for every path including `/`, over both https and http. Host-level failure, not a 404. |
+| FABDEM (`data.bris.ac.uk`) | **ACCESS_RESTRICTED** | Connect timeout. |
+| GSI 2019-20 "post-disaster studies in Wayanad and Kannur" (Sulal et al. 2020) | **UNAVAILABLE** | Cited in GSI's own 2025 bibliography but **absent from the public 1,188-report index** (verified by enumerating all 62 Kerala reports). This is why Puthumala 2019 is `SECONDARY_SOURCE_ONLY`. |
+| `easy-migration.zip` (Dataverse export) | Failed | `ConnectionError` from `objectstore.surf.nl`. A Dataverse export artefact, not data — nothing of analytical value is missing. |
 
 ---
 
@@ -123,9 +155,22 @@ Plus NASA GLC export CSV (8.5 MB, 11,033 records globally; 50 tagged Kerala, 9 i
 
 - No attempt to bypass Earthdata, ArcGIS tokens, or portal logins.
 - No global SRTM granule download (the earlier "Download All" trap).
-- No deduplication or merging of the four inventory extracts (overlaps are documented, not resolved).
 - No reprojection, resampling, mosaicking, or clipping of the DEM/land-cover/rainfall rasters.
 - No training table, no background/negative sampling, no model, no metrics.
+
+Phase-2 specifics:
+
+- **No silent merging.** The eight inventory sources are kept as eight separate files. Where
+  records were judged to describe one landslide, that judgement is recorded in
+  `duplicate_crosswalk.csv` with the measured separation and the basis, and expressed in the
+  data only as a shared `event_group_id`. No coordinate, date or locality was overwritten.
+- **No coordinate was snapped, rounded or relocated** to make a boundary or duplicate test pass.
+  Records outside the district are flagged with their measured distance, not moved.
+- **No date was invented.** GSI 14337 and 14768 place sites without dating them; those records
+  remain `SITE_UNDATED` and are excluded from every event count rather than assigned a year.
+- **No event year assigned by inference.** Where a source names two dates at one site
+  (e.g. "1982 & June 2007"), the earlier occurrence is preserved in `date_text` and the
+  in-window occurrence is used for coverage.
 
 ---
 
@@ -142,11 +187,19 @@ data/raw/          original downloads, unchanged
   boundary/                     GADM zip + geojson, OSM geojson
   landslide_inventory/gsi_bhusanket/{pdf/, *.json}
   landslide_inventory/nasa_glc/
+  landslide_inventory/kerala_2018_dans/   2018 statewide shapefile (phase 2)
+  landslide_inventory/ksdma/              PDNA, Memorandum, Oct-2021 report (phase 2)
+  landslide_inventory/gfld/               GFLD t01-t03 (phase 2)
+  literature_events/                      PMC XML full texts (phase 2)
   additional/{hydrorivers/, osm_roads_wayanad.geojson}
 data/interim/      text extracts, per-source inventory CSVs (not merged)
+  gsi_pdf_text/                  one .txt per PDF, page-delimited
+  inventory_extracts/            per-source CSV extracts
 data/processed/    clipped copies only (geology, rivers, roads)
-docs/              manifest, this log, quality report, acquisition report
+  inventory/                     consolidated records, events, crosswalk, coverage
+docs/              manifest, this log, quality report, acquisition report,
+                   source discovery report, inventory verification report
 scripts/           every acquisition and validation script, re-runnable
 ```
 
-Every raw file's SHA-256 is in `data/file_inventory.csv` (404 files, 7.7 GB).
+Every raw file's SHA-256 is in `data/file_inventory.csv` (431 files, 7,808.5 MB as at the end of phase 2).

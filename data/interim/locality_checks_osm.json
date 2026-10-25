@@ -1,0 +1,313 @@
+{
+ "Mundakkai, Wayanad, Kerala": [
+  {
+   "place_id": 255055347,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 12716285,
+   "lat": "11.4701711",
+   "lon": "76.1506761",
+   "class": "boundary",
+   "type": "local_authority",
+   "place_rank": 25,
+   "importance": 0.0667118616006714,
+   "addresstype": "local_authority",
+   "name": "Mundakkai",
+   "display_name": "Mundakkai, Mundakai, Vythiri, Wayanad, Kerala, India",
+   "boundingbox": [
+    "11.4513610",
+    "11.4890667",
+    "76.1232490",
+    "76.1865622"
+   ]
+  }
+ ],
+ "Chooralmala, Wayanad, Kerala": [
+  {
+   "place_id": 254130561,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 3842228213,
+   "lat": "11.4992319",
+   "lon": "76.1598711",
+   "class": "place",
+   "type": "village",
+   "place_rank": 19,
+   "importance": 0.14671186160067134,
+   "addresstype": "village",
+   "name": "Chooralmala",
+   "display_name": "Chooralmala, Vythiri, Wayanad, Kerala, 673567, India",
+   "boundingbox": [
+    "11.4792319",
+    "11.5192319",
+    "76.1398711",
+    "76.1798711"
+   ]
+  },
+  {
+   "place_id": 254148352,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 12716284,
+   "lat": "11.4894347",
+   "lon": "76.1288343",
+   "class": "boundary",
+   "type": "local_authority",
+   "place_rank": 25,
+   "importance": 0.0667118616006714,
+   "addresstype": "local_authority",
+   "name": "Chooralmala",
+   "display_name": "Chooralmala, Vythiri, Wayanad, Kerala, India",
+   "boundingbox": [
+    "11.4742238",
+    "11.5042273",
+    "76.0982622",
+    "76.1605632"
+   ]
+  },
+  {
+   "place_id": 253902142,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 12465388883,
+   "lat": "11.5000845",
+   "lon": "76.1594656",
+   "class": "highway",
+   "type": "bus_stop",
+   "place_rank": 30,
+   "importance": 4.5194934004684786e-05,
+   "addresstype": "highway",
+   "name": "Chooralmala",
+   "display_name": "Chooralmala, Kalpetta - Meppadi Road, Kalladi Colony, Neelikkap Colony, Chooralmala, Vythiri, Wayanad, Kerala, 673567, India",
+   "boundingbox": [
+    "11.5000345",
+    "11.5001345",
+    "76.1594156",
+    "76.1595156"
+   ]
+  }
+ ],
+ "Meppadi, Wayanad, Kerala": [
+  {
+   "place_id": 251623150,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 340369491,
+   "lat": "11.5529455",
+   "lon": "76.1320079",
+   "class": "place",
+   "type": "village",
+   "place_rank": 19,
+   "importance": 0.1467137308308537,
+   "addresstype": "village",
+   "name": "Meppadi",
+   "display_name": "Meppadi, Vythiri, Wayanad, Kerala, 673577, India",
+   "boundingbox": [
+    "11.5329455",
+    "11.5729455",
+    "76.1120079",
+    "76.1520079"
+   ]
+  },
+  {
+   "place_id": 263045457,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 11312337,
+   "lat": "11.5374105",
+   "lon": "76.1116738",
+   "class": "boundary",
+   "type": "local_authority",
+   "place_rank": 25,
+   "importance": 0.06671373083085373,
+   "addresstype": "local_authority",
+   "name": "Meppadi",
+   "display_name": "Meppadi, Vythiri, Wayanad, Kerala, 673577, India",
+   "boundingbox": [
+    "11.4513610",
+    "11.6240953",
+    "76.0645723",
+    "76.2002043"
+   ]
+  },
+  {
+   "place_id": 251628821,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 763028486,
+   "lat": "11.5530379",
+   "lon": "76.1345379",
+   "class": "amenity",
+   "type": "bus_station",
+   "place_rank": 30,
+   "importance": 4.7064164187030097e-05,
+   "addresstype": "amenity",
+   "name": "Meppadi",
+   "display_name": "Meppadi, Calicut - Vythiri - Gudalur Road, Kunnamangalamvayal, Meppadi, Vythiri, Wayanad, Kerala, 673577, India",
+   "boundingbox": [
+    "11.5527634",
+    "11.5532883",
+    "76.1341111",
+    "76.1348396"
+   ]
+  }
+ ],
+ "Puthumala, Wayanad, Kerala": [
+  {
+   "place_id": 253199034,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 13048296194,
+   "lat": "11.5013341",
+   "lon": "76.1406053",
+   "class": "place",
+   "type": "hamlet",
+   "place_rank": 20,
+   "importance": 0.13337852826733804,
+   "addresstype": "hamlet",
+   "name": "Puthumala",
+   "display_name": "Puthumala, Kalladi, Vythiri, Wayanad, Kerala, 673567, India",
+   "boundingbox": [
+    "11.4813341",
+    "11.5213341",
+    "76.1206053",
+    "76.1606053"
+   ]
+  },
+  {
+   "place_id": 259594186,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 12716287,
+   "lat": "11.5007332",
+   "lon": "76.1128214",
+   "class": "boundary",
+   "type": "local_authority",
+   "place_rank": 25,
+   "importance": 0.0667118616006714,
+   "addresstype": "local_authority",
+   "name": "Puthumala",
+   "display_name": "Puthumala, Kalladi, Vythiri, Wayanad, Kerala, India",
+   "boundingbox": [
+    "11.4819610",
+    "11.5196123",
+    "76.0881369",
+    "76.1857974"
+   ]
+  }
+ ],
+ "Vellarimala, Wayanad, Kerala": [
+  {
+   "place_id": 253056083,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 582059330,
+   "lat": "11.4513610",
+   "lon": "76.1433419",
+   "class": "natural",
+   "type": "peak",
+   "place_rank": 18,
+   "importance": 0.1600451949340047,
+   "addresstype": "peak",
+   "name": "Vellarimala",
+   "display_name": "Vellarimala, Vythiri, Thamarassery, Kozhikode, Kerala, India",
+   "boundingbox": [
+    "11.4513110",
+    "11.4514110",
+    "76.1432919",
+    "76.1433919"
+   ]
+  }
+ ],
+ "Attamala, Wayanad, Kerala": [
+  {
+   "place_id": 254918422,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 8674773179,
+   "lat": "11.4987192",
+   "lon": "76.1756093",
+   "class": "place",
+   "type": "hamlet",
+   "place_rank": 20,
+   "importance": 0.13337852826733804,
+   "addresstype": "hamlet",
+   "name": "Attamala",
+   "display_name": "Attamala, Vythiri, Wayanad, Kerala, 673567, India",
+   "boundingbox": [
+    "11.4787192",
+    "11.5187192",
+    "76.1556093",
+    "76.1956093"
+   ]
+  },
+  {
+   "place_id": 255971625,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 12716286,
+   "lat": "11.4975623",
+   "lon": "76.1764045",
+   "class": "boundary",
+   "type": "local_authority",
+   "place_rank": 25,
+   "importance": 0.0667118616006714,
+   "addresstype": "local_authority",
+   "name": "Attamala",
+   "display_name": "Attamala, Vythiri, Wayanad, Kerala, India",
+   "boundingbox": [
+    "11.4842724",
+    "11.5107560",
+    "76.1513364",
+    "76.2002043"
+   ]
+  }
+ ],
+ "Punjirimattom, Wayanad, Kerala": [],
+ "Kottapadi, Wayanad, Kerala": [
+  {
+   "place_id": 253481667,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1216399409,
+   "lat": "11.5714832",
+   "lon": "76.0929277",
+   "class": "waterway",
+   "type": "stream",
+   "place_rank": 22,
+   "importance": 0.10671373083085371,
+   "addresstype": "stream",
+   "name": "kottapadi thodu",
+   "display_name": "kottapadi thodu, Vythiri, Wayanad, Kerala, 673123, India",
+   "boundingbox": [
+    "11.5708809",
+    "11.5719817",
+    "76.0924665",
+    "76.0930129"
+   ]
+  },
+  {
+   "place_id": 250804697,
+   "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 839474166,
+   "lat": "11.5748979",
+   "lon": "76.0951377",
+   "class": "building",
+   "type": "school",
+   "place_rank": 30,
+   "importance": 4.7064164187030097e-05,
+   "addresstype": "building",
+   "name": "Apjsa Lower Primary School Kottapadi, Wayanad",
+   "display_name": "Apjsa Lower Primary School Kottapadi, Wayanad, Calicut - Vythiri - Gudalur Road, Chundale, Vythiri, Wayanad, Kerala, 673123, India",
+   "boundingbox": [
+    "11.5747993",
+    "11.5749820",
+    "76.0950510",
+    "76.0952227"
+   ]
+  }
+ ],
+ "Muppainadu, Wayanad, Kerala": [],
+ "Nellimala, Wayanad, Kerala": []
+}
