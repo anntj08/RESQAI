@@ -1,0 +1,55 @@
+{
+  "verdict": "ALL GATES PASSED",
+  "n_gates": 6,
+  "n_passed": 6,
+  "gates": [
+    {
+      "gate": "raw inputs unchanged (sha256)",
+      "command": "C:\\Users\\anntr\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts/p3_verify_raw_immutable.py",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 22.2,
+      "summary": "RAW INPUTS: UNCHANGED \u2014 verified by content hash"
+    },
+    {
+      "gate": "Phase 2 products untouched (sha256)",
+      "command": "C:\\Users\\anntr\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts/p3_verify_phase2_untouched.py",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.2,
+      "summary": "PASSED: all 7 Phase 2 inventory products byte-identical to the pre-Phase-3 baseline"
+    },
+    {
+      "gate": "all layers on the study grid",
+      "command": "C:\\Users\\anntr\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts/p3_verify_processed.py",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 31.9,
+      "summary": "                geology/geology_class_30m_district.tif      1   uint8          2356538.0       0.000"
+    },
+    {
+      "gate": "documentation matches outputs",
+      "command": "C:\\Users\\anntr\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts/p3_check_consistency.py",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.3,
+      "summary": "ALL PASSED \u2014 documentation matches the Phase 3 outputs"
+    },
+    {
+      "gate": "Phase 2 invariants still hold",
+      "command": "C:\\Users\\anntr\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts/p2_check_consistency.py",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 2.1,
+      "summary": "all consistency checks passed"
+    },
+    {
+      "gate": "outputs reproduce from raw",
+      "command": "C:\\Users\\anntr\\AppData\\Local\\Programs\\Python\\Python314\\python.exe data/interim/p3/compare_rebuild.py",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 5.0,
+      "summary": "PASSED: every baseline file is reproduced or declared"
+    }
+  ]
+}

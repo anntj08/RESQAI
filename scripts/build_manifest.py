@@ -11,6 +11,20 @@ R = []
 def add(**kw):
     R.append({c: kw.get(c, "") for c in COLS})
 
+
+def size_mb(*paths):
+    """Sum bytes on disk for one path or several. Fails loudly if a path is absent,
+    so a manifest row cannot outlive the product it describes."""
+    total = 0
+    for p in paths:
+        p = pathlib.Path(p)
+        assert p.exists(), f"manifest entry points at a missing path: {p}"
+        if p.is_file():
+            total += p.stat().st_size
+        else:
+            total += sum(f.stat().st_size for f in p.rglob("*") if f.is_file())
+    return f"{total / 1_000_000:.2f}"
+
 add(dataset_id="DEM-01", category="dem", dataset_name="Copernicus DEM GLO-30 (DSM)",
     provider="Copernicus / ESA / Airbus (AWS Open Data)", product_version="GLO-30, Copernicus_DSM_COG_10",
     source_url="https://copernicus-dem-30m.s3.amazonaws.com/", acquisition_date="2026-10-25",
@@ -34,7 +48,7 @@ add(dataset_id="DEM-03", category="dem", dataset_name="SRTM 1 arc-second mirror 
     time_period="February 2000", spatial_extent="2 tiles (75-77E, 11-12N) = 100% of Wayanad",
     native_resolution="30 m (1 arc-second)", crs="EPSG:4326", format="HGT (int16) + .gz",
     local_path="data/raw/dem/srtm_1arcsec_skadi/", size_mb="51.9", validation_status="VERIFIED",
-    limitations="Third-party mirror, not an official NASA channel and no NASA checksum. Zero voids (-32768 count = 0). Agreement with Copernicus GLO-30: r=0.9997, MAD 3.41 m")
+    limitations="Third-party mirror, not an official NASA channel and no NASA checksum. Zero voids (-32768 count = 0). Exhaustive agreement with Copernicus GLO-30 at all 2,280,319 shared district nodes: r=0.9997, MAD 3.42 m, max 147.03 m, 447 nodes >50 m. Both files are tagged AREA_OR_POINT=Point; a sub-pixel shift test finds no relative offset")
 
 add(dataset_id="LC-01", category="landcover", dataset_name="ESA WorldCover 2021 v200",
     provider="ESA / VITO (AWS Open Data)", product_version="v200 (2021)",
@@ -120,7 +134,7 @@ add(dataset_id="BND-01", category="boundary", dataset_name="Wayanad district bou
     spatial_extent="1 MultiPolygon, 2121.0 km2, 75.772-76.436E / 11.443-11.971N",
     native_resolution="vector district", crs="EPSG:4326", format="GeoJSON (zipped)",
     local_path="data/raw/boundary/gadm41_IND_2/", size_mb="1.5", validation_status="VERIFIED",
-    limitations="Research-grade global dataset, not an official Survey of India / Kerala boundary; area differs from OSM by 0.36%")
+    limitations="Research-grade global dataset, not an official Survey of India / Kerala boundary; area differs from OSM by 0.36% but the outlines differ by 744-771 m median (p90 ~1.1 km, max 1,579 m, 8.75% symmetric difference), so district membership within ~0.75 km of the edge is ambiguous")
 
 add(dataset_id="BND-02", category="boundary", dataset_name="Wayanad district boundary (OSM/Nominatim)",
     provider="OpenStreetMap contributors", product_version="relation snapshot 2026-10-25",
@@ -293,6 +307,113 @@ add(dataset_id="INV-16", category="derived",
     format="CSV", local_path="data/processed/inventory/", size_mb="0.6",
     validation_status="VERIFIED",
     limitations="A derived product, not an original source. 468 source records with 372 in the 2000-2026 window forming 371 event groups; 445/468 points fall inside the GADM polygon; no record is a field-verified observation by this project")
+
+# ---------------------------------------------------------------------------
+# Phase 3 derived products (geospatial preprocessing)
+# Sizes are measured from disk at build time. Accumulated scope is recorded in
+# docs/PREPROCESSING_REPORT.md; verdicts in docs/DATA_READINESS_REPORT.md.
+# ---------------------------------------------------------------------------
+
+add(dataset_id="P3-01", category="derived",
+    dataset_name="Phase-3 analysis grid: 30 m common grid, district mask, metric boundary layers",
+    provider="This project", product_version="phase3-grid",
+    source_url="(local derivation from BND-01, BND-02)",
+    acquisition_date="2026-10-26", time_period="n/a (spatial framework)",
+    spatial_extent="2480 x 2013 px, EPSG:32643; extent 583110-657510 E / 1264170-1324560 N; 2,356,538 district px = 2,120.9 km2",
+    native_resolution="30 m", crs="EPSG:32643",
+    format="GeoTIFF (mask) + GeoPackage (boundaries) + JSON (spec) + CSV",
+    local_path="data/processed/grid/", size_mb=size_mb("data/processed/grid"),
+    validation_status="VERIFIED",
+    limitations="The 30 m grid is a storage geometry, not a claim of 30 m information for coarser sources. Mask is pixel-centre (-0.005% vs GADM). GADM/OSM outlines differ by ~750 m median, so edge membership within ~0.75 km is ambiguous")
+
+add(dataset_id="P3-02", category="derived",
+    dataset_name="Phase-3 terrain stack: GLO-30 DSM mosaic, buffered and district DEM, slope, aspect, profile and plan curvature",
+    provider="This project", product_version="phase3-dem",
+    source_url="(local derivation from DEM-01, cross-checked against DEM-03)",
+    acquisition_date="2026-10-26", time_period="2021 epoch surface",
+    spatial_extent="District elevation 116.96-2,230.27 m; 5 district layers + 2 intermediates",
+    native_resolution="30 m", crs="EPSG:32643", format="GeoTIFF (float32)",
+    local_path="data/processed/dem/", size_mb=size_mb("data/processed/dem"),
+    validation_status="VERIFIED",
+    limitations="DSM including canopy, not bare earth (district is 90% tree cover). Slope uncertainty +/-2.24 deg (MAD vs SRTM). Aspect is nodata on 0.483% of district (flat ground). Vertical datum EGM2008: town checks show a consistent ~-30 m offset. TRI/TPI deliberately not produced")
+
+add(dataset_id="P3-03", category="derived",
+    dataset_name="Phase-3 land cover: ESA WorldCover 2021 aggregated 10 m to 30 m by mode",
+    provider="This project", product_version="phase3-landcover",
+    source_url="(local derivation from LC-01)", acquisition_date="2026-10-26",
+    time_period="2021 snapshot", spatial_extent="7 classes over the district, 0 nodata",
+    native_resolution="30 m grid; 10 m source", crs="EPSG:32643", format="GeoTIFF (uint8) + 2 CSV",
+    local_path="data/processed/landcover/", size_mb=size_mb("data/processed/landcover"),
+    validation_status="VERIFIED",
+    limitations="Present-day 2021 proxy, not land cover at event time. Mode aggregation loses minority classes: built-up -0.151 pp (-17% relative), bare/sparse -47%, shrubland disappears. Tree cover 90.1%, and class 10 does not distinguish plantation from forest")
+
+add(dataset_id="P3-04", category="derived",
+    dataset_name="Phase-3 rainfall: CHIRPS v2.0 district monthly series and 30 m climatology rasters",
+    provider="This project", product_version="phase3-rainfall",
+    source_url="(local derivation from RF-01)", acquisition_date="2026-10-26",
+    time_period="2000-01 to 2025-12 (312 months, no 2026)",
+    spatial_extent="District area-weighted series; annual mean 2,439.1 mm (std 351.0); JJAS 1,601.1 mm",
+    native_resolution="30 m grid; 0.05 deg (~5.5 km) effective", crs="EPSG:32643",
+    format="GeoTIFF (float32, 12-band climatology) + 3 CSV",
+    local_path="data/processed/rainfall/", size_mb=size_mb("data/processed/rainfall"),
+    validation_status="VERIFIED",
+    limitations="Monthly at 5.5 km: supports antecedent-condition covariates, not triggers. Upsampling creates no detail. No per-event rainfall assigned. The undeclared -9999 sentinel is absent from all district cells but present in every padded window")
+
+add(dataset_id="P3-05", category="derived",
+    dataset_name="Phase-3 soil: SoilGrids 250 m, 7 properties x 2 depths, scaled to physical units",
+    provider="This project", product_version="phase3-soil",
+    source_url="(local derivation from SOIL-01)", acquisition_date="2026-10-26",
+    time_period="static (SoilGrids 2017 release)", spatial_extent="14 native + 14 grid rasters; 3,657 district nodata px (0.155%)",
+    native_resolution="30 m grid; 250 m (~246 x 265 m) effective", crs="EPSG:32643",
+    format="GeoTIFF (float32) + 2 CSV",
+    local_path="data/processed/soil/", size_mb=size_mb("data/processed/soil"),
+    validation_status="VERIFIED",
+    limitations="Model predictions, not soil samples, and no regolith/bedrock depth. Raw 0 treated as nodata, so a genuine cfvo = 0% is discarded (50 cells, 3.1 km2). Scale factors proven by texture closure (clay+sand+silt = 100.0%)")
+
+add(dataset_id="P3-06", category="derived",
+    dataset_name="Phase-3 geology: GLiM district intersection and 5-class raster",
+    provider="This project", product_version="phase3-geology",
+    source_url="(local derivation from GEO-01)", acquisition_date="2026-10-26",
+    time_period="static (source maps to 2015)", spatial_extent="16 polygons, 5 classes, 2,121.0 km2 = 100% of GADM",
+    native_resolution="30 m grid; polygon scale ~1-4.6 km", crs="EPSG:32643",
+    format="GeoPackage + GeoTIFF (uint8) + 3 CSV",
+    local_path="data/processed/geology/", size_mb=size_mb("data/processed/geology"),
+    validation_status="VERIFIED",
+    limitations="1:3.75 M source cannot resolve local lithology: 39 GSI charnockite-gneiss records split 22/14/1 across three GLiM classes; median 1,063 m to a class boundary. Descriptive regional context only; GSI 1:50,000 remains missing. The Phase-1 bbox clip is retained unmodified alongside")
+
+add(dataset_id="P3-07", category="derived",
+    dataset_name="Phase-3 additional layers: OSM roads and HydroRIVERS clipped and reprojected to EPSG:32643",
+    provider="This project", product_version="phase3-additional",
+    source_url="(local derivation from ADD-01, ADD-02)", acquisition_date="2026-10-26",
+    time_period="2026 snapshot", spatial_extent="13,169 road features / 5,968.2 km; 1,298 river segments / 3,195.5 km",
+    native_resolution="vector line", crs="EPSG:32643", format="GeoPackage + JSON",
+    local_path="data/processed/additional/", size_mb=size_mb("data/processed/additional"),
+    validation_status="VERIFIED",
+    limitations="Present-day proxies with no temporal depth. Roads: 0 features lost, 100.0% of in-district length retained. Rivers: 40/1,298 segments (3.08%) truncated at the boundary, so no flow routing. Distance rasters deliberately not produced")
+
+add(dataset_id="P3-08", category="derived",
+    dataset_name="Phase-3 inventory suitability: per-record precision, uncertainty class and spatial use",
+    provider="This project", product_version="phase3-suitability",
+    source_url="(local derivation from INV-16 and Phase 2 source tables)",
+    acquisition_date="2026-10-26", time_period="1961-2025 records; usability for 2000-2026 labels",
+    spatial_extent="468 source records; 408 usable point labels from 363 event groups",
+    native_resolution="point data", crs="EPSG:4326", format="CSV + JSON",
+    local_path="data/processed/inventory/inventory_spatial_suitability.csv",
+    size_mb=size_mb("data/processed/inventory/inventory_spatial_suitability.csv",
+                    "data/processed/inventory/event_group_point_status.csv",
+                    "data/processed/inventory/inventory_suitability_summary.json"),
+    validation_status="VERIFIED",
+    limitations="A judgement layer, not new evidence: accuracy floors are assumptions. 408 point_label_ok, 36 widen, 10 boundary-uncertain, 12 not in district, 1 district centroid, 1 excluded until corrected. None of the 44 two-decimal records is a point label. 92% of usable labels are 2018. Phase 2 tables are byte-identical and were not modified")
+
+add(dataset_id="P3-09", category="derived",
+    dataset_name="Phase-3 cross-layer QA: layer inventory, grid alignment, coverage and clustering metrics",
+    provider="This project", product_version="phase3-qa",
+    source_url="(local derivation from all P3 products)", acquisition_date="2026-10-26",
+    time_period="n/a", spatial_extent="25 layers checked; 408/408 labels valid in all 24 predictor layers",
+    native_resolution="30 m", crs="EPSG:32643", format="CSV + JSON",
+    local_path="data/processed/qa/", size_mb=size_mb("data/processed/qa"),
+    validation_status="VERIFIED",
+    limitations="Coverage is a validity test only: predictor values were read at labels to count nodata and then discarded. No training table exists. Clustering figures (76 single-linkage clusters at 1 km) are a design input, not a validation result")
 
 out = pathlib.Path(r"C:\Major\docs\data_manifest.csv")
 with open(out, "w", newline="", encoding="utf-8") as f:

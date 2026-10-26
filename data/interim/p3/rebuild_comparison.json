@@ -1,0 +1,486 @@
+{
+  "baseline": "C:\\Major\\data\\interim\\p3\\rebuild_backup",
+  "n_baseline_files": 74,
+  "n_outputs_now": 74,
+  "counts": {
+    "IDENTICAL": 68,
+    "SAME CONTENT": 5,
+    "EXPECTED_ADDITIVE": 1
+  },
+  "failed": 0,
+  "prerequisites_not_regenerated": [
+    "additional/hydrorivers_wayanad_clip.gpkg",
+    "additional/osm_roads_wayanad_clip.gpkg",
+    "geology/glim_wayanad_clip.gpkg",
+    "geology/glim_wayanad_lithology_summary.csv"
+  ],
+  "volatile_keys_ignored": [
+    "duration_s",
+    "elapsed_s",
+    "elapsed_seconds",
+    "generated_at",
+    "run_started_utc",
+    "runtime_s",
+    "timestamp"
+  ],
+  "declared_additive_keys": {
+    "rainfall/rainfall_validation.json": [
+      "all_nan_note",
+      "all_nan_window_cells",
+      "all_nan_window_pct"
+    ]
+  },
+  "declared_additive_reason": "p3_rainfall.py now counts and asserts the all-NaN cells in the padded CHIRPS window (140 of 1,088 = 12.87%) and records the evidence, instead of letting numpy emit 'Mean of empty slice' / 'All-NaN slice' warnings to stderr. The rainfall rasters and CSVs were verified byte-identical before and after, so only these additive keys moved.",
+  "tolerances": {
+    "tiff_pixel_atol": 1e-06,
+    "tiff_transform_precision": 1e-09,
+    "gpkg_geometry_tolerance_deg_or_m": 1e-12,
+    "csv_numeric_atol": 1e-09
+  },
+  "results": [
+    {
+      "file": "additional/additional_layers_validation.json",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 4916
+    },
+    {
+      "file": "additional/hydrorivers_wayanad_clip.gpkg",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 458752
+    },
+    {
+      "file": "additional/hydrorivers_wayanad_district_32643.gpkg",
+      "status": "SAME CONTENT",
+      "detail": "features, attributes and geometry all equal",
+      "size_bytes": 462848
+    },
+    {
+      "file": "additional/osm_roads_wayanad_clip.gpkg",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 6144000
+    },
+    {
+      "file": "additional/roads_wayanad_district_32643.gpkg",
+      "status": "SAME CONTENT",
+      "detail": "features, attributes and geometry all equal",
+      "size_bytes": 6156288
+    },
+    {
+      "file": "dem/aspect_deg_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 8409719
+    },
+    {
+      "file": "dem/dem_glo30_30m_buf.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 16347556
+    },
+    {
+      "file": "dem/dem_glo30_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7670492
+    },
+    {
+      "file": "dem/dem_glo30_mosaic_4326.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 59770294
+    },
+    {
+      "file": "dem/dem_validation.json",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 9214
+    },
+    {
+      "file": "dem/plan_curv_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 8778678
+    },
+    {
+      "file": "dem/profile_curv_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 8782307
+    },
+    {
+      "file": "dem/slope_deg_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 8405885
+    },
+    {
+      "file": "geology/geology_class_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 33790
+    },
+    {
+      "file": "geology/geology_class_legend.csv",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 436
+    },
+    {
+      "file": "geology/geology_validation.json",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 2757
+    },
+    {
+      "file": "geology/glim_lithology_shares.csv",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 451
+    },
+    {
+      "file": "geology/glim_wayanad_clip.gpkg",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 131072
+    },
+    {
+      "file": "geology/glim_wayanad_district_32643.gpkg",
+      "status": "SAME CONTENT",
+      "detail": "features, attributes and geometry all equal",
+      "size_bytes": 118784
+    },
+    {
+      "file": "geology/glim_wayanad_lithology_summary.csv",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 209
+    },
+    {
+      "file": "geology/site_lithology_vs_glim.csv",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 6003
+    },
+    {
+      "file": "grid/boundary_diagnostics.json",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 3802
+    },
+    {
+      "file": "grid/district_mask_30m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 20796
+    },
+    {
+      "file": "grid/grid_spec.json",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 944
+    },
+    {
+      "file": "grid/wayanad_gadm_32643.gpkg",
+      "status": "SAME CONTENT",
+      "detail": "features, attributes and geometry all equal",
+      "size_bytes": 98304
+    },
+    {
+      "file": "grid/wayanad_osm_32643.gpkg",
+      "status": "SAME CONTENT",
+      "detail": "features, attributes and geometry all equal",
+      "size_bytes": 118784
+    },
+    {
+      "file": "inputs_metadata_before.json",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 41095
+    },
+    {
+      "file": "inventory/event_group_point_status.csv",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 23429
+    },
+    {
+      "file": "inventory/inventory_spatial_suitability.csv",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 182304
+    },
+    {
+      "file": "inventory/inventory_suitability_summary.json",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 3501
+    },
+    {
+      "file": "landcover/landcover_class_legend.csv",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 474
+    },
+    {
+      "file": "landcover/landcover_validation.json",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 3792
+    },
+    {
+      "file": "landcover/landcover_worldcover2021_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 149707
+    },
+    {
+      "file": "qa/grid_alignment_report.json",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 32031
+    },
+    {
+      "file": "qa/layer_inventory.csv",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 6204
+    },
+    {
+      "file": "qa/readiness_metrics.json",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 4638
+    },
+    {
+      "file": "rainfall/chirps_annual_district_2000_2025.csv",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 764
+    },
+    {
+      "file": "rainfall/chirps_monthly_climatology.csv",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 153
+    },
+    {
+      "file": "rainfall/chirps_monthly_district_2000_2025.csv",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 6107
+    },
+    {
+      "file": "rainfall/chirps_summary_native_0p05deg.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 14956
+    },
+    {
+      "file": "rainfall/rainfall_annual_mean_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 83968
+    },
+    {
+      "file": "rainfall/rainfall_jjas_mean_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 83995
+    },
+    {
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 594523
+    },
+    {
+      "file": "rainfall/rainfall_validation.json",
+      "status": "EXPECTED_ADDITIVE",
+      "detail": "declared additive keys only: all_nan_note, all_nan_window_cells, all_nan_window_pct",
+      "size_bytes": 4355
+    },
+    {
+      "file": "soil/soil_bdod_0-5cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7094806
+    },
+    {
+      "file": "soil/soil_bdod_0-5cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 106810
+    },
+    {
+      "file": "soil/soil_bdod_15-30cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 6831988
+    },
+    {
+      "file": "soil/soil_bdod_15-30cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 100312
+    },
+    {
+      "file": "soil/soil_cec_0-5cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7597650
+    },
+    {
+      "file": "soil/soil_cec_0-5cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 181673
+    },
+    {
+      "file": "soil/soil_cec_15-30cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7631982
+    },
+    {
+      "file": "soil/soil_cec_15-30cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 183293
+    },
+    {
+      "file": "soil/soil_cfvo_0-5cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7868678
+    },
+    {
+      "file": "soil/soil_cfvo_0-5cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 207701
+    },
+    {
+      "file": "soil/soil_cfvo_15-30cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7850698
+    },
+    {
+      "file": "soil/soil_cfvo_15-30cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 210247
+    },
+    {
+      "file": "soil/soil_clay_0-5cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7654139
+    },
+    {
+      "file": "soil/soil_clay_0-5cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 181700
+    },
+    {
+      "file": "soil/soil_clay_15-30cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7555607
+    },
+    {
+      "file": "soil/soil_clay_15-30cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 177386
+    },
+    {
+      "file": "soil/soil_properties.csv",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 1665
+    },
+    {
+      "file": "soil/soil_sand_0-5cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7422075
+    },
+    {
+      "file": "soil/soil_sand_0-5cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 179662
+    },
+    {
+      "file": "soil/soil_sand_15-30cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7408801
+    },
+    {
+      "file": "soil/soil_sand_15-30cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 177926
+    },
+    {
+      "file": "soil/soil_silt_0-5cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7731279
+    },
+    {
+      "file": "soil/soil_silt_0-5cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 195670
+    },
+    {
+      "file": "soil/soil_silt_15-30cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7724391
+    },
+    {
+      "file": "soil/soil_silt_15-30cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 195034
+    },
+    {
+      "file": "soil/soil_soc_0-5cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7998685
+    },
+    {
+      "file": "soil/soil_soc_0-5cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 239056
+    },
+    {
+      "file": "soil/soil_soc_15-30cm_30m_district.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 7894713
+    },
+    {
+      "file": "soil/soil_soc_15-30cm_native250m.tif",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 222840
+    },
+    {
+      "file": "soil/soil_validation.json",
+      "status": "IDENTICAL",
+      "detail": "sha256 equal",
+      "size_bytes": 5412
+    }
+  ]
+}

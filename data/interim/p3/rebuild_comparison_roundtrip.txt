@@ -1,0 +1,83 @@
+baseline: data\interim\p3\roundtrip_backup
+comparing 74 baseline files
+
+file                                               result             detail
+----------------------------------------------------------------------------------------------------------------------------
+additional/additional_layers_validation.json       IDENTICAL          byte-for-byte (4,916 B)
+additional/hydrorivers_wayanad_clip.gpkg [Phase 1 prerequisite] IDENTICAL          byte-for-byte (458,752 B)
+additional/hydrorivers_wayanad_district_32643.gpkg SAME CONTENT       features, attributes and geometry all equal [462,848 -> 462,848 B]
+additional/osm_roads_wayanad_clip.gpkg [Phase 1 prerequisite] IDENTICAL          byte-for-byte (6,144,000 B)
+additional/roads_wayanad_district_32643.gpkg       SAME CONTENT       features, attributes and geometry all equal [6,156,288 -> 6,156,288 B]
+dem/aspect_deg_30m_district.tif                    IDENTICAL          byte-for-byte (8,409,719 B)
+dem/dem_glo30_30m_buf.tif                          IDENTICAL          byte-for-byte (16,347,556 B)
+dem/dem_glo30_30m_district.tif                     IDENTICAL          byte-for-byte (7,670,492 B)
+dem/dem_glo30_mosaic_4326.tif                      IDENTICAL          byte-for-byte (59,770,294 B)
+dem/dem_validation.json                            IDENTICAL          byte-for-byte (9,214 B)
+dem/plan_curv_30m_district.tif                     IDENTICAL          byte-for-byte (8,778,678 B)
+dem/profile_curv_30m_district.tif                  IDENTICAL          byte-for-byte (8,782,307 B)
+dem/slope_deg_30m_district.tif                     IDENTICAL          byte-for-byte (8,405,885 B)
+geology/geology_class_30m_district.tif             IDENTICAL          byte-for-byte (33,790 B)
+geology/geology_class_legend.csv                   IDENTICAL          byte-for-byte (436 B)
+geology/geology_validation.json                    IDENTICAL          byte-for-byte (2,757 B)
+geology/glim_lithology_shares.csv                  IDENTICAL          byte-for-byte (451 B)
+geology/glim_wayanad_clip.gpkg [Phase 1 prerequisite] IDENTICAL          byte-for-byte (131,072 B)
+geology/glim_wayanad_district_32643.gpkg           SAME CONTENT       features, attributes and geometry all equal [118,784 -> 118,784 B]
+geology/glim_wayanad_lithology_summary.csv [Phase 1 prerequisite] IDENTICAL          byte-for-byte (209 B)
+geology/site_lithology_vs_glim.csv                 IDENTICAL          byte-for-byte (6,003 B)
+grid/boundary_diagnostics.json                     IDENTICAL          byte-for-byte (3,802 B)
+grid/district_mask_30m.tif                         IDENTICAL          byte-for-byte (20,796 B)
+grid/grid_spec.json                                IDENTICAL          byte-for-byte (944 B)
+grid/wayanad_gadm_32643.gpkg                       SAME CONTENT       features, attributes and geometry all equal [98,304 -> 98,304 B]
+grid/wayanad_osm_32643.gpkg                        SAME CONTENT       features, attributes and geometry all equal [118,784 -> 118,784 B]
+inputs_metadata.json (raw-input snapshot)          IDENTICAL          byte-for-byte (41,095 B)
+inventory/event_group_point_status.csv             IDENTICAL          byte-for-byte (23,429 B)
+inventory/inventory_spatial_suitability.csv        IDENTICAL          byte-for-byte (182,304 B)
+inventory/inventory_suitability_summary.json       IDENTICAL          byte-for-byte (3,501 B)
+landcover/landcover_class_legend.csv               IDENTICAL          byte-for-byte (474 B)
+landcover/landcover_validation.json                IDENTICAL          byte-for-byte (3,792 B)
+landcover/landcover_worldcover2021_30m_district.tif IDENTICAL          byte-for-byte (149,707 B)
+qa/grid_alignment_report.json                      IDENTICAL          byte-for-byte (32,031 B)
+qa/layer_inventory.csv                             IDENTICAL          byte-for-byte (6,204 B)
+qa/readiness_metrics.json                          IDENTICAL          byte-for-byte (4,638 B)
+rainfall/chirps_annual_district_2000_2025.csv      IDENTICAL          byte-for-byte (764 B)
+rainfall/chirps_monthly_climatology.csv            IDENTICAL          byte-for-byte (153 B)
+rainfall/chirps_monthly_district_2000_2025.csv     IDENTICAL          byte-for-byte (6,107 B)
+rainfall/chirps_summary_native_0p05deg.tif         IDENTICAL          byte-for-byte (14,956 B)
+rainfall/rainfall_annual_mean_30m_district.tif     IDENTICAL          byte-for-byte (83,968 B)
+rainfall/rainfall_jjas_mean_30m_district.tif       IDENTICAL          byte-for-byte (83,995 B)
+rainfall/rainfall_monthly_climatology_30m_district.tif IDENTICAL          byte-for-byte (594,523 B)
+rainfall/rainfall_validation.json                  SAME CONTENT       same content; ignored volatile: file_reads.elapsed_s [4,355 -> 4,355 B]
+soil/soil_bdod_0-5cm_30m_district.tif              IDENTICAL          byte-for-byte (7,094,806 B)
+soil/soil_bdod_0-5cm_native250m.tif                IDENTICAL          byte-for-byte (106,810 B)
+soil/soil_bdod_15-30cm_30m_district.tif            IDENTICAL          byte-for-byte (6,831,988 B)
+soil/soil_bdod_15-30cm_native250m.tif              IDENTICAL          byte-for-byte (100,312 B)
+soil/soil_cec_0-5cm_30m_district.tif               IDENTICAL          byte-for-byte (7,597,650 B)
+soil/soil_cec_0-5cm_native250m.tif                 IDENTICAL          byte-for-byte (181,673 B)
+soil/soil_cec_15-30cm_30m_district.tif             IDENTICAL          byte-for-byte (7,631,982 B)
+soil/soil_cec_15-30cm_native250m.tif               IDENTICAL          byte-for-byte (183,293 B)
+soil/soil_cfvo_0-5cm_30m_district.tif              IDENTICAL          byte-for-byte (7,868,678 B)
+soil/soil_cfvo_0-5cm_native250m.tif                IDENTICAL          byte-for-byte (207,701 B)
+soil/soil_cfvo_15-30cm_30m_district.tif            IDENTICAL          byte-for-byte (7,850,698 B)
+soil/soil_cfvo_15-30cm_native250m.tif              IDENTICAL          byte-for-byte (210,247 B)
+soil/soil_clay_0-5cm_30m_district.tif              IDENTICAL          byte-for-byte (7,654,139 B)
+soil/soil_clay_0-5cm_native250m.tif                IDENTICAL          byte-for-byte (181,700 B)
+soil/soil_clay_15-30cm_30m_district.tif            IDENTICAL          byte-for-byte (7,555,607 B)
+soil/soil_clay_15-30cm_native250m.tif              IDENTICAL          byte-for-byte (177,386 B)
+soil/soil_properties.csv                           IDENTICAL          byte-for-byte (1,665 B)
+soil/soil_sand_0-5cm_30m_district.tif              IDENTICAL          byte-for-byte (7,422,075 B)
+soil/soil_sand_0-5cm_native250m.tif                IDENTICAL          byte-for-byte (179,662 B)
+soil/soil_sand_15-30cm_30m_district.tif            IDENTICAL          byte-for-byte (7,408,801 B)
+soil/soil_sand_15-30cm_native250m.tif              IDENTICAL          byte-for-byte (177,926 B)
+soil/soil_silt_0-5cm_30m_district.tif              IDENTICAL          byte-for-byte (7,731,279 B)
+soil/soil_silt_0-5cm_native250m.tif                IDENTICAL          byte-for-byte (195,670 B)
+soil/soil_silt_15-30cm_30m_district.tif            IDENTICAL          byte-for-byte (7,724,391 B)
+soil/soil_silt_15-30cm_native250m.tif              IDENTICAL          byte-for-byte (195,034 B)
+soil/soil_soc_0-5cm_30m_district.tif               IDENTICAL          byte-for-byte (7,998,685 B)
+soil/soil_soc_0-5cm_native250m.tif                 IDENTICAL          byte-for-byte (239,056 B)
+soil/soil_soc_15-30cm_30m_district.tif             IDENTICAL          byte-for-byte (7,894,713 B)
+soil/soil_soc_15-30cm_native250m.tif               IDENTICAL          byte-for-byte (222,840 B)
+soil/soil_validation.json                          IDENTICAL          byte-for-byte (5,412 B)
+----------------------------------------------------------------------------------------------------------------------------
+counts: IDENTICAL=68, SAME CONTENT=6
+written -> data\interim\p3\rebuild_comparison_roundtrip.json
+PASSED: every baseline file is reproduced or declared

@@ -124,9 +124,16 @@ check("event table has one row per dated record",
 print("\n--- manifest ---")
 with open(MAIN / "docs" / "data_manifest.csv", encoding="utf-8") as f:
     man = list(csv.DictReader(f))
-check("manifest datasets", len(man), 28)
+# Phase 2 registered 28 datasets; Phase 3 appends derived products. What must hold
+# is that every Phase 2 dataset is still present and no id is duplicated -- not
+# that the file never grows.
+P2_IDS = {f"DEM-0{i}" for i in (1, 2, 3)} | {"LC-01", "RF-01", "GEO-01", "GEO-02",
+                                             "BND-01", "BND-02", "BND-03",
+                                             "ADD-01", "ADD-02"} | {f"INV-{i:02d}" for i in range(1, 17)}
+ids = {r["dataset_id"] for r in man}
+check("manifest keeps all 28 Phase 2 datasets", len(P2_IDS - ids), 0)
 check("manifest columns", len(man[0]), 16)
-check("manifest unique ids", len({r['dataset_id'] for r in man}), 28)
+check("manifest unique ids", len(ids), len(man))
 
 print("\n" + "=" * 70)
 if fails:

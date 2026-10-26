@@ -1,0 +1,1489 @@
+{
+  "rasters": {
+    "dem_copernicus_E075": {
+      "key": "dem_copernicus_E075",
+      "path": "data\\raw\\dem\\copernicus_glo30\\Copernicus_DSM_COG_10_N11_00_E075_00_DEM.tif",
+      "exists": true,
+      "size_bytes": 20008561,
+      "driver": "GTiff",
+      "width": 3600,
+      "height": 3600,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        74.99986111111112,
+        0.0,
+        -0.0002777777777777778,
+        12.00013888888889
+      ],
+      "bounds": [
+        74.99986111111112,
+        11.00013888888889,
+        75.99986111111112,
+        12.00013888888889
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.0002777777777777778,
+        0.0002777777777777778
+      ],
+      "block_shapes": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "AREA_OR_POINT": "Point"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        3600,
+        3600
+      ],
+      "sample_dtype": "float32",
+      "sample_min": -9.971586227416992,
+      "sample_max": 2043.7474365234375,
+      "sample_n_unique": 4633151,
+      "sample_negative_9999": 0
+    },
+    "dem_copernicus_E076": {
+      "key": "dem_copernicus_E076",
+      "path": "data\\raw\\dem\\copernicus_glo30\\Copernicus_DSM_COG_10_N11_00_E076_00_DEM.tif",
+      "exists": true,
+      "size_bytes": 44177013,
+      "driver": "GTiff",
+      "width": 3600,
+      "height": 3600,
+      "count": 1,
+      "dtype": "float32",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.0002777777777777778,
+        0.0,
+        75.99986111111112,
+        0.0,
+        -0.0002777777777777778,
+        12.00013888888889
+      ],
+      "bounds": [
+        75.99986111111112,
+        11.00013888888889,
+        76.99986111111112,
+        12.00013888888889
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.0002777777777777778,
+        0.0002777777777777778
+      ],
+      "block_shapes": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "AREA_OR_POINT": "Point"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        3600,
+        3600
+      ],
+      "sample_dtype": "float32",
+      "sample_min": 2.5,
+      "sample_max": 2632.650146484375,
+      "sample_n_unique": 9360792,
+      "sample_negative_9999": 0
+    },
+    "landcover_worldcover_2021": {
+      "key": "landcover_worldcover_2021",
+      "path": "data\\raw\\landcover\\ESA_WorldCover_10m_2021_v200_N09E075_Map.tif",
+      "exists": true,
+      "size_bytes": 75590338,
+      "driver": "GTiff",
+      "width": 36000,
+      "height": 36000,
+      "count": 1,
+      "dtype": "uint8",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        8.333333333333333e-05,
+        0.0,
+        75.0,
+        0.0,
+        -8.333333333333333e-05,
+        12.0
+      ],
+      "bounds": [
+        75.0,
+        9.0,
+        78.0,
+        12.0
+      ],
+      "nodata": 0.0,
+      "nodatavals": [
+        0.0
+      ],
+      "res": [
+        8.333333333333333e-05,
+        8.333333333333333e-05
+      ],
+      "block_shapes": [
+        [
+          1024,
+          1024
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "algorithm_version": "V2.0.0",
+        "copyright": "ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium",
+        "creation_time": "2022-10-21 07:35:40.236136",
+        "legend": "10  Tree cover\n20  Shrubland\n30  Grassland\n40  Cropland\n50  Built-up\n60  Bare/sparse vegetation\n70  Snow and ice\n80  Permanent water bodies\n90  Herbaceous wetland\n95  Mangroves\n100 Moss and lichen\n",
+        "license": "CC-BY 4.0 - https://creativecommons.org/licenses/by/4.0/",
+        "product_crs": "EPSG:4326",
+        "product_grid": "3x3 degree tiling grid",
+        "product_tile": "N09E075",
+        "product_type": "LandCover Map",
+        "product_version": "V2.0.0",
+        "reference": "https://esa-worldcover.org",
+        "time_end": "2021-12-31T23:59:59Z",
+        "time_start": "2021-01-01T00:00:00Z",
+        "title": "ESA WorldCover product at 10m resolution for year 2021",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "palette"
+      ],
+      "sample_scale": 18,
+      "sample_shape": [
+        2000,
+        2000
+      ],
+      "sample_dtype": "uint8",
+      "sample_min": 0.0,
+      "sample_max": 95.0,
+      "sample_n_unique": 10,
+      "sample_values": {
+        "0": 887821,
+        "10": 1632541,
+        "20": 43055,
+        "30": 359886,
+        "40": 501008,
+        "50": 79543,
+        "60": 1959,
+        "80": 486999,
+        "90": 6949,
+        "95": 239
+      },
+      "sample_nodata_pixels": 887821,
+      "sample_negative_9999": 0
+    },
+    "soil_bdod_0-5cm_mean_wayanad": {
+      "key": "soil_bdod_0-5cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_bdod_0-5cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 79478,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 138.0,
+      "sample_n_unique": 59,
+      "sample_negative_9999": 0
+    },
+    "soil_bdod_15-30cm_mean_wayanad": {
+      "key": "soil_bdod_15-30cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_bdod_15-30cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 73924,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 141.0,
+      "sample_n_unique": 55,
+      "sample_negative_9999": 0
+    },
+    "soil_cec_0-5cm_mean_wayanad": {
+      "key": "soil_cec_0-5cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_cec_0-5cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 110318,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 332.0,
+      "sample_n_unique": 221,
+      "sample_negative_9999": 0
+    },
+    "soil_cec_15-30cm_mean_wayanad": {
+      "key": "soil_cec_15-30cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_cec_15-30cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 111437,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 345.0,
+      "sample_n_unique": 244,
+      "sample_negative_9999": 0
+    },
+    "soil_cfvo_0-5cm_mean_wayanad": {
+      "key": "soil_cfvo_0-5cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_cfvo_0-5cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 136028,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 352.0,
+      "sample_n_unique": 301,
+      "sample_negative_9999": 0
+    },
+    "soil_cfvo_15-30cm_mean_wayanad": {
+      "key": "soil_cfvo_15-30cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_cfvo_15-30cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 139654,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 376.0,
+      "sample_n_unique": 308,
+      "sample_negative_9999": 0
+    },
+    "soil_clay_0-5cm_mean_wayanad": {
+      "key": "soil_clay_0-5cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_clay_0-5cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 118440,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 391.0,
+      "sample_n_unique": 175,
+      "sample_negative_9999": 0
+    },
+    "soil_clay_15-30cm_mean_wayanad": {
+      "key": "soil_clay_15-30cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_clay_15-30cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 119315,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 476.0,
+      "sample_n_unique": 191,
+      "sample_negative_9999": 0
+    },
+    "soil_sand_0-5cm_mean_wayanad": {
+      "key": "soil_sand_0-5cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_sand_0-5cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 119385,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 550.0,
+      "sample_n_unique": 237,
+      "sample_negative_9999": 0
+    },
+    "soil_sand_15-30cm_mean_wayanad": {
+      "key": "soil_sand_15-30cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_sand_15-30cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 118529,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 510.0,
+      "sample_n_unique": 223,
+      "sample_negative_9999": 0
+    },
+    "soil_silt_0-5cm_mean_wayanad": {
+      "key": "soil_silt_0-5cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_silt_0-5cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 120705,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 409.0,
+      "sample_n_unique": 269,
+      "sample_negative_9999": 0
+    },
+    "soil_silt_15-30cm_mean_wayanad": {
+      "key": "soil_silt_15-30cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_silt_15-30cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 119701,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 387.0,
+      "sample_n_unique": 261,
+      "sample_negative_9999": 0
+    },
+    "soil_soc_0-5cm_mean_wayanad": {
+      "key": "soil_soc_0-5cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_soc_0-5cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 156994,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 1184.0,
+      "sample_n_unique": 862,
+      "sample_negative_9999": 0
+    },
+    "soil_soc_15-30cm_mean_wayanad": {
+      "key": "soil_soc_15-30cm_mean_wayanad",
+      "path": "data\\raw\\soil\\soilgrids250m\\soilgrids_soc_15-30cm_mean_wayanad.tif",
+      "exists": true,
+      "size_bytes": 140175,
+      "driver": "GTiff",
+      "width": 420,
+      "height": 314,
+      "count": 1,
+      "dtype": "int16",
+      "crs": "EPSG:4326",
+      "crs_wkt": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+      "transform": [
+        0.002261904761904793,
+        0.0,
+        75.59999999999998,
+        0.0,
+        -0.002388535031847131,
+        12.0
+      ],
+      "bounds": [
+        75.59999999999998,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "nodata": null,
+      "nodatavals": [
+        null
+      ],
+      "res": [
+        0.002261904761904793,
+        0.002388535031847131
+      ],
+      "block_shapes": [
+        [
+          256,
+          256
+        ]
+      ],
+      "compression": "Compression.deflate",
+      "tags": {
+        "TIFFTAG_XRESOLUTION": "72",
+        "TIFFTAG_YRESOLUTION": "72",
+        "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+        "AREA_OR_POINT": "Area"
+      },
+      "descriptions": [
+        null
+      ],
+      "colorinterp": [
+        "gray"
+      ],
+      "sample_scale": 1,
+      "sample_shape": [
+        314,
+        420
+      ],
+      "sample_dtype": "int16",
+      "sample_min": 0.0,
+      "sample_max": 943.0,
+      "sample_n_unique": 675,
+      "sample_negative_9999": 0
+    }
+  },
+  "vectors": {
+    "boundary_gadm": {
+      "key": "boundary_gadm",
+      "path": "data\\raw\\boundary\\gadm41_IND_2\\gadm41_IND_2.json",
+      "exists": true,
+      "size_bytes": 5118236,
+      "n_features": 676,
+      "crs": "EPSG:4326",
+      "geom_types": [
+        "MultiPolygon"
+      ],
+      "columns": [
+        "GID_2",
+        "GID_0",
+        "COUNTRY",
+        "GID_1",
+        "NAME_1",
+        "NL_NAME_1",
+        "NAME_2",
+        "VARNAME_2",
+        "NL_NAME_2",
+        "TYPE_2",
+        "ENGTYPE_2",
+        "CC_2",
+        "HASC_2",
+        "geometry"
+      ],
+      "dtypes": {
+        "GID_2": "str",
+        "GID_0": "str",
+        "COUNTRY": "str",
+        "GID_1": "str",
+        "NAME_1": "str",
+        "NL_NAME_1": "str",
+        "NAME_2": "str",
+        "VARNAME_2": "str",
+        "NL_NAME_2": "str",
+        "TYPE_2": "str",
+        "ENGTYPE_2": "str",
+        "CC_2": "str",
+        "HASC_2": "str",
+        "geometry": "geometry"
+      },
+      "total_bounds": [
+        68.1862,
+        6.7543,
+        97.4152,
+        35.5013
+      ],
+      "invalid_geoms": 0,
+      "empty_geoms": 0,
+      "null_geoms": 0,
+      "non_null_counts": {
+        "GID_2": 676,
+        "GID_0": 676,
+        "COUNTRY": 676,
+        "GID_1": 676,
+        "NAME_1": 676,
+        "NL_NAME_1": 676,
+        "NAME_2": 676,
+        "VARNAME_2": 676,
+        "NL_NAME_2": 676,
+        "TYPE_2": 676,
+        "ENGTYPE_2": 676,
+        "CC_2": 676,
+        "HASC_2": 676
+      }
+    },
+    "boundary_osm": {
+      "key": "boundary_osm",
+      "path": "data\\raw\\boundary\\osm_nominatim_wayanad.geojson",
+      "exists": true,
+      "size_bytes": 85575,
+      "n_features": 1,
+      "crs": "EPSG:4326",
+      "geom_types": [
+        "Polygon"
+      ],
+      "columns": [
+        "display_name",
+        "osm_type",
+        "osm_id",
+        "class",
+        "type",
+        "boundingbox",
+        "geometry"
+      ],
+      "dtypes": {
+        "display_name": "str",
+        "osm_type": "str",
+        "osm_id": "int32",
+        "class": "str",
+        "type": "str",
+        "boundingbox": "object",
+        "geometry": "geometry"
+      },
+      "total_bounds": [
+        75.773149,
+        11.451361,
+        76.4435318,
+        11.9786826
+      ],
+      "invalid_geoms": 0,
+      "empty_geoms": 0,
+      "null_geoms": 0,
+      "non_null_counts": {
+        "display_name": 1,
+        "osm_type": 1,
+        "osm_id": 1,
+        "class": 1,
+        "type": 1,
+        "boundingbox": 1
+      }
+    },
+    "roads_osm_raw": {
+      "key": "roads_osm_raw",
+      "path": "data\\raw\\additional\\osm_roads_wayanad.geojson",
+      "exists": true,
+      "size_bytes": 14072749,
+      "n_features": 24063,
+      "crs": "EPSG:4326",
+      "geom_types": [
+        "LineString"
+      ],
+      "columns": [
+        "highway",
+        "name",
+        "ref",
+        "surface",
+        "geometry"
+      ],
+      "dtypes": {
+        "highway": "str",
+        "name": "str",
+        "ref": "str",
+        "surface": "str",
+        "geometry": "geometry"
+      },
+      "total_bounds": [
+        75.6848292,
+        11.3417501,
+        76.4924135,
+        12.0638353
+      ],
+      "invalid_geoms": 0,
+      "empty_geoms": 0,
+      "null_geoms": 0,
+      "non_null_counts": {
+        "highway": 24063,
+        "name": 2014,
+        "ref": 779,
+        "surface": 2491
+      }
+    },
+    "hydrorivers_raw": {
+      "key": "hydrorivers_raw",
+      "path": "data\\raw\\additional\\hydrorivers\\HydroRIVERS_v10_as_shp\\HydroRIVERS_v10_as.shp",
+      "exists": true,
+      "size_bytes": 207445068,
+      "n_features": 1428959,
+      "crs": "EPSG:4326",
+      "geom_types": [
+        "LineString"
+      ],
+      "columns": [
+        "HYRIV_ID",
+        "NEXT_DOWN",
+        "MAIN_RIV",
+        "LENGTH_KM",
+        "DIST_DN_KM",
+        "DIST_UP_KM",
+        "CATCH_SKM",
+        "UPLAND_SKM",
+        "ENDORHEIC",
+        "DIS_AV_CMS",
+        "ORD_STRA",
+        "ORD_CLAS",
+        "ORD_FLOW",
+        "HYBAS_L12",
+        "geometry"
+      ],
+      "dtypes": {
+        "HYRIV_ID": "int32",
+        "NEXT_DOWN": "int32",
+        "MAIN_RIV": "int32",
+        "LENGTH_KM": "float64",
+        "DIST_DN_KM": "float64",
+        "DIST_UP_KM": "float64",
+        "CATCH_SKM": "float64",
+        "UPLAND_SKM": "float64",
+        "ENDORHEIC": "int32",
+        "DIS_AV_CMS": "float64",
+        "ORD_STRA": "int32",
+        "ORD_CLAS": "int32",
+        "ORD_FLOW": "int32",
+        "HYBAS_L12": "int64",
+        "geometry": "geometry"
+      },
+      "total_bounds": [
+        57.63958333333335,
+        1.2729166666666387,
+        150.4687499999985,
+        55.89999999999909
+      ],
+      "invalid_geoms": 0,
+      "empty_geoms": 0,
+      "null_geoms": 0,
+      "non_null_counts": {
+        "HYRIV_ID": 1428959,
+        "NEXT_DOWN": 1428959,
+        "MAIN_RIV": 1428959,
+        "LENGTH_KM": 1428959,
+        "DIST_DN_KM": 1428959,
+        "DIST_UP_KM": 1428959,
+        "CATCH_SKM": 1428959,
+        "UPLAND_SKM": 1428959,
+        "ENDORHEIC": 1428959,
+        "DIS_AV_CMS": 1428959,
+        "ORD_STRA": 1428959,
+        "ORD_CLAS": 1428959,
+        "ORD_FLOW": 1428959,
+        "HYBAS_L12": 1428959
+      }
+    },
+    "geology_clip": {
+      "key": "geology_clip",
+      "path": "data\\processed\\geology\\glim_wayanad_clip.gpkg",
+      "exists": true,
+      "size_bytes": 131072,
+      "n_features": 29,
+      "crs": "EPSG:4326",
+      "geom_types": [
+        "MultiPolygon"
+      ],
+      "columns": [
+        "IDENTITY_",
+        "Litho",
+        "xx",
+        "Shape_Length",
+        "Shape_Area",
+        "geometry"
+      ],
+      "dtypes": {
+        "IDENTITY_": "str",
+        "Litho": "str",
+        "xx": "str",
+        "Shape_Length": "float64",
+        "Shape_Area": "float64",
+        "geometry": "geometry"
+      },
+      "total_bounds": [
+        75.7222,
+        11.3927,
+        76.48559999999999,
+        12.0206
+      ],
+      "invalid_geoms": 0,
+      "empty_geoms": 0,
+      "null_geoms": 0,
+      "non_null_counts": {
+        "IDENTITY_": 29,
+        "Litho": 29,
+        "xx": 29,
+        "Shape_Length": 29,
+        "Shape_Area": 29
+      }
+    },
+    "roads_clip": {
+      "key": "roads_clip",
+      "path": "data\\processed\\additional\\osm_roads_wayanad_clip.gpkg",
+      "exists": true,
+      "size_bytes": 6144000,
+      "n_features": 13169,
+      "crs": "EPSG:4326",
+      "geom_types": [
+        "MultiLineString"
+      ],
+      "columns": [
+        "highway",
+        "name",
+        "ref",
+        "surface",
+        "geometry"
+      ],
+      "dtypes": {
+        "highway": "str",
+        "name": "str",
+        "ref": "str",
+        "surface": "str",
+        "geometry": "geometry"
+      },
+      "total_bounds": [
+        75.7803935,
+        11.467634849742842,
+        76.4330358498372,
+        11.9565831
+      ],
+      "invalid_geoms": 0,
+      "empty_geoms": 0,
+      "null_geoms": 0,
+      "non_null_counts": {
+        "highway": 13169,
+        "name": 1095,
+        "ref": 516,
+        "surface": 1426
+      }
+    },
+    "hydrorivers_clip": {
+      "key": "hydrorivers_clip",
+      "path": "data\\processed\\additional\\hydrorivers_wayanad_clip.gpkg",
+      "exists": true,
+      "size_bytes": 458752,
+      "n_features": 1298,
+      "crs": "EPSG:4326",
+      "geom_types": [
+        "MultiLineString"
+      ],
+      "columns": [
+        "HYRIV_ID",
+        "NEXT_DOWN",
+        "MAIN_RIV",
+        "LENGTH_KM",
+        "DIST_DN_KM",
+        "DIST_UP_KM",
+        "CATCH_SKM",
+        "UPLAND_SKM",
+        "ENDORHEIC",
+        "DIS_AV_CMS",
+        "ORD_STRA",
+        "ORD_CLAS",
+        "ORD_FLOW",
+        "HYBAS_L12",
+        "geometry"
+      ],
+      "dtypes": {
+        "HYRIV_ID": "int32",
+        "NEXT_DOWN": "int32",
+        "MAIN_RIV": "int32",
+        "LENGTH_KM": "float64",
+        "DIST_DN_KM": "float64",
+        "DIST_UP_KM": "float64",
+        "CATCH_SKM": "float64",
+        "UPLAND_SKM": "float64",
+        "ENDORHEIC": "int32",
+        "DIS_AV_CMS": "float64",
+        "ORD_STRA": "int32",
+        "ORD_CLAS": "int32",
+        "ORD_FLOW": "int32",
+        "HYBAS_L12": "int64",
+        "geometry": "geometry"
+      },
+      "total_bounds": [
+        75.6,
+        11.25,
+        76.55,
+        12.0
+      ],
+      "invalid_geoms": 0,
+      "empty_geoms": 0,
+      "null_geoms": 0,
+      "non_null_counts": {
+        "HYRIV_ID": 1298,
+        "NEXT_DOWN": 1298,
+        "MAIN_RIV": 1298,
+        "LENGTH_KM": 1298,
+        "DIST_DN_KM": 1298,
+        "DIST_UP_KM": 1298,
+        "CATCH_SKM": 1298,
+        "UPLAND_SKM": 1298,
+        "ENDORHEIC": 1298,
+        "DIS_AV_CMS": 1298,
+        "ORD_STRA": 1298,
+        "ORD_CLAS": 1298,
+        "ORD_FLOW": 1298,
+        "HYBAS_L12": 1298
+      }
+    }
+  },
+  "chirps_file_count": 312
+}

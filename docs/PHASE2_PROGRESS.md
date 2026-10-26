@@ -50,8 +50,10 @@ Checkpoints are appended as work proceeds. If interrupted, resume from the last 
 - [x] `docs/INVENTORY_VERIFICATION_REPORT.md`
 - [x] data_sources / manifest / acquisition report / quality report / README updated
 - [x] `data/file_inventory.csv` regenerated (431 raw files, 7,808.5 MB)
-- [x] `scripts/p2_check_consistency.py` — 60 assertions tying every number quoted in
-      the docs to the CSVs on disk; all pass
+- [x] `scripts/p2_check_consistency.py` — 68 assertions tying every number quoted in
+      the docs to the CSVs on disk; all pass *(originally recorded here as 60; the committed
+      script actually runs 68, 66 passing and 2 failing against the manifest as Phase 3 later
+      grew it — corrected during the Phase 3 verification pass)*
 
 ## Stage 8 — Corrections found by the QA pass — DONE
 

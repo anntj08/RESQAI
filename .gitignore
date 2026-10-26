@@ -4,6 +4,14 @@ data/processed/**
 data/interim/gsi_pdf_text/
 data/interim/table_review.txt
 
+# Phase 3 working snapshots: full copies of data/processed/ and of the Phase 2 inventory
+# products, kept only so a byte comparison can be run locally. Hundreds of MB of derived
+# data that the pipeline can regenerate; the sha256 manifests they are compared against
+# (data/file_inventory.csv, data/interim/p3/inventory_hashes_before.json) ARE committed.
+data/interim/p3/rebuild_backup/
+data/interim/p3/roundtrip_backup/
+data/interim/p3/inventory_backup/
+
 # Large binary formats, wherever they appear
 *.tif
 *.tiff
