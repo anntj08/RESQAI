@@ -133,9 +133,8 @@ Phase 5 baseline complete and verified (unchanged). A second susceptibility prod
 on disk as a **reference only**: GSI 2022 Wayanad LSZ (3 dissolved class polygons, EPSG:32643,
 KSDMA-clip boundary), manifest `LSZ-01`, `DOWNLOADED_NOT_FULLY_VALIDATED`, kept strictly apart
 from geology `GEO-01`/`GEO-02`, Phase 3 predictors, Phase 4 sampling and Phase 5 model/map
-outputs. Commit of this run: **pinned in one line below** — git log entry "LSZ-01: KSDMA
-GSI-2022 Wayanad susceptibility zones acquired and validated" carries the work + this report;
-a one-line follow-up commit pins the hash here.
+outputs. Commit of this run: **`99298f5`** (work + this report; a one-line follow-up pins the
+hash).
 
 ## 7. Next-step handoff (prompt material)
 
