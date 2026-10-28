@@ -1,0 +1,218 @@
+{
+  "layer": "data\\interim\\lsz_reference\\extracted\\Wayanad\\Wayanad_GSI_LS.shp",
+  "validity_and_area_sensitivity": [
+    {
+      "susceptibi": "High",
+      "is_valid_raw": false,
+      "explanation": null,
+      "area_raw_km2": 80.8611,
+      "area_buffer0_km2": 80.8611,
+      "n_parts_raw": 1366,
+      "n_parts_buffer0": 1366
+    },
+    {
+      "susceptibi": "Low",
+      "is_valid_raw": false,
+      "explanation": null,
+      "area_raw_km2": 1636.2242,
+      "area_buffer0_km2": 1636.2242,
+      "n_parts_raw": 1287,
+      "n_parts_buffer0": 1287
+    },
+    {
+      "susceptibi": "Moderate",
+      "is_valid_raw": false,
+      "explanation": null,
+      "area_raw_km2": 401.6119,
+      "area_buffer0_km2": 401.6119,
+      "n_parts_raw": 6769,
+      "n_parts_buffer0": 6769
+    }
+  ],
+  "area_totals": {
+    "raw_sum_km2": 2118.6972,
+    "buffer0_sum_km2": 2118.6972,
+    "delta_km2": 0.0
+  },
+  "gadm_minus_lsz": {
+    "n_parts": 27,
+    "total_km2": 85.0834,
+    "largest_parts": [
+      {
+        "area_km2": 25.6074,
+        "bbox_wgs84": [
+          604476.4765,
+          1278775.3786,
+          597231.2488,
+          1270904.9299,
+          615916.0427,
+          1290717.5602
+        ],
+        "centroid_wgs84_note": "first two values are centroid lon/lat",
+        "n_vertices": 648
+      },
+      {
+        "area_km2": 13.7935,
+        "bbox_wgs84": [
+          592768.6484,
+          1294547.9306,
+          586116.5464,
+          1291592.6545,
+          599869.0085,
+          1298169.879
+        ],
+        "centroid_wgs84_note": "first two values are centroid lon/lat",
+        "n_vertices": 369
+      },
+      {
+        "area_km2": 8.8417,
+        "bbox_wgs84": [
+          622075.6538,
+          1267564.9047,
+          618175.7648,
+          1265173.1376,
+          626650.7066,
+          1269952.8371
+        ],
+        "centroid_wgs84_note": "first two values are centroid lon/lat",
+        "n_vertices": 165
+      },
+      {
+        "area_km2": 6.6125,
+        "bbox_wgs84": [
+          640103.182,
+          1280728.8612,
+          634433.2454,
+          1278696.8984,
+          642949.7473,
+          1282710.1231
+        ],
+        "centroid_wgs84_note": "first two values are centroid lon/lat",
+        "n_vertices": 229
+      },
+      {
+        "area_km2": 4.3047,
+        "bbox_wgs84": [
+          646675.2937,
+          1281372.467,
+          643627.8635,
+          1280264.2791,
+          649479.0524,
+          1282621.5534
+        ],
+        "centroid_wgs84_note": "first two values are centroid lon/lat",
+        "n_vertices": 157
+      },
+      {
+        "area_km2": 4.2683,
+        "bbox_wgs84": [
+          601246.9095,
+          1316430.6623,
+          600120.3628,
+          1313476.4654,
+          602348.2655,
+          1319302.0627
+        ],
+        "centroid_wgs84_note": "first two values are centroid lon/lat",
+        "n_vertices": 139
+      }
+    ]
+  },
+  "lsz_minus_gadm": {
+    "n_parts": 27,
+    "total_km2": 82.7885,
+    "largest_parts": [
+      {
+        "area_km2": 39.657,
+        "bbox_wgs84": [
+          631481.619,
+          1308885.6622,
+          613462.2826,
+          1297103.6266,
+          647439.8377,
+          1324142.2444
+        ],
+        "centroid_wgs84_note": "first two values are centroid lon/lat",
+        "n_vertices": 809
+      },
+      {
+        "area_km2": 9.6932,
+        "bbox_wgs84": [
+          594144.9418,
+          1309499.0004,
+          587812.1344,
+          1308307.1467,
+          600551.7715,
+          1310874.2246
+        ],
+        "centroid_wgs84_note": "first two values are centroid lon/lat",
+        "n_vertices": 264
+      },
+      {
+        "area_km2": 8.793,
+        "bbox_wgs84": [
+          654709.6292,
+          1290427.5901,
+          652190.1757,
+          1286708.3879,
+          657346.1031,
+          1294512.4582
+        ],
+        "centroid_wgs84_note": "first two values are centroid lon/lat",
+        "n_vertices": 231
+      },
+      {
+        "area_km2": 6.9523,
+        "bbox_wgs84": [
+          652401.8684,
+          1298190.6341,
+          647778.1678,
+          1295845.896,
+          655557.0579,
+          1300161.8076
+        ],
+        "centroid_wgs84_note": "first two values are centroid lon/lat",
+        "n_vertices": 201
+      },
+      {
+        "area_km2": 5.3997,
+        "bbox_wgs84": [
+          605352.616,
+          1319151.7906,
+          600981.5349,
+          1318301.1408,
+          609140.2903,
+          1320081.1183
+        ],
+        "centroid_wgs84_note": "first two values are centroid lon/lat",
+        "n_vertices": 139
+      },
+      {
+        "area_km2": 4.8318,
+        "bbox_wgs84": [
+          635024.782,
+          1276818.1679,
+          633648.4264,
+          1274499.8158,
+          636319.3933,
+          1279205.719
+        ],
+        "centroid_wgs84_note": "first two values are centroid lon/lat",
+        "n_vertices": 106
+      }
+    ]
+  },
+  "osm_minus_lsz": {
+    "n_parts_total_km2": 19.75
+  },
+  "boundary_alignment_vs_gadm": {
+    "sampled_lsz_boundary_vertices": 1506,
+    "median_m": 693.6,
+    "p95_m": 1123.0,
+    "max_m": 1456.0,
+    "share_within_100m": 0.0637,
+    "share_within_250m": 0.1733
+  },
+  "shp_xml_bytes": 7337,
+  "shp_xml_key_fields": {}
+}

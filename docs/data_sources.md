@@ -90,7 +90,13 @@ Wayanad bbox into `data/processed/geology/` (29 polygons in bbox, 16 intersectin
   (`sdma.kerala.gov.in/hazard-maps/`, fetched 2026-10-28) hosts the **GSI 2022 landslide
   susceptibility zone shapefiles per district, including `Wayanad.zip`** — a
   susceptibility product from GSI's NLSM programme (1:50K macro-scale), not a geological
-  map; it was not downloaded in this run (out of scope). The only 1:50K geological
+  map. It was **downloaded as a separate reference/comparison dataset in
+  `RUN-2026-10-28-05`** (manifest `LSZ-01`,
+  `data/raw/landslide_susceptibility_reference/Wayanad.zip`, status
+  `DOWNLOADED_NOT_FULLY_VALIDATED`; measured coverage vs GADM 4.1 = 95.99 % with the
+  shortfall being boundary-line disagreement with the KSDMA clip boundary, zero interior
+  holes; never a predictor or model input — see the manifest row and
+  `reports/RUN-2026-10-28-05_ksdma-lsz-reference.md`). The only 1:50K geological
   information on disk remains the **map plates inside the held GSI report PDFs**
   (14767/14768/14999) — reference only, not analysis-ready.
 

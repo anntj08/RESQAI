@@ -1,0 +1,28 @@
+{
+  "fetched_at_utc": "2026-10-28T17:57:33+00:00",
+  "source_page": "https://sdma.kerala.gov.in/hazard-maps/",
+  "page_row": "Landslide Susceptibility zones of District of Kerala (GSI, 2022)- Shape files",
+  "page_item": "11. Wayanad",
+  "product": "GSI 2022 landslide susceptibility zones (Wayanad district) - reference/comparison dataset only; NOT geology, NOT a model input",
+  "url": "https://sdma.kerala.gov.in/wp-content/uploads/2025/08/Wayanad.zip",
+  "effective_url": "https://sdma.kerala.gov.in/wp-content/uploads/2025/08/Wayanad.zip",
+  "http_status": 200,
+  "headers": {
+    "Date": "Wed, 28 Oct 2026 17:57:30 GMT",
+    "Server": "",
+    "Last-Modified": "Thu, 21 Aug 2025 09:32:15 GMT",
+    "ETag": "\"2ee221-63cdcc3c685ce\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "3072545",
+    "Connection": "Keep-Alive",
+    "Content-Type": "application/zip"
+  },
+  "bytes_downloaded": 3072545,
+  "size_mb": 2.93,
+  "sha256": "e5da8e031c0523a8f98a1086f4c13ebaad76721cd2afd34e6a20b35556037e2f",
+  "magic_zip_ok": true,
+  "content_length_header": "3072545",
+  "content_length_matches": true,
+  "saved_to": "data\\raw\\landslide_susceptibility_reference\\Wayanad.zip",
+  "note": "original preserved unchanged under data/raw/; extracted working copies belong in data/interim/lsz_reference/ only"
+}

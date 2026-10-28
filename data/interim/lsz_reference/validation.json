@@ -1,0 +1,236 @@
+{
+  "checked_at_utc": "2026-10-28T17:58:37+00:00",
+  "zip": {
+    "path": "data\\raw\\landslide_susceptibility_reference\\Wayanad.zip",
+    "size_bytes": 3072545,
+    "sha256": "e5da8e031c0523a8f98a1086f4c13ebaad76721cd2afd34e6a20b35556037e2f",
+    "sha256_matches_fetch_evidence": true,
+    "crc_test_all_ok": true,
+    "crc_first_bad_member": null,
+    "n_members": 7,
+    "members": [
+      {
+        "name": "Wayanad/",
+        "size": 0,
+        "compressed": 0,
+        "date_time": [
+          2025,
+          8,
+          21,
+          14,
+          55,
+          24
+        ]
+      },
+      {
+        "name": "Wayanad/Wayanad_GSI_LS.cpg",
+        "size": 5,
+        "compressed": 5,
+        "date_time": [
+          2025,
+          8,
+          15,
+          20,
+          39,
+          22
+        ]
+      },
+      {
+        "name": "Wayanad/Wayanad_GSI_LS.dbf",
+        "size": 93,
+        "compressed": 55,
+        "date_time": [
+          2025,
+          8,
+          15,
+          20,
+          39,
+          22
+        ]
+      },
+      {
+        "name": "Wayanad/Wayanad_GSI_LS.prj",
+        "size": 401,
+        "compressed": 256,
+        "date_time": [
+          2025,
+          8,
+          15,
+          20,
+          39,
+          20
+        ]
+      },
+      {
+        "name": "Wayanad/Wayanad_GSI_LS.shp",
+        "size": 4169604,
+        "compressed": 3068687,
+        "date_time": [
+          2025,
+          8,
+          15,
+          20,
+          39,
+          22
+        ]
+      },
+      {
+        "name": "Wayanad/Wayanad_GSI_LS.shp.xml",
+        "size": 7338,
+        "compressed": 2327,
+        "date_time": [
+          2025,
+          8,
+          15,
+          20,
+          39,
+          22
+        ]
+      },
+      {
+        "name": "Wayanad/Wayanad_GSI_LS.shx",
+        "size": 124,
+        "compressed": 73,
+        "date_time": [
+          2025,
+          8,
+          15,
+          20,
+          39,
+          22
+        ]
+      }
+    ],
+    "shapefiles_found": [
+      "Wayanad\\Wayanad_GSI_LS.shp"
+    ],
+    "gdb_dirs_found": []
+  },
+  "layers": [
+    {
+      "file": "Wayanad\\Wayanad_GSI_LS.shp",
+      "features": 3,
+      "crs": "EPSG:32643",
+      "crs_is_geographic": false,
+      "geometry_types": [
+        "MultiPolygon"
+      ],
+      "invalid_geometries": 3,
+      "null_geometries": 0,
+      "bounds_native": [
+        584398.8285000008,
+        1266059.9519999987,
+        657346.1030999997,
+        1324142.2444000002
+      ],
+      "bounds_wgs84": [
+        75.77471923232774,
+        11.450688351601194,
+        76.44340010938915,
+        11.975986513760759
+      ],
+      "columns": [
+        {
+          "name": "Susceptibi",
+          "dtype": "str"
+        }
+      ],
+      "sample_attributes": [
+        {
+          "Susceptibi": "High"
+        },
+        {
+          "Susceptibi": "Low"
+        },
+        {
+          "Susceptibi": "Moderate"
+        }
+      ],
+      "class_distributions": [
+        {
+          "column": "Susceptibi",
+          "n_unique": 3,
+          "values": [
+            {
+              "value": "High",
+              "n_features": 1,
+              "area_km2": 80.8611
+            },
+            {
+              "value": "Low",
+              "n_features": 1,
+              "area_km2": 1636.2242
+            },
+            {
+              "value": "Moderate",
+              "n_features": 1,
+              "area_km2": 401.6119
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "union": {
+    "area_km2": 2118.6972,
+    "parts_unioned": 3,
+    "note": "raw geometries"
+  },
+  "coverage": {
+    "gadm_wayanad": {
+      "features": 1,
+      "area_km2": 2120.9922
+    },
+    "osm_wayanad": {
+      "features": 1,
+      "area_km2": 2128.5519
+    },
+    "method_b_vector_gadm": {
+      "lsz_intersection_km2": 2035.9088,
+      "fraction_of_district": 0.959885,
+      "lsz_outside_gadm_km2": 82.7885
+    },
+    "method_c_vector_osm_supplementary": {
+      "lsz_intersection_km2": 2108.8019,
+      "fraction_of_district": 0.990721
+    },
+    "district_mask": {
+      "path": "data\\processed\\grid\\district_mask_30m.tif",
+      "crs": "EPSG:32643",
+      "shape": [
+        2013,
+        2480
+      ],
+      "cell_values": [
+        0,
+        1
+      ],
+      "district_cells": 2356538,
+      "district_area_km2": 2120.88
+    },
+    "method_a_raster_mask_30m_alltouched_false": {
+      "lsz_cells_inside_district": 2261996,
+      "fraction_of_district_cells": 0.959881
+    },
+    "method_a_raster_mask_30m_alltouched_true": {
+      "lsz_cells_inside_district": 2264924,
+      "fraction_of_district_cells": 0.961123
+    }
+  },
+  "value_plausibility": {
+    "wayanad_reference_bbox_wgs84": [
+      75.7722,
+      11.4427,
+      76.4356,
+      11.9706
+    ],
+    "lsz_bounds_wgs84": [
+      75.77471923232774,
+      11.450688351601194,
+      76.44340010938915,
+      11.975986513760759
+    ],
+    "lsz_overlaps_district_bbox": true,
+    "note": "susceptibility zoning estimates where conditions favour failure; not a forecast, warning or timing prediction"
+  }
+}

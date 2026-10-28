@@ -103,7 +103,9 @@ Scripts (all re-runnable, all read the config): `scripts/p4_eligibility.py`,
 `p4_sample_background.py`, `p4_spatial_folds.py`, `p4_sensitivity.py`, `p4_verify.py`,
 `p4_check_consistency.py`. Diagnostics: `data/interim/p4/` (sensitivity.json, verify_p4.json,
 exploration scripts). Manifest rows **P4-01…P4-06** added; `docs/data_manifest.csv` now has
-**43 datasets**. Companion decision documents: `docs/MODELLING_TARGET_DECISIONS.md`,
+**43 datasets** (44 datasets since RUN-2026-10-28-05 added the separate KSDMA-hosted GSI-2022
+Wayanad LSZ reference row, `LSZ-01` — a comparison dataset, not a predictor). Companion decision
+documents: `docs/MODELLING_TARGET_DECISIONS.md`,
 `docs/SAMPLING_STRATEGY_REPORT.md`, `docs/SPATIAL_VALIDATION_REPORT.md`.
 
 ## 4. Verification results (confirmed)

@@ -1,0 +1,404 @@
+{
+  "gadm_minus_lsz": {
+    "n_parts": 27,
+    "n_parts_touching_boundary": 27,
+    "n_interior_parts": 0,
+    "total_km2": 85.0834,
+    "parts": [
+      {
+        "area_km2": 25.6074,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 604476.4765,
+        "centroid_wgs84_lat": 1278775.3786
+      },
+      {
+        "area_km2": 13.7935,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 592768.6484,
+        "centroid_wgs84_lat": 1294547.9306
+      },
+      {
+        "area_km2": 8.8417,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 622075.6538,
+        "centroid_wgs84_lat": 1267564.9047
+      },
+      {
+        "area_km2": 6.6125,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 640103.182,
+        "centroid_wgs84_lat": 1280728.8612
+      },
+      {
+        "area_km2": 4.3047,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 646675.2937,
+        "centroid_wgs84_lat": 1281372.467
+      },
+      {
+        "area_km2": 4.2683,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 601246.9095,
+        "centroid_wgs84_lat": 1316430.6623
+      },
+      {
+        "area_km2": 4.1887,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 618047.4917,
+        "centroid_wgs84_lat": 1272240.863
+      },
+      {
+        "area_km2": 3.9756,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 653534.1746,
+        "centroid_wgs84_lat": 1285906.9903
+      },
+      {
+        "area_km2": 2.8389,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 585549.7496,
+        "centroid_wgs84_lat": 1303339.9459
+      },
+      {
+        "area_km2": 2.4967,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 600381.9135,
+        "centroid_wgs84_lat": 1311230.2579
+      },
+      {
+        "area_km2": 2.1823,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 586329.4455,
+        "centroid_wgs84_lat": 1307503.8043
+      },
+      {
+        "area_km2": 2.0344,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 586120.3486,
+        "centroid_wgs84_lat": 1299112.8126
+      },
+      {
+        "area_km2": 0.9934,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 634774.0938,
+        "centroid_wgs84_lat": 1274103.5836
+      },
+      {
+        "area_km2": 0.8311,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 653489.264,
+        "centroid_wgs84_lat": 1294913.0661
+      },
+      {
+        "area_km2": 0.7774,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 631693.4316,
+        "centroid_wgs84_lat": 1272087.5436
+      },
+      {
+        "area_km2": 0.5245,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 585798.3944,
+        "centroid_wgs84_lat": 1300933.7485
+      },
+      {
+        "area_km2": 0.3613,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 627939.129,
+        "centroid_wgs84_lat": 1267605.3232
+      },
+      {
+        "area_km2": 0.2445,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 587486.1936,
+        "centroid_wgs84_lat": 1309699.8794
+      },
+      {
+        "area_km2": 0.1135,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 654459.2697,
+        "centroid_wgs84_lat": 1295503.5352
+      },
+      {
+        "area_km2": 0.0415,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 609329.1204,
+        "centroid_wgs84_lat": 1319110.1558
+      },
+      {
+        "area_km2": 0.0362,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 656331.7533,
+        "centroid_wgs84_lat": 1286539.7829
+      },
+      {
+        "area_km2": 0.0097,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 647627.5204,
+        "centroid_wgs84_lat": 1297995.2163
+      },
+      {
+        "area_km2": 0.0022,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 654223.2581,
+        "centroid_wgs84_lat": 1295123.6753
+      },
+      {
+        "area_km2": 0.002,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 598748.4313,
+        "centroid_wgs84_lat": 1291152.4492
+      },
+      {
+        "area_km2": 0.0005,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 654158.7386,
+        "centroid_wgs84_lat": 1295080.4691
+      },
+      {
+        "area_km2": 0.0004,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 656184.8551,
+        "centroid_wgs84_lat": 1286244.69
+      },
+      {
+        "area_km2": 0.0002,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 613454.5726,
+        "centroid_wgs84_lat": 1320492.2387
+      }
+    ]
+  },
+  "lsz_minus_gadm": {
+    "n_parts": 27,
+    "n_parts_touching_boundary": 27,
+    "n_interior_parts": 0,
+    "total_km2": 82.7885,
+    "parts": [
+      {
+        "area_km2": 39.657,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 631481.619,
+        "centroid_wgs84_lat": 1308885.6622
+      },
+      {
+        "area_km2": 9.6932,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 594144.9418,
+        "centroid_wgs84_lat": 1309499.0004
+      },
+      {
+        "area_km2": 8.793,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 654709.6292,
+        "centroid_wgs84_lat": 1290427.5901
+      },
+      {
+        "area_km2": 6.9523,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 652401.8684,
+        "centroid_wgs84_lat": 1298190.6341
+      },
+      {
+        "area_km2": 5.3997,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 605352.616,
+        "centroid_wgs84_lat": 1319151.7906
+      },
+      {
+        "area_km2": 4.8318,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 635024.782,
+        "centroid_wgs84_lat": 1276818.1679
+      },
+      {
+        "area_km2": 1.8904,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 611372.9877,
+        "centroid_wgs84_lat": 1319779.6934
+      },
+      {
+        "area_km2": 1.7958,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 628998.3365,
+        "centroid_wgs84_lat": 1269341.7439
+      },
+      {
+        "area_km2": 1.1517,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 650358.5122,
+        "centroid_wgs84_lat": 1284059.2891
+      },
+      {
+        "area_km2": 0.8691,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 600194.3881,
+        "centroid_wgs84_lat": 1312901.8594
+      },
+      {
+        "area_km2": 0.5934,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 585603.0672,
+        "centroid_wgs84_lat": 1305402.9273
+      },
+      {
+        "area_km2": 0.5097,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 633542.1816,
+        "centroid_wgs84_lat": 1273030.226
+      },
+      {
+        "area_km2": 0.2502,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 586636.8342,
+        "centroid_wgs84_lat": 1309212.529
+      },
+      {
+        "area_km2": 0.1405,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 643343.5621,
+        "centroid_wgs84_lat": 1280276.604
+      },
+      {
+        "area_km2": 0.1361,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 626933.7656,
+        "centroid_wgs84_lat": 1266909.4736
+      },
+      {
+        "area_km2": 0.052,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 598397.1982,
+        "centroid_wgs84_lat": 1290945.9785
+      },
+      {
+        "area_km2": 0.0487,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 599010.4819,
+        "centroid_wgs84_lat": 1291452.4291
+      },
+      {
+        "area_km2": 0.0105,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 586364.5478,
+        "centroid_wgs84_lat": 1298180.6215
+      },
+      {
+        "area_km2": 0.0059,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 618638.1504,
+        "centroid_wgs84_lat": 1270020.45
+      },
+      {
+        "area_km2": 0.0023,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 656155.8913,
+        "centroid_wgs84_lat": 1286177.5802
+      },
+      {
+        "area_km2": 0.0023,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 654091.0512,
+        "centroid_wgs84_lat": 1295018.6213
+      },
+      {
+        "area_km2": 0.002,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 615997.1399,
+        "centroid_wgs84_lat": 1272442.2347
+      },
+      {
+        "area_km2": 0.0007,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 585921.5844,
+        "centroid_wgs84_lat": 1301695.1429
+      },
+      {
+        "area_km2": 0.0003,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 656217.7042,
+        "centroid_wgs84_lat": 1286263.5769
+      },
+      {
+        "area_km2": 0.0,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 585434.2481,
+        "centroid_wgs84_lat": 1300146.1907
+      },
+      {
+        "area_km2": 0.0,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 654289.3579,
+        "centroid_wgs84_lat": 1295142.252
+      },
+      {
+        "area_km2": 0.0,
+        "touches_gadm_boundary": true,
+        "distance_to_gadm_boundary_m": 0.0,
+        "centroid_wgs84_lon": 654191.7885,
+        "centroid_wgs84_lat": 1295089.7575
+      }
+    ]
+  },
+  "boundary_alignment_vs_osm": {
+    "sampled_lsz_boundary_vertices": 1506,
+    "median_m": 86.4,
+    "p95_m": 282.6,
+    "max_m": 422.3,
+    "share_within_100m": 0.5445,
+    "share_within_250m": 0.9236
+  }
+}
