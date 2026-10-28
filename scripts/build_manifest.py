@@ -415,6 +415,80 @@ add(dataset_id="P3-09", category="derived",
     validation_status="VERIFIED",
     limitations="Coverage is a validity test only: predictor values were read at labels to count nodata and then discarded. No training table exists. Clustering figures (76 single-linkage clusters at 1 km) are a design input, not a validation result")
 
+add(dataset_id="P4-01", category="design",
+    dataset_name="Phase-4 sampling and validation design configuration",
+    provider="This project", product_version="phase4-sampling-config",
+    source_url="(design decision record; no external source)", acquisition_date="2026-10-26",
+    time_period="n/a (design, 2000-2026 label window)",
+    spatial_extent="Wayanad district on the Phase-3 30 m grid (EPSG:32643)",
+    native_resolution="n/a", crs="EPSG:32643 (storage EPSG:4326)", format="JSON",
+    local_path="configs/p4_sampling.json", size_mb=size_mb("configs/p4_sampling.json"),
+    validation_status="VERIFIED",
+    limitations="Design authority, not data: single source of truth for the random seed (20261026), the 100 m exclusion radius, the 1.0/km2 background density, the 3 km blocks, the 1000 m cluster/buffer distance and k=5. Every choice carries a recorded rationale and a sensitivity list, but the choices remain judgements")
+
+add(dataset_id="P4-02", category="derived",
+    dataset_name="Phase-4 record-level inventory eligibility audit (9-decision partition of all 468 records)",
+    provider="This project", product_version="phase4-eligibility",
+    source_url="(local derivation from P3-08)", acquisition_date="2026-10-28",
+    time_period="2000-2026 positives; pre-2000 and undated records excluded but documented",
+    spatial_extent="468 source records: 363 POSITIVE_EVENT (one per event group), 1 in-group duplicate, 103 excluded with explicit reasons",
+    native_resolution="point data", crs="EPSG:4326", format="CSV + JSON",
+    local_path="data/processed/sampling/eligibility_audit.csv",
+    size_mb=size_mb("data/processed/sampling/eligibility_audit.csv",
+                    "data/processed/sampling/eligibility_summary.json"),
+    validation_status="VERIFIED",
+    limitations="Additive audit: no Phase 2 verification decision was changed and no record was moved, snapped or deduplicated. The three separately validated Mundakkai 2024 records stay distinct; 33 superseded records carry their flags under the decision that won earlier in precedence. Exclusion of the 78 undated + 6 pre-2000 records is recorded but they remain available as sensitivity variants")
+
+add(dataset_id="P4-03", category="derived",
+    dataset_name="Phase-4 background sample: presence-background points, 100 m exact exclusion, 1.0/km2 density",
+    provider="This project", product_version="phase4-background",
+    source_url="(local derivation from P4-02 and the 24 P3 predictor layers)",
+    acquisition_date="2026-10-28", time_period="n/a (locations only)",
+    spatial_extent="2,097 samples on 2,097.45 km2 = 98.895% of the 2,120.88 km2 district; min separation 113.7 m from the nearest recorded positive",
+    native_resolution="30 m grid cell centres", crs="EPSG:32643 stored as EPSG:4326 columns",
+    format="CSV + JSON", local_path="data/processed/sampling/background_samples.csv",
+    size_mb=size_mb("data/processed/sampling/background_samples.csv",
+                    "data/processed/sampling/sampling_run_config.json"),
+    validation_status="VERIFIED",
+    limitations="A background point means no mapped landslide at that location in the available inventory; it is NOT confirmed stable ground and carries no negative-evidence claim. Separation is measured exactly against recorded positive coordinates (recorded up to 20.46 m offsets from their cells), 435 band cells rejected by the exact test. Uniform over the eligible domain: density follows area, not the positive count")
+
+add(dataset_id="P4-04", category="derived",
+    dataset_name="Phase-4 spatial blocks and units: whole 3 km squares grouped where they share a 1 km positive cluster",
+    provider="This project", product_version="phase4-blocks",
+    source_url="(local derivation from P4-02, P4-03)", acquisition_date="2026-10-28",
+    time_period="n/a (spatial framework)",
+    spatial_extent="271 blocks with points -> 241 block units; 76 single-linkage clusters atomic across units",
+    native_resolution="3,000 m blocks", crs="EPSG:32643",
+    format="CSV + JSON", local_path="data/processed/sampling/spatial_blocks.csv",
+    size_mb=size_mb("data/processed/sampling/spatial_blocks.csv"),
+    validation_status="VERIFIED",
+    limitations="Blocks are an assignment framework, not an independence claim: adjacent blocks and folds can still share terrain, land cover and rainfall history. Unit centroids are arithmetic means of block centres; folds are assigned per unit and may form several patches. Separation between folds comes from the buffer, not from the blocks")
+
+add(dataset_id="P4-05", category="derived",
+    dataset_name="Phase-4 fold assignments: 2,460 model points (363 positives, 2,097 background) with cluster, block, fold and drop audit",
+    provider="This project", product_version="phase4-folds",
+    source_url="(local derivation from P4-02, P4-03, P4-04)", acquisition_date="2026-10-28",
+    time_period="positives 2006-2024 (92% dated 2018); background n/a",
+    spatial_extent="5 folds, positives per fold 52/121/84/54/52, 418 training points dropped by the 1000 m buffer with recorded reasons and distances",
+    native_resolution="point data", crs="EPSG:32643 stored as EPSG:4326 columns",
+    format="CSV", local_path="data/processed/sampling/fold_assignments.csv",
+    size_mb=size_mb("data/processed/sampling/fold_assignments.csv",
+                    "data/processed/sampling/modelling_points.csv",
+                    "data/processed/sampling/fold_drops.csv"),
+    validation_status="VERIFIED",
+    limitations="Candidate labels only, no model: label 0 on background is a sampling artefact, not evidence of stability. Unequal folds are structural (the 100-cluster agglomeration spans whole units and cannot be split); fold 2 carries only 5 distinct clusters and must be flagged whenever used. These tables must not be evaluated as performance data before a model exists")
+
+add(dataset_id="P4-06", category="derived",
+    dataset_name="Phase-4 machine-readable validation report: per-fold support, buffer verification, leakage invariants",
+    provider="This project", product_version="phase4-fold-summary",
+    source_url="(local derivation from P4-05)", acquisition_date="2026-10-28",
+    time_period="n/a", spatial_extent="5 folds; retained train->test minimum gap 1001.3 m vs 1000 m configured",
+    native_resolution="n/a", crs="n/a", format="JSON",
+    local_path="data/processed/sampling/fold_summary.json",
+    size_mb=size_mb("data/processed/sampling/fold_summary.json"),
+    validation_status="VERIFIED",
+    limitations="Self-report of the fold script, cross-checked independently by scripts/p4_verify.py which recomputes the retained-point gap and all fold counts from the saved tables. Not an independence proof: the buffer only removes training points from the immediate neighbourhood of each test fold. No susceptibility map, model or metric exists yet")
+
 out = pathlib.Path(r"C:\Major\docs\data_manifest.csv")
 with open(out, "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=COLS)

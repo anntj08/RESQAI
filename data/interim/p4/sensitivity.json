@@ -1,0 +1,211 @@
+{
+  "exclusion_radius": [
+    {
+      "radius_m": 50,
+      "eligible_km2": 2105.93,
+      "pct_district": 99.295,
+      "background_at_1_per_km2": 2106
+    },
+    {
+      "radius_m": 100,
+      "eligible_km2": 2097.45,
+      "pct_district": 98.895,
+      "background_at_1_per_km2": 2097
+    },
+    {
+      "radius_m": 200,
+      "eligible_km2": 2070.1,
+      "pct_district": 97.606,
+      "background_at_1_per_km2": 2070
+    },
+    {
+      "radius_m": 300,
+      "eligible_km2": 2030.22,
+      "pct_district": 95.725,
+      "background_at_1_per_km2": 2030
+    }
+  ],
+  "max_positive_to_own_cell_centre_m": 20.46,
+  "density": [
+    {
+      "density_per_km2": 0.5,
+      "samples": 1049,
+      "per_positive": 2.89
+    },
+    {
+      "density_per_km2": 1.0,
+      "samples": 2097,
+      "per_positive": 5.78
+    },
+    {
+      "density_per_km2": 2.0,
+      "samples": 4195,
+      "per_positive": 11.56
+    }
+  ],
+  "clustering_distance": [
+    {
+      "cluster_threshold_m": 500,
+      "clusters": 186,
+      "largest_cluster": 17,
+      "fold_positives": [
+        96,
+        52,
+        52,
+        67,
+        96
+      ],
+      "min_fold_positives": 52,
+      "min_clusters_per_fold": 30
+    },
+    {
+      "cluster_threshold_m": 1000,
+      "clusters": 76,
+      "largest_cluster": 100,
+      "fold_positives": [
+        86,
+        121,
+        52,
+        52,
+        52
+      ],
+      "min_fold_positives": 52,
+      "min_clusters_per_fold": 7
+    },
+    {
+      "cluster_threshold_m": 2000,
+      "clusters": 26,
+      "largest_cluster": 140,
+      "fold_positives": [
+        121,
+        142,
+        43,
+        28,
+        29
+      ],
+      "min_fold_positives": 28,
+      "min_clusters_per_fold": 1
+    }
+  ],
+  "buffer_gap": [
+    {
+      "gap_m": 0,
+      "dropped_points_total": 0,
+      "dropped_positives_total": 0,
+      "min_train_to_test_m": 150.0
+    },
+    {
+      "gap_m": 500,
+      "dropped_points_total": 69,
+      "dropped_positives_total": 5,
+      "min_train_to_test_m": 510.0
+    },
+    {
+      "gap_m": 1000,
+      "dropped_points_total": 418,
+      "dropped_positives_total": 26,
+      "min_train_to_test_m": 1001.3
+    },
+    {
+      "gap_m": 2000,
+      "dropped_points_total": 1399,
+      "dropped_positives_total": 140,
+      "min_train_to_test_m": 2001.2
+    }
+  ],
+  "fold_count": [
+    {
+      "k": 3,
+      "fold_positives": [
+        121,
+        121,
+        121
+      ],
+      "min_clusters_per_fold": 14,
+      "meets_support_threshold": true
+    },
+    {
+      "k": 5,
+      "fold_positives": [
+        86,
+        121,
+        52,
+        52,
+        52
+      ],
+      "min_clusters_per_fold": 7,
+      "meets_support_threshold": true
+    },
+    {
+      "k": 10,
+      "fold_positives": [
+        12,
+        34,
+        121,
+        84,
+        15,
+        19,
+        14,
+        34,
+        18,
+        12
+      ],
+      "min_clusters_per_fold": 5,
+      "meets_support_threshold": false
+    }
+  ],
+  "inclusion_rule": {
+    "primary (in-window point labels)": {
+      "points": 363,
+      "clusters": 76,
+      "fold_positives": [
+        86,
+        121,
+        52,
+        52,
+        52
+      ],
+      "min_fold_positives": 52
+    },
+    "+ undated site records": {
+      "points": 401,
+      "clusters": 81,
+      "fold_positives": [
+        59,
+        133,
+        59,
+        91,
+        59
+      ],
+      "min_fold_positives": 59
+    },
+    "+ undated and pre-2000": {
+      "points": 407,
+      "clusters": 81,
+      "fold_positives": [
+        54,
+        134,
+        61,
+        54,
+        104
+      ],
+      "min_fold_positives": 54
+    }
+  },
+  "temporal": {
+    "train_2018_points": 335,
+    "test_non2018_points": 28,
+    "non2018_clusters_at_1km": 17,
+    "non2018_by_year": {
+      "2006": 2,
+      "2007": 15,
+      "2008": 1,
+      "2009": 7,
+      "2019": 1,
+      "2024": 2
+    },
+    "non2018_min_nn_m": 82.4,
+    "reverse_direction_attempted": false,
+    "verdict": "train on 2018 and test on the 28 non-2018 labels is technically possible but very weak (28 labels, 17 clusters); training on 28 and testing on 335 is not viable and is not attempted"
+  }
+}

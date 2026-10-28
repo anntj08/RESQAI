@@ -1,0 +1,405 @@
+{
+  "design": "cluster-atomic, block-base spatial folds with a verified distance buffer: whole 3 km blocks are grouped into units by shared 1 km positive clusters; whole units are assigned to folds; training points within the buffer gap of a test fold are dropped",
+  "n_folds": 5,
+  "buffer_gap_m": 1000.0,
+  "clustering_threshold_m": 1000.0,
+  "block_size_m": 3000.0,
+  "random_seed": 20261026,
+  "min_test_positives": 45,
+  "min_test_clusters": 5,
+  "clusters": 76,
+  "cluster_sizes_desc": [
+    100,
+    72,
+    30,
+    13,
+    11,
+    11,
+    7,
+    7,
+    7,
+    6,
+    5,
+    4,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "blocks": 271,
+  "block_units": 241,
+  "assignment": {
+    "method": "12 deterministic weighted-kmeans candidates hill-climbed on (support deficit, cluster deficit, positive spread, background spread); best end state wins, ties at the lowest candidate",
+    "candidate_seeds": [
+      20261026,
+      20261027,
+      20261028,
+      20261029,
+      20261030,
+      20261031,
+      20261032,
+      20261033,
+      20261034,
+      20261035,
+      20261036,
+      20261037
+    ],
+    "chosen_candidate_seed": 20261028,
+    "candidate_score": [
+      0,
+      0,
+      69,
+      1
+    ]
+  },
+  "repair_moves": 31,
+  "repair_log": [
+    {
+      "unit": 200,
+      "from_fold": 3,
+      "to_fold": 2,
+      "positives_moved": 84
+    },
+    {
+      "unit": 31,
+      "from_fold": 3,
+      "to_fold": 4,
+      "positives_moved": 7
+    },
+    {
+      "unit": 9,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 6
+    },
+    {
+      "unit": 10,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 4
+    },
+    {
+      "unit": 32,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 3
+    },
+    {
+      "unit": 67,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 1
+    },
+    {
+      "unit": 34,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 1
+    },
+    {
+      "unit": 93,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 0
+    },
+    {
+      "unit": 175,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 0
+    },
+    {
+      "unit": 72,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 0
+    },
+    {
+      "unit": 173,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 0
+    },
+    {
+      "unit": 194,
+      "from_fold": 3,
+      "to_fold": 4,
+      "positives_moved": 0
+    },
+    {
+      "unit": 113,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 0
+    },
+    {
+      "unit": 118,
+      "from_fold": 3,
+      "to_fold": 4,
+      "positives_moved": 0
+    },
+    {
+      "unit": 176,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 0
+    },
+    {
+      "unit": 96,
+      "from_fold": 3,
+      "to_fold": 1,
+      "positives_moved": 0
+    },
+    {
+      "unit": 153,
+      "from_fold": 3,
+      "to_fold": 4,
+      "positives_moved": 0
+    },
+    {
+      "unit": 172,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 0
+    },
+    {
+      "unit": 193,
+      "from_fold": 3,
+      "to_fold": 3,
+      "positives_moved": 0
+    },
+    {
+      "unit": 39,
+      "from_fold": 3,
+      "to_fold": 1,
+      "positives_moved": 0
+    },
+    {
+      "unit": 56,
+      "from_fold": 3,
+      "to_fold": 4,
+      "positives_moved": 0
+    },
+    {
+      "unit": 76,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 0
+    },
+    {
+      "unit": 94,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 0
+    },
+    {
+      "unit": 142,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 0
+    },
+    {
+      "unit": 177,
+      "from_fold": 3,
+      "to_fold": 1,
+      "positives_moved": 0
+    },
+    {
+      "unit": 25,
+      "from_fold": 3,
+      "to_fold": 3,
+      "positives_moved": 0
+    },
+    {
+      "unit": 2,
+      "from_fold": 3,
+      "to_fold": 4,
+      "positives_moved": 0
+    },
+    {
+      "unit": 9,
+      "from_fold": 3,
+      "to_fold": 3,
+      "positives_moved": 6
+    },
+    {
+      "unit": 10,
+      "from_fold": 3,
+      "to_fold": 4,
+      "positives_moved": 4
+    },
+    {
+      "unit": 74,
+      "from_fold": 3,
+      "to_fold": 1,
+      "positives_moved": 0
+    },
+    {
+      "unit": 156,
+      "from_fold": 3,
+      "to_fold": 0,
+      "positives_moved": 0
+    }
+  ],
+  "mixed_fold_blocks": 0,
+  "points": {
+    "positives": 363,
+    "background": 2097
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "test_positives": 52,
+      "test_background": 419,
+      "test_blocks": 47,
+      "test_clusters": 12,
+      "train_positives": 298,
+      "train_background": 1558,
+      "dropped_from_train": 133,
+      "dropped_positives": 13,
+      "min_train_to_test_m": 1006.2
+    },
+    {
+      "fold": 1,
+      "test_positives": 121,
+      "test_background": 420,
+      "test_blocks": 56,
+      "test_clusters": 14,
+      "train_positives": 235,
+      "train_background": 1616,
+      "dropped_from_train": 68,
+      "dropped_positives": 7,
+      "min_train_to_test_m": 1012.0
+    },
+    {
+      "fold": 2,
+      "test_positives": 84,
+      "test_background": 419,
+      "test_blocks": 61,
+      "test_clusters": 5,
+      "train_positives": 276,
+      "train_background": 1556,
+      "dropped_from_train": 125,
+      "dropped_positives": 3,
+      "min_train_to_test_m": 1001.3
+    },
+    {
+      "fold": 3,
+      "test_positives": 54,
+      "test_background": 419,
+      "test_blocks": 53,
+      "test_clusters": 23,
+      "train_positives": 308,
+      "train_background": 1634,
+      "dropped_from_train": 45,
+      "dropped_positives": 1,
+      "min_train_to_test_m": 1004.6
+    },
+    {
+      "fold": 4,
+      "test_positives": 52,
+      "test_background": 420,
+      "test_blocks": 54,
+      "test_clusters": 22,
+      "train_positives": 309,
+      "train_background": 1632,
+      "dropped_from_train": 47,
+      "dropped_positives": 2,
+      "min_train_to_test_m": 1011.5
+    }
+  ],
+  "totals": {
+    "test_positives": 363,
+    "test_background": 2097,
+    "dropped_from_train": 418,
+    "dropped_positives": 26
+  },
+  "invariants": {
+    "point_ids_unique": true,
+    "event_group_in_one_fold": true,
+    "cluster_in_one_fold": true,
+    "block_in_one_fold": true,
+    "all_points_in_district_mask": true,
+    "buffer_enforced_and_verified": true,
+    "min_train_to_test_m": 1001.3,
+    "buffer_gap_m": 1000.0
+  },
+  "inputs": {
+    "eligibility_audit_sha256": "baba9e40016b41eeccfb156b4a5001287968ae252b113bbe1b4c6d63fdd7965d",
+    "background_samples_sha256": "48fa9ad0cd85fb053660fd155148c2b1fe516a24a0171057a5d2043138cea294",
+    "background_run_seed": 20261026
+  },
+  "versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "rasterio": "1.5.2"
+  },
+  "not_claimed": [
+    "spatial independence between folds is not asserted: adjacent hillslopes still share terrain, land cover and rainfall history; the buffer only removes training points from the immediate neighbourhood of each test fold",
+    "background points are not confirmed absence of landsliding",
+    "a fold is a set of whole blocks, not a hydrological or socio-administrative unit; folds are contiguous where blocks join but may form several patches"
+  ]
+}

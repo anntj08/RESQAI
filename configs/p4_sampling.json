@@ -1,0 +1,52 @@
+{
+  "_comment": "Phase 4 sampling and validation design. Single source of truth: every script reads this file and writes the resolved values into its own output, so changing a parameter here is the only way to change the design.",
+  "version": 1,
+  "decided": "2026-10-26",
+  "analysis_crs": "EPSG:32643",
+  "storage_crs": "EPSG:4326",
+  "grid": {
+    "spec": "data/processed/grid/grid_spec.json",
+    "district_mask": "data/processed/grid/district_mask_30m.tif",
+    "layer_inventory": "data/processed/qa/layer_inventory.csv"
+  },
+  "random_seed": 20261026,
+  "inventory": {
+    "source": "data/processed/inventory/inventory_spatial_suitability.csv",
+    "positive_label_role": "EVENT_POINT_IN_WINDOW",
+    "positive_spatial_use": "point_label_ok",
+    "window_years": [2000, 2026],
+    "unit": "event_group_id",
+    "note": "One point per event group, not one per record: 364 usable records form 363 groups, and a group's two source records describe the same landslide."
+  },
+  "background": {
+    "_comment": "Presence-background (case-control) design. A background point means no mapped landslide at that location in the available inventory, NOT confirmed stable ground.",
+    "exclusion_radius_m": 100,
+    "radius_rationale": "3.3x the largest positional uncertainty carried by any usable in-window label (30 m, measured), and wider than one 30 m analysis cell plus the immediate source area of a mapped landslide point. Costs 0.53% of district area.",
+    "sampling_density_per_km2": 1.0,
+    "density_rationale": "Uniform sampling intensity over the eligible domain: the count follows from the area, not from the number of positives. Choosing a 1:1 or 1:3 ratio instead would tie the background size to inventory size and imply a class balance that the data do not support.",
+    "require_all_predictors_valid": true,
+    "exclude_district_outside": true
+  },
+  "spatial_validation": {
+    "_comment": "Fold assignment is block-based: the district is tiled into whole 3 km squares, blocks that share a single-linkage cluster (1 km, from the recorded positives) are merged into block units, and whole units are assigned to folds. A distance buffer is then applied between retained training and test points, because adjacent blocks share a boundary. Blocks are the atom of assignment, so no block is ever split across folds.",
+    "block_size_m": 3000,
+    "block_size_rationale": "Above the 1 km single-linkage scale at which the positives collapse from 363 groups to 76 clusters, so a block contains whole clusters rather than splitting them; large enough that most blocks hold several positives (73 non-empty blocks, 4.97 positives each, measured).",
+    "n_folds": 5,
+    "n_folds_rationale": "363 positives over 5 folds gives ~70 test positives per fold; leave-one-block-out would leave ~1.5 positives per fold, too few to evaluate. Unequal fold sizes are accepted: the three largest clusters hold 202 of 363 positives, so even splits are arithmetically impossible.",
+    "buffer_gap_m": 1000,
+    "gap_rationale": "318 of 363 positives have a neighbour within 1 km. Any training point inside that distance of a test point is in the same neighbourhood the inventory resolves to, so it is dropped from training rather than allowed to leak. The same distance doubles as the single-linkage clustering threshold: one neighbourhood scale.",
+    "clustering_threshold_m": 1000,
+    "clustering_rationale": "Single-linkage distance at which 363 group-level positives collapse to 76 clusters; clusters are atomic across folds, so co-located mapped events are always evaluated together.",
+    "assign_folds_by": "12 deterministic candidates (seed 20261026..20261037), each weighted k-means on merged block-unit centroids hill-climbed on fold support/positive-spread/background-spread; the best end state wins, ties at the lowest candidate",
+    "min_test_positives": 45,
+    "min_test_positives_rationale": "A fold with fewer mapped events cannot sustain a meaningful fold-level evaluation; ~12% of the inventory held out each round.",
+    "min_test_clusters": 5,
+    "min_test_clusters_rationale": "A fold whose positives are one agglomeration has effectively one independent location; every fold must hold at least 5 distinct 1 km clusters."
+  },
+  "sensitivity": {
+    "exclusion_radius_m": [50, 100, 200, 300],
+    "sampling_density_per_km2": [0.5, 1.0, 2.0],
+    "block_size_m": [2000, 3000, 5000],
+    "buffer_gap_m": [0, 500, 1000, 2000]
+  }
+}

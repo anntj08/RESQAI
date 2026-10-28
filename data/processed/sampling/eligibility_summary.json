@@ -1,0 +1,59 @@
+{
+  "input": {
+    "path": "data/processed/inventory/inventory_spatial_suitability.csv",
+    "records": 468,
+    "sha256": "1d5759352b8d058d519532e20b3d502cd812c99c3a30c66caae63c0782c9fef4"
+  },
+  "phase2_modified": false,
+  "decisions": {
+    "EXCLUDE_BOUNDARY_UNCERTAIN": 5,
+    "EXCLUDE_COORDINATE_ERROR": 1,
+    "EXCLUDE_DISTRICT_CENTROID": 1,
+    "EXCLUDE_NOT_IN_DISTRICT": 12,
+    "EXCLUDE_PRE_2000": 6,
+    "EXCLUDE_UNDATED_SITE": 78,
+    "EXCLUDE_WIDEN_REQUIRED": 1,
+    "POSITIVE_EVENT": 363,
+    "POSITIVE_EVENT_DUPLICATE": 1
+  },
+  "totals": {
+    "records": 468,
+    "representative_positives": 363,
+    "distinct_event_groups": 363,
+    "duplicate_points": 1,
+    "positives_2018": 335,
+    "positives_non_2018": 28
+  },
+  "positive_labels_by_year": {
+    "2006": 2,
+    "2007": 15,
+    "2008": 1,
+    "2009": 7,
+    "2018": 335,
+    "2019": 1,
+    "2024": 2
+  },
+  "positive_labels_by_source": {
+    "GSI14115": 25,
+    "GSI2018": 8,
+    "GSI_PDLS": 2,
+    "KER2018": 327,
+    "LIT2025": 1
+  },
+  "positive_uncertainty_m": {
+    "min": 10.0,
+    "median": 30.0,
+    "max": 30.0
+  },
+  "window_years": [
+    2000,
+    2026
+  ],
+  "rules": "see docstring of scripts/p4_eligibility.py",
+  "not_done": [
+    "no source-verification decision was changed",
+    "no Phase 2 product was modified",
+    "no coordinate was snapped, moved or dropped",
+    "no undated record was promoted to a dated event"
+  ]
+}

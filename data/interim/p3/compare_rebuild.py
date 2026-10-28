@@ -318,12 +318,19 @@ def main() -> int:
                         "size_bytes": dst.stat().st_size})
         print(f"{label:<50} {status:<18} {note} [{size_note}]")
 
-    # Outputs that exist now but were not in the baseline.
+    # Outputs that exist now but were not in the baseline. Scoped to the top-level
+    # directories the baseline itself covers: this comparator answers "did the recovery
+    # change any Phase 3 output", and later phases legitimately add new directories
+    # (data/processed/sampling/ from Phase 4) that lie outside that question.
+    scope = sorted({p.relative_to(baseline).parts[0] for p in files}) if files else []
     unexpected = []
     for p in sorted((ROOT / "data" / "processed").rglob("*")):
         if not p.is_file():
             continue
         if "rebuild_backup" in p.parts or "roundtrip_backup" in p.parts:
+            continue
+        rel_parts = p.relative_to(ROOT / "data" / "processed").parts
+        if rel_parts[0] not in scope:
             continue
         rel_proc = p.relative_to(ROOT / "data" / "processed").as_posix()
         if rel_proc in PHASE2_PRODUCTS:

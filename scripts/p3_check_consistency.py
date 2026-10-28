@@ -509,11 +509,23 @@ num("qa.layer_inventory.dem_min", float(layers[1]["min"]), 116.96, 0.005)
 num("qa.layer_inventory.dem_max", float(layers[1]["max"]), 2230.27, 0.005)
 
 # ------------------------------------------------------------- manifest ------
+# Phase 2 registered the 28 raw-dataset ids and Phase 3 appended 9 derived ones;
+# Phase 4 appends design/derived rows of its own. What must hold is that every
+# Phase 2 and Phase 3 dataset is still present and no id is duplicated -- not that
+# the file never grows. Phase 4 added rows, so the exact-total equality this section
+# used to assert (= 37) would re-derive a Phase 4 fact inside a Phase 3 check; the
+# presence and uniqueness invariants below retain the original protection
+# (precedent: p2_check_consistency.py manifest section).
+P2_IDS = ({f"DEM-0{i}" for i in (1, 2, 3)} | {"LC-01", "RF-01", "GEO-01", "GEO-02",
+                                            "BND-01", "BND-02", "BND-03",
+                                            "ADD-01", "ADD-02"}
+          | {f"INV-{i:02d}" for i in range(1, 17)})
 manifest = list(csv.DictReader(open(DOCS / "data_manifest.csv", encoding="utf-8")))
-eq("manifest.rows", len(manifest), 37)
 eq("manifest.cols", len(manifest[0]), 16)
 ids = [r["dataset_id"] for r in manifest]
 eq("manifest.unique_ids", len(ids), len(set(ids)))
+missing_p2 = sorted(P2_IDS - set(ids))
+eq("manifest.all_phase2_ids_still_present", len(missing_p2), 0)
 for i in range(1, 10):
     true(f"manifest.has_p3_{i:02d}", f"P3-{i:02d}" in ids)
 p3_rows = [r for r in manifest if r["dataset_id"].startswith("P3-")]

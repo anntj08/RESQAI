@@ -1,8 +1,15 @@
-# Raw and derived geospatial data are not committed.
+# Raw and derived geospatial data are not committed. Exception below: the Phase 4
+# sampling tables (~600 KB text) are design/provenance products and ARE committed, like
+# data/file_inventory.csv.
 data/raw/**
 data/processed/**
 data/interim/gsi_pdf_text/
 data/interim/table_review.txt
+
+# Phase 4 sampling outputs are small text tables with real content to review; they
+# must survive git history.
+!data/processed/sampling/
+!data/processed/sampling/**
 
 # Phase 3 working snapshots: full copies of data/processed/ and of the Phase 2 inventory
 # products, kept only so a byte comparison can be run locally. Hundreds of MB of derived

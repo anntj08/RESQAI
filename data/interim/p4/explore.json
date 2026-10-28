@@ -1,0 +1,151 @@
+{
+  "roles": {
+    "records": 468,
+    "point_label_ok": 408,
+    "in_window_point_labels": 364,
+    "undated_site_labels": 38,
+    "pre2000_labels": 6,
+    "superseded_records": 33,
+    "superseded_still_usable": 0
+  },
+  "event_groups": {
+    "in_window_records": 364,
+    "groups": 363,
+    "records_per_group": {
+      "1": 362,
+      "2": 1
+    },
+    "groups_2018": 335,
+    "groups_non_2018": 28,
+    "records_by_year": {
+      "2006.0": 2,
+      "2007.0": 15,
+      "2008.0": 1,
+      "2009.0": 7,
+      "2018.0": 335,
+      "2019.0": 1,
+      "2024.0": 3
+    }
+  },
+  "uncertainty_m": {
+    "n": 364,
+    "percentiles": {
+      "50": 30.0,
+      "75": 30.0,
+      "90": 30.0,
+      "95": 30.0,
+      "99": 30.0,
+      "100": 30.0
+    },
+    "min": 10.0,
+    "max": 30.0
+  },
+  "background_domain": {
+    "cell_m": 30.0,
+    "district_km2": 2120.9,
+    "by_radius": {
+      "0": {
+        "km2": 2120.6,
+        "pct": 99.98,
+        "pixels": 2356176
+      },
+      "30": {
+        "km2": 2119.3,
+        "pct": 99.92,
+        "pixels": 2354748
+      },
+      "50": {
+        "km2": 2118.0,
+        "pct": 99.86,
+        "pixels": 2353353
+      },
+      "100": {
+        "km2": 2109.7,
+        "pct": 99.47,
+        "pixels": 2344129
+      },
+      "150": {
+        "km2": 2097.6,
+        "pct": 98.9,
+        "pixels": 2330627
+      },
+      "200": {
+        "km2": 2083.2,
+        "pct": 98.23,
+        "pixels": 2314717
+      },
+      "300": {
+        "km2": 2043.5,
+        "pct": 96.35,
+        "pixels": 2270606
+      },
+      "500": {
+        "km2": 1953.8,
+        "pct": 92.12,
+        "pixels": 2170896
+      }
+    }
+  },
+  "nn_distance_m": {
+    "p10": 77.86097008054057,
+    "p25": 142.64987693802354,
+    "p50": 335.04870302657633,
+    "p75": 650.383005590861,
+    "p90": 1217.8196937839148,
+    "p100": 6707.609219165956
+  },
+  "nn_within_250m": 141,
+  "nn_within_1000m": 318,
+  "blocks": {
+    "1000": {
+      "nonempty_blocks": 195,
+      "mean": 1.86,
+      "max": 8,
+      "blocks_ge5": 11,
+      "blocks_ge10": 0
+    },
+    "2000": {
+      "nonempty_blocks": 109,
+      "mean": 3.33,
+      "max": 18,
+      "blocks_ge5": 29,
+      "blocks_ge10": 4
+    },
+    "3000": {
+      "nonempty_blocks": 73,
+      "mean": 4.97,
+      "max": 24,
+      "blocks_ge5": 26,
+      "blocks_ge10": 12
+    },
+    "4000": {
+      "nonempty_blocks": 54,
+      "mean": 6.72,
+      "max": 28,
+      "blocks_ge5": 28,
+      "blocks_ge10": 12
+    },
+    "5000": {
+      "nonempty_blocks": 42,
+      "mean": 8.64,
+      "max": 39,
+      "blocks_ge5": 21,
+      "blocks_ge10": 14
+    },
+    "8000": {
+      "nonempty_blocks": 25,
+      "mean": 14.52,
+      "max": 53,
+      "blocks_ge5": 17,
+      "blocks_ge10": 10
+    }
+  },
+  "clusters": {
+    "250": 278,
+    "500": 186,
+    "1000": 76,
+    "1500": 40,
+    "2000": 26,
+    "5000": 2
+  }
+}

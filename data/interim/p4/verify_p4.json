@@ -1,0 +1,47 @@
+{
+  "verdict": "ALL PHASE 4 GATES PASSED",
+  "n_gates": 8,
+  "n_passed": 8,
+  "gates": [
+    {
+      "gate": "Phase 3 baseline still valid",
+      "passed": true,
+      "detail": "p3_verify_all exit=0; written -> data\\interim\\p3\\verify_all.json"
+    },
+    {
+      "gate": "every record has exactly one decision and a reason",
+      "passed": true,
+      "detail": "468 records, 9 decision classes; counts match the documented partition"
+    },
+    {
+      "gate": "three separately validated records stay distinct",
+      "passed": true,
+      "detail": "A=POSITIVE_EVENT, B=EXCLUDE_COORDINATE_ERROR, C=EXCLUDE_BOUNDARY_UNCERTAIN"
+    },
+    {
+      "gate": "point integrity and predictor coverage",
+      "passed": true,
+      "detail": "2460 points, 363 positives / 2097 background; all 24 predictor layers valid at every point, all inside the district"
+    },
+    {
+      "gate": "background points respect the exclusion radius",
+      "passed": true,
+      "detail": "closest background point is 113.7 m from a recorded positive (radius 100 m)"
+    },
+    {
+      "gate": "no event group, cluster or block leaks across folds",
+      "passed": true,
+      "detail": "363 event groups, 76 clusters and 271 blocks each lie in exactly one fold (0 mixed-fold blocks, from the saved assignments)"
+    },
+    {
+      "gate": "fold support and independently verified buffer",
+      "passed": true,
+      "detail": "per-fold support (45+ positives, 5+ clusters) holds in every fold [52 121 84 54 52], saved fold_drops match the recomputation for all 5 folds, and the retained train->test minimum gap recomputed from the saved assignments is 1001.3 m > 1000 m configured"
+    },
+    {
+      "gate": "outputs regenerate identically from the same inputs and seed",
+      "passed": true,
+      "detail": "re-ran 3 scripts (p4_eligibility.py=0, p4_sample_background.py=0, p4_spatial_folds.py=0); all 9 outputs byte-identical after regeneration"
+    }
+  ]
+}
