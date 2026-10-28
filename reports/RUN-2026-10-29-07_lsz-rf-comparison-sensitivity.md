@@ -212,7 +212,7 @@ re-deriving quintile thresholds over the full RF map domain and (b) `all_touched
 rasterization. Known rasterization caveat: with `all_touched=True`, the zone painted last in
 file order (Moderate) absorbs multi-class-touched boundary cells (+36.3 % zone area) — a
 painter-order artifact worth remembering for any future area reporting. `LSZ-01` remains
-`DOWNLOADED_NOT_FULLY_VALIDATED`. Commit of this run: **`<hash>`** (work + this report; a
+`DOWNLOADED_NOT_FULLY_VALIDATED`. Commit of this run: **`6d77f1e`** (work + this report; a
 one-line follow-up pins the hash). Tree clean; nothing pushed.
 
 ## 7. Next-step handoff (prompt material)
