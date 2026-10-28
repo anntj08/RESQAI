@@ -1,0 +1,9 @@
+# RF is a relative ranking conditional on the observed inventory, not a calibrated probability or forecast.
+# GSI LSZ-01 is another model-derived susceptibility product, not ground truth, geology, or validation labels.
+# Results are descriptive zone/ranking agreement only; spatial autocorrelation is expected.
+# GSI coverage is incomplete against GADM and is not field-validated.
+variant,gsi_zone,cells_in_domain,area_km2,mean,std,min,p05,p25,median,p75,p95,max,pct_in_Q1,pct_in_Q2,pct_in_Q3,pct_in_Q4,pct_in_Q5
+V2 all_touched=True,Low,1603246,1442.921400,0.093024,0.161116,0.000000,0.000000,0.000563,0.008883,0.120144,0.462944,0.952167,24.988000,23.422000,21.910000,17.651000,12.028000
+V2 all_touched=True,Moderate,591171,532.053900,0.260631,0.264344,0.000000,0.000000,0.015831,0.176180,0.440233,0.782778,0.968703,9.461000,11.464000,15.747000,25.193000,38.135000
+V2 all_touched=True,High,57352,51.616800,0.377683,0.260927,0.000000,0.053517,0.144654,0.324118,0.587509,0.836386,0.962578,0.141000,0.317000,9.998000,33.277000,56.267000
+V2 all_touched=True,ALL ZONES,2251769,2026.592100,0.144277,0.213011,0.000000,0.000000,0.001179,0.027019,0.212192,0.657325,0.968703,20.279000,19.695000,19.989000,20.029000,20.009000

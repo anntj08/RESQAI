@@ -1,0 +1,276 @@
+{
+  "run_utc": "2026-10-28T18:55:35+00:00",
+  "primary_report": "reports/RUN-2026-10-28-06_lsz-rf-map-comparison.md",
+  "purpose": "sensitivity of the primary LSZ-vs-RF descriptive comparison to two analysis choices; two model-derived products, no ground truth involved",
+  "disclaimers": [
+    "RF is a relative ranking conditional on the observed inventory, not a calibrated probability or forecast.",
+    "GSI LSZ-01 is another model-derived susceptibility product, not ground truth, geology, or validation labels.",
+    "Results are descriptive zone/ranking agreement only; spatial autocorrelation is expected.",
+    "GSI coverage is incomplete against GADM and is not field-validated."
+  ],
+  "input_sha256": {
+    "data/raw/landslide_susceptibility_reference/Wayanad.zip": "e5da8e031c0523a8f98a1086f4c13ebaad76721cd2afd34e6a20b35556037e2f",
+    "data/processed/models/susceptibility_rf_baseline_30m.tif": "88687c890439b272a14263ab02751bd33da8e4e3b81e18188df43818eb92a053"
+  },
+  "gates": {
+    "lsz_zip_matches_fetch_evidence": true,
+    "rf_raster_matches_phase5_record": true
+  },
+  "geometry_repair": {
+    "method": "shapely make_valid per feature (same as primary)",
+    "per_feature": [
+      {
+        "susceptibi": "High",
+        "area_delta_km2_raw": 1.4901161193847656e-14,
+        "area_delta_km2_rounded6": 0.0
+      },
+      {
+        "susceptibi": "Low",
+        "area_delta_km2_raw": 1.430511474609375e-12,
+        "area_delta_km2_rounded6": 0.0
+      },
+      {
+        "susceptibi": "Moderate",
+        "area_delta_km2_raw": 5.960464477539062e-14,
+        "area_delta_km2_rounded6": 0.0
+      }
+    ],
+    "changes_measured_areas": false,
+    "gate_note": "blocker threshold 1e-6 km2 (= 1 m2) = the primary record's 6-dp rounding precision; measured raw deltas (1.4e-12 km2 or less) are floating-point ULP noise, far below the 900 m2 cell; rounded deltas equal the primary record exactly"
+  },
+  "primary_reproduction": {
+    "domain_cells": 2248841,
+    "cuts_recomputed": {
+      "p20": 0.0,
+      "p40": 0.007447,
+      "p60": 0.082566,
+      "p80": 0.277386
+    },
+    "cross_tab_matches_primary_csv": true,
+    "geometry_repair_rounded_deltas_match_primary": true
+  },
+  "variant1": {
+    "name": "full-map RF quintile thresholds",
+    "what_changed": "ONLY the threshold-estimation domain (full RF map domain instead of the comparison domain). The comparison domain, zone rasterization and every cell are IDENTICAL to the primary.",
+    "threshold_domain": {
+      "rule": "district_mask AND rf_valid (full RF map domain)",
+      "cells": 2343343,
+      "area_km2": 2109.01
+    },
+    "cut_values": {
+      "p20": 0.000617,
+      "p40": 0.008528,
+      "p60": 0.092314,
+      "p80": 0.282145
+    },
+    "comparison_domain": {
+      "rule": "district_mask(GADM) AND lsz_code>0 AND rf_valid",
+      "cells": 2248841,
+      "area_km2": 2023.96
+    }
+  },
+  "variant2": {
+    "name": "all_touched=True zone rasterization",
+    "what_changed": "GSI polygons rasterized with all_touched=True (primary: False). RF quintile thresholds are the PRIMARY comparison-domain cuts, unchanged. The comparison domain is re-derived explicitly as GADM AND LSZ(all_touched) AND RF valid and grows by touched boundary cells.",
+    "threshold_note": "primary cuts applied unchanged: {\"p20\": 0.0, \"p40\": 0.007447, \"p60\": 0.082566, \"p80\": 0.277386}",
+    "overlap_rule": "cell touched by several classes -> rasterize paints in shapefile file order High, then Low, then Moderate (later class overwrites earlier; MODERATE wins overlaps); same single-pass convention as the primary rasterization (identical list construction from the same file order)",
+    "comparison_domain": {
+      "rule": "district_mask(GADM) AND lsz_code(all_touched=True)>0 AND rf_valid",
+      "cells": 2251769,
+      "area_km2": 2026.59,
+      "delta_cells_vs_primary": 2928,
+      "delta_km2_vs_primary": 2.6352,
+      "share_of_district_mask_cells": 0.955541
+    },
+    "per_zone_rasterization_delta": [
+      {
+        "gsi_zone": "Low",
+        "cells_primary_rasterization": 1729430,
+        "cells_alltouched_rasterization": 1603246,
+        "delta_cells": -126184,
+        "delta_km2": -113.5656
+      },
+      {
+        "gsi_zone": "Moderate",
+        "cells_primary_rasterization": 433873,
+        "cells_alltouched_rasterization": 591171,
+        "delta_cells": 157298,
+        "delta_km2": 141.5682
+      },
+      {
+        "gsi_zone": "High",
+        "cells_primary_rasterization": 85538,
+        "cells_alltouched_rasterization": 57352,
+        "delta_cells": -28186,
+        "delta_km2": -25.3674
+      }
+    ]
+  },
+  "comparison_with_primary": {
+    "variant1_vs_primary": {
+      "note": "identical cells and zone areas; ONLY the quintile threshold-estimation domain changed (full RF map domain)",
+      "pct_within_zone_by_quintile": {
+        "Low": {
+          "primary": [
+            24.099,
+            22.841,
+            21.71,
+            18.181,
+            13.169
+          ],
+          "variant1": [
+            24.67,
+            23.477,
+            21.802,
+            17.14,
+            12.911
+          ]
+        },
+        "Moderate": {
+          "primary": [
+            9.083,
+            11.012,
+            15.203,
+            24.775,
+            39.928
+          ],
+          "variant1": [
+            9.345,
+            11.474,
+            15.587,
+            24.108,
+            39.486
+          ]
+        },
+        "High": {
+          "primary": [
+            0.205,
+            0.441,
+            9.764,
+            32.557,
+            57.033
+          ],
+          "variant1": [
+            0.205,
+            0.479,
+            11.785,
+            31.076,
+            56.454
+          ]
+        }
+      },
+      "zone_mean_rf_score": {
+        "Low": {
+          "primary": 0.100228,
+          "variant1": 0.100228
+        },
+        "Moderate": {
+          "primary": 0.272498,
+          "variant1": 0.272498
+        },
+        "High": {
+          "primary": 0.381756,
+          "variant1": 0.381756
+        }
+      }
+    },
+    "variant2_vs_primary": {
+      "note": "thresholds unchanged (primary comparison-domain cuts); zone rasterization all_touched=True and the comparison domain re-derived accordingly (see domain_delta)",
+      "domain_delta": {
+        "rule": "district_mask(GADM) AND lsz_code(all_touched=True)>0 AND rf_valid",
+        "cells": 2251769,
+        "area_km2": 2026.59,
+        "delta_cells_vs_primary": 2928,
+        "delta_km2_vs_primary": 2.6352,
+        "share_of_district_mask_cells": 0.955541
+      },
+      "pct_within_zone_by_quintile": {
+        "Low": {
+          "primary": [
+            24.099,
+            22.841,
+            21.71,
+            18.181,
+            13.169
+          ],
+          "variant2": [
+            24.988,
+            23.422,
+            21.91,
+            17.651,
+            12.028
+          ]
+        },
+        "Moderate": {
+          "primary": [
+            9.083,
+            11.012,
+            15.203,
+            24.775,
+            39.928
+          ],
+          "variant2": [
+            9.461,
+            11.464,
+            15.747,
+            25.193,
+            38.135
+          ]
+        },
+        "High": {
+          "primary": [
+            0.205,
+            0.441,
+            9.764,
+            32.557,
+            57.033
+          ],
+          "variant2": [
+            0.141,
+            0.317,
+            9.998,
+            33.277,
+            56.267
+          ]
+        }
+      },
+      "zone_mean_rf_score": {
+        "Low": {
+          "primary": 0.100228,
+          "variant2": 0.093024
+        },
+        "Moderate": {
+          "primary": 0.272498,
+          "variant2": 0.260631
+        },
+        "High": {
+          "primary": 0.381756,
+          "variant2": 0.377683
+        }
+      }
+    }
+  },
+  "pattern_stability": {
+    "primary": {
+      "high_zone_pct_in_Q4_or_Q5": 89.59,
+      "zone_means_monotone_LtM_ltH": true,
+      "note": "from the primary outputs (authoritative)"
+    },
+    "variant1": {
+      "high_zone_pct_in_Q4_or_Q5": 87.53,
+      "zone_means_monotone_LtM_ltH": true
+    },
+    "variant2": {
+      "high_zone_pct_in_Q4_or_Q5": 89.544,
+      "zone_means_monotone_LtM_ltH": true
+    },
+    "reading": "pattern (monotone zone ordering; High concentrated in the upper bands) is judged stable when it holds in every variant"
+  },
+  "outputs": {
+    "variant1_full_domain_thresholds_crosstab.csv": "outputs\\lsz_rf_comparison\\sensitivity\\variant1_full_domain_thresholds_crosstab.csv",
+    "variant1_zone_stats.csv": "outputs\\lsz_rf_comparison\\sensitivity\\variant1_zone_stats.csv",
+    "variant2_alltouched_crosstab.csv": "outputs\\lsz_rf_comparison\\sensitivity\\variant2_alltouched_crosstab.csv",
+    "variant2_zone_stats.csv": "outputs\\lsz_rf_comparison\\sensitivity\\variant2_zone_stats.csv",
+    "sensitivity_figure.png": "outputs\\lsz_rf_comparison\\sensitivity\\sensitivity_figure.png"
+  }
+}

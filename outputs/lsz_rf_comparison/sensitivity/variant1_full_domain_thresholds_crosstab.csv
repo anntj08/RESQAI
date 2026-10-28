@@ -1,0 +1,25 @@
+# RF is a relative ranking conditional on the observed inventory, not a calibrated probability or forecast.
+# GSI LSZ-01 is another model-derived susceptibility product, not ground truth, geology, or validation labels.
+# Results are descriptive zone/ranking agreement only; spatial autocorrelation is expected.
+# GSI coverage is incomplete against GADM and is not field-validated.
+variant,gsi_zone,rf_quintile,cells,area_km2,pct_within_gsi_zone,pct_of_rf_quintile_in_domain
+V1 full-map thresholds,Low,Q1 (lowest band),426657,383.991300,24.670000,91.287000
+V1 full-map thresholds,Low,Q2,406015,365.413500,23.477000,88.998000
+V1 full-map thresholds,Low,Q3,377056,339.350400,21.802000,82.912000
+V1 full-map thresholds,Low,Q4,296423,266.780700,17.140000,69.322000
+V1 full-map thresholds,Low,Q5 (highest band),223279,200.951100,12.911000,50.415000
+V1 full-map thresholds,Moderate,Q1 (lowest band),40546,36.491400,9.345000,8.675000
+V1 full-map thresholds,Moderate,Q2,49784,44.805600,11.474000,10.913000
+V1 full-map thresholds,Moderate,Q3,67628,60.865200,15.587000,14.871000
+V1 full-map thresholds,Moderate,Q4,104598,94.138200,24.108000,24.461000
+V1 full-map thresholds,Moderate,Q5 (highest band),171317,154.185300,39.486000,38.682000
+V1 full-map thresholds,High,Q1 (lowest band),175,0.157500,0.205000,0.037000
+V1 full-map thresholds,High,Q2,410,0.369000,0.479000,0.090000
+V1 full-map thresholds,High,Q3,10081,9.072900,11.785000,2.217000
+V1 full-map thresholds,High,Q4,26582,23.923800,31.076000,6.217000
+V1 full-map thresholds,High,Q5 (highest band),48290,43.461000,56.454000,10.903000
+V1 full-map thresholds,ALL ZONES,Q1 (lowest band),467378,420.640200,20.783000,100.000000
+V1 full-map thresholds,ALL ZONES,Q2,456209,410.588100,20.286000,100.000000
+V1 full-map thresholds,ALL ZONES,Q3,454765,409.288500,20.222000,100.000000
+V1 full-map thresholds,ALL ZONES,Q4,427603,384.842700,19.014000,100.000000
+V1 full-map thresholds,ALL ZONES,Q5 (highest band),442886,398.597400,19.694000,100.000000

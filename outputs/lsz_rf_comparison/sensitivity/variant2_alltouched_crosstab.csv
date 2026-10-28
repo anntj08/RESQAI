@@ -1,0 +1,25 @@
+# RF is a relative ranking conditional on the observed inventory, not a calibrated probability or forecast.
+# GSI LSZ-01 is another model-derived susceptibility product, not ground truth, geology, or validation labels.
+# Results are descriptive zone/ranking agreement only; spatial autocorrelation is expected.
+# GSI coverage is incomplete against GADM and is not field-validated.
+variant,gsi_zone,rf_quintile,cells,area_km2,pct_within_gsi_zone,pct_of_rf_quintile_in_domain
+V2 all_touched=True,Low,Q1 (lowest band),400621,360.558900,24.988000,87.734000
+V2 all_touched=True,Low,Q2,375519,337.967100,23.422000,84.676000
+V2 all_touched=True,Low,Q3,351279,316.151100,21.910000,78.044000
+V2 all_touched=True,Low,Q4,282996,254.696400,17.651000,62.747000
+V2 all_touched=True,Low,Q5 (highest band),192831,173.547900,12.028000,42.799000
+V2 all_touched=True,Moderate,Q1 (lowest band),55929,50.336100,9.461000,12.248000
+V2 all_touched=True,Moderate,Q2,67774,60.996600,11.464000,15.282000
+V2 all_touched=True,Moderate,Q3,93090,83.781000,15.747000,20.682000
+V2 all_touched=True,Moderate,Q4,148933,134.039700,25.193000,33.022000
+V2 all_touched=True,Moderate,Q5 (highest band),225445,202.900500,38.135000,50.038000
+V2 all_touched=True,High,Q1 (lowest band),81,0.072900,0.141000,0.018000
+V2 all_touched=True,High,Q2,182,0.163800,0.317000,0.041000
+V2 all_touched=True,High,Q3,5734,5.160600,9.998000,1.274000
+V2 all_touched=True,High,Q4,19085,17.176500,33.277000,4.232000
+V2 all_touched=True,High,Q5 (highest band),32270,29.043000,56.267000,7.162000
+V2 all_touched=True,ALL ZONES,Q1 (lowest band),456631,410.967900,20.279000,100.000000
+V2 all_touched=True,ALL ZONES,Q2,443475,399.127500,19.695000,100.000000
+V2 all_touched=True,ALL ZONES,Q3,450103,405.092700,19.989000,100.000000
+V2 all_touched=True,ALL ZONES,Q4,451014,405.912600,20.029000,100.000000
+V2 all_touched=True,ALL ZONES,Q5 (highest band),450546,405.491400,20.009000,100.000000
