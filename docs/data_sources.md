@@ -57,6 +57,43 @@ unavoidable; clipping happens later on working copies. All 312 gzip streams pass
 Native CRS is World Eckert IV (`ESRI:54012`, not resolvable as `EPSG:54012`). A copy was clipped to the
 Wayanad bbox into `data/processed/geology/` (29 polygons in bbox, 16 intersecting the district).
 
+**GSI 1:50,000 geology — re-check 2026-10-28** (run `RUN-2026-10-28-04`; evidence:
+`data/interim/gsi_geology/probe_results.json`, `ngdr_probe.json`, `ngdr_guest_services.json`,
+`ngdr_asset_endpoints.json`; probe scripts `scripts/probe_gsi_geology_50k.py`,
+`probe_ngdr_geodata.py`, `probe_ngdr_guest_assets.py`). Status stays
+**`ACCESS_RESTRICTED`** (manifest `GEO-02`):
+
+- **Product confirmed from official documents.** GSI Data Sharing and Accessibility Policy
+  2019, §7.1 (PDF on `www.geodataindia.gov.in`, sha256 `5ca1cd39…f175c3`): the 1:50K
+  (or 1:63,360) mapping was **compiled to a seamless lithology + structure product with a
+  unified legend across India**; §7.1.2 WMS/WFS public services; §7.1.3 "maximum of 29
+  layers as per the 1:50K geodatabase … placed in public domain", GIS-format downloads via
+  BHUKOSH; §7.1.4 **free of charge to registered users**; Annexure IV requires an online
+  undertaking for Bhukosh downloads. NGDR brochure (Ministry of Mines, sha256
+  `05cfe121…2016743`): "**Standard Geological Map (1:50K) — Area: 32.7 lakh sq km
+  (TS: 5087)**". Tier table: guest = VISUALIZATION only; **DOWNLOAD requires a registered
+  account**.
+- **Reachability today.** `bhukosh.gsi.gov.in`: 443 connect timeout on `/` and
+  `/Bhukosh/Public`, re-confirmed from a second network path (fetch service) — still down
+  for us. `bhusanket.gsi.gov.in` ArcGIS REST (v11.2): now open, but folders `GSI`, `Hosted`,
+  `Susceptibility`, `Sector_Map`, `Utilities` contain **only landslide and dashboard
+  services — no geology layers**. `geodataindia.gov.in` (NGDR): reachable; anonymous
+  `/api/datasets` → **401**; unauthenticated geoserver/arcgis paths → 404 or redirect to
+  login; guest viewer bundles contain no anonymous service endpoints.
+- **Coverage verdict.** The product is a national 1:50K compilation and Wayanad was
+  systematically mapped at this scale historically (GSI Misc. Pub. No. 30 Pt IX, Kerala,
+  bibliography: 1976 systematic mapping of Wynad taluks), but **Wayanad-specific
+  full-district coverage could not be verified from files or metadata** without portal
+  access. Per the standing rule, no tile/index/preview was treated as coverage proof; no
+  data was downloaded; `GEO-02` remains `(not downloaded)`.
+- **Distinct adjacent products, NOT geology (do not conflate).** KSDMA
+  (`sdma.kerala.gov.in/hazard-maps/`, fetched 2026-10-28) hosts the **GSI 2022 landslide
+  susceptibility zone shapefiles per district, including `Wayanad.zip`** — a
+  susceptibility product from GSI's NLSM programme (1:50K macro-scale), not a geological
+  map; it was not downloaded in this run (out of scope). The only 1:50K geological
+  information on disk remains the **map plates inside the held GSI report PDFs**
+  (14767/14768/14999) — reference only, not analysis-ready.
+
 ### 1.5 Soil
 
 | Source | Endpoint | Result |

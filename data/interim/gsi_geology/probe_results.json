@@ -1,0 +1,81 @@
+{
+  "dns": {
+    "bhukosh.gsi.gov.in": "144.24.99.164",
+    "bhusanket.gsi.gov.in": "223.31.67.4",
+    "ngdr-gsi.gov.in": "DNS_FAIL: gaierror: [Errno 11001] getaddrinfo failed",
+    "ngdr.gsi.gov.in": "DNS_FAIL: gaierror: [Errno 11001] getaddrinfo failed",
+    "sdma.kerala.gov.in": "43.205.85.134",
+    "www.gsi.gov.in": "18.161.229.109"
+  },
+  "probes": [
+    {
+      "label": "bhukosh root",
+      "url": "https://bhukosh.gsi.gov.in/",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='bhukosh.gsi.gov.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='bhukosh.gsi.gov.in', port=443) at 0x1aa336b4c20>, 'Connection to bhukosh.gsi.gov.in timed out. (connect timeout=25)'))",
+      "seconds": 42.2
+    },
+    {
+      "label": "bhukosh public app",
+      "url": "https://bhukosh.gsi.gov.in/Bhukosh/Public",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='bhukosh.gsi.gov.in', port=443): Max retries exceeded with url: /Bhukosh/Public (Caused by ConnectTimeoutError(<HTTPSConnection(host='bhukosh.gsi.gov.in', port=443) at 0x1aa33642850>, 'Connection to bhukosh.gsi.gov.in timed out. (connect timeout=25)'))",
+      "seconds": 42.1
+    },
+    {
+      "label": "bhusanket root",
+      "url": "https://bhusanket.gsi.gov.in/",
+      "status": 200,
+      "bytes": 43677,
+      "final_url": "https://bhusanket.gsi.gov.in/",
+      "seconds": 0.6,
+      "head": "<!DOCTYPE html> <html lang=\"en\">  <head>     <meta charset=\"UTF-8\">     <!-- <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> -->     <meta name=\"google-site-verification\" content=\"google753e459cb3ebfbc8.html\" />      <link rel=\"canonical\" href=\"https://bhusanket.gsi.gov.in/\"> "
+    },
+    {
+      "label": "bhusanket arcgis services",
+      "url": "https://bhusanket.gsi.gov.in/gisserver/rest/services?f=json",
+      "status": 200,
+      "bytes": 162,
+      "final_url": "https://bhusanket.gsi.gov.in/gisserver/rest/services?f=json",
+      "seconds": 0.4,
+      "head": "{\"currentVersion\":11.2,\"folders\":[\"GSI\",\"Hosted\",\"IMD\",\"Sector_Map\",\"Susceptibility\",\"Test\",\"Utilities\"],\"services\":[{\"name\":\"Bulletin_NDEM\",\"type\":\"MapServer\"}]}"
+    },
+    {
+      "label": "bhusanket arcgis token req",
+      "url": "https://bhusanket.gsi.gov.in/gisserver/tokens?f=json",
+      "status": 200,
+      "bytes": 88,
+      "final_url": "https://bhusanket.gsi.gov.in/gisserver/tokens/?f=json",
+      "seconds": 0.5,
+      "head": "{\"error\":{\"code\":405,\"message\":\"Method not supported\",\"details\":\"HTTP GET is disabled\"}}"
+    },
+    {
+      "label": "gsi main site",
+      "url": "https://www.gsi.gov.in/",
+      "status": 200,
+      "bytes": 26334,
+      "final_url": "https://gsi.gov.in:443/",
+      "seconds": 0.6,
+      "head": "<!DOCTYPE html><html><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/><title class=\"jsx-3415573935\">GSI</title><meta name=\"description\" content=\"OCBIS\" class=\"jsx-3415573935\"/><link rel=\"icon\" sizes=\"180x180\" type=\"image/png\" href=\"/favicon.png\" class=\"jsx-3415573935\""
+    },
+    {
+      "label": "ngdr portal",
+      "url": "https://ngdr.gsi.gov.in/",
+      "error": "ConnectionError: HTTPSConnectionPool(host='ngdr.gsi.gov.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='ngdr.gsi.gov.in', port=443): Failed to resolve 'ngdr.gsi.gov.in' ([Errno 11001] getaddrinfo failed)\"))",
+      "seconds": 0.0
+    },
+    {
+      "label": "ngdr alt",
+      "url": "https://ngdr-gsi.gov.in/",
+      "error": "ConnectionError: HTTPSConnectionPool(host='ngdr-gsi.gov.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='ngdr-gsi.gov.in', port=443): Failed to resolve 'ngdr-gsi.gov.in' ([Errno 11001] getaddrinfo failed)\"))",
+      "seconds": 0.0
+    },
+    {
+      "label": "ksdma hazard maps",
+      "url": "https://sdma.kerala.gov.in/hazard-maps/",
+      "status": 200,
+      "bytes": 115498,
+      "final_url": "https://sdma.kerala.gov.in/hazard-maps/",
+      "seconds": 1.1,
+      "head": "\r \r \r \r \r <!DOCTYPE html>\r <html dir=\"ltr\" lang=\"en-GB\" prefix=\"og: https://ogp.me/ns#\">\r <head>\r <meta charset=\"UTF-8\">\r <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r <link rel=\"profile\" href=\"http://gmpg.org/xfn/11\">\r \r <title>Hazard Maps - Kerala State Disaster Management "
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "assets_fetched": [
+    {
+      "url": "https://www.geodataindia.gov.in/guestuser",
+      "status": 200,
+      "bytes": 161244
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/login",
+      "status": 200,
+      "bytes": 214986
+    }
+  ],
+  "candidate_endpoints": [
+    "http://yourserver/login"
+  ],
+  "probes": []
+}

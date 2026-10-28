@@ -1,0 +1,112 @@
+{
+  "pages": [
+    {
+      "url": "https://www.geodataindia.gov.in/guestuser",
+      "status": 200,
+      "bytes": 161244
+    }
+  ],
+  "bundles": [
+    {
+      "url": "https://www.geodataindia.gov.in/./mert/assets/js/color.js",
+      "status": 200,
+      "bytes": 1519
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/./mert/assets/js/encreaption/AesUtil.js",
+      "status": 200,
+      "bytes": 2623
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/./mert/assets/js/encreaption/crypto-js.min.js",
+      "status": 200,
+      "bytes": 204284
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/./mert/assets/js/xlsx.full.min.js",
+      "status": 200,
+      "bytes": 952384
+    },
+    {
+      "url": "https://www.geodataindia.gov.in//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit",
+      "status": 500,
+      "bytes": 2187
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/assets/js/jquery.slicknav.js",
+      "status": 200,
+      "bytes": 21561
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/assets/plugins/raphael/raphael-min.js",
+      "status": 200,
+      "bytes": 93255
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/@{assets/js/Stopinspect.js}",
+      "status": 404,
+      "bytes": 2186
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/@{assets/js/stopdt.js}",
+      "status": 404,
+      "bytes": 2186
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/assets/js/custom.min.js",
+      "status": 200,
+      "bytes": 3573
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/assets/js/jquery.slidemenu.js",
+      "status": 200,
+      "bytes": 3898
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/assets/js/jquery.slimscroll.js",
+      "status": 200,
+      "bytes": 4475
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/assets/js/sidebarmenu.js",
+      "status": 200,
+      "bytes": 10643
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/assets/js/waves.js",
+      "status": 200,
+      "bytes": 4237
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/assets/plugins/bootstrap/js/bootstrap.min.js",
+      "status": 200,
+      "bytes": 58078
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/assets/plugins/morrisjs/morris.min.js",
+      "status": 200,
+      "bytes": 35658
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/assets/plugins/sparkline/jquery.sparkline.min.js",
+      "status": 200,
+      "bytes": 43251
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/assets/plugins/sticky-kit-master/dist/sticky-kit.min.js",
+      "status": 200,
+      "bytes": 3278
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/assets/plugins/styleswitcher/jQuery.style.switcher.js",
+      "status": 200,
+      "bytes": 1506
+    },
+    {
+      "url": "https://www.geodataindia.gov.in/assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js",
+      "status": 200,
+      "bytes": 108150
+    }
+  ],
+  "endpoints": []
+}

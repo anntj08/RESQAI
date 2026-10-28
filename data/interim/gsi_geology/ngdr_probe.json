@@ -1,0 +1,46 @@
+[
+  {
+    "label": "root",
+    "url": "https://www.geodataindia.gov.in/",
+    "error": "ConnectionError: HTTPConnectionPool(host='geodataindia.gov.in', port=80): Max retries exceeded with url: /login (Caused by NewConnectionError(\"HTTPConnection(host='geodataindia.gov.in', port=80): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+  },
+  {
+    "label": "login",
+    "url": "https://www.geodataindia.gov.in/login",
+    "status": 200,
+    "bytes": 214986,
+    "final_url": "https://geodataindia.gov.in/login",
+    "head": "<!-- Header start -->       <!DOCTYPE html> <html lang=\"en\" class=\"black\"> <head>     <meta charset=\"UTF-8\">     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">     <meta name=\"description\" content=\"National Geoscience Data Repository (NGDR) - Ministry of Mines, Government of India\">     <title>National Geoscience Dat"
+  },
+  {
+    "label": "geoserver web",
+    "url": "https://www.geodataindia.gov.in/geoserver/web/",
+    "error": "ConnectionError: HTTPConnectionPool(host='geodataindia.gov.in', port=80): Max retries exceeded with url: /login (Caused by NewConnectionError(\"HTTPConnection(host='geodataindia.gov.in', port=80): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+  },
+  {
+    "label": "geoserver rest layers",
+    "url": "https://www.geodataindia.gov.in/geoserver/rest/layers.json",
+    "status": 404,
+    "bytes": 2186,
+    "final_url": "https://geodataindia.gov.in/geoserver/rest/layers.json",
+    "head": "\r \r \r \r   <!DOCTYPE html>\r <html lang=\"en\">\r    <head>\r       <meta charset=\"UTF-8\">\r       <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r       <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r       <title>NGDR</title>\r       <!-- favicon -->\r       <link rel=\"icon\" href=\"./mert/assets/img/favicon.png\" type=\"image/x-icon\">\r       <!-- Bootstrap css -->\r       <link "
+  },
+  {
+    "label": "arcgis services",
+    "url": "https://www.geodataindia.gov.in/server/rest/services?f=json",
+    "error": "ConnectionError: HTTPConnectionPool(host='geodataindia.gov.in', port=80): Max retries exceeded with url: /login (Caused by NewConnectionError(\"HTTPConnection(host='geodataindia.gov.in', port=80): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+  },
+  {
+    "label": "gisserver services",
+    "url": "https://www.geodataindia.gov.in/gisserver/rest/services?f=json",
+    "error": "ConnectionError: HTTPConnectionPool(host='geodataindia.gov.in', port=80): Max retries exceeded with url: /login (Caused by NewConnectionError(\"HTTPConnection(host='geodataindia.gov.in', port=80): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))"
+  },
+  {
+    "label": "api datasets",
+    "url": "https://www.geodataindia.gov.in/api/datasets",
+    "status": 401,
+    "bytes": 108,
+    "final_url": "https://geodataindia.gov.in/api/datasets",
+    "head": "{\"error\":\"unauthorized\",\"error_description\":\"An Authentication object was not found in the SecurityContext\"}"
+  }
+]

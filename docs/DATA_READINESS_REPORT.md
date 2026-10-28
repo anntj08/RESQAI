@@ -246,7 +246,11 @@ from a site to the nearest class boundary is 1,063 m; mean polygon area 132.6 km
 
 **Condition:** usable **only as coarse regional context**. Do not interpret the 30 m raster as
 30 m geological detail, and do not present a lithology coefficient as a local rock property. GSI
-1:50,000 geology remains the correct source and remains unavailable.
+1:50,000 geology remains the correct source and remains unavailable. *(Re-checked 2026-10-28,
+run `RUN-2026-10-28-04`: the product is now precisely identified from official documents — GSI
+compiled 1:50K lithology + structure, `GEO-02` — but access remains registered-users-only and
+Bhukosh remains unreachable; see `docs/data_sources.md` §1.4 and the manifest row. Status
+unchanged: `ACCESS_RESTRICTED`.)*
 
 *Evidence:* `geology/geology_validation.json` (`site_lithology_check`, `scale_check`), `glim_lithology_shares.csv`.
 

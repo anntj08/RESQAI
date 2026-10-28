@@ -1,0 +1,3806 @@
+<html lang="en" class="black">
+<head>
+<meta charset="utf-8">
+
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta http-equiv="content-type" content="text/plain; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Tell the browser to be responsive to screen width -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<!-- Favicon icon -->
+<link rel="icon" type="image/png" sizes="16x16"
+	src="assets/images/test_logo.png">
+<title>NGDR</title>
+<!--new add from style 14082026-->
+<link rel="stylesheet" href="/assets/scss/icons/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/assets/scss/icons/simple-line-icons/css/simple-line-icons.css">
+<link rel="stylesheet" href="/assets/scss/icons/weather-icons/css/weather-icons.min.css">
+<link rel="stylesheet" href="/assets/scss/icons/linea-icons/linea.css">
+<link rel="stylesheet" href="/assets/scss/icons/themify-icons/themify-icons.css">
+<link rel="stylesheet" href="/assets/scss/icons/flag-icon-css/flag-icon.min.css">
+<link rel="stylesheet" href="/assets/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css">
+<link rel="stylesheet" href="/assets/css/spinners.css">
+<link rel="stylesheet" href="/assets/css/animate.css">
+<link href="/assets/css/fonts.googleapis.com.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/assets/scss/icons/font-awesome/css/fonts.googleapis.commap3.css">
+<!-- Bootstrap Core CSS -->
+<link href="assets/plugins/bootstrap/css/bootstrap.min.css"	rel="stylesheet">
+<!-- morris CSS -->
+<link href="assets/plugins/morrisjs/morris.css" rel="stylesheet">
+<!-- Vector CSS -->
+<link href="assets/plugins/vectormap/jquery-jvectormap-2.0.2.css"	rel="stylesheet" />
+<!--  Mobile Menu -->
+<link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css">	
+	<!-- Custom CSS -->
+<link rel="stylesheet"	href="offlinejs/1.12.1/jquery-ui.min.css"> 
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/map3_style.css" rel="stylesheet">
+<link href="assets/css/mapnew.css" rel="stylesheet">
+
+
+<!-- You can change the theme colors from here -->
+<link href="ol/geocoder/css/ol.css" rel="stylesheet">
+<link href="ol/geocoder/css/ol-popup.css" rel="stylesheet">
+<link href="ol/geocoder/js/ol-geocoder.css" rel="stylesheet">
+<link href="customol/css/customOlStyle.css" rel="stylesheet" />
+<link href="assets/css/custom_table.css" rel="stylesheet">
+<link href="assets/aichatboard.css" rel="stylesheet" />
+
+<link rel="stylesheet" type="text/css"	href="datatable-bootstrap5/dataTables.bootstrap5.css" />
+<link rel="stylesheet" type="text/css"	href="datatable-bootstrap5/buttons.bootstrap5.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/icons.css" />
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="themes/assets/css/sumo.css" />
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- <script th:src="@{assets/js/stopdt.js}"></script>
+<script th:src="@{assets/js/Stopinspect.js}"></script> -->
+<script>
+	var contextRoot = "\/";
+	// var user=null;
+	var user_type =null;// null;
+         var gov_officalid = null;//null;
+         var user_id =null;// null;
+        var useremail =null;// null;
+</script>
+<script type="text/javascript" src="./mert/assets/js/xlsx.full.min.js"></script>
+<script src="./mert/assets/js/encreaption/AesUtil.js"></script>
+<script src="./mert/assets/js/encreaption/crypto-js.min.js"></script>
+<style>
+#opendrawbox.defualt {  border: 2px solid var(--ngdr-button);    color: var(--ngdr-button);}
+#opendrawbox.red{	border:2px solid #FF3131;  color:#FF3131;}
+.popupcheck .popuptextcheckdistrict {
+/*    visibility: hidden; */
+  width: 270px;
+  background-color:#ffffff;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 43%;
+left: 121%;
+  margin-left: -80px;
+  border: 1px solid #81adad;
+    font-size: 13px !important;
+}
+.popupcheck .popuptextcheckstate {
+/*    visibility: hidden; */
+  width: 270px;
+  background-color:#ffffff;
+  color: #000 !important;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 43%;
+left: 121%;
+  margin-left: -80px;
+  border: 1px solid #81adad;
+    font-size: 13px !important;
+}
+.popupcheck .popuptextcheck_1 {
+/*    visibility: hidden; */
+  width: 270px;
+  background-color:#ffffff;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+left: 121%;
+  margin-left: -80px;
+  border: 1px solid #81adad;
+    font-size: 13px !important;
+}
+.popupcheck .popuptextcheck_2 {
+/*    visibility: hidden; */
+  width: 270px;
+  background-color:#ffffff;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+left: 121%;
+  margin-left: -80px;
+  border: 1px solid #81adad;
+    font-size: 13px !important;
+}
+.popupcheck .popuptextcheck {
+/*    visibility: hidden; */
+  width: 270px;
+  background-color:#ffffff;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+left: 121%;
+  margin-left: -80px;
+  border: 1px solid #81adad;
+      font-size: 13px !important;
+  }
+
+/* Popup arrow */
+.popupcheck .popuptextcheck::after {
+   content: "";
+  position: absolute;
+   top: 42%;
+  left: -2%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #555 transparent transparent;
+}
+.popupcheck .popuptextcheck_2::after {
+   content: "";
+  position: absolute;
+   top: 42%;
+  left: -2%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #555 transparent transparent;
+}
+.popupcheck .popuptextcheck_1::after {
+   content: "";
+  position: absolute;
+   top: 42%;
+  left: -2%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #555 transparent transparent;
+}
+.popupcheck .popuptextcheckstate::after {
+   content: "";
+  position: absolute;
+   top: 70%;
+  left: -2%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #555 transparent transparent;
+}
+.popupcheck .popuptextcheckdistrict::after {
+   content: "";
+  position: absolute;
+  top: 70%;
+  left: -2%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #555 transparent transparent;
+}
+/* Toggle this class - hide and show the popup */
+.popupcheck .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+/*  */
+.hidden_row {
+	display: none;
+}
+
+.minus .fa:before {
+	content: "\f146";
+}
+
+.plus .fa:before {
+	content: "\f067";
+}
+.ui-dialog[aria-describedby="identifycartdialogbox"]{
+	left: 25% !important;
+    top: 25% !important;
+    overflow-y: scroll;
+    height: 50% !important;
+    width: 50% !important;
+}
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #777;
+  border-radius: 10px;
+}
+.badge-notify{
+     background:red;
+    position:relative;
+    top: -5px;
+    right: 4px;
+  }
+.swal2-popup {
+  font-size: 10px !important;
+  font-family: Georgia, serif;
+}
+.buttonload {
+  background-color: #04AA6D; /* Green background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 24px; /* Some padding */
+  font-size: 16px; /* Set a font-size */
+}
+.select2-container .select2-search--inline .select2-search__field{height: 20px;}
+.select2-results__options{    padding-left: 5px;}
+.layerlbl {margin-left:-2px;}
+.disable_a_href{ opacity: .4;  cursor: default !important;  pointer-events: none !important;}
+.indentidfd {	color: black;	font-size: 10px;}
+#ui-datepicker-div {	font-size: 12px;}
+.ui-datepicker-calendar {	display: none;}
+.layercheckbox{margin-left: 10px;    margin-top: 10px;}
+table#searchdataid {	color: #000;}
+</style>
+<style type="text/css">
+.cust-table {	display: table;	padding: 0;	width: 100%;}
+.cust-tr {	display: table-row;}
+.cust-td {
+	border-collapse: collapse;
+	display: table-cell;
+	vertical-align: top; 
+	background: #fff;
+	border: 1px solid gray;
+	min-width: 100px;
+}
+.tg  {border-collapse:collapse !important;border-color:#bbb;border-spacing:3;}
+.tg td{background-color:#E0FFEB;border-color:#bbb;border-style:solid;border-width:2px;color:#594F4F;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#9DE0AD;border-color:#bbb;border-style:solid;border-width:2px;color:#493F3F;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg1  {border-collapse:collapse;border-color:#bbb;border-spacing:0;}
+.tg1 td{background-color:#E0FFEB;border-color:#bbb;border-style:solid;border-width:0px;color:#594F4F;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg1 th{background-color:#9DE0AD;border-color:#bbb;border-style:solid;border-width:0px;color:#493F3F;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg1 .tg1-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.topbar .waves-dark { border: 1px solid white; }
+</style>
+<link rel="stylesheet" href="ol/dist/ol-ext.css" />
+<script src="offlinejs/v3/polyfill.min.js"></script>
+<script src="offlinejs/unpkg/elm-pep.js"></script>
+<script	src="offlinejs/3.18.3/minified.js"></script>
+<link  href="assets/css/slidemenu.css" rel="stylesheet">
+</head>
+<body>
+	<div id="mapidddd" class="mapidddd"></div>
+	<input type="hidden" id="contextPath" value="/" readonly></input>
+<!-- 	<input type="hidden" id="setemail" th:value="${useremail}" readonly></input> -->
+	<input type="hidden" id="csrfvalue" value="6b337583-22bb-4903-bd19-c5a9408d9d02">
+	 <input type="hidden" id="token" value="6b337583-22bb-4903-bd19-c5a9408d9d02">
+	 <input type="hidden" id="csrfparname" value="_csrf">
+	 <input type="hidden" id="user_type" value="" />
+	
+	<!-- Preloader - style you can find in spinners.css -->
+	<!-- ============================================================== -->
+	<div class="preloader">
+		<svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none"
+				stroke-width="2" stroke-miterlimit="10" /> </svg>
+	</div>
+	
+	<!-- Offcanvas Menu Begin -->
+		<div class="offcanvas-menu-overlay"></div>
+		<div class="offcanvas-menu">
+			<div class="offcanvas__logo">
+				<img src="assets/images/test_logo.png" alt="">
+			</div>
+			<div id="mobile-menu-wrap"></div>
+			<div class="offcanvas__widget">	</div>
+			<nav class="header__menu">
+				<ul class="mobile-menu">
+					<!-- <li class="active"><a href="#">Home</a></li> -->
+					<li><a href="#">Documents</a>
+						<ul class="dropdown">
+                           <li><a class="link" href="assets/Document_Pdf/4. Data Dissemination policy 2019.pdf"
+									target="_blank"> Data Sharing and Accessibility Policy - GSI, 2019</a></li>
+											
+										<li><a class="link"	href="assets/Document_Pdf/1. NMEP_2016.pdf"
+									target="_blank"> National Mineral Exploration Policy, 2016</a></li>
+											
+										<li><a class="link" href="assets/Document_Pdf/2. Minerals(EvidenceofContents)Rules,2015.pdf"
+									target="_blank"> Minerals (Evidence of Mineral Contents)Rules, 2015</a></li>
+											
+										<li> <a class="link" href="assets/Document_Pdf/3. CRIRSCO_international_reporting_template_november_2013.pdf"
+									target="_blank">Crirsco International Reporting Template, 2013</a></li>
+                        </ul>
+					</li>
+						<li style="display: flex;">
+							<a href="welcomepage" style="width: 100%;color: white;display: flex;align-items: center;font-size: 15px;"><i
+									class="fa fa-home"></i>&nbsp;&nbsp;Home</a>
+						</li>
+					<li><a href="#">Applications</a>
+						<ul class="dropdown">
+ 						<li><a href="/map_threeDpage" target="_blank">3D Borehole Visualization </a></li>
+										<li><a data-toggle="tab" href="#buffer" id="bufferm"	role="tab"> Proximity </a></li>
+										<li><a data-toggle="tab" href="#qbuilder" id="qbuilderm"	role="tab"> Query Builder</a></li>
+										<li><a data-toggle="tab" id="print2" href="#printer"	role="tab"> Print </a></li>
+                        </ul>
+					</li>
+					<li><a href="#">Profile</a>
+						<ul class="dropdown">
+                           <li><a href="/userprofile" >Profile Management</a></li>
+										<li><a  href="#" onclick="selectuserrole();" >Dashboard</a></li>
+                        </ul>
+					</li>
+					<li><a data-toggle="modal"  href="login" data-target=".bs-example-modal-sm" > <i class="fa fa-home" ></i>Home </a></li>
+                  </ul>
+			</nav>
+		</div>
+		<!-- Offcanvas Menu End -->
+		<!-- ============================================================== -->
+	<input type="hidden" id="contextPath"
+		value="<%=request.getContextPath()%>" readonly></input>
+	<form action="" id="main_form">
+		<div id="main-wrapper">
+
+			<header class="topbar">
+				<nav class="navbar top-navbar navbar-expand-md navbar-light">
+					<div class="navbar-header">
+						<a class="navbar-brand" > 
+						<span>  <img src="assets/images/test_logo.png" alt="">
+								<span class="headName">National Geoscience Data Repository</span>
+						</span>
+						</a>
+					</div>
+					<div class="navbar-collapse">
+						<ul class="navbar-nav mr-auto mt-md-0">
+							<li class="nav-item"><a
+								class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark"
+								href="javascript:void(0)"><i class="mdi mdi-menu"></i></a></li>
+						</ul>
+										<ul class="navbar-nav my-lg-0">
+							<li class="nav-item dropdown mega-dropdown"><a
+								class="nav-link dropdown-toggle text-muted waves-effect waves-dark"
+								href="#" data-toggle="dropdown" aria-haspopup="true">
+									Documents</a> <!-- <div class="hide detailDiv">Applications</div> -->
+								<div class="dropdown-menu dropdown-menu-right scale-up">
+									<ul class="dropdown-user">
+										<li><a class="link" href="assets/Document_Pdf/4. Data Dissemination policy 2019.pdf"
+									target="_blank"> Data Sharing and Accessibility Policy - GSI, 2019</a></li>
+											
+										<li><a class="link"	href="assets/Document_Pdf/1. NMEP_2016.pdf"
+									target="_blank"> National Mineral Exploration Policy, 2016</a></li>
+											
+										<li><a class="link" href="assets/Document_Pdf/2. Minerals(EvidenceofContents)Rules,2015.pdf"
+									target="_blank"> Minerals (Evidence of Mineral Contents)Rules, 2015</a></li>
+											
+										<li> <a class="link" href="assets/Document_Pdf/3. CRIRSCO_international_reporting_template_november_2013.pdf"
+									target="_blank">Crirsco International Reporting Template, 2013</a></li>
+
+
+									</ul>
+								</div></li>
+						</ul>
+<ul style="margin: 0; margin-left: 12px;">
+	<li style="display: flex; margin-right: 20px; margin-bottom: 0px;">
+		<a style="width: 100%; color: white; display: flex; align-items: center; font-size: 16px" href="welcomepage"
+			aria-haspopup="true"> <i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a>
+	</li>
+</ul>
+</div>
+<div class="canvas__open"> <i class="fa fa-bars"></i> </div>
+</nav>	</header></div>
+</form>
+	<div class="width_100 float-left" id="fullscreen">
+				<div class="hamburger">
+					<input type="checkbox" checked>
+				
+								<!-- Design 130126 - end -->
+					<button class="slide-btn" id="slideBtn">
+					  <div class="slide-btn-body"></div>
+					<!--   <div class="slide-btn-line"></div> -->
+					  <svg width="13" height="13" viewBox="0 0 12 12" class="slide-btn-arrow">
+					    <polyline points="8,2 4,6 8,10" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+					  </svg>
+					</button>
+					<div class="head-menu-items">
+					<ul class="menu-items nav nav-tabs tabs dashtabs" role="tablist">
+						<li class="nav-item sub-menu"><a class="nav-link waves-dark tab" rel="#tabs-1" title="Report Search & Download"
+								type="button" onclick="getdatafromtbl222222('master_commodity','commodities_name','searchdataaa11_0');"
+								style="color: white;"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+								<li class="nav-item sub-menu" role="button">
+									<a href="#tabs-2" onclick="handleDataLayerTabClick(event);" class="nav-link waves-dark tab" rel="#tabs-2"
+										title="Data Layers">
+										<i class="mdi mdi-layers" style="font-size: 1.5rem !important;"></i>
+									</a>
+								</li>
+						<li class="nav-item sub-menu"><a class="nav-link waves-dark tab" rel="#tabs-3" title="Tools" style="color: white;" type="button">
+								<i class="mdi mdi-wrench"> </i>
+							</a></li>
+					</ul>
+						<div class="depHeadFixed"></div>
+						<!-- Tab panes -->
+						<div class="tab_contents_container leftMenuTabContentArea"		id="datalayerstools">
+							<div class="tab_content" id="tabs-1">
+								<div class="div2" id="searchbox1">
+							<div class="tab-container">
+								<ul class="accordion">
+									<li class="accordion-chevron accordion--open"><a
+										class="accordion-toggle" href="javascript:void(0);"
+										title="Search For"><i class="fa fa-angle-down"></i>Search
+											For</a>
+										<div class="accordion-inner" id="select_box_drop"	style="display: block;">
+											<div>
+												<select id="select-box111" onchange="" class="form-control"	title="Exploration Report">
+													<!-- <option value="Select">Select</option> -->
+													<option title="Exploration Report"	value="exploration_report" selected>Exploration	Report</option>
+													<option title="Baseline Report (Geological/Geochemical)" value="baseline_report">Baseline Report
+														(Geological/Geochemical)</option>
+													<option title="Geophysical Data Report"	value="geophysicaldata_report" id="geophysicaldata_report">Geophysical Data Report</option>
+													<option title="visualize DRM" value="visual_report">Published	Paper Map</option>
+												</select>
+											</div>
+
+
+										</div></li>
+									<li class="accordion-chevron byReport_theme_search"		id="map_drmlocation"><a class="accordion-toggle"
+										href="javascript:void(0);" title="Search By Keyword"><i
+											class="fa fa-angle-down"></i>Map Type</a>
+										<div class="accordion-inner">
+											<div>
+												<select id="district_resource_map"	title="District Resource Map" onchange=""	class="form-control">
+													<option title="District Resource Map" value="district_resource_map" selected>District Resource Map</option>
+												</select>
+											</div>
+										</div></li>
+		<li class="accordion-chevron"><a class="accordion-toggle" href="javascript:void(0);" title="Search By Location"		aria-expanded="false" id="byloc">
+										<i	class="fa fa-angle-down"></i>By Location</a>
+										<ul class="accordion-inner locationdiv">
+											<!-- 1st nested -->
+											<li class="accordion-chevron"><select id="select-box"
+												class="form-control" onchange="gettoponumber(this.value); nhochartdata('1');">
+													<option title="Select" value="Select">Please Select By Location</option>
+													<option title="Toposheet" value="1" id="tps">Toposheet</option>
+													<option title="Latitude/Longitude" value="2" id="latlon">Latitude/Longitude</option>
+													<option title="State/District" value="3" id="stdis">State/District</option>
+													<option title="Area Draw" value="4" id="ad">Area	Draw</option>
+														<option title="NHO Chart" value="5" id="nho" >NHO Chart</option>
+											</select>
+												<div id="tabcon-1" class="tab-content1">
+													<div id="toposheetidhide" style="display: none">
+														<input type="hidden" id="topocount" value="1">
+														<table id="addtoposer_div">
+															<tr>
+																<td><select class="selectpicker" id="zerotohund_1"
+																	data-style="btn btn-primary btn-round"	title="Select Toposheet"
+																	onchange="getdigitnum('oldsystem_50k_index_gcs','two_50_k','alphaid_1',this.value);">
+																		<option value="Select" selected>Select</option>
+																</select></td>
+																<td><select class="selectpicker" id="alphaid_1"
+																	data-style="btn btn-primary btn-round"	title="Select Toposheet"		
+																	onchange="getdigitnum('oldsystem_50k_index_gcs','fifty_k','zerotohund2_1',this.value);">
+																	<option value="Select" selected>Select</option>
+																</select></td>
+																<td><select class="selectpicker" id="zerotohund2_1"
+																	data-style="btn btn-primary btn-round"	title="Select Toposheet" onclick="">
+																		<option value="select" selected>Select</option>
+																</select></td>
+																<td><a onclick="addtopoosmsearch();" href="#"	style="color: #045b5b;"><span
+																		class="fa fa-plus-circle"	title="Click on + add Toposheet"></span></a></td>
+															</tr>
+
+														</table>
+														<p id="mgstble" style="color: red;"></p>
+													</div>
+												</div>
+												<div id="tabcon-2" class="tab-content1">
+													<div>
+														<input type="hidden" id="totalcountlatlong" value="3">
+														<table style="width: 125px;">
+															<tr>
+																<td>
+																	<div style="display: flex; align-items: center; gap: 4px; ">
+																	<input title="Select DD" type="radio" id="dd"
+																	name="dd" value="dd"> <label for="dd">DD</label>
+																	</div>
+																	</td>
+																<td>
+																	<div style="display: flex; align-items: center; gap: 4px; ">
+																	<input title="Select DMS" type="radio" id="dms"
+																	name="dd" value="dms"> <label for="dms">DMS</label>
+																	</div>
+																	</td>
+															</tr>
+														</table>
+														<article>
+
+																<table id="div_lat">
+																<tr>
+																	<td><input type="text" name="lat_1" id="lat_1"
+																		value="" title="Latitude" style="width: 109px;"
+																		placeholder="Latitude-1"	maxlength="7" class="form-control"
+																			onkeyup="this.value=this.value.replace(/[^0-9. ]/g,'');"></td>
+																	<td><input type="text" name="lon_1" id="lon_1"
+																		value="" title="Longitude" style="width: 109px;"
+																		placeholder="Longitude-1"	maxlength="7" class="form-control"
+																		onkeyup="this.value=this.value.replace(/[^0-9. ]/g,'');"></td>
+																	<td><a onclick="addlatlongmore();" href="#"
+																		style="color: #045b5b;"><span	title="Click on + add Latitude and Longitude"
+																			class="fa fa-plus-circle"> </span></a></td>
+																</tr>
+																<tr>
+																	<td><input type="text" name="lat_2" id="lat_2"
+																		value="" title="Latitude" style="width: 109px;"
+																		placeholder="Latitude-2"	maxlength="7" class="form-control"
+																	onkeyup="this.value=this.value.replace(/[^0-9. ]/g,'');"></td>
+																	<td><input type="text" name="lon_2" id="lon_2"
+																		value="" title="Longitude" style="width: 109px;"
+																		placeholder="Longitude-2"
+																		maxlength="7" class="form-control"
+																	onkeyup="this.value=this.value.replace(/[^0-9. ]/g,'');"></td>
+																</tr>
+																<tr>
+																	<td><input type="text" name="lat_3" id="lat_3"
+																		value="" title="Latitude" style="width: 109px;"	placeholder="Latitude-3"
+																		maxlength="7" class="form-control"	onkeyup="this.value=this.value.replace(/[^0-9. ]/g,'');"></td>
+																	<td><input type="text" name="lon_3" id="lon_3"
+																		value="" title="Longitude" style="width: 109px;"	placeholder="Longitude-3"
+																		maxlength="7" class="form-control"	onkeyup="this.value=this.value.replace(/[^0-9. ]/g,'');"></td>
+																</tr>
+													</table>
+
+														</article>
+														<article>
+															<input type="hidden" id="totalcountdms" value="2">
+															<table id="dmsmoreaddid" style="height: 88px; width: 261px; margin-left: auto; margin-right: auto;"	border="0">
+																<tbody>
+																	<tr>
+																		<td style="width: 165.5px; font-size: 12px;">Latitude</td>
+																		<td style="width: 165.5px; font-size: 12px;">Longitude	&nbsp;&nbsp;</td>
+																		<td style="font-size: 12px;">
+																			<a	onclick="adddmsmorelatlong();" href="#"	style="color: #045b5b;"><span
+																				title="Click on + add Latitude and Longitude" class="fa fa-plus-circle"> </span></a></td>
+																	</tr>
+																	<tr>
+																		<td style="width: 165.5px;">
+																			<input type="text"	id="latdmsd_0" name="d" placeholder="D"	title="Degrees" value="" style="width: 32px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)">
+																		    <input 	type="text" id="latdmsm_0" name="m" placeholder="M"	title="Minutes" value="" style="width: 35px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)"> 
+																			<input type="text" id="latdmss_0" name="s" placeholder="S"	title="Seconds" value="" style="width: 35px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)">
+																			<input	type="hidden" id="latconvert_0" name="latconvert_0"	placeholder="latconvert_0" style="width: 35px; font-size: 13px;"></td>
+																		<td style="width: 165.5px;">
+																			<input type="text"	id="longdmsd_0" name="d" placeholder="D" title="Degrees" value=""	style="width: 32px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)"> 
+																			<input type="text" id="longdmsm_0" name="m" placeholder="M"	title="Minutes" value=""	style="width: 35px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)">
+																			<input	type="text" id="longdmss_0" name="s" placeholder="S" title="Seconds" value=""	onkeyup="getexplatitudeconvert();"
+																			style="width: 35px; font-size: 13px;"	onkeypress="return onlyNumberKey(event)"> <input
+																			type="hidden" id="longconvert_0" name="longconvert_0"	placeholder="longconvert_0"	style="width: 35px; font-size: 13px;"></td>
+
+																	</tr>
+																	<tr>
+																		<td style="width: 165.5px;">
+																			<input type="text"	id="latdmsd_1" name="d" placeholder="D"	title="Degrees" style="width: 32px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)"> 
+																			<input	type="text" id="latdmsm_1" name="m" placeholder="M"	title="Minutes" style="width: 35px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)">
+																			<input	type="text" id="latdmss_1" name="s" placeholder="S"	title="Seconds" style="width: 35px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)"></td>
+																		<td style="width: 165.5px;">
+																			<input type="text"	id="longdmsd_1" name="d" placeholder="D" title="Degrees" style="width: 32px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)"> 
+																			<input	type="text" id="longdmsm_1" name="m" placeholder="M" title="Minutes" style="width: 35px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)"> 
+																			<input	type="text" id="longdmss_1" name="s" placeholder="S" title="Seconds" style="width: 35px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)"></td>
+																	</tr>
+																	<tr>
+																		<td style="width: 153.5px;"><input type="text"
+																			id="latdmsd_2" name="d" placeholder="D"
+																			title="Degrees" style="width: 32px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)"> <input
+																			type="text" id="latdmsm_2" name="m" placeholder="M"
+																			title="Minutes" style="width: 35px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)"> <input
+																			type="text" id="latdmss_2" name="s" placeholder="S"
+																			title="Seconds" style="width: 35px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)"></td>
+																		<td style="width: 153.5px;"><input type="text"
+																			id="longdmsd_2" name="d" placeholder="D"
+																			title="Degrees" style="width: 32px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)"> <input
+																			type="text" id="longdmsm_2" name="m" placeholder="M"
+																			title="Minutes" style="width: 35px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)"> <input
+																			type="text" id="longdmss_2" name="s" placeholder="S"
+																			title="Seconds" style="width: 35px; font-size: 13px;"
+																			onkeypress="return onlyNumberKey(event)"></td>
+																	</tr>
+
+																</tbody>
+															</table>
+														</article>
+														<p id="mgstble_lat" style="color: red;"></p>
+														<div>
+														</div>
+													</div>
+												</div>
+									
+												<div id="tabcon-3" class="tab-content1">
+													<div>
+														<table id="div_stsdist"
+															style="font-size: 12px; color: #045b5b;">
+															<tr>
+																<td> <label style="color: white;"> State :</label><input type="hidden" id="statdistcount"
+																	value="1"></td>
+																<td><select id="state_name_explo"
+																	title="Select State" name="state_name"
+																	class="form-control" style="border-color:#ffc75f !important;"
+																	onchange="DistrictexpSList(this.value,'state_name_explo','district_name_explo111','StateIndia_ngdr');"
+																	 >
+																		<option value="Select" selected>Select</option>
+																</select><input type="hidden" id="state_exp_name"
+																	name="state_name">
+																	<div class="popupcheck" id="divpoopchk">
+																		<span class="popuptextcheckstate" id="statepopcheckid"
+																			style="display: none">Would you like to search
+																			for <a href="#"
+																			onclick="setvalindropdown('state_name_explo','');"><span
+																				id="msgformostsearchstae"
+																				style="text-decoration: underline; font-size: 13px;">Low
+																					Quality</span></a>&nbsp;?
+																		</span>
+																	</div></td>
+																<!-- <td><a onclick="addstatdistmore();" href="#" style="color: #045b5b;"><span
+																				class="fa fa-plus-circle"> </span></a></td> -->
+															</tr>
+															<tr>
+
+
+																<!-- 														<td></td> -->
+															</tr>
+															<tr>
+																<td><label style="color: white;">District :</label></td>
+																<td><select id="district_name_explo111"
+																	title="To Multiple Select District"
+																	name="district_name" multiple="multiple"
+																	class="district_name_explo111" tabindex="-1"
+																	style="width: 100%; color: #000 !important;">
+																		<option value="Select" selected>Select
+																			District</option>
+																</select>
+																	<div class="popupcheck">
+																		<span class="popuptextcheckdistrict"
+																			id="districtpopcheckid" style="display: none">Would
+																			you like to search for :
+																			<div id="appendacortag"></div>&nbsp;
+																		</span>
+																	</div></td>
+															</tr>
+														</table>
+
+													</div>
+												</div>
+
+												<div id="tabcon-4" class="tab-content1">
+													<div>
+														<!-- <h4>By Area Draw</h4> -->
+
+														<input type="radio" id="html" name="fav_language"	title="Draw Box on Map"
+															onclick="addInteractiondrawbox_draw('box');"><label
+															style="color: white !important;">Box</label> <input type="radio"
+															id="html1" name="fav_language"		title="Draw Polygon on Map"
+															onclick="addInteractiondrawbox_draw('Polygon');"><label
+															style="color: white !important;">Polygon</label> <input type="radio"
+															id="html2" name="fav_language"		title="Draw freehand on Map"
+															onclick="addInteractiondrawbox_draw('freehand');"><label
+															style="color: white !important;">Freehand</label>
+														<!-- <input type="button" class="fa fa-times" id="html" name="fav_language" onclick="clear_draw();" >	 -->
+
+														<a class="fa fa-times"
+															style="color: white; font-size: 18px; line-height: 26px;"
+															onclick="clear_draw();" title="Close" href="#close"
+															role="tab"> </a>
+													</div>
+												</div>
+												<div id="tabcon-5" class="tab-content1">
+												<input type="hidden" id="nhocount" value="1">
+													<div id="nhodiv">
+														<table id="div_nho"		style="font-size: 12px; color: #045b5b;">
+															<tr>
+												<td> 
+												<select class="selectpicker" id="nho_chart_base_1" title="Select NHO"	data-style="btn btn-primary btn-round" name="nho_name1">
+																		<option value="Select" selected>Select NHO chart</option>
+																</select>  
+<!-- 												<select id="nho_chart_base_1"  title="Select NHO" name="nho_name1" class="form-control" style="width: 200px;"> -->
+												</td>
+																<td><a onclick="addnhochartsearch();" href="#"	style="color: #045b5b;">
+																	<span class="fa fa-plus-circle"	title="Click on + add NHO Chart"></span></a>
+																</td>
+															</tr>
+															
+														</table>
+
+													</div>
+												</div>
+												</li>
+
+
+										</ul></li>
+									<!-- section 2 by commodity -->
+
+									<li class="accordion-chevron byCommodity_search"
+																			id="explocommodity"><a class="accordion-toggle" href="#"
+																			title="Search By Commodity"><i class="fa fa-angle-down"></i>By
+																				Commodity</a>
+																			<div class="accordion-inner commoditydiv">
+																				<div>
+																					<div class="table-responsive">
+																						<table id="addcommo_div" class="left-panel-table mb-2"
+																							style="font-size: 12px; color: black;">
+																							<tr>
+																								<td><label class="form-label">Commodity:<input
+																										type="hidden" id="totalcountcomodity" value="0"></label></td>
+																								<!-- 																<td><input id="searchdataaa11_0" type="text" name="mysearch" placeholder="search"></td> -->
+																								<td><select title="Select Commodity"
+																									class="checkevent"
+																									onchange="checklookuptable('searchdataaa11_0',this.value,0);"
+																									id="searchdataaa11_0"></select></td>
+																								<td><a onclick="addcomoditymore();" href="#"
+																									style="color: #045b5b;"><span
+																										class="fa fa-plus-circle"
+																										title="Click on + add Commodity"> </span></a>
+																									<div class="popupcheck">
+																										<span class="popuptextcheck" id="myPopup_0"
+																											style="display: none"> Would you like to search
+																											for <a href="#"
+																											onclick="setvalindropdown('searchdataaa11_0','mostsecommlblid_0');"><span
+																												id="mostsecommlblid_0"
+																												style="text-decoration: underline; font-size: 13px;">Low
+																													Quality</span></a>&nbsp;?
+																										</span>
+																									</div>
+
+																									<div class="popupcheck">
+																										<span class="popuptextcheck" id="lookupcomidd_0"
+																											style="display: none">Would you like to search
+																											for :
+																											<div id="idfordivlookup_0"></div>
+																										</span>
+																									</div></td>
+																							</tr>
+																						</table>
+																					</div>
+																					<div class="table-responsive">
+																						<table class="left-panel-table mb-2" id="explorationtbl"
+																							style="font-size: 12px; color: black;">
+																							<tr>
+																								<td><label style="color: black;">Exploration
+																										Stage:<input type="hidden" id="totalcountexplostage"
+																										value="1">
+																								</label></td>
+																								<!-- <td><select class="dropdownsearch" id="exploration_stage" name="exploration_stage"> -->
+																								<td><select class="form-control"
+																									title="Select Exploration Stage" id="exploration1"
+																									name="exploration">
+																										<option value="Select">Select</option>
+																										<option value="G1">G1</option>
+																										<option value="G2">G2</option>
+																										<option value="G3">G3</option>
+																										<option value="G4">G4</option>
+																										<option value="E1">E1</option>
+																										<option value="E2">E2</option>
+																										<option value="P1">P1</option>
+																										<option value="P2">P2</option>
+																								</select></td>
+																								<td><a onclick="addexplorationstagemore();" href="#"
+																									style="color: #045b5b;"><span
+																										class="fa fa-plus-circle"
+																										title="Click on + add Exploration Stage"> </span></a></td>
+																							</tr>
+																						</table>
+																					</div>
+																					<div class="table-responsive">
+																						<table class="left-panel-table" id="blockntbl"
+																							style="font-size: 12px; color: black;">
+																							<tr>
+																								<td><label style="color: black;">Block Name:<input
+																										type="hidden" id="totalcountblockname" value="1">
+																								</label></td>
+																								<td><select class="form-control" id="blockname_1"
+																									name="block_name" title="Select Block Name">
+																										<option value="">Select</option>
+																								</select></td>
+																								<td><a onclick="addeblocknamemore();" href="#"
+																									style="color: #045b5b;"><span
+																										class="fa fa-plus-circle"
+																										title="Click on + add Block Name"> </span></a></td>
+																							</tr>
+																						</table>
+																					</div>
+																				</div>
+																			</div></li>
+
+
+									<!-- /////////////////////////////////////// -->
+									<li class="accordion-chevron byReport_type_search"><a
+										class="accordion-toggle" href="javascript:void(0);"
+										title="Search By Keyword"><i class="fa fa-angle-down"></i>By
+											Report Type</a>
+										<div class="accordion-inner">
+											<div>
+												<select id="geophysical_report" title="Geological Report"
+													onchange="" class="form-control">
+
+													<option title="Geological Report" value="Geological Report"
+														selected>Geological Report</option>
+													<option title="Geochemical Report"
+														value="Geochemical Report">Geochemical Report</option>
+												</select>
+
+											</div>
+
+
+
+										</div></li>
+
+
+
+
+
+
+									<!-- ////////////////////////////////////// -->
+
+									<li class="accordion-chevron" id="basereportkey"><a
+										class="accordion-toggle" href="javascript:void(0);"
+										title="Search By Keyword"><i class="fa fa-angle-down"></i>By
+											Keyword</a>
+										<div class="accordion-inner">
+											<div class="popup">
+												<!-- 														<input class="form-control" id="keywordsdata" title="Please Type Keyword" placeholder="Type Keyword" name="keywordsdata" type="text" /> -->
+												<input id="keywordsdata" title="Please Type Keyword"
+													placeholder="Type Keyword" name="keywordsdata"
+													type="search" oninput="validateInput(this)"
+													onselectstart="return false" onpaste="return false;"
+													onCopy="return false" onCut="return false"
+													onDrag="return false" autocomplete="off"/>
+												<span class="popuptext" id="myPopup"></span>
+											</div>
+										</div></li>
+                                       <li class="accordion-chevron" id="georeportkey"><a
+										class="accordion-toggle" href="javascript:void(0);"
+										title="Search By Keyword"><i class="fa fa-chevron-down"></i>By
+											Keyword</a>
+										<div class="accordion-inner">
+											<div class="popup">
+												<!-- 														<input class="form-control" id="keywordsdata" title="Please Type Keyword" placeholder="Type Keyword" name="keywordsdata" type="text" /> -->
+												<input id="geokeywordsdata" title="Please Type Keyword"
+													placeholder="Type Keyword" name="geokeywordsdata"
+													type="search" oninput="validateInput(this)"
+													onselectstart="return false" onpaste="return false;"
+													onCopy="return false" onCut="return false"
+													onDrag="return false" autocomplete="off"/>
+												<span class="popuptext" id="myPopupgeo"></span>
+											</div>
+										</div></li>
+										<li class="accordion-chevron" id="keywordsdata_base"><a
+										class="accordion-toggle" href="javascript:void(0);"
+										title="Search By Keyword"><i class="fa fa-chevron-down"></i>By
+											Keyword</a>
+										<div class="accordion-inner">
+											<div class="popup">
+												<!-- 														<input class="form-control" id="keywordsdata" title="Please Type Keyword" placeholder="Type Keyword" name="keywordsdata" type="text" /> -->
+												<input id="keywordsdatabase" title="Please Type Keyword"
+													placeholder="Type Keyword" name="keywordsdatabase"
+													type="search" oninput="validateInput(this)"
+													onselectstart="return false" onpaste="return false;"
+													onCopy="return false" onCut="return false"
+													onDrag="return false" autocomplete="off"/>
+													<!-- <input id="keywordsdata_base" title="Please Type Keyword" placeholder="Type Keyword" name="keywordsdata" type="search"
+														oninput="validateInput(this)" onselectstart="return false" onpaste="return false;" onCopy="return false"
+														onCut="return false" onDrag="return false" autocomplete="off" /> -->
+												<span class="popuptext" id="myPopupbase"></span>
+											</div>
+										</div></li>
+									<li class="accordion-chevron" id="basereporothers"><a
+										class="accordion-toggle" href="javascript:void(0);"
+										title="Search By Others"><i class="fa fa-angle-down"></i>Others</a>
+										<div class="accordion-inner otherdiv">
+											<div class="datatype_baseline">
+												<table id="scale">
+													<tr>
+														<td><label>Scale</label></td>
+														<td><input type="hidden" id="totalcountscale"
+															value="1"> <select class="dropdownsearch"
+															id="scale_type" title="Select">
+																<option title="Select" value="Select">Select</option>
+																<option title="1:25K" value="">1:25K</option>
+																<option title="1:50K" value="">1:50K</option>
+																<option title="1:2M" value="">1:2M</option>
+														</select></td>
+														<td><a onclick="addscaletypemore();" href="#"
+															style="color: black;"><span class="fa fa-plus-circle"
+																title="Click on + add Scale"></span></a></td>
+													</tr>
+
+												</table>
+											</div>
+											<!-- <div>
+													<table id="datatype">
+														<tr>
+														<td>
+															<label>Data Types</label></td><td><input type="hidden"
+																id="totalcountdatatype" value="1"><select
+																class="dropdownsearch" id="data_type"
+																data-style="btn btn-primary btn-round" title="Select" style="margin-right:3px;">
+																		<option value="Select">Select</option>
+																<option value="Baseline">Baseline</option>
+																<option value="Exploration" >Exploration</option>
+																<option value="Geophysical">Geophysical</option>
+																<option value="Additional">Additional</option>
+															</select> </td><td><a onclick="adddatatypemore();" href="#"
+																style="color: #045b5b;"><span
+																class="fa fa-plus-circle"></span></a></td></tr>
+														
+													</table></div> -->
+
+											<div>
+												<table id="stakeholder_list">
+													<tr>
+														<td><label>Stakeholder List</label></td>
+														<td><input type="hidden"
+															id="totalcountstakeholderlist" value="1"> <select
+															class="dropdownsearch" id="stakeholder_name_1"
+															name="*{stakeholder_name}"
+															title="Select Stakeholder Name">
+																<option value="Select">Select</option>
+														</select></td>
+														<td><a onclick="addstakeholderlistmore();" href="#"
+															style="color: #045b5b;"><span
+																class="fa fa-plus-circle"
+																title="Click on + add Stakeholder Name"></span></a></td>
+													</tr>
+
+												</table>
+											</div>
+
+
+											<label style="padding-left: 2px;">By Year</label>
+											<div>
+												<table id="year_data" class="left-panel-table">
+													<tr>
+														<td><label class="control-label form-label" for="date">From</label>
+															<select class="form-control" name="yearpicker" id="yearpickerdata_1" title="Select Year"
+																style="min-width: 80px;" onchange="onFromYearChange(this, 1)"></select>
+														</td>
+											
+											
+														<td><label class="control-label form-label form-label" for="date">
+																<input type="hidden" id="totalcountdatayear" value="1">To
+															</label> <select class="form-control" name="yearpicker1" id="yearpickerdata1_1" title="Select Year"
+																onchange="onToYearChange(this, 1)"></select></td>
+														<td><a onclick="adddatayearmore();" href="#" style="color: #045b5b;"> <span class="fa fa-plus-circle"
+																	title="Click on + add From and To Year" style="color: #ffffff !important;"></span></a></td>
+													</tr>
+											
+												</table>
+											</div>
+
+
+
+
+
+										</div></li>
+									<!-- End of Accordion  -->
+								</ul>
+
+								<div class="wrapSearchClrBtnDiv">
+									<button type="button" class="open-button" id="idsearchboxid"
+										data-toggle="collapse" data-target="#searchboxid"
+										aria-expanded="false" aria-controls="searchboxid"
+										onclick="getsearchresult();"
+										title="Click on Search Button For Exploration Data Result">
+										Search</button>
+									<button class="open-button" type="button" value="Clear"
+										title="Click on Button To Clear Exploration Data Result"
+										onclick="clearsearchdataleft();">Clear</button>
+								</div>
+								<div class="wrapSearchClrBtnDiv" id="geodatabase">
+									<button type="button" class="open-button" id="idsearchboxid1"
+										data-toggle="collapse" data-target="#searchboxid1"
+										aria-expanded="false" aria-controls="searchboxid"
+										onclick="getsearchresult_Base();"
+										title="Click on Search Button For Base Data Report">
+										Search</button>
+									<button class="open-button" type="button" value="Clear"
+										title="Click on Button To Clear Exploration Data Result"
+										onclick="clearsearchdataleft_base();">Clear</button>
+								</div>
+								<!-- 	<button type="button" class="open-button btn-primary" id="idsearchboxid" onclick="getsearchresult();"> Search</button> -->
+								<div class="wrapSearchClrBtnDiv" id="geovisualdatabase">
+									<button type="button" class="open-button" id="idsearchboxid2"
+										data-toggle="collapse" data-target="#searchboxid1"
+										aria-expanded="false" aria-controls="searchboxid"
+										onclick="getdataresult_Visual();"
+										title="Click on Search Button For DRM Data Report">
+										Search</button>
+									<button class="open-button" type="button" value="Clear"
+										title="Click on Button To Clear Exploration Data Result"
+										onclick="clearsearchdataleft_visual();">Clear</button>
+								</div>
+								<div class="wrapSearchClrBtnDiv" id="geotechincaldatabase">
+
+									<button class="open-button" type="button" value="Clear"
+										title="Click on Button To Clear Exploration Data Result"
+										onclick="clearsearchdataleft_technical();" center>Clear</button>
+
+
+								</div>
+								<div class="wrapSearchClrBtnDiv" id="geophysicaldata">
+									<button type="button" class="open-button" id="ideophysicalsearchid"
+										data-toggle="collapse" data-target="#searchboxid_geophy"
+										aria-expanded="false" aria-controls="searchboxid_geophy"
+										onclick="getsearchresultgeophysical();"
+										title="Click on Search Button For Exploration Data Result">
+										Search</button>
+									<button class="open-button" type="button" value="Clear"
+										title="Click on Button To Clear Geo Physical Data Result"
+										onclick="clearsearchdataleft_geophy();">Clear</button>
+								</div>
+
+							</div>
+
+						</div>
+
+
+				
+							</div>			
+							</div>
+							
+							
+							<div id="parentElementIdhome" class="h-100"></div>						
+							
+					<div class="tab_content" id="tabs-3">
+						<ul class="bgclr">
+												<li class="nav-item">
+													<a id="full_extent_color"
+														class="nav-link" data-toggle="tab"
+														onclick="defaultmap();"
+														title="Full Extent" href="#world" role="tab">
+														<span class="vtab-icon"> <img
+																class="img-fluid" src="assets/images/img/fullscreens.png"
+																alt="Icon" />
+														</span>
+													
+														<div class="hide detailDiv">Full Extent</div>
+														<h5>Full Extent</h5>
+													</a>
+												</li>
+												<li class="nav-item">
+													<a id="zoom_in_color" class="nav-link"
+													data-toggle="tab" onclick="zoomIn();"
+													title="Zoom In" href="#plus" role="tab"> 
+													<span class="vtab-icon"> <img
+															class="img-fluid" src="assets/images/img/zoom-in.png"
+															alt="Icon" />
+														</span>
+														<div class="hide detailDiv">Zoom In</div>
+														<h5>Zoom In</h5>
+													</a>
+												</li>
+
+												<li class="nav-item"><a id="zoom_out_color" class="nav-link"
+													data-toggle="tab"
+													onclick="zoomOut();"
+													title="Zoom Out" href="#minus" role="tab"> <span class="vtab-icon"> <img
+															class="img-fluid" src="assets/images/img/zoom-out.png"
+															alt="Icon" />
+													</span>
+														<div class="hide detailDiv">Zoom Out</div>
+														<h5>Zoom Out</h5>
+													</a>
+												</li>
+
+												<li class="nav-item">
+													<!-- --> <a class="nav-link" data-toggle="tab" id="opendrawbox"
+													title="Feature Information" href="#" role="tab"
+													onclick="visiblellayer_dlm();">
+														<span class="vtab-icon"> <img class="img-fluid"
+															src="assets/images/img/information.png" alt="Icon" />
+													</span>
+													<div class="hide detailDiv">Layer Information</div>
+													<h5>Layer Information</h5>
+												</a>
+												</li>
+
+												<li class="nav-item"><a class="nav-link" data-toggle="tab"
+													onclick="setcursour();"
+													title="Pan Map" href="#panmap" id="panmap" role="tab"> <span class="vtab-icon">
+															<img class="img-fluid"
+															src="assets/images/img/3dterrterrain.png" alt="Icon" />
+													</span>
+													<div class="hide detailDiv">Pan Map</div>
+													<h5>Pan Map</h5>
+												</a>
+												</li>
+
+												<li class="nav-item"><a class="nav-link" data-toggle="tab"
+													onclick="addInteractiondrawbox('box');"
+													id="zoomtobox" title="Zoom To Box" href="#zoomtobox" role="tab">
+														<span class="vtab-icon"> <img class="img-fluid"
+															src="assets/images/img/intersect.png" alt="Icon" />
+													</span>
+													<div class="hide detailDiv">Zoom To Box</div>
+													<h5>Zoom To Box</h5>
+												</a>
+												</li>
+
+												<li class="nav-item"><a class="nav-link" data-toggle="tab" id="location"
+													title="Go To Location" href="#gotolocation" role="tab"> <span class="vtab-icon">
+															<img class="img-fluid"
+															src="assets/images/img/find-location.png" alt="Icon" />
+													</span>
+													<div class="hide detailDiv">Go To Location</div>
+													<h5>Go To Location</h5>
+												</a>
+												</li>
+
+												<!-- <li class="nav-item"><a class="nav-link" data-toggle="tab"
+						                                                                                onclick="fullscreen()" title="fullscreen" href="#fullscreen"
+						                                                                                role="tab"> <span><i class="ti-fullscreen"></i></span></a>
+						                                                                                <div class="hide detailDiv">Fullscreen</div></li> -->
+
+												<!-- <li class="nav-item"><a class="nav-link" data-toggle="tab"
+						                                                                                title="Navigation" href="#navigation" role="tab"> <span><i
+						                                                                                                class="ti-location-arrow"></i></span>
+						                                                                        </a>
+						                                                                                <div class="hide detailDiv">Navigation</div></li> -->
+
+												<li class="nav-item"><a class="nav-link" data-toggle="tab"
+													title="Measurement" href="#geom"
+													 id="geom1" role="tab">
+
+														<span class="vtab-icon"> <img class="img-fluid"
+															src="assets/images/img/measure.png" alt="Icon" />
+													</span>
+													<div class="hide detailDiv">Measurement</div>
+													<h5>Measurement</h5>
+												</a>
+												</li>
+
+
+
+												<li class="nav-item"><a class="nav-link" data-toggle="tab"
+													id="clear_all_color" title="Clear All" href="#clear"
+													onclick="clearmap_new_guest();"
+													role="tab"> <span class="vtab-icon"> <img class="img-fluid"
+															src="assets/images/img/clear.png" alt="Icon" />
+													</span>
+													<div class="hide detailDiv">Clear All</div>
+													<h5>Clear All</h5>
+												</a>
+												</li>
+
+												<li class="nav-item"><a class="nav-link" data-toggle="tab"
+													title="Zoom to Previous" href="#" id="disablebtn"
+													onclick="history.back();"
+													role="tab"> <span class="vtab-icon"> <img class="img-fluid"
+															src="assets/images/img/previous.png" alt="Icon" />
+													</span>
+													<div class="hide detailDiv">Zoom Previous</div>
+													<h5>Zoom Previous</h5>
+												</a>
+												</li>
+
+												<!-- <li class="nav-item"><button class="nav-link "
+						                                                                                        data-toggle="tab" id="disablebtn" onclick="history.back()"
+						                                                                                        title="Zoom Previous" role="tab" style="border-radius: 30px; margin:0px 0.5rem;">
+						                                                                                        <span><i class="ti-back-left"></i></span>
+						                                                                                </button> </li> -->
+
+												<li class="nav-item"><a class="nav-link" data-toggle="tab"
+													title="Zoom to Forward" href="#" id="disablebtn123"
+													onclick="history.forward();"
+													role="tab"> <span class="vtab-icon"> <img class="img-fluid"
+															src="assets/images/img/forward.png" alt="Icon" />
+													</span>
+													<div class="hide detailDiv">Zoom Forward</div>
+													<h5>Zoom Forward</h5>
+												</a>
+												</li>
+
+												<li class="nav-item"><a class="nav-link" data-toggle="tab"
+													id="mapfinderlocation" title="Map Sheet Finder" href="#mapfinder"
+													onclick="gettoponumber_mapfinder('1');"
+													role="tab"> <span class="vtab-icon"> <img class="img-fluid"
+															src="assets/images/img/map-finder.png" alt="Icon" />
+													</span>
+													<div class="hide detailDiv">Map Sheet Finder</div>
+													<h5>Map Sheet Finder</h5>
+												</a>
+												</li>
+
+												<!-- <li class="nav-item"><button class="nav-link"
+						                                                                                        data-toggle="tab" id="disablebtn123" onclick="histroryfor();"
+						                                                                                        title="Zoom Forward" role="tab" style="border-radius: 30px;">
+						                                                                                        <span><i class="ti-back-right"></i></span>
+						                                                                                </button> </li> -->
+
+												<!-- <li class="nav-item"><a class="nav-link" data-toggle="tab"
+						                                                                                title="Full Extent" onclick="defaultmap()"  role="tab"><span><i
+						                                                                                class="ti-world"></i></span></a>
+						                                                                                <div class="hide detailDiv">Full Extent</div></li>
+						 -->
+											</ul>
+										</div>	
+					
+						</div>
+
+	<!-- Design 190626 -start -->
+			<div id="searchboxid" class="collapse collapse-horizontal"	>
+				<div class="searchboxid1" id="searchboxid1">
+					<div class="wrapSearchResultTables">
+						<table id="getalldatafromexpo" class="table table-striped w-100">
+							<div class="searchDataHeadDiv">
+								<h3>Search Result</h3>
+							</div>
+							<thead>
+								<tr>
+									<th ></th>
+									<th>Report Title</th>
+									<th>Commodity</th>
+									<th>Organization</th>
+									<th>Publication Year</th>
+									<th>View On Map</th>
+									<th>Toposheet Number</th>
+									<th>NUID</th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<input type="hidden" id="addtocartbtnid" name="addtocartbtnid"
+							value=""></input> <input type="hidden"
+							id="addtocartbtnid_base" name="addtocartbtnid_base" value=""></input>
+					</div>
+				</div>
+				<a class="Showbtn close"> <i class="" id="label" aria-hidden="true">-</i> </a>
+				<button class="Hide">Show</button>
+			</div>
+			<!-- Design 190626 -end -->
+						
+		<div id="searchboxid_base" class="collapse collapse-horizontal">
+				<div class="searchboxid1" id="searchboxid1">
+					<div class="wrapSearchResultTables">
+						<table id="getalldatafromexpo_base" class="table table-striped w-100">
+							<div class="searchDataHeadDiv">
+								<h3>Search Result</h3>
+							</div>
+							<thead>
+								<tr>
+									<th></th>
+									<th>Report Title</th>
+									<th>Report Type</th>
+									<th>Organization</th>
+									<th>Publication Year</th>
+									<th>View On Map</th>
+									<th id="tpn_nhoid">Toposheet Number</th>
+									<th id="nho">NHO Chart Number</th>
+									<th>NUID</th>
+								</tr>
+							</thead>
+						</table>
+
+							<input type="hidden" id="addtocart_base" name="addtocartbtnid"
+								value=""></input> <input type="hidden"
+								id="addtocartbtnid_basereport" name="addtocartbtnid_base"
+								value=""></input>
+					</div>
+				</div>
+				<a class="Showbtn close"> <i class="" id="label" aria-hidden="true">-</i> </a>
+				<button class="Hide">Show</button>
+			</div>	
+	<div id="searchboxid_geophy" class="collapse collapse-horizontal"
+							style="">
+							<div class="searchboxid1">
+								<div class="wrapSearchResultTables">
+
+									<div class="searchDataHeadDiv">
+										<h3>Search Result</h3>
+									</div>
+
+									<table id="getalldatafromgeophy"
+										class="table table-striped w-100">
+
+										<thead>
+											<tr>
+												<th></th>
+												<th>Report Title</th>
+												<th>Report Type</th>
+												<th>Organization</th>
+												<th>Publication Year</th>
+												<th id="tpn_nhoid">Toposheet Number</th>
+												<th>View On Map</th>
+												<th>NUID</th>
+
+											</tr>
+										</thead>
+										<tfoot>
+										</tfoot>
+									</table>
+								</div>
+
+
+								<input type="hidden" id="addtocart_geo" name="addtocartbtnid"
+									value=""></input> <input type="hidden"
+									id="addtocartbtnid_georeport" name="addtocartbtnid_base"
+									value=""></input>
+
+
+							</div>
+<a class="Showbtn close"> <i class="" id="label" aria-hidden="true">-</i>
+
+					</a>
+					<button class="Hide">Show</button>
+						</div>
+						<div id="searchboxid_visual" class="collapse collapse-horizontal">
+						<div class="searchboxid1" id="searchboxid1_visual">
+							<div class="wrapSearchResultTables">
+
+								<!--  -->
+								<table id="getalldatafromexpo_visual" class="table table-striped w-100">
+									<div class="searchDataHeadDiv">
+										<h3>Search Result</h3>
+									</div>
+									<thead>
+										<tr>
+											<th></th>
+											<th>State Name</th>
+
+											<th>District Name</th>
+							
+										</tr>
+									</thead>
+									<tfoot>
+									</tfoot>
+								</table>
+
+								<input type="hidden" id="addtocart_visual" name="addtocartbtnid"
+									value=""></input> <input type="hidden"
+									id="addtocartbtnid_visualreport" name="addtocartbtnid_base"
+									value=""></input>
+						
+							</div>
+
+						</div>
+
+
+					</div>
+				</div>
+					</div>
+
+				
+
+				<div class="row page-titles leftToolSideBar">
+
+					<!-- ============================================================== -->
+
+					<!-- <div class="row page-titles "
+					style="margin-top: 0px; margin: 0 0px 0px; background: #67757c00; box-shadow: 1px 0 5px rgb(0 0 0/ 0%);"> -->
+					<!-- <button class="right-side-toggle waves-effect waves-light btn-inverse btn btn-circle btn-sm pull-right m-l-10"><i class="ti-settings text-white"></i></button> -->
+					<!-- <button id="setting_btn" class="right-side-toggle waves-effect waves-light btn-inverse btn btn-circle btn-sm"><i class="ti-settings"></i></button> -->
+					<div class="vtabs " id="setting_menu">
+
+						<!-- Tab panes           -->
+						<div class="tab-content">
+
+							<!-- 							////////////////////////////////himanshi///////////////////////////////////// -->
+
+							<div id="target-map"></div>
+
+							<div class="tab-pane " id="searchlocation" role="tabpanel"
+								style="margin-left: 255px;">
+								<div class="ribbon-wrapper card">
+									<h3 class="ribbon ribbon-bookmark ribbon-info">Layer
+										Search</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+										title="Close" href="#close" role="tab"> <span><i
+											class="ti-close"></i></span>
+									</a>
+
+									<div class="col-lg-12 col-md-6 col-sm-3">
+										<input id="searchdataaa" type="text" name="mysearch"
+											placeholder="search">
+										<button onclick="getlayerdetails();">Go</button>
+										<!--<div id='result'></div> -->
+										<!--<select id="mysearch" name="mysearchlocation" oninput="searchlocation();" class="form-control"	data-style="btn btn-primary btn-round" title="Single Select">	</select> -->
+									</div>
+								</div>
+							</div>
+							<!-- 	/////////////////////////////////himanshi/////////////////////// -->
+
+
+
+							<div id="gotolocation" title="Go to Location"
+								style="height: auto; width: 536.833px;">
+
+								<div class="longToolDivWrap">
+									<div id="tabs" style="width: auto; height: 200px;">
+										<ul>
+											<li><a href="#tabs-1" id="myAnchor">DD</a></li>
+											<!--  <li><a href="#tabs-2" id="myAnchor1" >DMS</a></li> -->
+											<li><a href="#tabs-3" id="myAnchor2">DMS</a></li>
+
+										</ul>
+										<div id="tabs-1">
+											<input type="hidden" class="form-control" id="exp_countDD_id"
+												name="exp_count_id" value="0">
+											<div class="mb-3 row">
+												<label class="col-sm-4 col-form-label" id="">Longitude
+													<a class="mandatory">*</a>
+												</label>
+												<div class="col-sm-6">
+													<input type="text" class="form-control" name="latn"
+														id="lon_0" placeholder="Longitude" onblur="convertDMS();"
+														onkeyup="getexplongitudeDD();"oninput="validateInput_dd_dms(this)"
+														onkeypress="return isNumberKey(event)">
+
+												</div>
+											</div>
+
+											<div class="mb-3 row">
+												<label class="col-sm-4 col-form-label" id="">Latitude
+													<a class="mandatory">*</a>
+												</label>
+												<div class="col-sm-6">
+													<input type="text" class="form-control" name="lon"
+														id="lat_0" placeholder="Latitude" onblur="convertDMS();"
+														onkeyup="getexplatitudeDD();"oninput="validateInput_dd_dms(this)"
+														onkeypress="return isNumberKey(event)">
+												</div>
+											</div>
+
+										<div style="display: flex; justify-content: center; gap: 6px;">
+												<!--   <button name="go" id="go" value="Go" onclick="latlon_Location('DD');return isddvalidation();">Go</button> -->
+												<button class="w3-bar" name="go" id="go" value="Go"
+													onclick="return ValidateLatLng();">Go</button>
+
+												<button class="w3-bar" type="reset" id="reset">Reset</button>
+											</div>
+										</div>
+
+
+										<div id="tabs-3">
+											<div class="mb-3 row">
+												<div class="col-sm-3" style="padding-left: 0px !important;">
+													<label class="col-form-label" id="">Longitude <!-- <a class="mandatory">*</a> -->
+													</label>
+												</div>
+												<!-- <div class="col-md-3">
+															<label class=" form-control-label"
+																id="exp_longitude_count_label_0">0.</label>
+														</div> -->
+												<div class="col-md-3">
+													<input type="text" class="form-control"
+														id="exp_longitude_0" name="longitude" placeholder="D"
+														onkeyup="getexplongitude()" onkeypress="return isNumberKey(event)">
+												</div>
+												<div class="col-md-3">
+													<input type="text" class="form-control"
+														id="exp_longitude1_0" name="longitude" placeholder="M"
+														onkeyup="getexplongitude()" onkeypress="return isNumberKey(event)">
+												</div>
+												<div class="col-md-3">
+													<input type="text" class="form-control"
+														id="exp_longitude2_0" name="longitude" placeholder="S"
+														onkeyup="getexplongitude()" onkeypress="return isNumberKey(event)"> 
+														<input type="hidden"
+														class="form-control getexp_logitudevalue"
+														id="getexp_logitudevalue_0" name="exp_dms_longitude" onkeypress="return isNumberKey(event)">
+													<!-- <input type="hidden"
+																class="form-control getexp_latitudevalue"
+																id="hidden_getexp_longitudemain"> -->
+												</div>
+											</div>
+
+
+											<div class="mb-3 row">
+												<div class="col-sm-3" style="padding-left: 0px !important;">
+													<label class="col-form-label" id="">Latitude <!-- <a	class="mandatory">*</a> -->
+													</label>
+												</div>
+												<!-- <div class="col-md-3">
+															<label class=" form-control-label "
+																id="exp_latitude_count_label_0">0.</label>
+														</div> -->
+												<div class="col-md-3">
+													<input type="text" class="form-control" id="exp_latitude_0"
+														name="latitude" placeholder="D"
+														onkeyup="getexplatitude();" onkeypress="return isNumberKey(event)">
+												</div>
+												<div class="col-md-3">
+													<input type="text" class="form-control"
+														id="exp_latitude1_0" name="latitude" placeholder="M"
+														onkeyup="getexplatitude();" onkeypress="return isNumberKey(event)">
+												</div>
+												<div class="col-md-3">
+													<input type="text" class="form-control"
+														id="exp_latitude2_0" name="latitude" placeholder="S"
+														onkeyup="getexplatitude();" onkeypress="return isNumberKey(event)"> <input type="hidden"
+														class="form-control getexp_latitudevalue"
+														id="getexp_latitudevalue_0" name="exp_dms_latitude" onkeypress="return isNumberKey(event)">
+													<!-- <input type="hidden"
+																class="form-control getexp_latitudevalue"
+																id="hidden_getexp_latitudevaluemain"> -->
+												</div>
+											</div>
+											<div>
+												<button class="w3-bar" name="go" id="go" value="Go"
+													onclick="return ValidateLatLngDMS();">Go</button>
+
+												<button class="w3-bar" type="reset" id="reset1">Reset</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- 							////////////////////////////////////////////////////////////////////////////// -->
+							<!-- 	/////////////////////////////////himanshi map finder/////////////////////// -->
+
+
+
+							<div id="mapfinder" title="Map Sheet Finder" style="height: auto; width: 536.833px;">
+
+								<div class="longToolDivWrap">
+									<div id="tabs123" style="width: auto; height: 200px;">
+										<ul>
+											<li><a href="#tabs-5" id="myAnchor4">Toposheets</a></li>
+											
+											<li><a href="#tabs-10" id="myAnchor5" onclick="geocoder()">Search</a></li>
+
+										</ul>
+										<div id="tabs-5">
+				<input type="hidden" id="topocount" value="1">
+					<table id="addtoposer_div" >
+				<!-- 	<tr>
+					<td><b>Search By Toposheet:</b></td>  
+					</tr> -->
+						<tr>
+						
+						<td>Select Toposheet</td>
+
+							<td><select class="selectpicker" id="mapfindertopo1"
+								data-style="btn btn-primary btn-round" title="Select"
+								onchange="getdigitnum_mapfinder('oldsystem_50k_index_gcs','two_50_k','mapfindertopo2',this.value);">
+									<option value="Select" selected>Select</option>
+							</select></td>
+							<td><select class="selectpicker" id="mapfindertopo2"
+								data-style="btn btn-primary btn-round" title="Select"
+								onchange="getdigitnum_mapfinder('oldsystem_50k_index_gcs','fifty_k','mapfindertopo3',this.value);">
+									<option value="Select" selected>Select</option>
+							</select></td>
+							<td><select class="selectpicker" id="mapfindertopo3"
+								data-style="btn btn-primary btn-round" title="Select" onchange="gettopposheetsearch_mapfinder();">
+									<option value="select" selected>Select</option>
+							</select>
+							
+							</td>
+							
+							</tr>
+							
+							<!-- <tr>
+							<td>
+						    <button   class="w3-bar" name="zoom" id="zoom" onclick="zoom_toposheet_mapfinder();">Zoom</button>	
+						  
+						    <button class="w3-bar" name="clear" id="clear" onclick="clearsearchtoposheet_mapfinder();" >Clear</button>
+						</td>
+						</tr> -->
+
+					</table>
+						<p id="mgstble" style="color: red;"></p>
+						<div style="display: flex; justify-content: center; gap: 6px;">
+						    <button   class="w3-bar" name="zoom" id="zoom" onclick="zoom_toposheet_mapfinder();">Zoom</button>	
+						  
+						    <button class="w3-bar" name="clear" id="clear" onclick="clearsearchtoposheet_mapfinder();" >Clear</button>
+											</div>
+					</div>
+
+
+
+								<div id="tabs-10">
+									<div class="mb-3 row">
+
+										<!-- <div id="geocod">
+													<input type="button" class="ol-geocoder"  onclick="geocoder()">
+												</div> -->
+										<div id="geocoder" class="width_100 float-left">
+
+											<div
+												class="appendedSearchDiv p-2 my-2 width_100 float-left position-relative">
+
+											</div>
+
+										</div>
+
+									</div>
+									<div id="geocoderbutton">
+										<button class="w3-bar" name="clear" id="clear"
+											onclick="remove_search_pin();">Clear</button>
+									</div>
+								</div>
+							</div>
+								</div>
+							</div>
+							
+							
+						<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->	
+							
+							
+							
+							
+							<!-- <div class="tab-pane  " id="close" role="tabpanel"></div> -->
+							<div class="tab-pane  " id="navigation" role="tabpanel">
+								<div class="ribbon-wrapper card">
+									<h3 class="ribbon ribbon-bookmark ribbon-info">Navigation</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+										title="Close" href="#close" role="tab"> <span><i
+											class="ti-close"></i></span>
+									</a>
+									<div class="col-lg-12 col-md-6 col-sm-3">
+										<select id="state" class="form-control"
+											data-style="btn btn-primary btn-round" title="Single Select">
+
+
+										</select>
+									</div>
+									<div class="col-lg-12 col-md-6 col-sm-3">
+										<select id="district" class="form-control"
+											data-style="btn btn-primary btn-round" title="Single Select">
+
+
+										</select>
+									</div>
+
+									<div class="col-lg-12 col-md-6 col-sm-3">
+										<select id="taluka" class="form-control"
+											data-style="btn btn-primary btn-round" title="Single Select">
+
+
+										</select>
+									</div>
+									<div class="col-lg-12 col-md-6 col-sm-3">
+										<select id="village" class="form-control"
+											data-style="btn btn-primary btn-round" title="Single Select">
+
+
+										</select>
+									</div>
+
+
+								</div>
+							</div>
+							<div class="tab-pane  " id="route" role="tabpanel">
+								<div class="ribbon-wrapper card">
+									<h3 class="ribbon ribbon-bookmark ribbon-info">Find Route</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+										title="Close" href="#close" role="tab"> <span><i
+											class="ti-close"></i></span>
+									</a> <label>Commodities* :</label> <select id="commodities"
+										class="form-control">
+										<option value="select" disabled selected>--Select--</option>
+										<option value="Coal">Coal</option>
+										<option value="Oil">Oil</option>
+										<option value="Gas">Gas</option>
+									</select> <label>Source* :</label> <select id="Source"
+										class="form-control">
+										<option value="select" disabled selected>--Select--</option>
+
+									</select> <label>Destination* :</label> <select id="Destination"
+										class="form-control">
+										<option value="select" disabled selected>--Select--</option>
+
+									</select>
+								</div>
+							</div>
+
+
+							<div class="tab-pane " id="goArea" role="tabpanel">
+
+								<!-- progress Bar for buffer with id="slider" is kept hidden -->
+
+								<div class="ribbon-wrapper card">
+									<h3 class="ribbon ribbon-bookmark ribbon-info">Go/No Go
+										Area</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+										title="Close" href="#close" role="tab"> <span><i
+											class="ti-close"></i></span>
+									</a>
+									<div class="longToolDivWrap">
+										<div>
+											<h3 style="color: red">Buffer range in meter</h3>
+										</div>
+
+
+										<div class="Kilometertomt">
+
+											<label>Select Range in kms:</label> <input id="inputLengthkm"
+												class="form-control" type="number" style="width: 100%;"
+												placeholder="Please enter range"
+												oninput="LengthConverterInputKm(this.value)"
+												onchange="LengthConverterKm(this.value)">
+
+											<p style="margin-top: 10px;">
+												<span style="font-weight: 600">mt:</span><span
+													id="outputKiloMeters" style="margin-right: 50px;"></span> <span
+													style="font-weight: 600">km:</span><span
+													id="outputKiloMetersConversion"></span>
+											</p>
+											<!-- <p>km: <span id="outputKiloMetersConversion"></span></p> -->
+										</div>
+										<input class="form-control" type="number" style="width: 100%;"
+											placeholder="Road Range" id="groad">
+
+										<div class="form-check">
+											<input type="checkbox" class="form-check-input" id="geomroad"
+												onclick="activetable('geomroad')"> <label
+												class="form-check-label" for="geomroad"> Roads</label>
+										</div>
+										<input class="form-control" type="number" style="width: 100%;"
+											placeholder="River Range" id="river">
+										<div class="form-check">
+
+											<input type="checkbox" class="form-check-input"
+												id="GeomRivers" onclick="activetable('GeomRivers')">
+											<label class="form-check-label" for="GeomRivers">
+												River</label>
+										</div>
+
+
+
+										<input class="form-control" type="number" style="width: 100%;"
+											placeholder="Railway Range" id="railway">
+										<div class="form-check">
+
+											<input type="checkbox" class="form-check-input"
+												id="GeomRailway" onclick="activetable('GeomRailway')">
+											<label class="form-check-label" for="GeomRailway">
+												Railway</label>
+										</div>
+
+										<input class="form-control" type="number" style="width: 100%;"
+											placeholder="Forest Range" id="forest">
+										<div class="form-check">
+
+											<input type="checkbox" class="form-check-input"
+												id="GeomForest" onclick="activetable('GeomForest')">
+											<label class="form-check-label" for="GeomForest">
+												Forest</label>
+										</div>
+
+										<input class="form-control" type="number" style="width: 100%;"
+											placeholder="EcoSensitive Range" id="ecoSensitive">
+										<div class="form-check">
+
+											<input type="checkbox" class="form-check-input"
+												id="GeomEcoSensitive"
+												onclick="activetable('GeomEcoSensitive')"> <label
+												class="form-check-label" for="GeomEcoSensitive">
+												EcoSensitive Zone</label>
+										</div>
+										<input class="form-control" type="number" style="width: 100%;"
+											placeholder="Sanctury Range" id="sanctury">
+										<div class="form-check">
+
+											<input type="checkbox" class="form-check-input"
+												id="Geomsanctury" onclick="activetable('Geomsanctury')">
+											<label class="form-check-label" for="Geomsanctury">
+												Sanctury National Park</label>
+										</div>
+										<input class="form-control" type="number" style="width: 100%;"
+											placeholder="canal Range" id="canal">
+										<div class="form-check">
+
+											<input type="checkbox" class="form-check-input"
+												id="GeomCanal" onclick="activetable('GeomCanal')"> <label
+												class="form-check-label" for="GeomCanal"> Canal</label>
+										</div>
+
+										<!-- <div class="form-check">
+ <input type="checkbox" name="abc"  value="gujarat_canal" />Canal
+   <input type="text" id="gujarat_canaltxt" /></div> -->
+
+										<!--   <div class="form-check">
+    <input type="checkbox" class="form-check-input"  name="abc" value="india_road"  id="road1">
+    <label class="form-check-label" for="road1">Road</label>
+  </div>
+<input type="text" id="india_roadtxt" /> -->
+
+										<!-- <input type="Button" onclick="cleargo()"/>  -->
+
+										<!--  <div class="form-check">
+  <input type="checkbox" name="abc"  value="gujarat_road" />Road  <input type="text" id="gujarat_roadtxt" /></div>
+ <br> -->
+
+										<!--  <div class="form-check">
+    <input type="checkbox" class="form-check-input"  value="guj_river"  id="river">
+    <label class="form-check-label" for="river">River</label>
+  </div>
+<input type="text" id="guj_rivertxt" />
+ 
+ <br>
+ <div class="form-check">
+  <input type="checkbox" name="abc"  value="guj_river" />River  <input type="text" id="guj_rivertxt" /></div>
+ <br>
+ 
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input"  value="guj_river"  id="Industry">
+    <label class="form-check-label" for="Industry">Industry</label>
+  </div>
+<input type="text" id="guj_rivertxt" />
+ <br>
+ 
+ <div class="form-check">
+  <input type="checkbox" name="abc"  value="guj_river" />Industry <input type="text" id="guj_rivertxt" /></div>
+ <br>
+ 
+ <div class="form-check">
+    <input type="checkbox" class="form-check-input"  value="guj_river"  id="Forest">
+    <label class="form-check-label" for="Forest">Forest</label>
+  </div>
+<input type="text" id="guj_rivertxt" />
+  -->
+										<!-- <div class="form-check">
+  <input type="checkbox" name="abc"  value="guj_river" />Forest  <input type="text" id="guj_rivertxt" /></div>
+ <br> -->
+
+
+
+										<label id="go" style="color: Green"> </label> <label
+											id="go_no" style="color: Red"></label>
+
+
+										<!-- <input id="rangeinput"  type="text" name="rangeinput" placeholder="Please Enter the value " value="500" > <br> -->
+										<!--   <select id="distanceUnit">
+      <option value="Meter">Meter</option>
+	    <option value="Kilometer">Kilometer</option>
+     
+	  </select>
+	  <br> -->
+
+
+										<div class="">
+											<ul class="nav nav-pills nav-pills-rose" role="tablist"
+												style="padding-top: 5px;">
+												<li class="nav-item"><a class="nav-link"
+													data-toggle="tab" href="#link1" role="tablist"
+													onclick="selectedType('Point','goarea')"
+													style="border-radius: 15px; padding: 5px 20x;"> <i
+														class="ti-location-pin" style="padding: 1px 0;"></i>
+												</a></li>
+
+												<li class="nav-item"><a class="nav-link"
+													data-toggle="tab" href="#link2" role="tablist"
+													onclick="selectedType('LineString','goarea')"
+													style="border-radius: 15px; padding: 5px 20x;"> <i
+														class="ti-ruler-alt" style="padding: 1px 0;"></i>
+												</a></li>
+
+												<li class="nav-item"><a class="nav-link"
+													data-toggle="tab" href="#link3" role="tablist"
+													onclick="selectedType('Polygon','goarea')"
+													style="border-radius: 15px; padding: 5px 20x;"> <i
+														class="ti-ruler-alt-2" style="padding: 1px 0;"></i>
+												</a></li>
+
+
+											</ul>
+
+											<div class="tab-pane" id="link2">
+												Distance:<span id="distance" style="color: blue;"></span>
+
+											</div>
+											<div class="tab-pane" id="link3">
+												Area:<span id="area" style="color: blue;"></span>
+
+											</div>
+
+
+										</div>
+
+
+
+
+
+										<!-- <div class="">
+									<ul class="nav nav-pills nav-pills-rose" role="tablist"
+										style="padding-top: 5px;">
+										<li class="nav-item"><a class="nav-link active"
+											data-toggle="tab" href="#bufferpoint" role="tablist"
+											onclick="BufferselectedType('Point')"
+											style="border-radius: 15px; padding: 5px 20x;"> <i
+												class="ti-location-pin" style="padding: 1px 0;"></i>
+										</a></li>
+
+										<li class="nav-item"><a class="nav-link"
+											data-toggle="tab" href="#bufferline" role="tablist"
+											onclick="BufferselectedType('LineString')"
+											style="border-radius: 15px; padding: 5px 20x;"> <i
+												class="ti-ruler-alt" style="padding: 1px 0;"></i>
+										</a></li>
+
+										<li class="nav-item"><a class="nav-link"
+											data-toggle="tab" href="#bufferpolygone" role="tablist"
+											onclick="BufferselectedType('Polygon')"
+											style="border-radius: 15px; padding: 5px 20x;"> <i
+												class="ti-ruler-alt-2" style="padding: 1px 0;"></i>
+										</a></li>
+
+
+									</ul>
+
+
+									<div class="tab-content tab-space">
+										<div class="tab-pane active" id="link1">Location:</div>
+										<div class="tab-pane" id="link2">
+											Distance:<span id="distance"></span>
+
+										</div>
+										<div class="tab-pane" id="link3">
+											Area:<span id="area"></span>
+
+										</div>
+									</div>
+
+								</div> -->
+
+									</div>
+
+								</div>
+
+							</div>
+
+							<div class="tab-pane  " id="NHFilter" role="tabpanel">
+								<div class="ribbon-wrapper card">
+									<h3 class="ribbon ribbon-bookmark   ribbon-info">NH Filter</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+										title="Close" href="#close" role="tab"> <span><i
+											class="ti-close"></i></span>
+									</a> <label>Lane* :</label> <select class="selectpicker"
+										data-size="7" id="nhLane"
+										data-style="btn btn-primary btn-round" title="Select">
+										<option value="select" disabled selected>--Select--</option>
+										<!-- 		<option value="economic_corridor_ne1" > Economic Corridor NE </option> -->
+										<!-- 		<option value="economic_corridor"> Economic Corridor </option> -->
+										<!-- 										<option value="2L">2</option> -->
+										<!-- 										<option value="4L">4</option> -->
+										<!-- 										<option value="6L">6</option> -->
+										<!-- 										<option value="8L">8</option> -->
+									</select> <br>
+									<div id="NHbtns">
+										<input id="NHok" type="button" name="nhok" onclick="ok()"
+											value="OK" class="btn btn-primary btn-sm"
+											style="margin: 5px; padding: 2px; width: 45px;" /> <input
+											id="NHreport" type="button" onclick="nhReport()"
+											name="nhreport" value="Report" class="btn btn-primary btn-sm"
+											style="margin: 5px; padding: 2px; width: 45px;" />
+									</div>
+
+								</div>
+							</div>
+
+							<!-- <div class="tab-pane " id="identify" role="tabpanel">
+	
+								<div class="ribbon-wrapper card" style="width: 280px;">
+									<h3 class="ribbon ribbon-bookmark   ribbon-info"
+										style="width: 240px; top: 0px;">Identify</h3>
+									<div id="identifygroups"></div>
+	
+								</div>
+							</div> -->
+
+							<div class="tab-pane " id="linechart" role="tabpanel">
+
+								<div class="ribbon-wrapper card">
+									<h3 class="ribbon ribbon-bookmark   ribbon-info">Line
+										Chart</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+										title="Close" href="#close" role="tab"> <span><i
+											class="ti-close"></i></span>
+									</a>
+									<div class="">
+										<ul class="nav nav-pills nav-pills-rose" role="tablist"
+											style="padding-top: 5px;">
+											<!-- 	<li class="nav-item"><a class="nav-link active"
+												data-toggle="tab" href="#link1" role="tablist"
+												onclick="selectedType( 'Point')"
+												style="border-radius: 15px; padding: 5px 20x;"> <i
+													class="ti-location-pin" style="padding: 1px 0;"></i>
+											</a></li> -->
+
+											<li class="nav-item"><a class="nav-link"
+												data-toggle="tab" href="#link2" role="tablist"
+												onclick="selectelinechartdType( 'LineString')"
+												style="border-radius: 15px; padding: 5px 20x;"> <i
+													class="ti-ruler-alt" style="padding: 1px 0;"></i></a></li>
+
+											<!-- <li class="nav-item"><a class="nav-link"
+												data-toggle="tab" href="#link3" role="tablist"
+												onclick="selectedType( 'Polygon')"
+												style="border-radius: 15px; padding: 5px 20x;"> <i
+													class="ti-ruler-alt-2" style="padding: 1px 0;"></i>
+											</a></li> -->
+											<!-- 											<li class="nav-item"><a class="nav-link" -->
+											<!-- 												data-toggle="tab" href="#link4" role="tablist" -->
+											<!-- 												onclick="selectedType( 'Square')" -->
+											<!-- 												style="border-radius: 15px; padding: 5px 20x;"> <i -->
+											<!-- 													class="ti-control-stop" style="padding: 1px 0;"></i> -->
+											<!-- 											</a></li> -->
+
+										</ul>
+
+
+										<div class="tab-content tab-space">
+
+
+
+											<form class="form-horizontal p-t-20 form-signin"
+												method="post" action="${path}/generategpx">
+												<div class="form-group row" style="">
+													<label for="x" class="col-sm-3 control-label">X</label>
+													<div class="col-sm-9">
+														<div class="input-group">
+															<input type="text" class="form-control" name="xval"
+																id="xval" placeholder="x" required="xval"></input>
+															<div class="input-group-append">
+																<span class="input-group-text" id="basic-addon2">
+																	<i class="ti-user"></i>
+																</span>
+															</div>
+														</div>
+													</div>
+												</div>
+
+
+
+												<div class="form-group row" style="">
+													<label for="pass3" class="col-sm-3 control-label">y</label>
+													<div class="col-sm-9">
+														<div class="input-group">
+															<input type="text" name="yval" id="yval"
+																class="form-control" placeholder="yval"></input>
+															<div class="input-group-append">
+																<span class="input-group-text" id="basic-addon2">
+																	<i class="ti-lock"></i>
+																</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="form-group row" style="">
+													<label for="pass3" class="col-sm-3 control-label">p</label>
+													<div class="col-sm-9">
+														<div class="input-group">
+															<input type="text" name="latlon" id="latlon"
+																class="form-control" placeholder="latlon"></input>
+															<div class="input-group-append">
+																<span class="input-group-text" id="basic-addon2">
+																	<i class="ti-lock"></i>
+																</span>
+															</div>
+														</div>
+													</div>
+												</div>
+
+
+
+
+
+
+
+												<div class="form-group row m-b-0 ">
+													<div class="offset-sm-3 col-sm-9">
+														<button type="submit" class="btn btn-info" id="chrtbutton">Show
+															Chart</button>
+													</div>
+												</div>
+
+
+
+
+
+
+											</form>
+
+											<div></div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="tab-pane " id="swipelayers" role="tabpanel">
+
+								<div class="ribbon-wrapper card">
+									<h3 class="ribbon ribbon-bookmark ribbon-info">Swipe
+										Layers</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+										title="Close" href="#close" role="tab"> <span><i
+											class="ti-close"></i></span>
+									</a>
+									<div class="col-lg-12 col-md-6 col-sm-3">
+										Left: <select id="leftswipelayerdropdown" class="form-control"
+											data-style="btn btn-primary btn-round" title="Single Select">
+
+
+										</select> Right: <select id="rightswipelayerdropdown"
+											class="form-control" data-style="btn btn-primary btn-round"
+											title="Single Select">
+
+
+										</select>
+									</div>
+
+
+
+								</div>
+							</div>
+
+
+							<div class="tab-pane " id="addgeom" role="tabpanel">
+
+								<div class="ribbon-wrapper card">
+									<h3 class="ribbon ribbon-bookmark ribbon-info">Add Geom</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+										title="Close" href="#close" role="tab"> <span><i
+											class="ti-close"></i></span>
+									</a>
+
+								</div>
+							</div>
+
+
+							<div class="tab-pane " id="addpoint" role="tabpanel">
+
+								<div class="ribbon-wrapper card">
+									<h3 class="ribbon ribbon-bookmark ribbon-info">Add Point</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+										title="Close" href="#close" role="tab"> <span><i
+											class="ti-close"></i></span>
+									</a> <input class="form-control" type="number" style="width: 100%;"
+										placeholder="83.2548" id="lon"> </br> <input
+										class="form-control" type="number" style="width: 100%;"
+										placeholder="23.542" id="lat"> </br> <input
+										class="btn btn-primary" type="submit" style="width: 100%;"
+										onclick="addpoint()">
+
+								</div>
+
+							</div>
+
+							<div class="tab-pane " id="nocaddgeom" role="tabpanel">
+
+								<div class="ribbon-wrapper card">
+									<h3 class="ribbon ribbon-bookmark ribbon-info">NOC</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+										title="Close" href="#close" role="tab"> <span><i
+											class="ti-close"></i></span>
+									</a>
+									<div class="">
+										<ul class="nav nav-pills nav-pills-rose" role="tablist"
+											style="padding-top: 5px;">
+											<li class="nav-item"><a class="nav-link active"
+												data-toggle="tab" href="#link1" role="tablist"
+												onclick="selectedType('Point','noc')"
+												style="border-radius: 15px; padding: 5px 20x;"> <i
+													class="ti-location-pin" style="padding: 1px 0;"></i>
+											</a></li>
+											<li class="nav-item"><a class="nav-link"
+												data-toggle="tab" href="#link2" role="tablist"
+												onclick="selectedType('LineString','noc')"
+												style="border-radius: 15px; padding: 5px 20x;"> <i
+													class="ti-ruler-alt" style="padding: 1px 0;"></i>
+											</a></li>
+											<li class="nav-item"><a class="nav-link"
+												data-toggle="tab" href="#link3" role="tablist"
+												onclick="selectedType('Polygon','noc')"
+												style="border-radius: 15px; padding: 5px 20x;"> <i
+													class="ti-ruler-alt-2" style="padding: 1px 0;"></i>
+											</a></li>
+
+											<li class="form-check mt-1"><input type="checkbox"
+												class="form-check-input" id="rpstatus"> <label
+												class="form-check-label" for="rpstatus">RP</label></li>
+										</ul>
+										<!-- 	<div class="tab-content tab-space">
+											<div class="tab-pane active" id="link1">Location:</div>
+											<div class="tab-pane" id="link2">
+												Distance:<span id="distance"></span>
+	
+											</div>
+											<div class="tab-pane" id="link3">
+												Area:<span id="area"></span>
+	
+											</div>
+										</div> -->
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane " id="printer" role="tabpanel"
+								style="display: none">
+								<div class="ribbon-wrapper card">
+									<h3 class="ribbon ribbon-bookmark ribbon-info">PRINT MAP</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+										title="Close" href="#close" role="tab"> <span><i
+											class="ti-close"></i></span>
+									</a>
+									<!-- <form th:action="@{/SavePrintAttributes}" method="POST"	class="form-horizontal form-material"></form> -->
+									<div class="longToolDivWrap">
+										<div>
+											<div class="">
+												<div class="">
+													<form>
+														<div>
+
+															<input type="hidden" class="form-control" id="uname"
+																name="uname"> <input type="hidden"
+																class="form-control" id="bbox1" name="bbox1"> <input
+																type="hidden" class="form-control" id="bbox2"
+																name="bbox2"> <input type="hidden"
+																class="form-control" id="printlatlon" name="printlatlon">
+															<input type="hidden" class="form-control" id="scale"
+																name="printscale"> <input type="hidden"
+																class="form-control" id="printlayers" name="printlayers">
+															<img id="legend_img" name="legend_img" /><br />
+
+														</div>
+														<div style="display: none">
+															<label for="mapTitle"><b>Page Size</b></label><span>*</span>
+															<!-- <div id="scale-line"></div> -->
+															<select class="form-control" id="pagesize"
+																name="pagesize">
+
+																<option value="A3_Landscape">A3 Landscape</option>
+																<!-- <option value="A3_Portrait">A3 Portrait</option>
+																<option value="A4_Portrait">A4 Portrait</option>
+																<option value="A4_Landscape">A4 Landscape</option> -->
+
+															</select>
+														</div>
+
+														<!-- 	<div>
+															<label for="mapTitle"><b>Map DPI</b></label><span>*</span>
+															<select class="form-control" id="mapdpi" name="mapdpi">
+																<option value="300">300</option>
+																<option value="100">100</option>
+																<option value="200">200</option>
+																<option value="400">400</option>
+															</select>
+														</div> -->
+
+														<div style="display: none">
+															<label for="mapTitle"><b>Map Title</b></label><span>*</span>
+															<input type="text" class="form-control" id="mapTitle"
+																name="mapTitle" placeholder="Enter Map Title" oninput="return security();">
+														</div>
+														<div>
+															<label for="MapSuTitle"><b>Map TITLE</b></label><span>*</span>
+															<input type="text" class="form-control" id="ProjectTitle"
+																name="ProjectTitle" placeholder="Enter Project Title" oninput="return security();">
+														</div>
+														<input type="hidden" id="text" >
+														<div>
+															<label for="mapTitle"><b>Scale Map</b></label><span>*</span>
+															<select class="form-control" id="scalemap" name="scalemap" onchange="scalewisezoom(this.value);">
+															<option value="select" selected>select</option>
+															
+													  	    <option value="500">1:500000</option>
+        												    <option value="250" >1:250000</option>
+       													    <option value="125">1:125000</option>
+        													<option value="50">1:50000</option>
+      			    										<option value="25">1:25000</option>
+        													<!-- <option value="10">1:10000</option> -->
+															</select>
+														</div>
+														<div>
+															<label for="MapSuTitle"><b>REMARKS</b></label><span>*</span> 
+															<input type="text" class="form-control" id="remarks" name="remarks"
+																placeholder="Enter Remarks" oninput="return security();">
+														</div>
+														<div style="display: none">
+															<label for="MapSuTitle"><b>REFRENCE LETTER
+																	NUMBER</b></label><span>*</span> <input type="text"
+																class="form-control" id="refrence" name="refrence"
+																placeholder="Enter Refrence Letter no" oninput="return security();">
+														</div>
+
+														<div style="display: none">
+															<label for="MapSuTitle"><b>REVISION NO</b></label><span>*</span>
+															<input type="text" class="form-control" id="revisionno"
+																name="revisionno" placeholder="Enter Revision no" oninput="return security();">
+														</div>
+
+														<!-- 	<div>
+															<label for="mapTitle"><b>Resolution</b></label><span>*</span>
+															<select class="form-control" id="resolution" name="resolution">
+																 <option value="72">72 dpi (fast)</option>
+       															 <option value="150">150 dpi</option>
+       															 <option value="200" selected>200 dpi</option>
+        														 <option value="300">300 dpi (slow)</option>
+															</select>
+														</div> 
+														<div>
+															<label for="mapTitle"><b>Scale</b></label><span>*</span>
+															<select class="form-control" id="scale_line" name="scale_line">
+																<option value="500">1:500000</option>
+       															 <option value="250" selected>1:250000</option>
+       															 <option value="100">1:100000</option>
+     														     <option value="50">1:50000</option>
+       															 <option value="25">1:25000</option>
+       															 <option value="10">1:10000</option>
+															</select>
+														</div>  -->
+<!-- <div>
+
+
+
+														<!-- <div>
+															<label for="State"><b>State</b></label><span>*</span> <input
+																type="text" class="form-control" id="stateP" name="stateP"
+																placeholder="Enter State">
+		
+															
+		
+		
+		
+														</div>
+														<div>
+															<label for="District"><b>District</b></label><span>*</span>
+															<input type="text" class="form-control" id="districtP"
+																name="districtP" placeholder="Enter District">
+		
+															
+		
+		
+		
+														</div>
+														<div>
+															<label for="Taluka"><b>Taluka</b></label><span>*</span> <input
+																type="text" class="form-control" id="talukaP"
+																name="talukaP" placeholder="Enter Taluka">
+		
+															
+		
+		
+		
+														</div>
+														<div>
+															<label for="Village"><b>Village</b></label><span>*</span> <input
+																type="text" class="form-control" id="villageP"
+																name="villageP" placeholder="Enter Village">
+		
+															<label for="Village"><b>Village</b></label><span>*</span> 
+										<select class="form-control" name="village" id="village">
+											<option value="" name="village">--- Select ---</option>
+										</select>
+		
+		
+		
+		
+														</div> 
+		
+														<div>
+															<label for="deptName"><b>Office Name</b></label><span>*</span>
+															<input type="text" class="form-control" id="dept_name"
+																name="dept_name" placeholder="Enter Office Name">
+														</div>
+														<div>
+															<label for="deptaddr"><b>Department Address</b></label><span>*</span>
+															<input type="text" class="form-control" id="dept_addr"
+																name="dept_addr" placeholder="Enter Department Address">
+														</div>-->
+														&nbsp;
+
+														<div class="col-md-12 text-center">
+															<a href="#" id="export-pdf" onclick="printmapwithlayers()"
+																class="btn btn-primary">Submit</a> &nbsp;&nbsp;&nbsp;
+
+														</div>
+											<!-- 	<div class="col-md-12 text-center">
+															<a href="#" id="export-pdf1" onclick="generatePDF()"
+																class="btn btn-primary">Submit</a> &nbsp;&nbsp;&nbsp;
+
+														</div> -->
+													</form>
+
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane " id="geom" role="tabpanel"
+					style="display: none">
+					<!-- <div class="tab-pane" id="geom" role="tabpanel"> -->
+					<div class="ribbon-wrapper card">
+						<h3 class="ribbon ribbon-bookmark ribbon-info">Measurement</h3>
+						<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+							title="Close" href="#close" role="tab"> <span><i
+								class="ti-close"></i></span>
+						</a>
+						<div class="">
+							<ul class="nav nav-pills nav-pills-rose" role="tablist"
+								style="padding-top: 5px;">
+
+								<li class="nav-item"><a class="nav-link"
+									title="Measure in Line" data-toggle="tab" href="#link2"
+									role="tablist"
+									onclick="selectedType( 'LineString','intersect')"
+									style="border-radius: 15px; padding: 5px 20x; display: block; padding: 0.3rem 0.5rem;">
+										<i class="ti-ruler-alt" style="padding: 1px 0;"></i>
+								</a></li>
+
+								<li class="nav-item"><a class="nav-link"
+									title="Measure in Polygon" data-toggle="tab" href="#link3"
+									role="tablist" onclick="selectedType( 'Polygon','intersect')"
+									style="border-radius: 15px; padding: 5px 20x; display: block; padding: 0.3rem 0.5rem;">
+										<i class="ti-ruler-alt-2" style="padding: 1px 0;"></i>
+								</a></li>
+
+
+							</ul>
+
+						</div>
+
+					</div>
+				</div>
+								<div class="tab-pane " id="buffers" role="tabpanel"
+								style="display: none">
+
+								<!-- progress Bar for buffer with id="slider" is kept hidden -->
+
+								<div class="ribbon-wrapper card">
+									<h3 class="ribbon ribbon-bookmark ribbon-info">Proximity
+										Search</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+										onclick="closedialogbuffer();" title="Close" href="#close"
+										role="tab"> <span><i class="ti-close"></i></span>
+									</a>
+									<!--  <input type="range" min="0" max="1000" value="10" id="slider" />  -->
+									<!-- <div>
+									selected Range: <span style="color: red;" id="range"> </span>
+									km
+								</div> -->
+									<br>
+									<!--  selected Range: <span id="range" style="color:blue;"></span><br>  -->
+									<div>
+									<label>Select Layer Group*:</label>
+									<select  class="form-control" id="buff_group" onchange="changebufferlayer();" >
+													
+											<option value="">Select</option>													
+											<option value="Geochemistry">Geochemistry</option>
+											<option value="Geology">Geology 2M</option>
+											<option value="Geology_50k">Geology 50K</option>
+											<option value="Geomorphology">Geomorphology</option>
+											<option value="Ground Geophysical Data">Ground Geophysical Data</option>
+											<option value="Mineral">Mineral</option>
+											<option value="Seismotectonic">Seismotectonic</option>
+											<option value="Tectonic">Tectonic</option>
+											<option value="Airborne Geophysics Status Map">Airborne Geophysics Status Map</option>
+											<option value="Geochronology">Geochronology</option>
+											<option value="Geo Thermal">Geo Thermal</option>
+											<option value="Glacial Retreats">Glacial Retreats</option>
+											<option value="Landslide Inventory">Landslide Inventory</option>
+											<option value="Marine Geology">Marine Geology</option>
+											<option value="Marine Geophysics">Marine Geophysics</option>
+											<option value="Meteorite">Meteorite</option>
+											<option value="NLSM">NLSM</option>
+											<option value="NGLM">NGLM</option>
+											<option value="Hard Rock">Hard Rock</option>
+                                            <option value="Quaternary">Quaternary</option>
+<!-- 								/*priyanka & URVI*/ -->
+											<option value="DGH">DGH</option>
+											
+											
+<!-- 											/*priyanka & URVI*/ -->
+											
+													</select>
+									</div>
+									<div>
+									<label>Select Layer From Group* :</label> 
+										<select	class="form-control"  id="bridgeRoadId">
+											<option value="select" disabled selected>--Select--</option>
+											<option value="">Select</option>
+								</select> <br> <span id="bridgeRoadId_alert"></span>
+									</div>
+					
+									<div>
+										<label>Select Measurement Unit:</label> <select
+											class="form-control" id="distanceUnit">
+											<option value="Meter">Meter</option>
+											<option value="Kilometer">Kilometer</option>
+
+										</select> <br>
+									</div>
+									<div class="metertokm">
+										<label>Select Range in meters:</label> <input id="inputLength"
+											class="form-control" type="number" style="width: 100%;"
+											placeholder="Enter range "
+											oninput="LengthConverterInput(this.value)"
+											onchange="LengthConverterMetertoKM(this.value)">
+
+										<p style="margin-top: 10px; color: black;">
+											<span style="font-weight: 600">km : </span><span
+												id="outputMeters" style="margin-right: 50px"></span> <span
+												style="font-weight: 600">mt : </span><span
+												id="outputMetersKm"></span>
+										</p>
+										<span id="inputLength_alert"></span>
+									</div>
+
+
+									<div class="Kilometertomt">
+										<label>Select Range in kms:</label> <input id="inputLengthkm"
+											class="form-control" type="number" style="width: 100%;"
+											placeholder="Please enter range"
+											oninput="LengthConverterInputKm(this.value)"
+											onchange="LengthConverterKm(this.value)">
+
+										<p style="margin-top: 10px;">
+											<span style="font-weight: 600">mt:</span><span
+												id="outputMeters1" style="margin-right: 50px"></span> <span
+												style="font-weight: 600">kms:</span><span
+												id="outputMetersKm1"></span>
+										</p>
+										<!-- <p>km: <span id="outputKiloMetersConversion"></span></p> -->
+									</div>
+
+
+
+
+
+
+
+									<div class="">
+										<label>Select Feature & Mark on Map:</label>
+										<ul class="nav nav-pills nav-pills-rose" role="tablist"
+											style="padding-top: 5px;">
+											<!--  BufferselectedType('Point') -->
+											<li class="nav-item"><a class="nav-link active"
+												title="Mark by Point" data-toggle="tab" href="#bufferpoint"
+												role="tablist" onclick="return buffervalid('Point');"
+												style="border-radius: 15px; padding: 5px 20x;"> <i
+													class="ti-location-pin" style="padding: 1px 0;"></i>
+											</a></li>
+											<!-- BufferselectedType -->
+											<li class="nav-item"><a class="nav-link"
+												title="Mark by Line" data-toggle="tab" href="#bufferline"
+												role="tablist" onclick="return buffervalid('LineString')"
+												style="border-radius: 15px; padding: 5px 20x;"> <i
+													class="ti-ruler-alt" style="padding: 1px 0;"></i>
+											</a></li>
+
+											<li class="nav-item"><a class="nav-link"
+												title="Mark by Polygon" data-toggle="tab"
+												href="#bufferpolygone" role="tablist"
+												onclick="return buffervalid('Polygon')"
+												style="border-radius: 15px; padding: 5px 20x;"> <i
+													class="ti-ruler-alt-2" style="padding: 1px 0;"></i>
+											</a></li>
+
+										</ul>
+
+
+										<div class="tab-content tab-space">
+											<!-- <div class="tab-pane active" id="link1">Location:</div> -->
+											<div class="tab-pane" id="link2">
+												Distance:<span id="distance"></span>
+
+											</div>
+											<div class="tab-pane" id="link3">
+												Area:<span id="area"></span>
+
+											</div>
+										</div>
+
+									</div>
+
+
+								</div>
+
+							</div>
+
+							<div class="tab-pane " id="bufferIntersect" role="tabpanel">
+
+								<div class="ribbon-wrapper card">
+									<h3 class="ribbon ribbon-bookmark ribbon-info">Nearest
+										Layers</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab"
+										title="Close" href="#close" role="tab"> <span><i
+											class="ti-close"></i></span>
+									</a>
+									<!-- 									Range:<input id="bufferrange" class="opacity" type="range" -->
+									<!-- 										min="0" max="100" step="1" value="10"> -->
+									<!-- 									<div> -->
+									<!-- 										selected Range: <span style="color: red;" id="range"> </span> -->
+									<!-- 										km -->
+									<!-- 									</div> -->
+									<!-- 									<br> -->
+									<select id="BufferSelect1" class="selectpicker" data-size="7"
+										data-style="btn btn-primary btn-round">
+										<option value="select" disabled selected>--Select--</option>
+										<option value="Highway">National Highway</option>
+										<!-- 										<option value="select"  >--Select--</option> -->
+
+									</select><br> <select id="BufferSelect2" class="selectpicker"
+										data-size="7" data-style="btn btn-primary btn-round">
+										<option value="select" disabled selected>--Select--</option>
+										<!-- 										<option value="cement_file"  >Corridor Cement</option> -->
+										<option value="view_cluster">Industrial Cluster</option>
+										<option value="india_airport_location_basemap">
+											Airport</option>
+										<option label="airport_point_master">AirportLocation</option>
+										<option value="airport_point_master">AirportArea</option>
+										<option value="godown_logistics">Godown</option>
+										<option value="logsticpark_logistics">Logistic Park</option>
+										<!-- 								logsticpark		logsticpark_logistics -->
+										<option value="warehouse_logistics">Warehouse</option>
+										<option value="steel_plants_logistics">Steel Plant</option>
+										<!-- 										<option value="select"  >--Select--</option> -->
+
+									</select><br> Enter Range (km) : <input type="text"
+										id="BufferSelectRange"></input> <br>
+									<button type="button" onclick="BufferSelectedReport()">Report</button>
+
+								</div>
+							</div>
+
+			<div class="tab-pane " id="qbuilder" role="tabpanel" style="display: none">
+					<div class="ribbon-wrapper card">
+							<h3 class="ribbon ribbon-bookmark ribbon-info">Query Builder</h3>
+									<a class="nav-link closeBtnInPopUp" data-toggle="tab" title="Close" href="#close" role="tab"> 
+									<span><i class="ti-close"></i></span></a>
+									<div class="multi-field-wrapper">
+										  <!-- <a type="button" class="add-field"> <span class="fa fa-plus-circle"></span></a> --> 
+										  <label>Select Layer Group* :</label>        
+											  <div class="multi-fields">
+												<div class="multi-field">
+													<select  data-size="11"	data-style="btn btn-primary btn-round" onchange="change();" id="selectlyrfeid" class="text-one" name="destination[]">
+													<option selected value="base">Select</option>
+																								
+											<option value="Geochemistry">Geochemistry</option>
+											<option value="Geology">Geology</option>
+											<option value="Geomorphology">Geomorphology</option>
+											<option value="Ground Geophysical Data">Ground Geophysical Data</option>
+											<option value="Mineral">Mineral</option>
+											<option value="Seismotectonic">Seismotectonic</option>
+											<option value="Tectonic">Tectonic</option>
+											<option value="Airborne Geophysics Status Map">Airborne Geophysics Status Map</option>
+											<option value="Geochronology">Geochronology</option>
+											<option value="Geo Thermal">Geo Thermal</option>
+											<option value="Glacial Retreats">Glacial Retreats</option>
+											<option value="Landslide Inventory">Landslide Inventory</option>
+											<option value="Marine Geology">Marine Geology</option>
+											<option value="Marine Geophysics">Marine Geophysics</option>
+											<option value="Meteorite">Meteorite</option>
+											<option value="NLSM">NLSM</option>
+											<option value="NGLM">NGLM</option>
+											<option value="Hard Rock">Hard Rock</option>
+<option value="Quaternary">Quaternary</option>
+
+
+											
+											<!-- 											/*priyanka & URVI*/ -->
+											<option value="DGH">DGH</option>
+											
+
+<!-- 											/*priyanka & URVI*/ -->
+													</select>
+													<br />
+													
+										<!-- <select id="selectlyrfeid" class="selectpicker" data-size="11"	data-style="btn btn-primary btn-round" onchange="change();">
+											<option value="select" disabled selected>--Select--</option>
+											
+											<option value="Geochemistry">Geochemistry</option>
+											<option value="Geology">Geology</option>
+											<option value="Geomorphology">Geomorphology</option>
+											<option value="Ground Geophysical Data">Ground Geophysical Data</option>
+											<option value="Mineral">Mineral</option>
+											<option value="Habitation">Habitation </option>
+											<option value="Transport">Transport</option>
+											<option value="Seismotectonic">Seismotectonic</option>
+											<option value="Tectonic">Tectonic</option>
+											<option value="Other">Other</option>
+
+
+										</select> -->
+										
+										<br/>
+												<!-- <select class="text-two" name="attraction_or_activity[]">
+												<option value="attraction_or_activity">Select the attractions or activities</option>
+												<option value="attraction">Attraction</option>
+												<option value="activity">Activity</option>
+												</select> -->
+			
+			
+												<!-- <select id="populated_attr_or_activity" name="attraction_or_activity_selected[]">
+												here I ahve to populate the ARRAYS as option
+												<option value="available_attr_act">Available attractions / activities</option>
+												</select> -->
+												</div>
+												<br/>
+				
+											</div>
+									</div>
+								
+									<div class="longToolDivWrap" >
+	                       <!--              <a  href="#" style="color: black;">
+											<span class="fa fa-plus-circle"></span></a>
+										<input type="hidden" id="layergroup" value="1">
+										<label>Select Layer Group* :</label> 
+										<select id="selectlyrfeid" class="selectpicker" data-size="11"	data-style="btn btn-primary btn-round" onchange="change();">
+											<option value="select" disabled selected>--Select--</option>
+											<option value="Administrative Boundary">Administrative Boundary</option>
+											<option value="Geochemistry">Geochemistry</option>
+											<option value="Geology">Geology</option>
+											<option value="Geomorphology">Geomorphology</option>
+											<option value="Ground Geophysical Data">Ground Geophysical Data</option>
+											<option value="Mineral">Mineral</option>
+											<option value="Habitation">Habitation </option>
+											<option value="Transport">Transport</option>
+											<option value="Seismotectonic">Seismotectonic</option>
+											<option value="Tectonic">Tectonic</option>
+											<option value="Other">Other</option>
+
+
+										</select><br>  -->
+										
+										<label>Select Layer From Group* :</label> 
+										<select	class="selectpicker" data-size="7" id="tbl"	data-style="btn btn-primary btn-round" title="Single Select">
+											<option value="select" disabled selected>--Select--</option>
+											<option value="">Select</option>
+
+
+
+
+										</select> <br> <br /> <label>Select Layer Schema* :</label> 
+										<select id="feild" class="selectpicker" data-size="7" data-style="btn btn-primary btn-round">
+											<option value="select" disabled selected>--Select--</option>
+
+										</select><br> <label>Select Operator* :</label>
+
+										<div id="operator1" style="display: block;">
+
+											<input id="equal" type="button" name="equal" value="=" onclick="selectedOperator(' = ')"
+												class="btn btn-primary btn-sm"	style="margin: 5px; padding: 2px; width: 45px;" />
+											 <input	id="notequal" type="button"	onclick="selectedOperator(' != ')" name="notequal"
+												value="!=" class="btn btn-primary btn-sm" style="margin: 5px; padding: 2px; width: 45px;" />
+											 <input id="less" type="button" onclick="selectedOperator(' < ')"name="less" 
+											 	value="&lt;" class="btn btn-primary btn-sm"	style="margin: 5px; padding: 2px; width: 45px;" />
+											 <input id="greater" type="button" onclick="selectedOperator(' > ')" name="greater" 
+											 	value=">" class="btn btn-primary btn-sm"	style="margin: 5px; padding: 2px; width: 45px;" />
+											 <input id="lessequal" type="button" name="lessequal" onclick="selectedOperator(' <= ')"
+											 	value="'<='"	class="btn btn-primary btn-sm" 	style="margin: 5px; padding: 2px; width: 45px;" /> 
+											<input id="greaterequal" type="button"	onclick="selectedOperator(' >= ')" name="greaterequal"
+												value="'>='" class="btn btn-primary btn-sm"	style="margin: 5px; padding: 2px; width: 45px;" />
+
+
+
+										</div>
+
+										<div id="operator2" style="display: none;">
+											<input id="or" type="button" name="or"
+												onclick="selectedOperator('OR')" value="OR"
+												class="btn btn-primary btn-sm"
+												style="margin: 5px; padding: 2px; width: 45px;" /> <input
+												id="and" type="button" onclick="selectedOperator('AND')"
+												name="and" value="AND" class="btn btn-primary btn-sm"
+												style="margin: 5px; padding: 2px; width: 45px;" />
+
+
+
+
+										</div>
+
+
+										<br> <label>Select Value* :</label> <select id="value"
+											class="selectpicker" data-size="7"
+											data-style="btn btn-primary btn-round">
+											<option value="null" selected>--Select--</option>
+
+										</select>
+										<!-- 								<input type="text" class="selectpicker" data-size="7" id="value"><br> -->
+
+										<p style="display:none">
+											Query* : <span id="q">Query is Required</span>
+										</p>
+										<button type="button" id="filterg" class="btn btn-info"	style="margin: 3px;background: #045b5b;border-color: #045b5b;" disabled>REPORT</button>
+										<button type="button" id="filterg1"	onclick="resetquerybuilder()" style="margin: 3px;background: #045b5b;border-color: #045b5b;" class="btn btn-warning">RESET</button>
+										<!--                                              </div> -->
+									</div>
+
+								</div>
+							</div>
+			
+
+						</div>
+					</div>
+
+				</div>
+
+				<div class="map_area_rightSideBar_legend">
+
+					<div>
+						
+						<div class="wrap_swipe_control">
+							<!--<input id="swipe" type="range">-->
+							<!-- <div>
+								<input id="swipe" class="range-slider__range" type="range"
+									value="50" min="0" max="100"> <span
+									class="range-slider__value"></span>
+							</div> -->
+						</div>
+						<!-- <div id="legend" style="width: 180px; left: 2%; height: 200px; position: absolute; bottom: 100px; font-weight: 700; overflow: scroll; background: white; border: ridge;">
+						</div>-->
+
+
+						<div id="IdentifySymbol"
+							style="display: none; position: absolute; right: 50px; color: blue; bottom: 2%;">
+							<span style="color: red;">IdentifySymbols</span>
+						</div>
+
+						<div id="popup" class="ol-popup">
+							<a href="#" id="popup-closer" class="ol-popup-closer"
+								style="font-size: 12px; right: 5px; top: 5px;"></a>
+							<div id="popup-content"></div>
+						</div>
+
+					</div>
+					<div id="ministry_buttons" style="display: none">
+						<div class="col-md-1"
+							style="position: relative; overflow-wrap: anywhere;">
+							<div class="test_dropdown" style="top: 70px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="Others"
+										onclick="selectedLayers('Telecom')"> <!-- <img
+								src="customol/images/icons/world.png"
+								style="width: 30px; margin-top: 3px">  --> <!-- 								 	<i class="ti-layers-alt text-white" style="line-height: 1.5"></i>  -->
+										Telecom
+									</a>
+								</div>
+							</div>
+							<div class="test_dropdown" style="top: 115px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="MinistaryofRailway"
+										onclick="selectedLayers('MinistaryofRailway')"> <!-- <img
+								src="customol/images/icons/eco.png" style="width: 28px;"> --> <!-- <i
+								class="ti-layers-alt text-white" style="line-height: 1.5"></i> -->
+										Railways
+									</a>
+								</div>
+							</div>
+							<!-- 					<div class="test_dropdown" -->
+							<!-- 						style="position: fixed; top: 160px; right: 10px; width: 250px; height: 30px; background: #2a76d2; z-index: 1031; /* border-radius: 50%; */ text-align: center; padding: 4px;"> -->
+							<!-- 						<div class="dropdown show-dropdown"> -->
+							<!-- 							<a href="#" id="show_hide2" title="Administrative" -->
+							<!-- 								onclick="selectedLayers('Administrative')">  -->
+							<!-- 								<img
+<!-- 								src="customol/images/icons/adm.png" style="width: 25px;"> <i class="ti-layers-alt text-white" style="line-height: 1.5"></i> -->
+							<!-- 								Administrative -->
+							<!-- 							</a> -->
+							<!-- 						</div> -->
+							<!-- 					</div> -->
+							<div class="test_dropdown" style="top: 160px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="Aviation"
+										onclick="selectedLayers('GUJSAIL (Civil Aviation)')"> <!-- <img
+								src="customol/images/icons/eco.png" style="width: 28px;"> --> <!-- <i
+								class="ti-layers-alt text-white" style="line-height: 1.5"></i> -->
+										Civil Aviation
+									</a>
+								</div>
+							</div>
+
+
+
+
+							<div class="test_dropdown" style="top: 340px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title=PowerPlantsGroup
+										onclick="selectedLayers('PowerPlantsGroup')"> <!-- 								<img -->
+										<!-- 								src="customol/images/icons/multimodel_project.png" -->
+										<!-- 								style="width: 32px;">  <i
+								class="ti-layers-alt text-white" style="line-height: 1.5"></i> -->
+										Ministry of Energy
+									</a>
+								</div>
+							</div>
+
+							<div class="test_dropdown" style="top: 385px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="Land Acquisition"
+										onclick="selectedLayers('LandAcquisition')"> Micro, Small
+										and Medium Enterprises (MSMEs) </a>
+								</div>
+							</div>
+
+
+							<div class="test_dropdown" style="top: 430px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="Logistics"
+										onclick="selectedLayers('Logistics')"> Consumer Affairs,
+										Food and Public Distribution </a>
+								</div>
+							</div>
+
+							<div class="test_dropdown" style="top: 475px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="Others"
+										onclick="selectedLayers('Others')"> Fisheries and Coastal
+										Affairs </a>
+								</div>
+							</div>
+
+							<div class="test_dropdown" style="top: 520px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="Others"
+										onclick="selectedLayers('Coal')"> Coal </a>
+								</div>
+							</div>
+
+
+
+
+							<div class="test_dropdown" style="top: 565px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="Others"
+										onclick="selectedLayers('Others')"> Food Processing
+										Industries </a>
+								</div>
+							</div>
+
+							<div class="test_dropdown" style="top: 610px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="Others"
+										onclick="selectedLayers('Others')"> Electronics and
+										Information Technology </a>
+								</div>
+							</div>
+
+							<div class="test_dropdown" style="top: 655px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="Others"
+										onclick="selectedLayers('Others')"> Power </a>
+								</div>
+							</div>
+
+							<div class="test_dropdown" style="top: 700px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="Others"
+										onclick="selectedLayers('Others')"> Tourism </a>
+								</div>
+							</div>
+
+							<div class="test_dropdown" style="top: 745px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="Others"
+										onclick="selectedLayers('Others')"> Petroleum and Natural
+										Gas </a>
+								</div>
+							</div>
+
+							<div class="test_dropdown" style="top: 790px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="Others"
+										onclick="selectedLayers('Others')"> New and Renewable
+										Energy </a>
+								</div>
+							</div>
+
+							<div class="test_dropdown" style="top: 835px;">
+								<div class="dropdown show-dropdown">
+									<a href="#" id="" title="Others"
+										onclick="selectedLayers('Others')"> Defence </a>
+								</div>
+							</div>
+
+
+
+
+
+						</div>
+
+					</div>
+
+
+				
+				</div>
+
+				<div class="imp_tools_div">
+				<div id="latlon_kj">
+
+						<h4>
+							<p> Longitude:&nbsp;<span id="sholatlon"></span> </p>
+							<p>Latitude:&nbsp;<span id="sholatlat"></span></p>
+						</h4>
+					</div>
+					<div id="scalewisezoom">
+				<!-- <select class="dropdownsearch" id="scalemap" name="scalemap" onchange="scalewisezoom(this.value);"> -->
+				<select class="dropdown" id="scalemap" name="scalemap" onchange="scalewisezoom(this.value);">
+				<option value="select" selected>Scale Map</option>
+				  <option value="1000">1:1000000</option>
+				<option value="500">1:500000</option>
+        		<option value="250" >1:250000</option>
+       			<option value="125">1:125000</option>
+        		<option value="50">1:50000</option>
+      			<option value="25">1:25000</option>
+        		<!-- <option value="10">1:10000</option> -->
+				</select>
+				</div>
+				</div>
+
+			</div>
+
+	<div class="right-sidebar-nav" id="right_sidebar_nav">
+	<a href="javascript:void(0);" id="right_sidebar_btn"> 
+		<span style="color: white;font-size: 20px;" class="icon">&#10095;</span>
+		<i class="fa fa-arrow-right off"></i>
+	</a>
+	<div class="right_div_main_card card-1">
+		<section class="tabs-wrapper">
+				<div class="tabs-container">
+					<div class="tabs-block">
+						<div id="tabs-section" class="tabs">
+							<ul class="tab-head">
+								<li>
+									<a href="#tab-1" class="tab-link active" title="Click To See Opened Layers"> <i class="mdi mdi-layers"></i></a>
+								</li>
+								<li>
+									<a href="#tab-2" class="tab-link" title="Click To See Dynamic Legend"> <i class="mdi mdi-view-list"></i>  </a>
+								</li>
+								<!-- <li>
+									<a href="#tab-3" class="tab-link" title="Click To Download  Baseline Data" onclick="searchStateexpList('searchstate_name');"> <i class="mdi mdi-download"></i>  </a>
+								</li> -->
+							</ul>
+
+							<section id="tab-1" class="tab-body entry-content active active-content">
+								<div class="listingInfo">
+											<div class="listingHead">
+												<h4>Layers</h4>
+											</div>
+
+											<div class="listingWrap">
+												<div id="layer_buttons">
+													<div class="">
+
+														<div class="test_dropdown">
+															<div class="dropdown show-dropdown">
+																<div id="Common_panel">
+																	<div class="card card-no-border ">
+																		<div class="card-body ">
+																			<div id="accordion" class="nav-accordion"
+																				role="tablist" aria-multiselectable="true">
+																				<div class="ribbon-wrapper card">
+																					<!-- <span class="closeCommonPanelSpan"><a
+																		onclick="closepanel()"><i class="ti-close"></i></a></span> -->
+
+																					<h3 class="ribbon ribbon-bookmark ribbon-info">
+																						<span id="maintitle"></span>
+																					</h3>
+																					<div id="parentElementIdhomeright" class="opened-layers-container"></div>
+																					<!--<div id="administrativegroups"></div>-->
+
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+
+																</div>
+															</div>
+														</div>
+
+
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+							</section>
+
+							<section id="tab-2" class="tab-body entry-content">
+								<div class="listingInfo">
+											<div class="listingHead">
+												<h4>Legend<button onclick="refresh_legend_dlm();" class="tabRefreshBtn" ><i title="Refresh Legend" class="fa fa-refresh" aria-hidden="true"></i></button></h4>
+											<span id="loading" style="display:none"><i class="fa fa-spinner fa-pulse"></i> Loading Dynamic Legend ...</span>
+											</div>
+
+											<div class="listingWrap">
+												<div id="layer_buttons">
+													<div class="">
+														<div class="test_dropdown">
+															<div class="dropdown show-dropdown">
+
+																<div id="Common_panel">
+																	<div id="legend"></div>
+
+
+																</div>
+															</div>
+														</div>
+
+
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+							</section>
+
+						<section id="tab-3" class="tab-body entry-content">
+			<div class="listingInfo">
+				<div class="listingHead">
+					<h4>Search</h4>
+				</div>
+
+				<div class="listingWrap">
+					<div id="layer_buttons">
+						<div class="">
+							<div class="test_dropdown" style="font-size: 12px;">
+								<div class="dropdown show-dropdown">
+								
+								<table id="div_stsdist1" style="font-size: 12px;">
+								<tr>
+									<td><label  style="color: white;">Map Services</label></td></tr><tr>
+									<td><select title="Select your Map Services" id="keywordsearchid" onchange="getbaselilayernamebygroupid(this.value);"></select></td>
+									<!-- <td><input type="text" id="keywordsearchid" onkeyup="getlayerdetails();"  placeholder="Type Keyword"></td> -->
+								</tr>
+								<tr>
+								<td style="color: white;">Layers :</td>
+								</tr>
+								<tr>
+								<td><select title="Select Layer" id="baselinelayerbygroupid" class="baselinelayerbygroupclass" multiple="multiple"></select></td>
+								</tr>
+								
+								
+								<!-- TruptiMAm code -->
+								<tr>
+								<td style="color: white;">Select Location :</td>
+								</tr>
+									<tr>
+								<td>
+								<select id="select-box_clip"  onchange="getlocation(this.value);">
+															<option title="Select" value="Select">Please Select By Location</option>
+															<option title="State/District" value="1">State/District/Toposheet</option>
+															<option title="Area Draw" value="2">Area Draw</option>
+
+													</select>
+												<!-- 	<input type="radio" name="select-box_clip" id="State_District-Toposheet" value="1"/>State/District/Toposheet
+													<input type="radio" name="select-box_clip" id="Area_Draw" value="2"/>Area Draw
+														
+													 --><input type="hidden" id="boxwkt" value=""></input>
+													</td>
+													</tr>
+<!-- TruptiMAm code -->
+									<tr id="sc1">
+										<td style="color: white;">State :<input type="hidden" id="statdistcountsearch" value="1"></td>
+									</tr><tr id="sc2">
+										<td><select title="Select State" id="searchstate_name" name="state_name"  class="form-controll" onchange="DistrictexpSList_clipsearch(this.value,'searchstate_name','searchdistrict_name','StateIndia_ngdr');"> 
+										<option value="select" selected>select</option></select><input type="hidden" id="state_exp_name" name="state_name"></td>
+									</tr>
+									<tr id="dc1">
+							<td style="color: white;">District :</td></tr>
+							<tr id="dc2">
+							<td><select title="Select Multiple District" id="searchdistrict_name" name="district_name" multiple="multiple" class="searchdistrict_name" tabindex="-1" style="width: 100%; color: #000 !important;">
+								<option value="select" selected>select</option>
+								</select></td>
+							</tr>
+					
+						 <tr id="tc1">
+						<td style="color: white;">Toposheet :</td></tr><tr id="tc2">
+						<td ><select title="Select Multiple Toposheet" id="searchdisttopoid" name=""  class="searchdisttopoid" tabindex="-1" multiple="multiple"  style="width:100%;color:#000!important;" > 
+						<option value="select" selected>select</option> </select> </td>
+						 </tr>
+						 <!-- <tr>
+						 <td><input title="Click on Search button to see the Search Result" type="button" value="Search" onclick="return getsearchnewdata();" style="height: 30px;width:80px;background: #e5f4ed !important; border: 1px solid;"></input>
+						 	 <input title="Click on clear button to Clear Data" type="button" value="Clear" id="clearsearchpaneldata" style="height: 30px;width:80px;background: #e5f4ed !important; border: 1px solid;"></input></td>
+						 </tr> -->
+					
+								</table>
+								<table  class="clearsearchbtn"> 
+								<tr>
+								<td> <input title="Click on Search button to see the Search Result" type="button" value="Search" onclick="return checkarea();" ></input>
+						 	 <input title="Click on clear button to Clear Data" type="button" value="Clear All" id="clearsearchpaneldata" ></input></td>
+						</tr>
+								</table>
+								<!-- <div class="clearsearchbtn">
+									<input title="Click on button to see the Search Result" type="button" value="Search" onclick="return getsearchnewdata();" style=""></input>
+						 	 		<input title="Click on button to Clear Data" type="button" value="Clear All" id="clearsearchpaneldata" style=""></input></td>
+								</div> -->
+								<span id="loadingbase" style="display:none;color: white;font-size: 20px;"><i class="fa fa-spinner fa-pulse"></i> Searching... </span>
+								<hr>
+								
+			<!-- 			<fieldset style="color: white;font-size: 12px;">
+    				<legend style="font-size: 8px;">Bounding Box:</legend>
+
+   				<div>
+     				 <label  style="color: white;">Min X:</label><br>
+						<input type="text" id="geo3" >
+					 <label  style="color: white;">Max X:</label>
+						<input type="text" id="geo5" >			
+					
+ 				   </div>
+
+  				  <div>
+     				 <label  style="color: white;">Min Y:</label><br>
+						<input type="text" id="geo4" >
+						
+					<label  style="color: white;">Max Y:</label>
+						<input type="text" id="geo6" >
+  				  </div>
+					</fieldset> -->
+							
+									<!-- <div id="Common_panel">
+										<input type="checkbox" Name="Tectonic" value="Tectonic"
+										id="Tectonic" />
+									
+										</div> -->
+
+<div id="searchboxid_new1" style="display: none;">	
+<div class="form-check" id="fileList_div_0">
+
+<!-- 							<input type="checkbox" class="form-check-input" id="file_checkbox_new_0" name="file_checkboxnamenew" value="" > -->
+<!-- 							<label class="form-check-label" for="file_checkbox_0" id="file_name_new_0">File Name</label> -->
+						</div>
+						<div id="fileList_results_new"></div>
+						 <iframe id="baselineiframe" style="display:none"></iframe>
+<form id="getDownloadImage_new" action="/getDownloadImage_new" method="POST" target="baselineiframe" ><input type="hidden" name="_csrf" value="6b337583-22bb-4903-bd19-c5a9408d9d02"/>
+		 <input type="hidden" id="getfileList12" name="getfileList12" value="0" readonly></input>
+		 <input type="hidden" id="state" name="state" value="0" readonly></input>
+		 <input type="hidden" id="dist" name="dist" value="0" readonly></input>
+		 <input type="hidden" id="group_id" name="group_id" value="0" readonly></input>
+		 <input type="hidden" id="tp_no" name="tp_no" value="0" readonly></input>
+		<!--    <a id="newsearchbase_btn_add" class="open-button2"   style="display:none; background: #e5f4ed  !important; border: 1px solid; color: #000;width:100px;" onclick="baselineaddtocart()">Add To Cart</a> -->
+		
+ </form>	 
+ <!-- onclick="baselineaddtocart()" -->
+  <a id="newsearchbase_btn_add" type="button" class="open-button1" >Add To Cart</a>		
+					<!-- 	<div class="form-check" id="fileList_div_0">
+						</div>
+						<div id="fileList_results_new" ></div>
+<form id="downloadFile1_new" th:action="@{/downloadFile1_new}" method="POST" target="_blank">
+<form id="getDownloadImage_new" th:action="@{/getDownloadImage_new}" method="POST" target="_blank">
+		 <input th:type="hidden" id="getfileList12" th:name="getfileList12" th:value="@{/}" readonly></input>
+		 <button id="newsearchbase_btn" class="btn btn-primary" type="submit"  style="display: none;background: #b7d3f0 !important; border: 1px solid; color: #000;">Download</button>
+ </form> -->
+ 
+<form id="downloadForm2" action="" >
+	<input type="hidden" name="kmlFileId2" id="kmlFileId2" value="0"/>		
+</form>
+<!--   <form id="addtocartidddownload" th:action="@{/addtocartdownloadmet}" method="POST" target="_blank" >
+		 <input th:type="text" id="tempcartdt" th:name="getfileList12" th:value="0" readonly></input>
+		 <input th:type="text" id="layerandtoposheetlength" th:name="layerandtoposheetlength" th:value="0" readonly></input>
+		 <a id="aacartdownbtn" class="open-button1"   style="display:none; background: #b7d3f0 !important; border: 1px solid; color: #000;width:100px;">Download</a>
+ </form> -->
+ 
+ <form id="addtocartidddownload" action="/newcheckforrr"   method="POST"  target="_blank"><input type="hidden" name="_csrf" value="6b337583-22bb-4903-bd19-c5a9408d9d02"/>
+		 <input type="hidden" id="tempcartdt" name="getfileList12" value="0" readonly></input>
+ </form> 
+   <form id="addtocartidddownload" action="/newcheckforrr"   method="POST"  target="_blank"><input type="hidden" name="_csrf" value="6b337583-22bb-4903-bd19-c5a9408d9d02"/>
+		 <input type="hidden" id="fetureinfocartid" name="getfileList12" value="0" readonly></input>
+ </form> 
+ <form id="expopdftextdownid" action="/downloadforexpofile_map"   method="POST"><input type="hidden" name="_csrf" value="6b337583-22bb-4903-bd19-c5a9408d9d02"/>
+		 <input type="hidden" id="filepathforexp" name="filepathforexp" value="0" readonly></input>
+ </form>
+<input type="hidden" id="addtocartbaseline" name="addtocartbaseline" value=""></input>
+  <input type="hidden" id="baselinedatacartvalueid" name="baselinedatacartvalueid" value="0" readonly></input>
+ </div>	
+								</div>
+							</div>
+
+						</div>
+						
+					</div>
+
+				</div>
+				</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+	</div>
+	</div>	
+	
+
+	<div class="main open" style="display: none;">
+	  <header class="header-main">
+	    <div class="page-wrapper">
+	      <a class="button-nav-toggle"><span style="color: white;" class="icon">&#9776;</span> </a>
+	    </div>
+	  </header>
+	
+	</div>
+	
+	<div class="menu open" style="display: none;">
+  <nav class="nav-main">
+    <div class="nav-container">
+      <ul>
+        <li> <a href="#" title="Layer Panel"><i class="mdi mdi-layers"></i> Layers </a>
+          <ul>
+          	<li><a href="#" class="back"></a></li>
+            <li>
+				<div class="right-sidebar-nav" id="right_sidebar_nav">
+					<div class="right_div_main_card card-1">
+						<div class="listingInfo">
+							<!-- <div class="listingHead">
+								<h4>Layers</h4>
+							</div> -->
+
+							<div class="listingWrap">
+								<div id="layer_buttons">
+									<div class="">
+
+										<div class="test_dropdown">
+											<div class="dropdown show-dropdown">
+												<div id="Common_panel">
+													<div class="card card-no-border ">
+														<div class="card-body ">
+															<div id="accordion" class="nav-accordion" role="tablist"
+																aria-multiselectable="true">
+																<div class="ribbon-wrapper card">
+																	<!-- <span class="closeCommonPanelSpan"><a
+																		onclick="closepanel()"><i class="ti-close"></i></a></span> -->
+
+																	<h3 class="ribbon ribbon-bookmark ribbon-info">
+																		<span id="maintitle"></span>
+																	</h3>
+
+																	<div id="administrativegroups"></div>
+
+																</div>
+															</div>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</li>
+          </ul>
+        </li>
+        <li><a href="#" title="Legend Panel"><i class="mdi mdi-view-list"></i> Legends </a>
+			<ul>
+			<li><a href="#" class="back"> </a></li>
+            <li>
+				<div class="right-sidebar-new" id="right-sidebar-new">
+					<div class="right_div_main_card card-1">
+						<div class="listingInfo">
+							<div class="listingHead">
+								<h4>Legend</h4>
+							</div>
+
+							<div class="listingWrap">
+								<div id="layer_buttons">
+									<div class="">
+										<div class="test_dropdown">
+											<div class="dropdown show-dropdown">
+
+												<div id="Common_panel">
+													<div id="legend"></div>
+
+
+												</div>
+											</div>
+										</div>
+
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</li>
+          </ul>
+		</li>
+      </ul>
+    </div>
+  </nav>
+</div>
+	
+
+
+
+	<!-- Sachin identify dialogue box -->
+	<div id="drawboxnew_new" title="Layers Info"
+			style="height: 230px; width: 400px;">
+
+			<div class="cust-td">
+				<!-- Column 1, example widget code below -->
+				<div class="info-box">
+					<div class="info-box-content">
+						<span class="info-box-text">Layers</span>
+						<div id="identifygroups111111111111111111"></div>
+					</div>
+				</div>
+				<!-- Next widget underneath would go here -->
+			</div>
+
+			<div class="cust-td " style="width: 418px; height: 331px;">
+
+				<!-- 		 <div id="tabs123" style=" width: auto; height: 250px;overflow: scroll;">
+	          <ul>
+	            </ul>
+	       </div> -->
+	       		<div class="cust-head">
+	       			<div class="search-block"><img src="assets/images/search.png" alt=""><input class="form-control" id="search-identify"></div>
+	       		</div>
+	       		<div class="cust-body">
+					<div class="questions" id="accordianiddiv"></div>
+				</div>
+			</div>
+		</div>
+ 
+	</div> 
+	 
+
+	</div>
+	 
+	<!-- Identify Cart -->
+	<div id="identifycartdialogbox" title="Data Download Cart">
+	 <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Report Title</th>
+        <th>Report NUID</th>
+        <th>No. of Files</th>
+        <th>Remove</th>
+      </tr>
+    </thead>
+    <tbody id="identifydialogcontent">
+      
+      
+    </tbody>
+  </table>
+	</div>
+<!-- Identify Cart -->
+<!-- Sachin Layer legend dialogue box -->
+	<div id="layerlegendbox" title="Layer Legend Info"	style="overflow-y: scroll;">
+		<label id='legendinf' style="font-weight: bold;"></label>
+		<hr>
+		<div class="legendaccordi" id="accordialegen"></div>
+	</div>
+
+	<!-- 	-->
+
+	<!-- 	</div> -->
+
+	<!-- <div class="modal fade report-div" id="pmg_report_id" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">PMG</h5>
+					<button type="button" class="close" data-bs-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					<table id="selection"
+						class="table table-striped table-bordered table-lg"
+						cellspacing="0" width="100%">
+						<thead>
+							<tr>
+
+								<th class="th-sm">project_id</th>
+								<th class="th-sm">Details</th>
+																<th class="th-sm">Village</th>
+																<th class="th-sm">Shg Group</th>
+																<th class="th-sm">Income</th>
+
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+
+					</table>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary"
+						data-bs-dismiss="modal">Close</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+ -->
+<div class="modal bs-example-modal-sm" tabindex="-1" role="dialog" id="signout"
+		aria-hidden="true" style="color: #000;">
+		<div class="modal-dialog modal-sm dark">
+			<div class="modal-content" style="background:#fff">
+				<div class="modal-header">
+				
+					<h4>Signout	</h4>
+				
+					<a href="" onclick="closelogoutpanel();" ><span><i class="ti-close"></i></span></a>
+				</div>
+				<div class="modal-body" id="logoff_foot">
+					 <label>Your session will be logged out.
+						Do you wish to proceed?</label>
+				</div>
+				<div class="modal-footer">
+<!-- 					<a href="logout" class="btn btn-primary btn-block" >Signout</a> -->
+						<a data-toggle="modal"  href="login" data-target=".bs-example-modal-sm" > <i class="fa fa-home" ></i>Home </a>
+                
+				</div>
+			</div>
+		</div>
+	</div>
+<!--  -->
+		<form action="/registerview" method="POST"  id="useridfrom" name="userFrom" modelAttribute="user"><input type="hidden" name="_csrf" value="6b337583-22bb-4903-bd19-c5a9408d9d02"/>
+		<input type="hidden" name="letterid" id="userid" value="0"/>
+	</form>
+	<form action="/ngdr_Dashboard" method="POST"  id="usertypefrom" name="userFrom" modelAttribute="user"><input type="hidden" name="_csrf" value="6b337583-22bb-4903-bd19-c5a9408d9d02"/>
+		<input type="hidden" name="letterid" id="usertype" value="0"/>
+	</form>
+	<form action="/usercheck" method="POST"  id="usercheckfrom" name="userFrom" modelAttribute="user"><input type="hidden" name="_csrf" value="6b337583-22bb-4903-bd19-c5a9408d9d02"/>
+		<input type="hidden" name="letterid" id="usercheck" value="0"/>
+	</form>
+	<form action="/stackholderAllMert" method="POST"  id="userstackfrom" name="userFrom" modelAttribute="user"><input type="hidden" name="_csrf" value="6b337583-22bb-4903-bd19-c5a9408d9d02"/>
+		<input type="hidden" name="letterid" id="userstack" value="0"/>
+	</form>
+	
+	
+<!--  -->
+	<footer class="new_footer text-left text-white fixed-bottom">
+		<a  class="text-right text-white fixed-bottom"> <strong style="display:none" id="strongtag">Please zoom to 1:10,00,000 scale, from the drop down menu at the bottom of the screen, to view the map.</strong></a>
+		&#169; 2022 Developed by BISAG-N </footer>
+	<!-- ============================================================== -->
+	<!-- All Jquery -->
+	<script type="text/javascript" src="offlinejs/1.10.16/js/jquery-3.7.1.min.js"></script>
+	<script src="offlinejs/1.13.2/jquery-ui.js"></script>
+	<script src="./mert/assets/js/color.js"></script>
+	<!-- ============================================================== -->
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	
+	<script src="ol/geocoder/js/ol.js"></script>
+	<script type="text/javascript" src="ol/dist/ol-ext.js"></script>
+	<script src="ol/jsts.min.js"></script>
+<script src="ol/turf.min.js"></script>
+<script src="ol/geocoder/js/ol-popup.js"></script>
+<script src="ol/geocoder/js/ol-geocoder-debug.js"></script>
+	<script src="/assets/js/jquery.slicknav.js"></script>
+	
+	<script src="offlinejs/npm/dist/js/select2.min.js"></script>
+		<!-- SACHIN SELECT2 NEW ADDD -->
+<script src="offlinejs/4.0.0/js/select2.full.js"></script>
+	
+	<!-- slimscrollbar scrollbar JavaScript -->
+	<script src="assets/js/jquery.slimscroll.js"></script>
+	<!--Wave Effects -->
+	<script src="assets/js/waves.js"></script>
+	<!--Menu sidebar -->
+	<script src="assets/js/sidebarmenu.js"></script>
+	<!--stickey kit -->
+	<script
+		src="assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+	<script src="assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+
+	<!--Custom JavaScript -->
+	<script src="assets/js/custom.min.js"></script>
+<script src="customol/js/turf/terraformer-1.0.8.js"></script>
+<script src="customol/js/turf/terraformer-wkt-parser-1.1.2.js"></script>
+
+<script src="ol/geocoder/js/control-nominatim.js"></script>
+	<!-- ============================================================== -->
+	<!-- This page plugins -->
+	<!-- ============================================================== -->
+	<!-- chartist chart -->
+	<!--morris JavaScript -->
+	<script src="/assets/plugins/raphael/raphael-min.js"></script>
+	<script src="assets/plugins/morrisjs/morris.min.js"></script>
+	<!-- Vector map JavaScript -->
+	<script
+		src="assets/plugins/vectormap/jquery-jvectormap-2.0.2.min.js"></script>
+	<script
+		src="assets/plugins/vectormap/jquery-jvectormap-world-mill-en.js"></script>
+
+	<!-- ============================================================== -->
+	<!-- Style switcher -->
+	<!-- ============================================================== -->
+	<script
+		src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+
+	<script	src="offlinejs/npm/dist/olms.js"	type="text/javascript"></script>
+
+	<script src="js/request.umd.js"></script>
+		<script src="js/routing.umd.js"></script>
+		<script src="js/auth.umd.js"></script>
+
+
+	<script src="customol/js/geom/cqlviewmap.js"></script>
+	<script src="customol/js/main_guest.js"></script>
+
+	<script src="customol/js/LayersGroup/Commoditylayer.js"></script>
+
+	<script src="customol/js/LayersGroup/GeomLayer.js"></script>
+	<script src="customol/js/commonfunctions/clear.js"></script>
+
+	<script src="customol/js/identify/identify_dynamic.js"></script>
+	<script src="customol/js/export/exportpdf.js"></script>
+
+	<script src="customol/js/geom/viewonmap.js"></script>
+	<script src="customol/js/geom/addGeom.js"></script>
+	<script src="customol/js/geom/addpoint.js"></script>
+	<script src="customol/js/geom/intersect.js"></script>
+
+	<script src="customol/js/print/html2canvas.js"></script>
+
+	<script src="customol/js/controllers/controllers.js"></script>
+	<script src="customol/js/navigation/navigation.js"></script>
+	<script src="customol/js/controllers/scaleline.js"></script>
+	<script src="customol/js/controllers/mouse-position.js"></script>
+	<script src="customol/js/layerswitcher/switchlayers.js"></script>
+	<script src="customol/js/layerswitcher/legend_dynamic.js"></script>
+	<script src="customol/js/legend/legend.js"></script>
+	<!-- 	buffer Intersect report -->
+	<script src="customol/js/nearestLayers/nearestLayers.js"></script>
+
+	<script src="customol/js/services/services.js"></script>
+	<script src="customol/js/commonfunctions/Base64.js"></script>
+	<script src="customol/js/commonfunctions/commonfunctions.js"></script>
+
+	<script src="customol/js/querybuilder/querybuildernew.js"></script>
+	<script src="customol/js/querybuilder/cqlByquery.js"></script>
+
+	<script src="customol/js/Commodity/commodity.js"></script>
+	<script src="customol/js/Commodity/CqlCommodity.js"></script>
+
+
+	<script src="mis/js/services/misservices.js"></script>
+	<script src="mis/js/customscripts/search.js"></script>
+	<script src="mis/js/customscripts/livelihoodtable.js"></script>
+	<script src="mis/js/customscripts/filter.js"></script>
+<script src="security/security.js"></script>
+
+	
+		<!-- SACHIN Datatabels -->
+	<script src="offlinejs/1.12.1/js/jquery.dataTables.min.js"></script>
+	<script	src="offlinejs/2.2.3/js/dataTables.buttons.min.js"></script>
+	
+	<script	src="offlinejs/3.1.3/jszip.min.js"></script>
+	<script	src="offlinejs/0.1.53/pdfmake.min.js"></script>
+	<script	src="offlinejs/0.1.53/vfs_fonts.js"></script>
+	<script	src="offlinejs/2.2.3/js/buttons.html5.min.js"></script>
+	
+	
+	<script src="offlinejs/npm/dist/js/sweetalert2.all.min.js"></script>
+	<script src="offlinejs/npm/sweetalert211.js"></script>
+	<script src="customol/js/AI_Chat/aichatboard.js"></script>
+	<!-- SACHIN Datatabels -->
+
+	<script src="customol/js/map_guestuser.js"></script>
+<script src="mis/js/customscripts/explorationdatasearch.js"></script>
+<script src="mis/js/customscripts/geophysicaldata.js"></script>
+<script src="mis/js/customscripts/VisulizeDRMsearch.js"></script>
+
+	<script src="customol/js/geom/drawboxn.js"></script>
+	<script src="mis/js/customscripts/autocomplet.js"></script>
+	<script src="mis/js/customscripts/layersearchname.js"></script>
+	<script src="mis/js/customscripts/state_district.js"></script>
+	<script src="customol/js/get_explo_data/get_explo_data.js"></script>
+	<script src="mis/js/customscripts/multiCriteriaSearch.js"></script>
+	
+	 <script type="text/javascript" src="mert/assets/js/ngdrTranslate.js"></script>
+	<script src="customol/js/keywordsearch/keywordsearch.js"></script>
+	<script src="mis/js/customscripts/Baselineexplorationdatasearch.js"></script>
+    <script src="mis/js/customscripts/Baselinemulticriteriasearch.js"></script>
+    
+     <script src="assets/js/jquery.slidemenu.js"></script>
+	 <script src="customol/js/Dynamic_Layer/adddynamiclayer.js"></script>
+	 <script src="customol/js/Dynamic_Layer/Search_Layer.js"></script>
+	 <script src="datatable-bootstrap5/dataTables.js"></script>
+	<script src="datatable-bootstrap5/dataTables.bootstrap5.js"></script>
+	<script src="datatable-bootstrap5/dataTables.buttons.js"></script>
+	<script src="datatable-bootstrap5/buttons.bootstrap5.js"></script>
+	<script src="datatable-bootstrap5/jszip.min.js"></script>
+	<script src="datatable-bootstrap5/pdfmake.min.js"></script>
+	<script src="datatable-bootstrap5/vfs_fonts.js"></script>
+	<script src="datatable-bootstrap5/buttons.html5.min.js"></script>
+	<script src="datatable-bootstrap5/buttons.print.min.js"></script>
+	<script src="datatable-bootstrap5/buttons.colVis.min.js"></script>
+     <script src="offlinejs/v3/polyfill.min.js"></script>
+    <script src="offlinejs/3.18.3/minified.js"></script>
+    <script src="offlinejs/2.3.1/jspdf.umd.min.js"></script>
+    <script src="offlinejs/index_A3/JS/html2canvas.min.js"></script>
+ <script type="text/javascript">
+		
+		
+	   $( document ).ready(function() {
+		 	var csrfparname = "_csrf";
+    var csrfvalue = "6b337583-22bb-4903-bd19-c5a9408d9d02";
+		});
+
+	</script>
+	<script type="text/javascript">	
+		$(document).ready(function() {
+	 		$('a[rel="#tabs-3"]').on('click', function(e) {
+			    $('.tab_contents_container').hide(); // hides the div with id="name"
+			  });
+	 		
+	 		$('a[rel="#tabs-1"]').on('click', function(e) {
+			    $('.tab_contents_container').show(); // hides the div with id="name"
+			  });
+			 var msg =null;// null;
+			if(msg!=null)alert(msg);
+			 
+			//showdiscription();
+		});
+		</script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(document).on('keyup', 'input[type="search"]', function() {
+				            $(this).val($(this).val().replace(/[^\w\s-]/gi, ''));
+				        });
+			});
+			</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+7. DISSEMINATION OF BASELINE GEOSCIENCE DATA 
+7.1 COMPILED GEOLOGICAL MAPPING DATA ON 1:50K SCALE 
+ 7.1.1 This data has been acquired through the mapping pro gramme of the 
+Geological Survey of India on 1:50,000 or 1:63,360 scale over the years. 
+This data was compiled to bring it to a uniform sca le and prepare 
+seamless lithology and structure unifying the legend across India. 
+ 7.1.2 The data can be accessed as WMS/WFS/equivalent map service in GSI 
+portal. 
+ 7.1.3 The geological map on 1:50K scale, with maximum of 29 layers as per 
+the 1:50K geodatabase will be placed in public doma in. The geological 
+map with all layers will be made available through OGC compliant Map 
+services. The procedure for searching and obtaining the required data in 
+GIS format (as decided by GSI) from the BHUKOSH (Ge oportal) will be 
+published on GSI portal. 
+ 7.1.4 This data will be available free of charge to regis tered users of GSI 
+portal.
