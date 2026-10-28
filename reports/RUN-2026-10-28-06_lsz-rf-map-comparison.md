@@ -177,7 +177,7 @@ Phase 5 baseline complete and verified (unchanged; RF raster sha256 re-confirmed
 **descriptive comparison layer** now exists alongside the two susceptibility products: domain
 2,024.0 km² (95.43 % of the district), monotone RF ordering across GSI zones (means
 0.100/0.272/0.382), GSI-High 89.6 % in the top two RF quintiles. `LSZ-01` remains
-`DOWNLOADED_NOT_FULLY_VALIDATED`. Commit of this run: **pinned below** (work + this report;
+`DOWNLOADED_NOT_FULLY_VALIDATED`. Commit of this run: **`9fa4f62`** (work + this report; a
 one-line follow-up pins the hash).
 
 ## 7. Next-step handoff (prompt material)
