@@ -76,8 +76,8 @@ Phase 5 baseline complete and verified (unchanged). Geology evidence chain now: 
 (`GEO-01`, VERIFIED) remains the only usable vector geology; GSI 1:50,000 (`GEO-02`) is
 **identified at product level from official documents but ACCESS_RESTRICTED in practice**
 (Bhukosh down; NGDR download registered-users-only). The manifest limitation record carries
-the 2026-10-28 re-check evidence. Commit of this run: **see git log for the hash of
-"GEO-02/GSI 1:50K geology re-check …"** (this report is committed with or right after it).
+the 2026-10-28 re-check evidence. **Commit of this run: `f2ab289`** (work + this report;
+a one-line follow-up pins the hash).
 
 ## 7. Next-step handoff (prompt material)
 
