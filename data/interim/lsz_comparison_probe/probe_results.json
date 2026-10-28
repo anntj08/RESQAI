@@ -1,0 +1,1278 @@
+{
+  "rf_nodata_declared": -9999.0,
+  "rf_cells_total_grid": 4992240,
+  "rf_cells_nodata": 2648897,
+  "rf_cells_zero_within_district": 463743,
+  "rf_cells_nodata_within_district": 13195,
+  "district_cells": 2356538,
+  "rf_zero_components": {
+    "n_components": 7391,
+    "largest": [
+      {
+        "rank": 1,
+        "cells": 299894,
+        "area_km2": 269.9,
+        "bbox_rows": [
+          788,
+          1529
+        ],
+        "bbox_cols": [
+          1224,
+          2408
+        ],
+        "bbox_km": [
+          35.52,
+          22.23
+        ],
+        "bbox_fill_ratio": 0.3418
+      },
+      {
+        "rank": 2,
+        "cells": 68748,
+        "area_km2": 61.87,
+        "bbox_rows": [
+          459,
+          832
+        ],
+        "bbox_cols": [
+          1171,
+          1711
+        ],
+        "bbox_km": [
+          16.2,
+          11.19
+        ],
+        "bbox_fill_ratio": 0.3413
+      },
+      {
+        "rank": 3,
+        "cells": 5245,
+        "area_km2": 4.72,
+        "bbox_rows": [
+          1274,
+          1402
+        ],
+        "bbox_cols": [
+          1583,
+          1692
+        ],
+        "bbox_km": [
+          3.27,
+          3.84
+        ],
+        "bbox_fill_ratio": 0.3759
+      },
+      {
+        "rank": 4,
+        "cells": 3535,
+        "area_km2": 3.18,
+        "bbox_rows": [
+          610,
+          681
+        ],
+        "bbox_cols": [
+          1082,
+          1218
+        ],
+        "bbox_km": [
+          4.08,
+          2.13
+        ],
+        "bbox_fill_ratio": 0.3661
+      },
+      {
+        "rank": 5,
+        "cells": 2992,
+        "area_km2": 2.69,
+        "bbox_rows": [
+          233,
+          361
+        ],
+        "bbox_cols": [
+          1078,
+          1190
+        ],
+        "bbox_km": [
+          3.36,
+          3.84
+        ],
+        "bbox_fill_ratio": 0.2087
+      },
+      {
+        "rank": 6,
+        "cells": 1814,
+        "area_km2": 1.63,
+        "bbox_rows": [
+          1299,
+          1397
+        ],
+        "bbox_cols": [
+          1409,
+          1493
+        ],
+        "bbox_km": [
+          2.52,
+          2.94
+        ],
+        "bbox_fill_ratio": 0.2204
+      }
+    ]
+  },
+  "predictor_probe": [
+    {
+      "feature": "dem_elev_m",
+      "file": "dem/dem_glo30_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 848.8872,
+        "max": 1390.0219,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 766.9568,
+        "max": 948.5581,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 116.9557,
+        "median": 795.9324,
+        "max": 2230.2708,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "dem_slope_deg",
+      "file": "dem/slope_deg_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 6.2428,
+        "max": 63.1799,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.003164,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 5.9586,
+        "max": 30.5971,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 0.0,
+        "median": 11.8718,
+        "max": 67.7689,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.006152,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "dem_aspect_deg",
+      "file": "dem/aspect_deg_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 153.3551,
+        "max": 359.9998,
+        "frac_eq_-9999": 0.153741,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.153741
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 159.9975,
+        "max": 359.9964,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 173.5714,
+        "max": 359.9998,
+        "frac_eq_-9999": 0.006878,
+        "frac_eq_0": 1e-06,
+        "frac_eq_declared": 0.006878
+      }
+    },
+    {
+      "feature": "dem_profile_curvature",
+      "file": "dem/profile_curv_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": -0.0005,
+        "max": 0.0374,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.003712,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": -0.0003,
+        "max": 0.0202,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -0.0459,
+        "median": -0.0002,
+        "max": 0.0625,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.006878,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "dem_plan_curvature",
+      "file": "dem/plan_curv_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": -0.0006,
+        "max": 0.026,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.004783,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": -0.0004,
+        "max": 0.0257,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.000184,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -0.0511,
+        "median": -0.0003,
+        "max": 0.0422,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.00844,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "landcover_class",
+      "file": "landcover/landcover_worldcover2021_30m_district.tif",
+      "declared_nodata_raster": 0.0,
+      "declared_nodata_extraction_record": 0.0,
+      "plateau1": {
+        "n": 877344,
+        "min": 0.0,
+        "median": 10.0,
+        "max": 90.0,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.150029,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": 0.0,
+        "median": 10.0,
+        "max": 80.0,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.113167,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 10.0,
+        "median": 10.0,
+        "max": 90.0,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "soil_clay_005_pct",
+      "file": "soil/soil_clay_0-5cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 28.1637,
+        "max": 34.263,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 28.5923,
+        "max": 32.9328,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 31.6867,
+        "max": 37.8503,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "soil_clay_1530_pct",
+      "file": "soil/soil_clay_15-30cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 32.3432,
+        "max": 39.3674,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 33.7163,
+        "max": 38.6622,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 36.019,
+        "max": 42.0871,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "soil_sand_005_pct",
+      "file": "soil/soil_sand_0-5cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 41.6645,
+        "max": 47.1998,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 41.672,
+        "max": 45.0096,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 42.2044,
+        "max": 48.2951,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "soil_sand_1530_pct",
+      "file": "soil/soil_sand_15-30cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 39.1799,
+        "max": 44.8688,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 39.2202,
+        "max": 41.896,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 39.5474,
+        "max": 48.3674,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "soil_silt_005_pct",
+      "file": "soil/soil_silt_0-5cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 29.0768,
+        "max": 36.1999,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 29.1768,
+        "max": 34.3722,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 26.5044,
+        "max": 37.3904,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "soil_silt_1530_pct",
+      "file": "soil/soil_silt_15-30cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 27.0744,
+        "max": 35.2521,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 26.7489,
+        "max": 31.806,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 24.529,
+        "max": 35.7253,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "soil_bdod_005_gcm3",
+      "file": "soil/soil_bdod_0-5cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 1.1608,
+        "max": 1.28,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 1.1796,
+        "max": 1.26,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 1.126,
+        "max": 1.2789,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "soil_bdod_1530_gcm3",
+      "file": "soil/soil_bdod_15-30cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 1.2007,
+        "max": 1.2993,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 1.2355,
+        "max": 1.2904,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 1.18,
+        "max": 1.2994,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "soil_soc_005_gkg",
+      "file": "soil/soil_soc_0-5cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 29.3124,
+        "max": 66.7852,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 28.8552,
+        "max": 43.855,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 38.88,
+        "max": 118.1245,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "soil_soc_1530_gkg",
+      "file": "soil/soil_soc_15-30cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 14.7837,
+        "max": 45.7553,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 13.5419,
+        "max": 20.389,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 20.0099,
+        "max": 67.871,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "soil_cec_005_cmolkg",
+      "file": "soil/soil_cec_0-5cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 20.3515,
+        "max": 25.9577,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 22.0546,
+        "max": 26.1723,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 21.3151,
+        "max": 30.5,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "soil_cec_1530_cmolkg",
+      "file": "soil/soil_cec_15-30cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 18.0184,
+        "max": 25.2635,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 19.9416,
+        "max": 24.4587,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 19.7553,
+        "max": 30.374,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "soil_cfvo_005_pct",
+      "file": "soil/soil_cfvo_0-5cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 15.1022,
+        "max": 24.123,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 16.5139,
+        "max": 24.011,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 17.1513,
+        "max": 25.4211,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "soil_cfvo_1530_pct",
+      "file": "soil/soil_cfvo_15-30cm_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 17.6238,
+        "max": 27.6416,
+        "frac_eq_-9999": 0.150862,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150862
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 19.1188,
+        "max": 25.8219,
+        "frac_eq_-9999": 0.113524,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113524
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": -9999.0,
+        "median": 18.6234,
+        "max": 27.0874,
+        "frac_eq_-9999": 0.002074,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.002074
+      }
+    },
+    {
+      "feature": "rain_annual_mean_mm",
+      "file": "rainfall/rainfall_annual_mean_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 1955.0457,
+        "max": 2751.1616,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 2043.0405,
+        "max": 2353.6865,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 1529.7205,
+        "median": 2674.7036,
+        "max": 3468.6157,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "rain_jjas_mean_mm",
+      "file": "rainfall/rainfall_jjas_mean_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 1159.8538,
+        "max": 1815.2798,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 1279.4375,
+        "max": 1578.3035,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 791.988,
+        "median": 1779.4856,
+        "max": 2457.7231,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "rain_month01_mm",
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 7.6661,
+        "max": 14.175,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 8.2689,
+        "max": 10.692,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 3.4641,
+        "median": 11.7821,
+        "max": 58.7025,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "rain_month02_mm",
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 4.7505,
+        "max": 10.2477,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 5.1125,
+        "max": 8.3849,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 2.8253,
+        "median": 8.3941,
+        "max": 36.9578,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "rain_month03_mm",
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 39.1405,
+        "max": 44.6596,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 30.23,
+        "max": 36.9183,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 18.7199,
+        "median": 30.6356,
+        "max": 46.0462,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "rain_month04_mm",
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 113.6697,
+        "max": 123.2491,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 110.0203,
+        "max": 114.8999,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 96.0212,
+        "median": 112.9688,
+        "max": 123.2491,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "rain_month05_mm",
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 194.0467,
+        "max": 227.2716,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 189.864,
+        "max": 203.2822,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 175.2082,
+        "median": 215.2251,
+        "max": 276.0103,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "rain_month06_mm",
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 348.5161,
+        "max": 597.8995,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 371.4911,
+        "max": 465.8684,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 211.3268,
+        "median": 552.898,
+        "max": 777.2532,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "rain_month07_mm",
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 362.7347,
+        "max": 659.5704,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 419.7078,
+        "max": 542.1816,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 229.793,
+        "median": 638.626,
+        "max": 822.5168,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "rain_month08_mm",
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 276.8623,
+        "max": 390.3319,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 316.7632,
+        "max": 390.3319,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 198.7352,
+        "median": 412.8308,
+        "max": 646.0983,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "rain_month09_mm",
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 173.7785,
+        "max": 196.5527,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 168.4664,
+        "max": 179.9216,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 143.302,
+        "median": 189.7792,
+        "max": 251.1219,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "rain_month10_mm",
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 276.2061,
+        "max": 330.7495,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 264.6852,
+        "max": 280.5339,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 238.6767,
+        "median": 303.6755,
+        "max": 370.7457,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "rain_month11_mm",
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 124.5494,
+        "max": 163.8463,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 103.7392,
+        "max": 114.4978,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 80.5668,
+        "median": 131.202,
+        "max": 195.3381,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "rain_month12_mm",
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "declared_nodata_raster": -9999.0,
+      "declared_nodata_extraction_record": -9999.0,
+      "plateau1": {
+        "n": 877344,
+        "min": -9999.0,
+        "median": 23.7881,
+        "max": 37.5944,
+        "frac_eq_-9999": 0.150029,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": -9999.0,
+        "median": 22.3252,
+        "max": 27.4667,
+        "frac_eq_-9999": 0.113167,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 16.5588,
+        "median": 30.5284,
+        "max": 95.4123,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    },
+    {
+      "feature": "geology_class",
+      "file": "geology/geology_class_30m_district.tif",
+      "declared_nodata_raster": 0.0,
+      "declared_nodata_extraction_record": 0.0,
+      "plateau1": {
+        "n": 877344,
+        "min": 0.0,
+        "median": 1.0,
+        "max": 2.0,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.150029,
+        "frac_eq_declared": 0.150029
+      },
+      "plateau2": {
+        "n": 201420,
+        "min": 0.0,
+        "median": 1.0,
+        "max": 4.0,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.113167,
+        "frac_eq_declared": 0.113167
+      },
+      "rest_of_district": {
+        "n": 1571169,
+        "min": 1.0,
+        "median": 2.0,
+        "max": 5.0,
+        "frac_eq_-9999": 0.0,
+        "frac_eq_0": 0.0,
+        "frac_eq_declared": 0.0
+      }
+    }
+  ]
+}

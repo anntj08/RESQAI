@@ -1,0 +1,9 @@
+# RF raster = relative landslide susceptibility ranking conditional on the observed inventory (92.3% of labels from 2018); NOT a calibrated probability, forecast, warning or timing prediction.
+# GSI 2022 zones (LSZ-01, KSDMA-hosted) are another model-derived susceptibility product, NOT ground truth, NOT geology, NOT validation labels.
+# Descriptive zone/ranking agreement only; no significance tests; spatial autocorrelation expected in both products.
+# GSI file covers 95.99% of the GADM 4.1 project boundary and is not field-validated (DOWNLOADED_NOT_FULLY_VALIDATED); zones are NOT extrapolated to the missing GADM area.
+gsi_zone,cells_in_domain,area_km2,mean,std,min,p05,p25,median,p75,p95,max,pct_in_Q1,pct_in_Q2,pct_in_Q3,pct_in_Q4,pct_in_Q5
+Low,1729430,1556.487000,0.100228,0.168828,0.000000,0.000000,0.000628,0.010493,0.135425,0.490907,0.956247,24.099000,22.841000,21.710000,18.181000,13.169000
+Moderate,433873,390.485700,0.272498,0.269616,0.000000,0.000000,0.018606,0.188171,0.466242,0.792250,0.968703,9.083000,11.012000,15.203000,24.775000,39.928000
+High,85538,76.984200,0.381756,0.261602,0.000000,0.050398,0.147869,0.328732,0.598384,0.837097,0.962578,0.205000,0.441000,9.764000,32.557000,57.033000
+ALL ZONES,2248841,2023.956900,0.144173,0.212971,0.000000,0.000000,0.001179,0.026899,0.212028,0.657162,0.968703,20.293000,19.707000,20.000000,20.000000,20.000000

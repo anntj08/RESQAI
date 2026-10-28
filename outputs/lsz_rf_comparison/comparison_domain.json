@@ -1,0 +1,125 @@
+{
+  "run_utc": "2026-10-28T18:35:16+00:00",
+  "purpose": "descriptive comparison of two susceptibility products (reference only; neither product is ground truth)",
+  "disclaimers": [
+    "RF raster = relative landslide susceptibility ranking conditional on the observed inventory (92.3% of labels from 2018); NOT a calibrated probability, forecast, warning or timing prediction.",
+    "GSI 2022 zones (LSZ-01, KSDMA-hosted) are another model-derived susceptibility product, NOT ground truth, NOT geology, NOT validation labels.",
+    "Descriptive zone/ranking agreement only; no significance tests; spatial autocorrelation expected in both products.",
+    "GSI file covers 95.99% of the GADM 4.1 project boundary and is not field-validated (DOWNLOADED_NOT_FULLY_VALIDATED); zones are NOT extrapolated to the missing GADM area."
+  ],
+  "input_sha256": {
+    "data/raw/landslide_susceptibility_reference/Wayanad.zip": "e5da8e031c0523a8f98a1086f4c13ebaad76721cd2afd34e6a20b35556037e2f",
+    "data/processed/models/susceptibility_rf_baseline_30m.tif": "88687c890439b272a14263ab02751bd33da8e4e3b81e18188df43818eb92a053"
+  },
+  "rf_raster_sha256_matches_phase5_record": true,
+  "rf_map_record": {
+    "value": "RF positive-class vote share predict_proba[:, 1] - a RELATIVE RANKING score, not a calibrated probability",
+    "domain_rule": "district mask AND all 24 predictor layers valid",
+    "domain_cells_recorded": 2343343,
+    "district_cells_recorded": 2356538,
+    "label": "relative landslide susceptibility ranking conditional on the observed inventory (92.3% of labels from 2018); not a probability, forecast, warning, or timing prediction",
+    "nodata": -9999.0
+  },
+  "geometry_repair": {
+    "method": "shapely.validation.make_valid per feature (3/3 delivered features are formally invalid); buffer(0) fallback never needed this run",
+    "per_feature": [
+      {
+        "susceptibi": "High",
+        "valid_raw": false,
+        "valid_after_make_valid": true,
+        "area_raw_km2": 80.8611,
+        "area_repaired_km2": 80.8611,
+        "area_delta_km2": 0.0
+      },
+      {
+        "susceptibi": "Low",
+        "valid_raw": false,
+        "valid_after_make_valid": true,
+        "area_raw_km2": 1636.2242,
+        "area_repaired_km2": 1636.2242,
+        "area_delta_km2": 0.0
+      },
+      {
+        "susceptibi": "Moderate",
+        "valid_raw": false,
+        "valid_after_make_valid": true,
+        "area_raw_km2": 401.6119,
+        "area_repaired_km2": 401.6119,
+        "area_delta_km2": 0.0
+      }
+    ],
+    "total_area_raw_km2": 2118.6972,
+    "total_area_repaired_km2": 2118.6972,
+    "changes_measured_areas": false
+  },
+  "lsz_union_area_repaired_km2": 2118.6972,
+  "comparison_domain": {
+    "rule": "district_mask(GADM) AND lsz_code>0 AND rf_valid",
+    "cells": 2248841,
+    "area_km2": 2023.96,
+    "share_of_district_mask_cells": 0.954299,
+    "share_of_rf_map_domain_cells": 0.959672,
+    "district_mask_cells": 2356538,
+    "rf_map_domain_cells": 2343343,
+    "gadm_minus_lsz_cells": 94542,
+    "gadm_minus_lsz_km2": 85.09,
+    "lsz_covered_rf_invalid_cells": 13155,
+    "note": "GADM area not covered by the GSI file is EXCLUDED (no extrapolation)",
+    "cell_size_m": 30,
+    "crs": "EPSG:32643",
+    "gadm_area_km2_vector": 2120.9922
+  },
+  "rf_quantile_method": {
+    "defined_over": "comparison-domain cells only (equal-area 30 m cells; cell quantiles = area-weighted quantiles)",
+    "classes": 5,
+    "cut_values": {
+      "p20": 0.0,
+      "p40": 0.007447154726833105,
+      "p60": 0.08256612718105316,
+      "p80": 0.2773860692977905
+    },
+    "assignment": "np.searchsorted(cuts, score, side='left') + 1",
+    "class_share_caveat": "score ties (many cells at 0.0) shift measured class shares away from exactly 20% - shares reported as measured",
+    "measured_class_shares": {
+      "Q1 (lowest band)": 0.20293,
+      "Q2": 0.19707,
+      "Q3": 0.2,
+      "Q4": 0.2,
+      "Q5 (highest band)": 0.2
+    }
+  },
+  "zone_capture_in_domain": [
+    {
+      "gsi_zone": "Low",
+      "repaired_vector_area_km2": 1636.2242,
+      "rasterized_cells_full_grid": 1818598,
+      "rasterized_km2_full_grid": 1636.7382,
+      "cells_in_comparison_domain": 1729430,
+      "km2_in_comparison_domain": 1556.487,
+      "pct_of_zone_inside_domain": 95.097
+    },
+    {
+      "gsi_zone": "Moderate",
+      "repaired_vector_area_km2": 401.6119,
+      "rasterized_cells_full_grid": 445906,
+      "rasterized_km2_full_grid": 401.3154,
+      "cells_in_comparison_domain": 433873,
+      "km2_in_comparison_domain": 390.4857,
+      "pct_of_zone_inside_domain": 97.301
+    },
+    {
+      "gsi_zone": "High",
+      "repaired_vector_area_km2": 80.8611,
+      "rasterized_cells_full_grid": 89565,
+      "rasterized_km2_full_grid": 80.6085,
+      "cells_in_comparison_domain": 85538,
+      "km2_in_comparison_domain": 76.9842,
+      "pct_of_zone_inside_domain": 95.504
+    }
+  ],
+  "outputs": {
+    "crosstab": "outputs\\lsz_rf_comparison\\crosstab_gsi_class_x_rf_quintile.csv",
+    "score_stats": "outputs\\lsz_rf_comparison\\rf_score_stats_within_gsi_zones.csv",
+    "figure": "outputs\\lsz_rf_comparison\\overlay_map.png"
+  }
+}
