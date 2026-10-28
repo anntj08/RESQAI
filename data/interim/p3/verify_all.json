@@ -8,7 +8,7 @@
       "command": "C:\\Users\\anntr\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts/p3_verify_raw_immutable.py",
       "exit_code": 0,
       "passed": true,
-      "seconds": 25.2,
+      "seconds": 37.8,
       "summary": "RAW INPUTS: UNCHANGED \u2014 verified by content hash"
     },
     {
@@ -16,7 +16,7 @@
       "command": "C:\\Users\\anntr\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts/p3_verify_phase2_untouched.py",
       "exit_code": 0,
       "passed": true,
-      "seconds": 0.3,
+      "seconds": 0.4,
       "summary": "PASSED: all 7 Phase 2 inventory products byte-identical to the pre-Phase-3 baseline"
     },
     {
@@ -24,7 +24,7 @@
       "command": "C:\\Users\\anntr\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts/p3_verify_processed.py",
       "exit_code": 0,
       "passed": true,
-      "seconds": 53.1,
+      "seconds": 47.1,
       "summary": "                geology/geology_class_30m_district.tif      1   uint8          2356538.0       0.000"
     },
     {
@@ -32,7 +32,7 @@
       "command": "C:\\Users\\anntr\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts/p3_check_consistency.py",
       "exit_code": 0,
       "passed": true,
-      "seconds": 0.3,
+      "seconds": 0.7,
       "summary": "ALL PASSED \u2014 documentation matches the Phase 3 outputs"
     },
     {
@@ -40,7 +40,7 @@
       "command": "C:\\Users\\anntr\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts/p2_check_consistency.py",
       "exit_code": 0,
       "passed": true,
-      "seconds": 2.2,
+      "seconds": 1.4,
       "summary": "all consistency checks passed"
     },
     {
@@ -48,7 +48,7 @@
       "command": "C:\\Users\\anntr\\AppData\\Local\\Programs\\Python\\Python314\\python.exe data/interim/p3/compare_rebuild.py",
       "exit_code": 0,
       "passed": true,
-      "seconds": 6.0,
+      "seconds": 7.6,
       "summary": "PASSED: every baseline file is reproduced or declared"
     }
   ]

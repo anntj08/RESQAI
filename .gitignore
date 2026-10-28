@@ -11,6 +11,16 @@ data/interim/table_review.txt
 !data/processed/sampling/
 !data/processed/sampling/**
 
+# Phase 5 model artefacts: the feature table, JSON provenance/metrics and the PNG
+# figures are small, reviewable and byte-reproducible, so they ARE committed. The
+# joblib models and the susceptibility GeoTIFF stay local: they regenerate
+# byte-identically from the committed scripts+config+data, and their sha256 is
+# recorded in the committed metadata JSONs.
+!data/processed/models/
+!data/processed/models/**
+data/processed/models/*.joblib
+data/processed/models/*.tif
+
 # Phase 3 working snapshots: full copies of data/processed/ and of the Phase 2 inventory
 # products, kept only so a byte comparison can be run locally. Hundreds of MB of derived
 # data that the pipeline can regenerate; the sha256 manifests they are compared against

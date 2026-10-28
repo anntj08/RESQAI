@@ -1,0 +1,457 @@
+{
+  "verdict": "ALL EXTRACTION CHECKS PASSED",
+  "n_points": 2460,
+  "feature_names": [
+    "dem_elev_m",
+    "dem_slope_deg",
+    "dem_aspect_deg",
+    "dem_profile_curvature",
+    "dem_plan_curvature",
+    "landcover_class",
+    "soil_clay_005_pct",
+    "soil_clay_1530_pct",
+    "soil_sand_005_pct",
+    "soil_sand_1530_pct",
+    "soil_silt_005_pct",
+    "soil_silt_1530_pct",
+    "soil_bdod_005_gcm3",
+    "soil_bdod_1530_gcm3",
+    "soil_soc_005_gkg",
+    "soil_soc_1530_gkg",
+    "soil_cec_005_cmolkg",
+    "soil_cec_1530_cmolkg",
+    "soil_cfvo_005_pct",
+    "soil_cfvo_1530_pct",
+    "rain_annual_mean_mm",
+    "rain_jjas_mean_mm",
+    "rain_month01_mm",
+    "rain_month02_mm",
+    "rain_month03_mm",
+    "rain_month04_mm",
+    "rain_month05_mm",
+    "rain_month06_mm",
+    "rain_month07_mm",
+    "rain_month08_mm",
+    "rain_month09_mm",
+    "rain_month10_mm",
+    "rain_month11_mm",
+    "rain_month12_mm",
+    "geology_class"
+  ],
+  "feature_order_source": "configs/p5_baseline.json features.spec",
+  "features": {
+    "dem_elev_m": {
+      "file": "dem/dem_glo30_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 203.0196533203125,
+      "max_at_points": 1990.9697265625,
+      "sha256": "abc60465936e6898e05df2ef242e8486c53b0863be73e4e84146d374d234c9f2"
+    },
+    "dem_slope_deg": {
+      "file": "dem/slope_deg_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 0.0606439933180809,
+      "max_at_points": 50.17911911010742,
+      "sha256": "afbfc668298c08a8209b8a00c6f6d24c5c50cc184338db430608449056065d87"
+    },
+    "dem_aspect_deg": {
+      "file": "dem/aspect_deg_30m_district.tif",
+      "band": 1,
+      "kind": "continuous_circular",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 0.03761371970176697,
+      "max_at_points": 359.78204345703125,
+      "sha256": "c75ef78cd6969c25631baa6b7eb2f5030a1b753be55c49257d7a4a93953187ad"
+    },
+    "dem_profile_curvature": {
+      "file": "dem/profile_curv_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": -0.020247209817171097,
+      "max_at_points": 0.020200150087475777,
+      "sha256": "e5b60a6a4a65483ab4c2176da196439ea8cb34e8fbdc4b610d162fc93d4345b6"
+    },
+    "dem_plan_curvature": {
+      "file": "dem/plan_curv_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": -0.03201110661029816,
+      "max_at_points": 0.020965173840522766,
+      "sha256": "37c50492c66cb4776dbdd4feeb9a5accbc189e346d16f6ab5559a07b61e113b0"
+    },
+    "landcover_class": {
+      "file": "landcover/landcover_worldcover2021_30m_district.tif",
+      "band": 1,
+      "kind": "categorical",
+      "dtype": "uint8",
+      "declared_nodata": 0.0,
+      "min_at_points": 10.0,
+      "max_at_points": 80.0,
+      "sha256": "c27f3162f53e0bc7647e0d4e0dd027e96f4cd03c6a7fcfa879b85be4ca3b933c"
+    },
+    "soil_clay_005_pct": {
+      "file": "soil/soil_clay_0-5cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 22.654823303222656,
+      "max_at_points": 36.24740219116211,
+      "sha256": "c8c82a9514ed42e8f7740fde72f3b11e2f8a2a4cb356b88e4330a9ee67c54f3e"
+    },
+    "soil_clay_1530_pct": {
+      "file": "soil/soil_clay_15-30cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 27.130447387695312,
+      "max_at_points": 41.28200912475586,
+      "sha256": "cf68a9c52b6228639f5605d3804a0250f101604fcbc03b5a902a19ac31360756"
+    },
+    "soil_sand_005_pct": {
+      "file": "soil/soil_sand_0-5cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 33.75274658203125,
+      "max_at_points": 48.16331481933594,
+      "sha256": "08d032ac0bcaf751ede6e9aa78a6d906e2630ff95bbd4217d5aa19765083bb58"
+    },
+    "soil_sand_1530_pct": {
+      "file": "soil/soil_sand_15-30cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 32.163291931152344,
+      "max_at_points": 47.25612258911133,
+      "sha256": "a110342a1a54c73c85b4760d4a63beb47c796b73bcb90b89d900a10584ddc3d3"
+    },
+    "soil_silt_005_pct": {
+      "file": "soil/soil_silt_0-5cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 19.20478630065918,
+      "max_at_points": 35.04643630981445,
+      "sha256": "b06718ec53244d84990bbba4c35d690aeaa11202ba668eb5708451a5178f8f07"
+    },
+    "soil_silt_1530_pct": {
+      "file": "soil/soil_silt_15-30cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 18.17850685119629,
+      "max_at_points": 33.96851348876953,
+      "sha256": "98760ec87dcc1092d565c888ec2c907705566396de5c3fab92c046cc78b1862a"
+    },
+    "soil_bdod_005_gcm3": {
+      "file": "soil/soil_bdod_0-5cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 0.9205304384231567,
+      "max_at_points": 1.2614169120788574,
+      "sha256": "f00f3e4634968b58300446871ac059ad523b4612624de63f973f531dd77ee627"
+    },
+    "soil_bdod_1530_gcm3": {
+      "file": "soil/soil_bdod_15-30cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 0.9692260026931763,
+      "max_at_points": 1.288861632347107,
+      "sha256": "786d790c0c8df1f4aef11fa3a72365708fe5ec4c3523d1b95058f3a32857939f"
+    },
+    "soil_soc_005_gkg": {
+      "file": "soil/soil_soc_0-5cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 22.42403793334961,
+      "max_at_points": 94.06402587890625,
+      "sha256": "0b6f25dce331164f93ec29e2bd93c6320fac671c1698b8a2f107f5cf45e1f6b5"
+    },
+    "soil_soc_1530_gkg": {
+      "file": "soil/soil_soc_15-30cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 10.331993103027344,
+      "max_at_points": 59.29305648803711,
+      "sha256": "af6c4cd75d867d935b9a28dea1eca270741bcac2888cb5c384f05e3af27281ef"
+    },
+    "soil_cec_005_cmolkg": {
+      "file": "soil/soil_cec_0-5cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 14.624627113342285,
+      "max_at_points": 29.570383071899414,
+      "sha256": "ee2147325c3b10e989bb9330947617cd8eca2479b26c10f187b1635975e0f05d"
+    },
+    "soil_cec_1530_cmolkg": {
+      "file": "soil/soil_cec_15-30cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 12.011300086975098,
+      "max_at_points": 28.99995231628418,
+      "sha256": "b69818f02b55b73ea4989b47c1b20e086dc21e07a907f00ddb63a53b3a0df160"
+    },
+    "soil_cfvo_005_pct": {
+      "file": "soil/soil_cfvo_0-5cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 9.358185768127441,
+      "max_at_points": 23.89195442199707,
+      "sha256": "540c022af112b0824472c0d61c6b56ead81d818e993f1a8e2d5cf0560d36acf4"
+    },
+    "soil_cfvo_1530_pct": {
+      "file": "soil/soil_cfvo_15-30cm_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 10.891852378845215,
+      "max_at_points": 27.079875946044922,
+      "sha256": "35252a9278d0155489ef4aa1bfbefdacf3e2826c7739c0431772a1d403e0a871"
+    },
+    "rain_annual_mean_mm": {
+      "file": "rainfall/rainfall_annual_mean_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 1529.720458984375,
+      "max_at_points": 3468.61572265625,
+      "sha256": "8cbca75fa779ad3585bda012f96ddc24785f2e2c7fe0b9f3f726630678cb788b"
+    },
+    "rain_jjas_mean_mm": {
+      "file": "rainfall/rainfall_jjas_mean_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 791.988037109375,
+      "max_at_points": 2457.72314453125,
+      "sha256": "3bcf0e1208e5b456f47e0932a153e7ed1e837e853f2430fd36ef5201b34eade6"
+    },
+    "rain_month01_mm": {
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "band": 1,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 3.464108943939209,
+      "max_at_points": 52.31092071533203,
+      "sha256": "b3a1577f2f5c4080c690fb8a4c78055a3bb4e8703f5c2a8605ae3411cd9352da"
+    },
+    "rain_month02_mm": {
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "band": 2,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 2.825287342071533,
+      "max_at_points": 36.957794189453125,
+      "sha256": "b3a1577f2f5c4080c690fb8a4c78055a3bb4e8703f5c2a8605ae3411cd9352da"
+    },
+    "rain_month03_mm": {
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "band": 3,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 18.71990203857422,
+      "max_at_points": 46.046207427978516,
+      "sha256": "b3a1577f2f5c4080c690fb8a4c78055a3bb4e8703f5c2a8605ae3411cd9352da"
+    },
+    "rain_month04_mm": {
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "band": 4,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 96.02118682861328,
+      "max_at_points": 123.24913787841797,
+      "sha256": "b3a1577f2f5c4080c690fb8a4c78055a3bb4e8703f5c2a8605ae3411cd9352da"
+    },
+    "rain_month05_mm": {
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "band": 5,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 175.20823669433594,
+      "max_at_points": 271.9558410644531,
+      "sha256": "b3a1577f2f5c4080c690fb8a4c78055a3bb4e8703f5c2a8605ae3411cd9352da"
+    },
+    "rain_month06_mm": {
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "band": 6,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 220.15777587890625,
+      "max_at_points": 777.2532348632812,
+      "sha256": "b3a1577f2f5c4080c690fb8a4c78055a3bb4e8703f5c2a8605ae3411cd9352da"
+    },
+    "rain_month07_mm": {
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "band": 7,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 229.7930450439453,
+      "max_at_points": 822.516845703125,
+      "sha256": "b3a1577f2f5c4080c690fb8a4c78055a3bb4e8703f5c2a8605ae3411cd9352da"
+    },
+    "rain_month08_mm": {
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "band": 8,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 198.73524475097656,
+      "max_at_points": 646.0983276367188,
+      "sha256": "b3a1577f2f5c4080c690fb8a4c78055a3bb4e8703f5c2a8605ae3411cd9352da"
+    },
+    "rain_month09_mm": {
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "band": 9,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 143.302001953125,
+      "max_at_points": 251.12193298339844,
+      "sha256": "b3a1577f2f5c4080c690fb8a4c78055a3bb4e8703f5c2a8605ae3411cd9352da"
+    },
+    "rain_month10_mm": {
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "band": 10,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 244.00123596191406,
+      "max_at_points": 370.74566650390625,
+      "sha256": "b3a1577f2f5c4080c690fb8a4c78055a3bb4e8703f5c2a8605ae3411cd9352da"
+    },
+    "rain_month11_mm": {
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "band": 11,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 80.56684112548828,
+      "max_at_points": 195.33810424804688,
+      "sha256": "b3a1577f2f5c4080c690fb8a4c78055a3bb4e8703f5c2a8605ae3411cd9352da"
+    },
+    "rain_month12_mm": {
+      "file": "rainfall/rainfall_monthly_climatology_30m_district.tif",
+      "band": 12,
+      "kind": "continuous",
+      "dtype": "float32",
+      "declared_nodata": -9999.0,
+      "min_at_points": 16.558795928955078,
+      "max_at_points": 89.7674560546875,
+      "sha256": "b3a1577f2f5c4080c690fb8a4c78055a3bb4e8703f5c2a8605ae3411cd9352da"
+    },
+    "geology_class": {
+      "file": "geology/geology_class_30m_district.tif",
+      "band": 1,
+      "kind": "categorical",
+      "dtype": "uint8",
+      "declared_nodata": 0.0,
+      "min_at_points": 1.0,
+      "max_at_points": 5.0,
+      "sha256": "99574a38aa4f2f1b87bd00144ae8b10bd16377e63ca4f75f2057cc39052d796d"
+    }
+  },
+  "checks": [
+    {
+      "check": "input counts",
+      "passed": true,
+      "detail": "2460 points (363 positive / 2097 background), ids unique"
+    },
+    {
+      "check": "grid alignment",
+      "passed": true,
+      "detail": "24 layer files + district mask: 1 distinct grid(s); reference shape (2013, 2480), crs EPSG:32643, transform matches grid_spec.json: True"
+    },
+    {
+      "check": "points in bounds",
+      "passed": true,
+      "detail": "all 2460 points map to rows 48..1961, cols 36..2442 inside (2013, 2480)"
+    },
+    {
+      "check": "all features finite",
+      "passed": true,
+      "detail": "2460 x 35 values, 0 non-finite"
+    },
+    {
+      "check": "no declared nodata at points",
+      "passed": true,
+      "detail": "no sampled value equals its layer's declared nodata"
+    },
+    {
+      "check": "rainfall sentinel rule",
+      "passed": true,
+      "detail": "min over 14 rainfall features at points = 2.8253 (> -9998; sentinel -9999 was already masked in Phase 3)"
+    },
+    {
+      "check": "soil plausibility (physical units)",
+      "passed": true,
+      "detail": "14 soil features inside config ranges (SoilGrids scale factors were applied in Phase 3; not re-applied)"
+    },
+    {
+      "check": "categorical classes",
+      "passed": true,
+      "detail": "landcover classes at points [10, 30, 40, 50, 60, 80]; geology classes at points [1, 2, 3, 4, 5]"
+    },
+    {
+      "check": "provenance preserved",
+      "passed": true,
+      "detail": "12 provenance columns round-trip byte-equal to fold_assignments.csv: True; per-fold test counts equal fold_summary.json: True"
+    }
+  ],
+  "inputs_sha256": {
+    "configs/p5_baseline.json": "9981f43a59a5cf570f478df670442e116b54988e1eb4783a9f78118f78144b6d",
+    "data/processed/sampling/fold_assignments.csv": "54c073c8134509e144ae94f1ec6d5991d2805ac41abc16b83f5fa148c2b1b205",
+    "data/processed/sampling/fold_drops.csv": "8854e5dcfa7991b4055078a04ed75c7819437ef16d5c849d7e4f21ef29456cc4",
+    "data/processed/qa/layer_inventory.csv": "6dde6be8b2b84c29b64f298a5ddb5cad0121061b16b48c6b3379d53cfb8154b1"
+  },
+  "outputs": {
+    "features_point_table.csv": "features_point_table.csv",
+    "extraction_checks.json": "extraction_checks.json"
+  },
+  "versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "rasterio": "1.5.2"
+  }
+}

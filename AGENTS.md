@@ -15,11 +15,17 @@ warning, or timing prediction.
 
 ## Current phase
 
-Dataset acquisition and validation. **Complete as of 2026-10-25** for 8 categories; see
-`docs/ACQUISITION_REPORT.md`.
+**Phase 5 — modelling: Random Forest susceptibility baseline.** Started 2026-10-28 when the
+user explicitly moved the project to the modelling phase; see `docs/PHASE5_PROGRESS.md`.
+Earlier phases, complete and verified: dataset acquisition and validation (2026-10-25,
+`docs/ACQUISITION_REPORT.md`); sampling design and spatial validation (2026-10-28,
+`docs/PHASE4_PROGRESS.md`).
 
-**Do not start modelling** until the user explicitly moves the project to the modelling phase. Do not
-report accuracy, AUC, F1, or any performance number — none has been produced.
+Phase 5 baseline rules: one interpretable Random Forest, one fixed configuration, no tuning,
+no competing models, no synthetic data; train only on the committed Phase 4 points and folds;
+per-fold reporting with fold 2 flagged marginal (5 clusters); every reported number is a
+spatially held-out presence-background RANKING metric, never accuracy on all Wayanad
+landslides and never a probability, forecast, warning or timing claim.
 
 ## Verification vocabulary (do not blur these)
 

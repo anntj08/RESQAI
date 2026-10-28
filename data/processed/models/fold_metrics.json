@@ -1,0 +1,321 @@
+{
+  "verdict": "PER-FOLD EVALUATION COMPLETE",
+  "model_type": "sklearn.ensemble.RandomForestClassifier",
+  "model_params": {
+    "type": "sklearn.ensemble.RandomForestClassifier",
+    "n_estimators": 500,
+    "criterion": "gini",
+    "min_samples_leaf": 5,
+    "max_features": "sqrt",
+    "bootstrap": true,
+    "class_weight": "balanced_subsample",
+    "random_state": 20261026,
+    "n_jobs": -1
+  },
+  "model_rationale": "Single fixed configuration, no tuning: 500 trees for stable importances; min_samples_leaf=5 so single-cell noise cannot dominate; class_weight=balanced_subsample so the arbitrary background density does not dominate the fit; the rest are sklearn defaults. Interpretability comes from documented settings plus permutation importance on held-out folds.",
+  "random_seed": 20261026,
+  "feature_names": [
+    "dem_elev_m",
+    "dem_slope_deg",
+    "dem_aspect_deg",
+    "dem_profile_curvature",
+    "dem_plan_curvature",
+    "landcover_class",
+    "soil_clay_005_pct",
+    "soil_clay_1530_pct",
+    "soil_sand_005_pct",
+    "soil_sand_1530_pct",
+    "soil_silt_005_pct",
+    "soil_silt_1530_pct",
+    "soil_bdod_005_gcm3",
+    "soil_bdod_1530_gcm3",
+    "soil_soc_005_gkg",
+    "soil_soc_1530_gkg",
+    "soil_cec_005_cmolkg",
+    "soil_cec_1530_cmolkg",
+    "soil_cfvo_005_pct",
+    "soil_cfvo_1530_pct",
+    "rain_annual_mean_mm",
+    "rain_jjas_mean_mm",
+    "rain_month01_mm",
+    "rain_month02_mm",
+    "rain_month03_mm",
+    "rain_month04_mm",
+    "rain_month05_mm",
+    "rain_month06_mm",
+    "rain_month07_mm",
+    "rain_month08_mm",
+    "rain_month09_mm",
+    "rain_month10_mm",
+    "rain_month11_mm",
+    "rain_month12_mm",
+    "geology_class"
+  ],
+  "class_handling": {
+    "positive": 1,
+    "background": 0,
+    "meaning": "positive = mapped landslide event point from the audited inventory; background = no mapped landslide at that location in the available inventory (NOT confirmed stable ground). The 5.78:1 background:positive ratio is a sampling-design artefact, not a class prior."
+  },
+  "fold_usage": {
+    "rule": "For each fold f in 0..4: test = every point with fold==f (positives and background); train = every point with fold!=f EXCEPT the point_ids listed in fold_drops.csv with fold==f (the committed 1,000 m buffer). Fold labels come from the Phase 4 files and are never reassigned; no random split is created.",
+    "consistency_check": "constructed train/test counts must equal fold_summary.json per-fold counts before fitting",
+    "no_resplit": true
+  },
+  "metric_interpretation": "Spatially held-out presence-background RANKING metrics (case-control): roc_auc = probability a random mapped event ranks above a random background point; average_precision = ranking quality under heavy background prevalence. They are not accuracy on all Wayanad landslides, not performance on confirmed absences, and not calibrated skill. Folds are spatially adjacent and correlated; only per-fold values and their unweighted mean are reported, never a pooled score presented as independent.",
+  "fold_metrics": [
+    {
+      "fold": 0,
+      "roc_auc": 0.8674499724619057,
+      "average_precision": 0.35170738980868216,
+      "test_positives": 52,
+      "test_background": 419,
+      "test_clusters": 12,
+      "train_positives": 298,
+      "train_background": 1558,
+      "dropped_from_train": 133
+    },
+    {
+      "fold": 1,
+      "roc_auc": 0.8712317985045258,
+      "average_precision": 0.5457962924048404,
+      "test_positives": 121,
+      "test_background": 420,
+      "test_clusters": 14,
+      "train_positives": 235,
+      "train_background": 1616,
+      "dropped_from_train": 68
+    },
+    {
+      "fold": 2,
+      "roc_auc": 0.926298443004887,
+      "average_precision": 0.6167657331680964,
+      "test_positives": 84,
+      "test_background": 419,
+      "test_clusters": 5,
+      "train_positives": 276,
+      "train_background": 1556,
+      "dropped_from_train": 125
+    },
+    {
+      "fold": 3,
+      "roc_auc": 0.7882082559886855,
+      "average_precision": 0.3199541851466592,
+      "test_positives": 54,
+      "test_background": 419,
+      "test_clusters": 23,
+      "train_positives": 308,
+      "train_background": 1634,
+      "dropped_from_train": 45
+    },
+    {
+      "fold": 4,
+      "roc_auc": 0.771978021978022,
+      "average_precision": 0.33482030576621985,
+      "test_positives": 52,
+      "test_background": 420,
+      "test_clusters": 22,
+      "train_positives": 309,
+      "train_background": 1632,
+      "dropped_from_train": 47
+    }
+  ],
+  "mean_of_folds": {
+    "roc_auc": 0.8450332983876052,
+    "roc_auc_sd": 0.06395125344650612,
+    "average_precision": 0.4338087812588996,
+    "average_precision_sd": 0.13740148718161171,
+    "note": "unweighted mean over 5 spatially adjacent, correlated folds; NOT an independent-replication estimate and not a pooled score"
+  },
+  "marginal_folds": [
+    {
+      "fold": 2,
+      "reason": "5 distinct test clusters (configured minimum is 5); treat as marginal"
+    }
+  ],
+  "permutation_importance": {
+    "scoring": "roc_auc",
+    "n_repeats": 20,
+    "random_state": 20261026,
+    "computed_on": "each fold's held-out test set; aggregated across folds as mean +/- sd (interpretive, not a performance claim)",
+    "importance": {
+      "dem_elev_m": {
+        "mean": 0.013404792843825186,
+        "sd": 0.015585237345883986
+      },
+      "dem_slope_deg": {
+        "mean": 0.027328133645040796,
+        "sd": 0.013881780852618413
+      },
+      "dem_aspect_deg": {
+        "mean": -0.00017172474191348486,
+        "sd": 0.0009578116223197461
+      },
+      "dem_profile_curvature": {
+        "mean": -7.50783292549184e-05,
+        "sd": 0.0012743602347402756
+      },
+      "dem_plan_curvature": {
+        "mean": -0.00021578931041394523,
+        "sd": 0.0011348733788034448
+      },
+      "landcover_class": {
+        "mean": -3.203161098038643e-05,
+        "sd": 3.712187467526362e-05
+      },
+      "soil_clay_005_pct": {
+        "mean": 0.0007367124951742109,
+        "sd": 0.001061927165308524
+      },
+      "soil_clay_1530_pct": {
+        "mean": -0.00010133006021483483,
+        "sd": 0.0007656777772960667
+      },
+      "soil_sand_005_pct": {
+        "mean": 0.0006677947975138386,
+        "sd": 0.002539464045728276
+      },
+      "soil_sand_1530_pct": {
+        "mean": 0.000340441167681369,
+        "sd": 0.002867413391785222
+      },
+      "soil_silt_005_pct": {
+        "mean": -0.00023849749809826793,
+        "sd": 0.0023621538253264587
+      },
+      "soil_silt_1530_pct": {
+        "mean": 0.0010917580035338912,
+        "sd": 0.0020585509275813183
+      },
+      "soil_bdod_005_gcm3": {
+        "mean": 0.0027581324098464475,
+        "sd": 0.009140388671201953
+      },
+      "soil_bdod_1530_gcm3": {
+        "mean": 3.6076954714411164e-05,
+        "sd": 0.008929252130138505
+      },
+      "soil_soc_005_gkg": {
+        "mean": 0.0025397020923436696,
+        "sd": 0.007987480062986689
+      },
+      "soil_soc_1530_gkg": {
+        "mean": -0.00020181624624018277,
+        "sd": 0.007394409485163852
+      },
+      "soil_cec_005_cmolkg": {
+        "mean": -0.001195743725549534,
+        "sd": 0.002586070385651169
+      },
+      "soil_cec_1530_cmolkg": {
+        "mean": 0.0012435732936655216,
+        "sd": 0.005846428332210463
+      },
+      "soil_cfvo_005_pct": {
+        "mean": 0.0008790667959685139,
+        "sd": 0.0016188179550149367
+      },
+      "soil_cfvo_1530_pct": {
+        "mean": 0.0016082259200343528,
+        "sd": 0.0013778988667188599
+      },
+      "rain_annual_mean_mm": {
+        "mean": 0.0002294389544064336,
+        "sd": 0.006786003581640272
+      },
+      "rain_jjas_mean_mm": {
+        "mean": -0.0006080044325867558,
+        "sd": 0.01210539157924883
+      },
+      "rain_month01_mm": {
+        "mean": -0.0018914987642477145,
+        "sd": 0.004116292270988138
+      },
+      "rain_month02_mm": {
+        "mean": -0.001581132822562628,
+        "sd": 0.005388328005964536
+      },
+      "rain_month03_mm": {
+        "mean": 0.0012284798845875178,
+        "sd": 0.0008159596999152758
+      },
+      "rain_month04_mm": {
+        "mean": 0.0006557447799582928,
+        "sd": 0.0015601620943793276
+      },
+      "rain_month05_mm": {
+        "mean": -0.0004856791443089847,
+        "sd": 0.0014559246025879706
+      },
+      "rain_month06_mm": {
+        "mean": 8.17258788076959e-05,
+        "sd": 0.0054166223550095195
+      },
+      "rain_month07_mm": {
+        "mean": -0.0026008955987801533,
+        "sd": 0.008205703133372433
+      },
+      "rain_month08_mm": {
+        "mean": 0.0016658432091280994,
+        "sd": 0.0030972502068322832
+      },
+      "rain_month09_mm": {
+        "mean": 0.0007411693800281553,
+        "sd": 0.007434336895844373
+      },
+      "rain_month10_mm": {
+        "mean": -0.001073481917943835,
+        "sd": 0.0023160819988474364
+      },
+      "rain_month11_mm": {
+        "mean": -0.0012056933186787699,
+        "sd": 0.0028449528184725363
+      },
+      "rain_month12_mm": {
+        "mean": -0.0031143320851500433,
+        "sd": 0.005382540391556794
+      },
+      "geology_class": {
+        "mean": -0.0002928267601190049,
+        "sd": 0.0004009277531222216
+      }
+    }
+  },
+  "limitations": [
+    "spatially held-out presence-background ranking metrics on an inventory that is 92.3% single-year (2018); scores characterise that event population, not all Wayanad landslides",
+    "no viable temporal holdout exists (28 non-2018 labels across 17 clusters); temporal transfer is untested",
+    "background labels mean 'no mapped event in the available inventory', not confirmed stable terrain; ranking metrics treat them as the comparison class, not as verified absences",
+    "the 5.78:1 background:positive ratio is a sampling-design artefact (density choice), mitigated in-fit by class weighting",
+    "folds are spatially adjacent; per-fold scores are correlated and their mean is not an independent-replication estimate",
+    "categorical predictors enter as integer codes (no target or ordinal encoding), a known RF baseline simplification",
+    "aspect enters as a linear 0-360 degree value despite being circular",
+    "training near misses and survey effort are unmodelled: the inventory reflects where mapping happened, not everywhere landsliding happened"
+  ],
+  "inputs_sha256": {
+    "configs/p5_baseline.json": "9981f43a59a5cf570f478df670442e116b54988e1eb4783a9f78118f78144b6d",
+    "data/processed/models/features_point_table.csv": "28bcce26bb17b15e4d5ab9b6d821ff15ce6dfc8854286603bcb7c549f5703dca",
+    "data/processed/sampling/fold_assignments.csv": "54c073c8134509e144ae94f1ec6d5991d2805ac41abc16b83f5fa148c2b1b205",
+    "data/processed/sampling/fold_drops.csv": "8854e5dcfa7991b4055078a04ed75c7819437ef16d5c849d7e4f21ef29456cc4",
+    "data/processed/sampling/fold_summary.json": "fcfe01a54341bb388deb11d7b415a24bd6fcf38acd2e3025b08fe8868066332b"
+  },
+  "model_files_sha256": {
+    "fold_0_rf.joblib": "ade27b2b1d49bd874a6f05ce3316d6c3add0859fc78f5a8c711a03f7ab900995",
+    "fold_1_rf.joblib": "7f071bef9673cdd7a07711311583584285f24475f8dfd1de218741d5b4f1d5df",
+    "fold_2_rf.joblib": "e19f89f7bd6b8f590fe83bed503e03cbe471136e1deb95d1bb15192a2c0d93a9",
+    "fold_3_rf.joblib": "73ed20e6f6d0789e7c39a2f606e7db213ae29de0611e268c2416e4dce23414cb",
+    "fold_4_rf.joblib": "d8494faa67c3ae43cd2653fe470745fd301c0c365d88e87a7b49b7ee211aec2a"
+  },
+  "versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "sklearn": "1.9.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2"
+  },
+  "not_claimed": [
+    "no pooled headline score is reported: folds are spatially adjacent and correlated",
+    "metrics are presence-background ranking metrics, not accuracy on all Wayanad landslides and not performance on confirmed absences",
+    "the inventory is 92.3% single-year (2018); scores characterise that event population",
+    "background labels mean 'no mapped event in the available inventory', not stable ground"
+  ]
+}

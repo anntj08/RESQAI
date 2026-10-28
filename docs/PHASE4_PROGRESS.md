@@ -5,9 +5,10 @@ leakage-resistant spatial validation.
 **Base commit:** `570af94` (Phase 3 complete and verified). **Finalised:** 2026-10-28.
 **Config authority:** `configs/p4_sampling.json` (sha256 `72d41377…e6f7a`, embedded in
 `data/processed/sampling/sampling_run_config.json`).
-**Standing rule:** this phase contains **no model**. No model, training table, synthetic
-event, susceptibility map or performance metric exists in the repository as of this run, and
-none may be produced until the user explicitly moves the project to the modelling phase.
+**Standing rule:** this phase's outputs contain **no model**. No model, training table, synthetic
+event, susceptibility map or performance metric exists in the Phase 4 sampling outputs that the
+verification gates cover; the first baseline was produced later, under the Phase 5 config and
+gates (2026-10-28) — see `docs/PHASE5_PROGRESS.md`.
 Susceptibility mapping estimates *where* terrain and environmental conditions favour failure;
 it is never a statement about when a landslide will occur and must never be read as a forecast,
 warning, or timing prediction.
@@ -194,13 +195,18 @@ its k=5 arrangement is [86, 121, 52, 52, 52] (min 7 clusters/fold) whereas produ
 **Status:** Phase 4 sampling and validation preparation is **finalised and verified** — 8/8
 verification gates and 116 doc-vs-data checks pass on the committed outputs; `570af94`
 (Phase 3) products are untouched. The checks support exactly this claim and no more: the
-*design* is verified; nothing downstream of it exists.
+*design* is verified; nothing downstream of it exists within the Phase 4 outputs.
 
-**Next permitted step (per `AGENTS.md`):** no modelling of any kind may start until the user
-explicitly moves the project to the modelling phase. Until that decision, permitted work is
-review, documentation, and data preparation only. If and when Phase 5 is authorised, it must
-train on the committed folds only, report per-fold results with fold 2 flagged, and attach the
-limitations in §6 and L1–L4.
+> **Status update (2026-10-28, recorded after this document was finalised):** the user
+> explicitly moved the project to Phase 5 on this date. The first baseline (feature table,
+> per-fold evaluation, one susceptibility map) was then trained from exactly the points,
+> folds and drops documented here, under `configs/p5_baseline.json` with its own gates — see
+> `docs/PHASE5_PROGRESS.md` and `reports/RUN-2026-10-28-03_phase5-rf-baseline.md`.
+
+**Next permitted step (per `AGENTS.md`):** as recorded at Phase 4 finalisation, no modelling
+of any kind was permitted until the user explicitly moved the project to the modelling phase —
+which happened on 2026-10-28. Phase 5 trains on the committed folds only, reports per-fold
+results with fold 2 flagged, and attaches the limitations in §6 and L1–L4.
 
 **Stage history (chronology, condensed):** design config → eligibility audit → background
 sampling (exact-separation re-implementation after the raster-only rule under-protected a

@@ -1,0 +1,43 @@
+{
+  "verdict": "ALL PHASE 5 GATES PASSED",
+  "n_gates": 6,
+  "n_passed": 6,
+  "gates": [
+    {
+      "gate": "Phase 4 authority intact",
+      "passed": true,
+      "detail": "p4_verify exit=0; 8/8 gates passed -- ALL PHASE 4 GATES PASSED"
+    },
+    {
+      "gate": "feature-table integrity",
+      "passed": true,
+      "detail": "2460 rows; provenance byte-equal to fold_assignments.csv; 35 features in config order, all finite; no rainfall value <= -9998; landcover [10, 30, 40, 50, 60, 80] and geology [1, 2, 3, 4, 5] inside spec"
+    },
+    {
+      "gate": "fold usage matches Phase 4 authority",
+      "passed": true,
+      "detail": "all 5 folds rebuilt from fold_assignments.csv + fold_drops.csv equal fold_summary.json and the counts recorded in fold_metrics.json; test folds partition all 2,460 points; no random split"
+    },
+    {
+      "gate": "evaluation completeness + saved models recompute the metrics",
+      "passed": true,
+      "detail": "5 folds x (roc_auc, average_precision); fold 2 flagged marginal (5 clusters); mean-of-folds carries the correlated-folds caveat; model params equal config; limitations present; each saved fold model recomputes its recorded AUC/AP exactly: f0:0.8674/0.3517, f1:0.8712/0.5458, f2:0.9263/0.6168, f3:0.7882/0.3200, f4:0.7720/0.3348"
+    },
+    {
+      "gate": "map checks",
+      "passed": true,
+      "detail": "verdict green; domain 2343343 cells (district minus 13,195 invalid-predictor); float32, nodata -9999, EPSG:32643, 2013x2480; stats recomputed from tif match metadata (min 0.0000, median 0.0316, max 0.9687); label carries ranking/probability/forecast disclaimers; tif sha256 matches"
+    },
+    {
+      "gate": "reproducibility (byte-identical regeneration)",
+      "passed": true,
+      "detail": "re-ran p5_extract_features.py, p5_train_baseline.py, p5_map.py; all 14 outputs byte-identical"
+    }
+  ],
+  "versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "rasterio": "1.5.2"
+  }
+}

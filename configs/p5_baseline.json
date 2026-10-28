@@ -1,0 +1,112 @@
+{
+  "_comment": "Phase 5 Random Forest baseline configuration. Single source of truth for the baseline run: one interpretable model, one configuration, no hyperparameter search, no competing models, no synthetic data. Every script reads this file and records resolved values in its own outputs.",
+  "version": 1,
+  "decided": "2026-10-28",
+  "authorisation": "User explicitly moved RESQAI to Phase 5 (modelling) on 2026-10-28; baseline Random Forest only.",
+  "objective": "Estimate relative landslide susceptibility conditional on the observed inventory - a ranking task, not a calibrated probability; never a forecast, warning or timing prediction.",
+  "random_seed": 20261026,
+  "analysis_crs": "EPSG:32643",
+  "inputs": {
+    "points": "data/processed/sampling/fold_assignments.csv",
+    "drops": "data/processed/sampling/fold_drops.csv",
+    "fold_summary": "data/processed/sampling/fold_summary.json",
+    "run_config": "data/processed/sampling/sampling_run_config.json",
+    "layer_inventory": "data/processed/qa/layer_inventory.csv",
+    "district_mask": "data/processed/grid/district_mask_30m.tif"
+  },
+  "class_handling": {
+    "positive": 1,
+    "background": 0,
+    "meaning": "positive = mapped landslide event point from the audited inventory; background = no mapped landslide at that location in the available inventory (NOT confirmed stable ground). The 5.78:1 background:positive ratio is a sampling-design artefact, not a class prior."
+  },
+  "model": {
+    "type": "sklearn.ensemble.RandomForestClassifier",
+    "n_estimators": 500,
+    "criterion": "gini",
+    "min_samples_leaf": 5,
+    "max_features": "sqrt",
+    "bootstrap": true,
+    "class_weight": "balanced_subsample",
+    "random_state": 20261026,
+    "n_jobs": -1,
+    "rationale": "Single fixed configuration, no tuning: 500 trees for stable importances; min_samples_leaf=5 so single-cell noise cannot dominate; class_weight=balanced_subsample so the arbitrary background density does not dominate the fit; the rest are sklearn defaults. Interpretability comes from documented settings plus permutation importance on held-out folds."
+  },
+  "fold_usage": {
+    "rule": "For each fold f in 0..4: test = every point with fold==f (positives and background); train = every point with fold!=f EXCEPT the point_ids listed in fold_drops.csv with fold==f (the committed 1,000 m buffer). Fold labels come from the Phase 4 files and are never reassigned; no random split is created.",
+    "consistency_check": "constructed train/test counts must equal fold_summary.json per-fold counts before fitting",
+    "no_resplit": true
+  },
+  "metrics": {
+    "per_fold": ["roc_auc", "average_precision"],
+    "interpretation": "Spatially held-out presence-background RANKING metrics (case-control): roc_auc = probability a random mapped event ranks above a random background point; average_precision = ranking quality under heavy background prevalence. They are not accuracy on all Wayanad landslides, not performance on confirmed absences, and not calibrated skill. Folds are spatially adjacent and correlated; only per-fold values and their unweighted mean are reported, never a pooled score presented as independent."
+  },
+  "permutation_importance": {
+    "scoring": "roc_auc",
+    "n_repeats": 20,
+    "random_state": 20261026,
+    "computed_on": "each fold's held-out test set; aggregated across folds as mean +/- sd (interpretive, not a performance claim)"
+  },
+  "features": {
+    "n": 35,
+    "soilgrid_scaling": "ALREADY APPLIED in Phase 3 (scripts/p3_soil.py): clay/sand/silt/soc/cec/cfvo divided by 10, bdod divided by 100. Features are in physical units; Phase 5 must NOT re-apply scale factors.",
+    "chirps_nodata": "sentinel -9999 was masked in Phase 3 (scripts/p3_rainfall.py); extraction still asserts no rainfall value <= -9998.",
+    "categorical_rule": "land cover and geology are categorical: extracted at the containing cell (nearest), never interpolated.",
+    "extraction_rule": "every feature is the value of the source cell containing the point (no resampling, source rasters read-only).",
+    "spec": [
+      {"name": "dem_elev_m",            "file": "dem/dem_glo30_30m_district.tif",       "band": 1, "kind": "continuous"},
+      {"name": "dem_slope_deg",         "file": "dem/slope_deg_30m_district.tif",       "band": 1, "kind": "continuous"},
+      {"name": "dem_aspect_deg",        "file": "dem/aspect_deg_30m_district.tif",      "band": 1, "kind": "continuous_circular"},
+      {"name": "dem_profile_curvature", "file": "dem/profile_curv_30m_district.tif",    "band": 1, "kind": "continuous"},
+      {"name": "dem_plan_curvature",    "file": "dem/plan_curv_30m_district.tif",       "band": 1, "kind": "continuous"},
+      {"name": "landcover_class",       "file": "landcover/landcover_worldcover2021_30m_district.tif", "band": 1, "kind": "categorical", "classes": [10, 20, 30, 40, 50, 60, 70, 80, 90]},
+      {"name": "soil_clay_005_pct",     "file": "soil/soil_clay_0-5cm_30m_district.tif",    "band": 1, "kind": "continuous", "plausible": [1.0, 85.0]},
+      {"name": "soil_clay_1530_pct",    "file": "soil/soil_clay_15-30cm_30m_district.tif",  "band": 1, "kind": "continuous", "plausible": [1.0, 85.0]},
+      {"name": "soil_sand_005_pct",     "file": "soil/soil_sand_0-5cm_30m_district.tif",    "band": 1, "kind": "continuous", "plausible": [1.0, 95.0]},
+      {"name": "soil_sand_1530_pct",    "file": "soil/soil_sand_15-30cm_30m_district.tif",  "band": 1, "kind": "continuous", "plausible": [1.0, 95.0]},
+      {"name": "soil_silt_005_pct",     "file": "soil/soil_silt_0-5cm_30m_district.tif",    "band": 1, "kind": "continuous", "plausible": [1.0, 80.0]},
+      {"name": "soil_silt_1530_pct",    "file": "soil/soil_silt_15-30cm_30m_district.tif",  "band": 1, "kind": "continuous", "plausible": [1.0, 80.0]},
+      {"name": "soil_bdod_005_gcm3",    "file": "soil/soil_bdod_0-5cm_30m_district.tif",    "band": 1, "kind": "continuous", "plausible": [0.3, 3.0]},
+      {"name": "soil_bdod_1530_gcm3",   "file": "soil/soil_bdod_15-30cm_30m_district.tif",  "band": 1, "kind": "continuous", "plausible": [0.3, 3.0]},
+      {"name": "soil_soc_005_gkg",      "file": "soil/soil_soc_0-5cm_30m_district.tif",     "band": 1, "kind": "continuous", "plausible": [0.0, 250.0]},
+      {"name": "soil_soc_1530_gkg",     "file": "soil/soil_soc_15-30cm_30m_district.tif",   "band": 1, "kind": "continuous", "plausible": [0.0, 250.0]},
+      {"name": "soil_cec_005_cmolkg",   "file": "soil/soil_cec_0-5cm_30m_district.tif",     "band": 1, "kind": "continuous", "plausible": [0.0, 60.0]},
+      {"name": "soil_cec_1530_cmolkg",  "file": "soil/soil_cec_15-30cm_30m_district.tif",   "band": 1, "kind": "continuous", "plausible": [0.0, 60.0]},
+      {"name": "soil_cfvo_005_pct",     "file": "soil/soil_cfvo_0-5cm_30m_district.tif",    "band": 1, "kind": "continuous", "plausible": [0.0, 90.0]},
+      {"name": "soil_cfvo_1530_pct",    "file": "soil/soil_cfvo_15-30cm_30m_district.tif",  "band": 1, "kind": "continuous", "plausible": [0.0, 90.0]},
+      {"name": "rain_annual_mean_mm",   "file": "rainfall/rainfall_annual_mean_30m_district.tif", "band": 1, "kind": "continuous"},
+      {"name": "rain_jjas_mean_mm",     "file": "rainfall/rainfall_jjas_mean_30m_district.tif",   "band": 1, "kind": "continuous"},
+      {"name": "rain_month01_mm", "file": "rainfall/rainfall_monthly_climatology_30m_district.tif", "band": 1,  "kind": "continuous"},
+      {"name": "rain_month02_mm", "file": "rainfall/rainfall_monthly_climatology_30m_district.tif", "band": 2,  "kind": "continuous"},
+      {"name": "rain_month03_mm", "file": "rainfall/rainfall_monthly_climatology_30m_district.tif", "band": 3,  "kind": "continuous"},
+      {"name": "rain_month04_mm", "file": "rainfall/rainfall_monthly_climatology_30m_district.tif", "band": 4,  "kind": "continuous"},
+      {"name": "rain_month05_mm", "file": "rainfall/rainfall_monthly_climatology_30m_district.tif", "band": 5,  "kind": "continuous"},
+      {"name": "rain_month06_mm", "file": "rainfall/rainfall_monthly_climatology_30m_district.tif", "band": 6,  "kind": "continuous"},
+      {"name": "rain_month07_mm", "file": "rainfall/rainfall_monthly_climatology_30m_district.tif", "band": 7,  "kind": "continuous"},
+      {"name": "rain_month08_mm", "file": "rainfall/rainfall_monthly_climatology_30m_district.tif", "band": 8,  "kind": "continuous"},
+      {"name": "rain_month09_mm", "file": "rainfall/rainfall_monthly_climatology_30m_district.tif", "band": 9,  "kind": "continuous"},
+      {"name": "rain_month10_mm", "file": "rainfall/rainfall_monthly_climatology_30m_district.tif", "band": 10, "kind": "continuous"},
+      {"name": "rain_month11_mm", "file": "rainfall/rainfall_monthly_climatology_30m_district.tif", "band": 11, "kind": "continuous"},
+      {"name": "rain_month12_mm", "file": "rainfall/rainfall_monthly_climatology_30m_district.tif", "band": 12, "kind": "continuous"},
+      {"name": "geology_class",         "file": "geology/geology_class_30m_district.tif", "band": 1, "kind": "categorical", "classes": [1, 2, 3, 4, 5]}
+    ]
+  },
+  "map": {
+    "enabled_after": "fold evaluation and predictor extraction pass documented checks (scripts/p5_verify.py gates 2-4)",
+    "domain": "district mask AND all 24 predictor layers valid",
+    "model": "final RandomForest refit on ALL 2,460 committed points (this model is NOT cross-validated; its skill characterisation is the fold evaluation)",
+    "value": "RF positive-class vote share predict_proba[:, 1] - a RELATIVE RANKING score, not a calibrated probability",
+    "label": "relative landslide susceptibility ranking conditional on the observed inventory (92.3% of labels from 2018); not a probability, forecast, warning, or timing prediction",
+    "output_raster": "data/processed/models/susceptibility_rf_baseline_30m.tif",
+    "nodata": -9999.0
+  },
+  "limitations": [
+    "spatially held-out presence-background ranking metrics on an inventory that is 92.3% single-year (2018); scores characterise that event population, not all Wayanad landslides",
+    "no viable temporal holdout exists (28 non-2018 labels across 17 clusters); temporal transfer is untested",
+    "background labels mean 'no mapped event in the available inventory', not confirmed stable terrain; ranking metrics treat them as the comparison class, not as verified absences",
+    "the 5.78:1 background:positive ratio is a sampling-design artefact (density choice), mitigated in-fit by class weighting",
+    "folds are spatially adjacent; per-fold scores are correlated and their mean is not an independent-replication estimate",
+    "categorical predictors enter as integer codes (no target or ordinal encoding), a known RF baseline simplification",
+    "aspect enters as a linear 0-360 degree value despite being circular",
+    "training near misses and survey effort are unmodelled: the inventory reflects where mapping happened, not everywhere landsliding happened"
+  ]
+}
