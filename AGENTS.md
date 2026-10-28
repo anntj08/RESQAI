@@ -70,6 +70,16 @@ Raw data is **not** committed to git (see `.gitignore`). Docs, scripts and manif
    round, or deduplicate inventory points.
 8. Synthetic events, if ever generated, must be labelled as synthetic and never evaluated as real.
 
+## Run reports (standing convention, set 2026-10-28)
+
+After every work session (a "run": scripts executed, phase work advanced), write
+`reports/RUN-<YYYY-MM-DD>-<nn>_<slug>.md` — detailed, structured so the user can build the next
+step's prompt from it without re-deriving anything. Use the template in `reports/README.md`:
+starting state, what was run in order (commands + results), measured values, bugs caught and
+fixes, gate/verification status, outputs produced, commit hash, current project state, and a
+next-step handoff section (open decisions, what must not be re-derived). Commit the report with
+the run's work or immediately after. Never let a run finish without its report.
+
 ## Style
 
 - Beginner-friendly explanations when the user is doing UI work; precise technical language in docs.
