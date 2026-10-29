@@ -98,8 +98,8 @@ sensitivity analyses; no change to Phase 4/5 outputs, map, manifest (`LSZ-01` st
 Phase 5 baseline complete and verified; the descriptive LSZ comparison and its sensitivity
 verdict are now part of the Phase 5 progress record as confirmed measurements (§7) with their
 limitations carried verbatim, one interpretive caveat in §9, and the status list (§10)
-updated. `LSZ-01` remains `DOWNLOADED_NOT_FULLY_VALIDATED`. Commit of this run: **pinned
-below** (work + this report; a one-line follow-up pins the hash). Tree clean; nothing pushed.
+updated. `LSZ-01` remains `DOWNLOADED_NOT_FULLY_VALIDATED`. Commit of this run: **`716f87e`** (work + this report; a
+one-line follow-up pins the hash). Tree clean; nothing pushed.
 
 ## 7. Next-step handoff (prompt material)
 
