@@ -205,11 +205,12 @@ Yours faithfully,
 [EMAIL] · [PHONE]
 [ORCID or institutional profile — optional]
 
-**Enclosures**
-1. One-page project note (scope, limits, intended use).
-2. Extract of the two datasheet records currently held, with source PDF page references.
-3. Data fields requested (the list in §4 of this draft).
-4. Draft data-handling and citation undertaking `[attach if the receiving office requires it]`.
+**Enclosures** (prepared files, `docs/requests/`)
+1. One-page project note — `ATTACH_2026-10-29_project-note.md`.
+2. Held-record annex: the two GSI PDLS Wayanad records, with page references and printed precision —
+   `ATTACH_2026-10-29_held-record-annex.md`.
+3. Data fields requested — `ATTACH_2026-10-29_fields-request-annex.md`.
+4. Draft data-handling and citation undertaking `[attach only if the receiving office requires it]`.
 
 ---
 
@@ -304,13 +305,15 @@ the repository.
 
 - [ ] **Project note (1 page).** Scope: Wayanad district, landslide susceptibility, 2000–2026
       inventory; explicit limits: no forecasting, no warning, no timing claim; who the user is.
-      `[TO WRITE — not yet drafted]`
+      Prepared: `docs/requests/ATTACH_2026-10-29_project-note.md` — fill every placeholder.
 - [ ] **Held-record extract.** One table row each for `KER/WYD/58A03/2024/01` and
       `KER/WYD/58A03/2025/01`, showing the coordinate exactly as printed and its precision.
-      Source: `data/interim/inventory_extracts/inventory_gsi_pdls_wayanad.csv`.
+      Prepared: `docs/requests/ATTACH_2026-10-29_held-record-annex.md` (values from
+      `data/interim/inventory_extracts/inventory_gsi_pdls_wayanad.csv`).
 - [ ] **Page references.** GSI PDLS 2024 p. 95 (datasheet + FIR narrative); GSI PDLS 2025 p. 80
       (Meenakshi Bridge).
 - [ ] **Fields annex.** §4 of this file, exported as a clean one-pager.
+      Prepared: `docs/requests/ATTACH_2026-10-29_fields-request-annex.md`.
 - [ ] **Undertaking (only if requested).** Short statement: data used for research only, cited to
       the agency, not redistributed without permission.
 - [ ] **Reply address.** Institutional postal address and a monitored email, both in the signature.
