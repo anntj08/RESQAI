@@ -1,0 +1,73 @@
+{
+  "generated_utc": "2026-10-29T14:47:53.019986+00:00",
+  "details": {
+    "EMSR357": {
+      "name": "Tropical Cyclone Fani in Eastern India",
+      "category": "Storm",
+      "countries": [
+        "India"
+      ],
+      "activationTime": "2019-05-02T15:51:00",
+      "n_aois": 9,
+      "n_products": 9,
+      "centroid": "POINT (85.08911 20.2725)"
+    },
+    "EMSR104": {
+      "name": "Flood in Andhra Pradesh- India",
+      "category": "Flood",
+      "countries": [
+        "India"
+      ],
+      "activationTime": "2014-10-14T10:48:00",
+      "n_aois": 5,
+      "n_products": 22,
+      "centroid": "POINT (83.144 17.672)"
+    },
+    "EMSR057": {
+      "name": "Tropical storm in India",
+      "category": "Storm",
+      "countries": [
+        "India"
+      ],
+      "activationTime": "2013-11-01T11:30:00",
+      "n_aois": 2,
+      "n_products": 8,
+      "centroid": "POINT (86 20.200000000000003)"
+    },
+    "EMSR054": {
+      "name": "Tropical Storm in India",
+      "category": "Storm",
+      "countries": [
+        "India"
+      ],
+      "activationTime": "2013-10-14T16:55:00",
+      "n_aois": 2,
+      "n_products": 8,
+      "centroid": "POINT (86 20.200000000000003)"
+    },
+    "EMSR049": {
+      "name": "Floods in Uttarakhand state - India",
+      "category": "Flood",
+      "countries": [
+        "India"
+      ],
+      "activationTime": "2013-06-27T12:00:00",
+      "n_aois": 2,
+      "n_products": 4,
+      "centroid": "POINT (79.02 30.85)"
+    }
+  },
+  "q_kerala": {
+    "count": 0,
+    "codes": []
+  },
+  "countries_filter_tests": {},
+  "countries_India": {
+    "count": 0,
+    "codes": []
+  },
+  "countries_IND": {
+    "count": 0,
+    "codes": []
+  }
+}

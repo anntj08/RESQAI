@@ -1,0 +1,1094 @@
+{
+  "generated_utc": "2026-10-29T14:40:14.563597+00:00",
+  "probes": [
+    {
+      "key": "ksdma_landslides_2024_page",
+      "url": "https://sdma.kerala.gov.in/landslides-2024/",
+      "http_status": 200,
+      "bytes": 101679,
+      "final_url": "https://sdma.kerala.gov.in/landslides-2024/",
+      "candidate_links": [
+        {
+          "href": "/csr-meppadi-2024/",
+          "text": "CSR"
+        },
+        {
+          "href": "/meppadi-2024-csr/",
+          "text": "Meppadi 2024 CSR"
+        },
+        {
+          "href": "/landslide-early-warning/",
+          "text": "Landslide Early Warning"
+        },
+        {
+          "href": "/unicef-2024/",
+          "text": "UNICEF 2024"
+        },
+        {
+          "href": "/landslides-2018/",
+          "text": "Landslides 2018"
+        },
+        {
+          "href": "/landslides-2019/",
+          "text": "Landslides 2019"
+        },
+        {
+          "href": "/msme-2024/",
+          "text": "MSME 2024"
+        },
+        {
+          "href": "/thiruvambadi-landslide-preparedness/",
+          "text": "Thiruvambadi Landslide"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/Emergency-Response-Vehicle-details-25-05-2025_ERV_Website.pdf",
+          "text": "Emergency Response Vehicles (ERVs)"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/DM-Directory-2025_23.pdf",
+          "text": "DM Directory"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/TALUK-DIRECTORY.pdf",
+          "text": "Taluk Emergency Operation Centres"
+        },
+        {
+          "href": "/landslides-2024/",
+          "text": "Landslides 2024"
+        },
+        {
+          "href": "/reports-landslides-2024/",
+          "text": "Reports – Landslides 2024"
+        },
+        {
+          "href": "/landslides-2021/",
+          "text": "Landslides 2021"
+        },
+        {
+          "href": "/event-2024-2/",
+          "text": "Events 2024"
+        },
+        {
+          "href": "/wp-content/uploads/2025/07/Memorandum_17082024.pdf",
+          "text": "Govt. of Kerala, 2024. Memorandum – Meppadi landslide 2024. Contributors: Ms. Tinku Biswal, Kuriakose S.L, Aru"
+        }
+      ],
+      "text_hits": {
+        "landslide": 37,
+        "2024": 46
+      }
+    },
+    {
+      "key": "ksdma_event_2024_page",
+      "url": "https://sdma.kerala.gov.in/event-2024-2/",
+      "http_status": 200,
+      "bytes": 125698,
+      "final_url": "https://sdma.kerala.gov.in/event-2024-2/",
+      "candidate_links": [
+        {
+          "href": "/csr-meppadi-2024/",
+          "text": "CSR"
+        },
+        {
+          "href": "/meppadi-2024-csr/",
+          "text": "Meppadi 2024 CSR"
+        },
+        {
+          "href": "/landslide-early-warning/",
+          "text": "Landslide Early Warning"
+        },
+        {
+          "href": "/unicef-2024/",
+          "text": "UNICEF 2024"
+        },
+        {
+          "href": "/landslides-2018/",
+          "text": "Landslides 2018"
+        },
+        {
+          "href": "/landslides-2019/",
+          "text": "Landslides 2019"
+        },
+        {
+          "href": "/msme-2024/",
+          "text": "MSME 2024"
+        },
+        {
+          "href": "/thiruvambadi-landslide-preparedness/",
+          "text": "Thiruvambadi Landslide"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/Emergency-Response-Vehicle-details-25-05-2025_ERV_Website.pdf",
+          "text": "Emergency Response Vehicles (ERVs)"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/DM-Directory-2025_23.pdf",
+          "text": "DM Directory"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/TALUK-DIRECTORY.pdf",
+          "text": "Taluk Emergency Operation Centres"
+        },
+        {
+          "href": "/landslides-2024/",
+          "text": "Landslides 2024"
+        },
+        {
+          "href": "/reports-landslides-2024/",
+          "text": "Reports – Landslides 2024"
+        },
+        {
+          "href": "/landslides-2021/",
+          "text": "Landslides 2021"
+        },
+        {
+          "href": "/event-2024-2/",
+          "text": "Events 2024"
+        },
+        {
+          "href": "/wp-content/uploads/2025/11/International_Conference_on_Tsunami_Risk_Reduction_and_Resilience_ICTR3_Dec_2024_Dr_Midhila_Mallika.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/10/Assam_SDMA_Program-1.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/11/2024-Malappuram-Village_Gram-Panchayat-Disaster-Management-Plan-2.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Report-Session_-_DM_Funds_-_Palakkad.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/10/IDDRR_Aapdamitra_20Dec-1.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2026/09/Thrissur_Eriyad.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Report_on_the_Mock_Drill_on_Underground_Petroleum_Pipeline_Leak__Held_at_Bharat_Petroleum_Corporation_Limited__Kanjikode_o",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Report_Session_Disaster-Management-and-involvement-of-Youth-in-DM-17.12.2024.docx.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/04/NDRF_FAMEX-Dec_2024.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/04/Event_Report-IDDR_2024-_MALAPPURAM.docx.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/04/Event_report_on_psycho_social_care_through_art.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/11/2024-Idukki-Village_Gram-Panchayat-Disaster-Management-Plan.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/11/2024-2025-Kollam-Village_Gram-Panchayat-Disaster-Management-Plan-1-1.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/11/November-2024-Alappuzha-Village_Gram-Panchayat-Disaster-Management-Plan.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Report_on_the_NDRF_FAMEX_Visit_at_Saint_Gobain_SEFPRO__Kanjikode__Palakkad_on_28th_November_2024-1.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/MD_RWPkd_2024_compressed.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/12/KSIHFW_DM_inHospitals_Report.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/04/NDRF_-_Palakkad_Shornur_Railway_Station_Mockdrill_-_25.11.2024.docx_compressed.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/01/Report_on_believers_panel_discussion_.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2026/03/Report_on_Paper_Presentation_Competition-_Child_Rights_Week_at_Palakkad_Conference_Hall_on_17-11-2024-1.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/CBSE_Exhibition.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/10/kadinamkulam_8-nov-1.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/EXperttalkSCT.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/11/2024-Kottayam-Village_Gram-Panchayat-Disaster-Management-Plan.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2026/09/Tsunmai_Ready_Valiaparamba.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Report_Session_Disaster-Management-and-involvement-of-children-in-DM-01.10.2024.docx.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Report_Session_Disaster-Management-and-involvement-of-children-in-DM-30.09.2024.docx.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/FOB2024Tvm.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/IDDRR2024_Idu.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/IDDRR2024_Pkd_11zon.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/IDDRR2024_Alp.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/IDDRR2024_Ptn.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/IDDRR2024_Kannur.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/IDDRR2024_Ekm.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/IDDRR2024_Ktm.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/10/IDDRR_Quiz_TVM-2.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/IDDRR2024_Koz.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/IDDRR2024_Klm.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/IDDRR2024_TsrCollege.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/IDDRR2024_Loyola-1.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2026/02/APMCDRR2024.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/IDDRR2024_Loyola.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2026/01/Event_Report_IGNOU_VISIT_24-_25.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/12/Report-on-Young-Idea-Conclave_04.10.2024.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/10/Microsoft-Word-design-policy-workshop-report.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/10/Technopark_Training_11Sept2024.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/10/Report_on_the_NDRF_FAMEX_Visit_at_Saint_Gobain_SEFPRO__Kanjikode__Palakkad_on_28th_November_2024-1.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/10/Report-Session_ToT-DM-Funds-KILA-0910.09.2024.docx-1-1.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/NIDM_HAKtm_2024.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/04/Event_Report_DM_Training_23_August_KTM.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Report-Session_Natural_and_Anthropogenic_Disasters_-_Kudumbashree_-__12.08.2024.docx_1-1.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Report_on_the_Session_-Basics_of_Disaster_Management_-_Held_at_District_Collectorate_Conference_Hall__Palakkad_on_09th_Aug",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/11/International_day_for_the_conservation_of_the_mangrove_ecosystem_2024.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/11/CAT_FM2024.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/04/Report_TRP_Pre-planning_Meeting.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2024/09/Webinar_TUFLOW.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/10/Event_Report_Living_with_Climate_Change.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/02/NIDM_South_Campus_-_CCDRR_Training_-_HA_Palakkad.docx_compressed.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/04/Hospital_safety_report_pdf.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/04/school_safety_report_pdf.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/04/PDF_IDRN_REPORT.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/04/TSUNAMI_READY_PROGRAM_AZHIKODE_GRAMA_PANCHAYAT.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/04/TEP__REPORT_-Alappuzha.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/04/TRP_Training_Report_Edavanakad__.pdf",
+          "text": "Report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Report_on_the_Event_Disaster_Risk_Reduction_in_Archives_at_the_State_Archives_Directorate__Thiruvananthapuram__12-06-2024.",
+          "text": "Report"
+        }
+      ],
+      "text_hits": {
+        "landslide": 14,
+        "2024": 290
+      }
+    },
+    {
+      "key": "ksdma_meppadi_2024_csr_page",
+      "url": "https://sdma.kerala.gov.in/meppadi-2024-csr/",
+      "http_status": 200,
+      "bytes": 100736,
+      "final_url": "https://sdma.kerala.gov.in/meppadi-2024-csr/",
+      "candidate_links": [
+        {
+          "href": "/csr-meppadi-2024/",
+          "text": "CSR"
+        },
+        {
+          "href": "/meppadi-2024-csr/",
+          "text": "Meppadi 2024 CSR"
+        },
+        {
+          "href": "/landslide-early-warning/",
+          "text": "Landslide Early Warning"
+        },
+        {
+          "href": "/unicef-2024/",
+          "text": "UNICEF 2024"
+        },
+        {
+          "href": "/landslides-2018/",
+          "text": "Landslides 2018"
+        },
+        {
+          "href": "/landslides-2019/",
+          "text": "Landslides 2019"
+        },
+        {
+          "href": "/msme-2024/",
+          "text": "MSME 2024"
+        },
+        {
+          "href": "/thiruvambadi-landslide-preparedness/",
+          "text": "Thiruvambadi Landslide"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/Emergency-Response-Vehicle-details-25-05-2025_ERV_Website.pdf",
+          "text": "Emergency Response Vehicles (ERVs)"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/DM-Directory-2025_23.pdf",
+          "text": "DM Directory"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/TALUK-DIRECTORY.pdf",
+          "text": "Taluk Emergency Operation Centres"
+        },
+        {
+          "href": "/landslides-2024/",
+          "text": "Landslides 2024"
+        },
+        {
+          "href": "/reports-landslides-2024/",
+          "text": "Reports – Landslides 2024"
+        },
+        {
+          "href": "/landslides-2021/",
+          "text": "Landslides 2021"
+        },
+        {
+          "href": "/event-2024-2/",
+          "text": "Events 2024"
+        }
+      ],
+      "text_hits": {
+        "landslide": 14,
+        "2024": 35
+      }
+    },
+    {
+      "key": "ksdma_maps_page",
+      "url": "https://sdma.kerala.gov.in/maps-2/",
+      "http_status": 200,
+      "bytes": 100280,
+      "final_url": "https://sdma.kerala.gov.in/maps-2/",
+      "candidate_links": [
+        {
+          "href": "/csr-meppadi-2024/",
+          "text": "CSR"
+        },
+        {
+          "href": "/meppadi-2024-csr/",
+          "text": "Meppadi 2024 CSR"
+        },
+        {
+          "href": "/landslide-early-warning/",
+          "text": "Landslide Early Warning"
+        },
+        {
+          "href": "/unicef-2024/",
+          "text": "UNICEF 2024"
+        },
+        {
+          "href": "/landslides-2018/",
+          "text": "Landslides 2018"
+        },
+        {
+          "href": "/landslides-2019/",
+          "text": "Landslides 2019"
+        },
+        {
+          "href": "/msme-2024/",
+          "text": "MSME 2024"
+        },
+        {
+          "href": "/thiruvambadi-landslide-preparedness/",
+          "text": "Thiruvambadi Landslide"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/Emergency-Response-Vehicle-details-25-05-2025_ERV_Website.pdf",
+          "text": "Emergency Response Vehicles (ERVs)"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/DM-Directory-2025_23.pdf",
+          "text": "DM Directory"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/TALUK-DIRECTORY.pdf",
+          "text": "Taluk Emergency Operation Centres"
+        },
+        {
+          "href": "/landslides-2024/",
+          "text": "Landslides 2024"
+        },
+        {
+          "href": "/reports-landslides-2024/",
+          "text": "Reports – Landslides 2024"
+        },
+        {
+          "href": "/landslides-2021/",
+          "text": "Landslides 2021"
+        },
+        {
+          "href": "/event-2024-2/",
+          "text": "Events 2024"
+        }
+      ],
+      "text_hits": {
+        "landslide": 14,
+        "2024": 17
+      }
+    },
+    {
+      "key": "nrsc_bhuvan_atlas_links",
+      "url": "https://bhuvan-app1.nrsc.gov.in/disaster/disaster.php?id=ls",
+      "http_status": 200,
+      "bytes": 33406,
+      "final_url": "https://bhuvan-app1.nrsc.gov.in/disaster/disaster.php?id=ls",
+      "candidate_links": [
+        {
+          "href": "https://bhuvan-app1.nrsc.gov.in/2dresources/bhuvanstore.php",
+          "text": "Bhuvan Store"
+        },
+        {
+          "href": "https://bhuvan-app3.nrsc.gov.in/data/download/download/help/help.html",
+          "text": "Help"
+        },
+        {
+          "href": "get/ndem_vpn_user_manual.pdf",
+          "text": "NDEM User Manual"
+        },
+        {
+          "href": "https://bhuvan-app1.nrsc.gov.in/international_disaster/disaster.php",
+          "text": "Support for International Disasters"
+        }
+      ],
+      "text_hits": {
+        "landslide": 4
+      }
+    },
+    {
+      "key": "ndma_landslide_links",
+      "url": "https://ndma.gov.in/",
+      "http_status": 200,
+      "bytes": 136852,
+      "final_url": "https://ndma.gov.in/",
+      "candidate_links": [
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/COMPENDIUM-OF-LAWS-ON-DISASTER-MANAGEMENT.pdf",
+          "text": "आपदा प्रबंधन पर कानूनों का संकलन"
+        },
+        {
+          "href": "/hi/node/84",
+          "text": "Landslide Hazard Atlas"
+        },
+        {
+          "href": "/sites/default/files/2026-05/AiDRR_Guidelines.pdf",
+          "text": "National Guidelines on Animal-inclusive Disaster Risk Reduction (AiDRR)"
+        },
+        {
+          "href": "/flood-hazard-atlases",
+          "text": "Hazard Atlas"
+        },
+        {
+          "href": "/hi/node/132",
+          "text": "Landslide"
+        },
+        {
+          "href": "https://www.lbsnaa.gov.in/lbsnaa-sub/centre-for-disaster-management",
+          "text": ""
+        }
+      ],
+      "text_hits": {
+        "landslide": 8
+      }
+    },
+    {
+      "key": "dmsuite_links",
+      "url": "https://dmsuite.kerala.gov.in/",
+      "http_status": 200,
+      "bytes": 187312,
+      "final_url": "https://dmsuite.kerala.gov.in/",
+      "candidate_links": [
+        {
+          "href": "https://www.facebook.com/wayanadWE",
+          "text": "Facebook"
+        },
+        {
+          "href": "https://instagram.com/collectorwayanad/",
+          "text": "Instagram"
+        },
+        {
+          "href": "https://in.linkedin.com/in/district-collector-wayanad-5b7b132b7",
+          "text": "LinkedIn"
+        },
+        {
+          "href": "https://wayanad.gov.in/",
+          "text": "Wayanad Official Website"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/",
+          "text": "DDMA Wayanad"
+        }
+      ],
+      "text_hits": {
+        "wayanad": 12
+      }
+    },
+    {
+      "key": "wayanad_district_links",
+      "url": "https://wayanad.gov.in/",
+      "http_status": 200,
+      "bytes": 186048,
+      "final_url": "https://wayanad.gov.in/",
+      "candidate_links": [
+        {
+          "href": "https://wayanad.gov.in/en/",
+          "text": "English"
+        },
+        {
+          "href": "https://wayanad.gov.in/",
+          "text": "വയനാട് WAYANAD"
+        },
+        {
+          "href": "http://wayanad.gov.in/",
+          "text": "ഹോം പേജ്"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%9c%e0%b4%bf%e0%b4%b2%e0%b5%8d%e0%b4%b2%e0%b4%af%e0%b5%86-%e0%b4%95%e0%b5%81%e0%b4%b1%e0%b4%bf%e0%b4%9a%e0%b5%8d%e0%b4%9a",
+          "text": "ജില്ലയെ കുറിച്ച്"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%9a%e0%b4%b0%e0%b4%bf%e0%b4%a4%e0%b5%8d%e0%b4%b0%e0%b4%82/",
+          "text": "ചരിത്രം"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%ad%e0%b4%b0%e0%b4%a3%e0%b4%aa%e0%b4%b0%e0%b4%ae%e0%b4%be%e0%b4%af-%e0%b4%b8%e0%b4%9c%e0%b5%8d%e0%b4%9c%e0%b5%80%e0%b4%95",
+          "text": "ഭരണപരമായ സജ്ജീകരണം"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%95%e0%b4%b3%e0%b4%95%e0%b5%8d%e0%b4%9f%e0%b5%8d%e0%b4%b0%e0%b5%87%e0%b4%b1%e0%b5%8d%e0%b4%b1%e0%b5%8d/",
+          "text": "കളക്ട്രേറ്റ്"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b1%e0%b4%b5%e0%b4%a8%e0%b5%8d%e0%b4%af%e0%b5%82-%e0%b4%b8%e0%b4%ac%e0%b5%8d-%e0%b4%a1%e0%b4%bf%e0%b4%b5%e0%b4%bf%e0%b4%b",
+          "text": "റവന്യൂ സബ് ഡിവിഷന് (1)"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%a4%e0%b4%be%e0%b4%b2%e0%b5%82%e0%b4%95%e0%b5%8d%e0%b4%95%e0%b5%8d/",
+          "text": "താലൂക്ക് (3)"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b5%e0%b4%bf%e0%b4%b2%e0%b5%8d%e0%b4%b2%e0%b5%87%e0%b4%9c%e0%b5%81%e0%b4%95%e0%b4%b3%e0%b5%81%e0%b4%82-%e0%b4%aa%e0%b4%9e",
+          "text": "വില്ലേജ് (49)"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%ae%e0%b5%81%e0%b4%a8%e0%b4%bf%e0%b4%b8%e0%b4%bf%e0%b4%aa%e0%b5%8d%e0%b4%aa%e0%b4%be%e0%b4%b2%e0%b4%bf%e0%b4%b1%e0%b5%8d%",
+          "text": "മുനിസിപ്പാലിറ്റി (3)"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%ac%e0%b5%8d%e0%b4%b2%e0%b5%8b%e0%b4%95%e0%b5%8d%e0%b4%95%e0%b5%81%e0%b4%95%e0%b5%be/",
+          "text": "ബ്ലോക്കുകൾ (4)"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%aa%e0%b4%9e%e0%b5%8d%e0%b4%9a%e0%b4%be%e0%b4%af%e0%b4%a4%e0%b5%8d%e0%b4%a4%e0%b5%8d/",
+          "text": "പഞ്ചായത്ത് (23)"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%aa%e0%b5%8b%e0%b4%b2%e0%b5%80%e0%b4%b8%e0%b5%8d/",
+          "text": "പോലീസ്"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%95%e0%b5%8b%e0%b4%9f%e0%b4%a4%e0%b4%bf%e0%b4%95%e0%b4%b3%e0%b5%8d%e2%80%8d/",
+          "text": "കോടതികള്&#x200d;"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%9c%e0%b4%bf%e0%b4%b2%e0%b5%8d%e0%b4%b2%e0%b4%af%e0%b5%81%e0%b4%9f%e0%b5%86-%e0%b4%ad%e0%b5%82%e0%b4%aa%e0%b4%9f%e0%b4%82",
+          "text": "ജില്ലയുടെ ഭൂപടം"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%9c%e0%b4%a8%e0%b4%b8%e0%b4%82%e0%b4%96%e0%b5%8d%e0%b4%af%e0%b4%be%e0%b4%b6%e0%b4%be%e0%b4%b8%e0%b5%8d%e0%b4%a4%e0%b5%8d%",
+          "text": "ജനസംഖ്യാശാസ്ത്രം"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%a1%e0%b4%af%e0%b4%b1%e0%b4%95%e0%b5%8d%e2%80%8c%e0%b4%9f%e0%b4%b1%e0%b4%bf/",
+          "text": "ഡയറക്‌ടറി"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/%e0%b4%95%e0%b5%8b%e0%b5%ba%e0%b4%9f%e0%b4%be%e0%b4%95%e0%b5%8d%e0%b4%b1%e0%b5%8d%e0%b4%b1%e0%b5%8d-%e0%b4%a1%e0%b4%af%e0%b4",
+          "text": "ഡയറക്‌ടറി"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%aa%e0%b5%8a%e0%b4%a4%e0%b5%81-%e0%b4%b8%e0%b5%87%e0%b4%b5%e0%b4%a8%e0%b4%99%e0%b5%8d%e0%b4%99%e0%b5%be-2/",
+          "text": "പൊതു സേവനങ്ങൾ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%86%e0%b4%b6%e0%b5%81%e0%b4%aa%e0%b4%a4%e0%b5%8d%e0%b4%b0%e0%b4%bf%e0%b4%95%e0%b5%be/",
+          "text": "ആശുപത്രികൾ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%aa%e0%b5%8b%e0%b4%b2%e0%b5%80%e0%b4%b8%e0%b5%8d-%e0%b4%93%e0%b4%ab%e0%b5%80%e0%b4%b8%e0%b5%8d/",
+          "text": "പോലീസ് ഓഫീസ്"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%ab%e0%b4%af%e0%b5%bc-%e0%b4%b8%e0%b5%8d%e0%b4%b1%e0%b5%8d%e0%b4%b1%e0%b5%87%e0%b4%b7%e0%b5%bb/",
+          "text": "ഫയർ സ്റ്റേഷൻ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b5%e0%b4%bf%e0%b4%b2%e0%b5%8d%e0%b4%b2%e0%b5%87%e0%b4%9c%e0%b5%8d-%e0%b4%93%e0%b4%ab%e0%b5%80%e0%b4%b8%e0%b5%8d/",
+          "text": "വില്ലേജ് ഓഫീസ്"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%97%e0%b5%8d%e0%b4%b0%e0%b4%be%e0%b4%ae-%e0%b4%aa%e0%b4%9e%e0%b5%8d%e0%b4%9a%e0%b4%be%e0%b4%af%e0%b4%a4%e0%b5%8d%e0%b4%a4",
+          "text": "ഗ്രാമ പഞ്ചായത്ത്"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%95%e0%b5%8b%e0%b4%b3%e0%b5%87%e0%b4%9c%e0%b5%81%e0%b4%95%e0%b5%be/",
+          "text": "കോളേജുകൾ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b5%e0%b4%95%e0%b5%81%e0%b4%aa%e0%b5%8d%e0%b4%aa%e0%b5%81%e0%b4%95%e0%b5%be/",
+          "text": "വകുപ്പുകൾ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b5%e0%b4%bf%e0%b4%b5%e0%b4%b0%e0%b4%be%e0%b4%b5%e0%b4%95%e0%b4%be%e0%b4%b6-%e0%b4%a8%e0%b4%bf%e0%b4%af%e0%b4%ae%e0%b4%82",
+          "text": "വിവരാവകാശ നിയമം"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b1%e0%b4%b5%e0%b4%a8%e0%b5%8d%e0%b4%af%e0%b5%82/",
+          "text": "റവന്യൂ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b5%e0%b4%bf%e0%b4%a6%e0%b5%8d%e0%b4%af%e0%b4%be%e0%b4%ad%e0%b5%8d%e0%b4%af%e0%b4%be%e0%b4%b8%e0%b4%82/",
+          "text": "വിദ്യാഭ്യാസം"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%95%e0%b5%86-%e0%b4%8e%e0%b4%b8%e0%b5%8d-%e0%b4%a1%e0%b4%ac%e0%b5%8d%e0%b4%b2%e0%b5%8d%e0%b4%af%e0%b5%81-%e0%b4%8e%e0%b4%",
+          "text": "കെ.എസ്.ഡബ്ല്യു.എം.പി"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%87%e0%b4%b2%e0%b4%95%e0%b5%8d%e0%b4%b7%e0%b5%bb-2021-la/",
+          "text": "ഐടി മിഷൻ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%85%e0%b4%95%e0%b5%8d%e0%b4%b7%e0%b4%af/",
+          "text": "അക്ഷയ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%92-%e0%b4%a1%e0%b4%bf-%e0%b4%92-%e0%b4%aa%e0%b4%bf/",
+          "text": "ഒ ഡി ഒ പി"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%92-%e0%b4%a1%e0%b4%bf-%e0%b4%92-%e0%b4%aa%e0%b4%bf%e0%b4%af%e0%b5%86%e0%b4%95%e0%b5%8d%e0%b4%95%e0%b5%81%e0%b4%b1%e0%b4%",
+          "text": "ഒ ഡി ഒ പിയെക്കുറിച്ച്"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b5%e0%b4%af%e0%b4%a8%e0%b4%be%e0%b4%9f%e0%b5%8d-%e0%b4%b1%e0%b5%8b%e0%b4%ac%e0%b4%b8%e0%b5%8d%e0%b4%b1%e0%b5%8d%e0%b4%b1",
+          "text": "വയനാട് റോബസ്റ്റകോഫിയുടെ ചരിത്രവും പ്രാധാന്യവും"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%95%e0%b5%87%e0%b4%b0%e0%b4%b3-%e0%b4%aa%e0%b5%8d%e0%b4%b2%e0%b4%be%e0%b4%a8%e0%b5%8d%e0%b4%b1%e0%b5%87%e0%b4%b7%e0%b5%bb",
+          "text": "കേരള പ്ലാന്റേഷൻ എക്‌സ്‌പോ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%92-%e0%b4%a1%e0%b4%bf-%e0%b4%92-%e0%b4%aa%e0%b4%bf-%e0%b4%9f%e0%b5%80%e0%b4%82/",
+          "text": "ഒ ഡി ഒ പി ടീം"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%95%e0%b5%8b%e0%b4%ab%e0%b4%bf-%e0%b4%b5%e0%b4%bf%e0%b4%a4%e0%b4%b0%e0%b4%a3%e0%b4%95%e0%b5%8d%e0%b4%95%e0%b4%be%e0%b4%b0",
+          "text": "കോഫി വിതരണക്കാര്&#x200d;"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%a1%e0%b4%af%e0%b4%b1%e0%b4%95%e0%b5%8d%e0%b4%9f%e0%b4%b1%e0%b4%bf/",
+          "text": "ഡയറക്ടറി"
+        },
+        {
+          "href": "https://wayanad.gov.in/e0-b4-a1-e0-b4-bf-e0-b4-8e-e0-b4-82-e0-b4-89-e0-b4-a4-e0-b5-8d-e0-b4-a4-e0-b4-b0-e0-b4-b5-e0-b5-81-e0-b4-95-e0-b5-be/",
+          "text": "ഡിഎം – ഉത്തരവുകൾ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%a1%e0%b4%bf%e0%b4%a1%e0%b4%bf%e0%b4%8e%e0%b4%82%e0%b4%8e%e0%b4%af%e0%b5%81%e0%b4%9f%e0%b5%86-%e0%b4%b8%e0%b4%82%e0%b4%b0",
+          "text": "ഡിഡിഎംഎയുടെ സംരംഭങ്ങൾ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%a1%e0%b4%bf%e0%b4%8e%e0%b4%82-%e0%b4%aa%e0%b5%8d%e0%b4%b2%e0%b4%be%e0%b5%bb-2021/",
+          "text": "ഡിഎം പ്ലാൻ 2021"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%95%e0%b5%8b%e0%b4%b3%e0%b4%a8%e0%b4%bf-%e0%b4%a1%e0%b4%bf%e0%b4%8e%e0%b4%82-%e0%b4%aa%e0%b5%8d%e0%b4%b2%e0%b4%be%e0%b5%b",
+          "text": "കോളനി-ഡിഎം-പ്ലാൻ-2021"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%90-%e0%b4%8e-%e0%b4%9c%e0%b4%bf-%e0%b4%85%e0%b4%aa%e0%b5%87%e0%b4%95%e0%b5%8d%e0%b4%b7/",
+          "text": "ഐ എ ജി അപേക്ഷ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%97%e0%b5%81%e0%b4%a3%e0%b4%ad%e0%b5%8b%e0%b4%95%e0%b5%8d%e0%b4%a4%e0%b4%be%e0%b4%95%e0%b5%8d%e0%b4%95%e0%b4%b3%e0%b5%81%",
+          "text": "ഗുണഭോക്താക്കളുടെ പട്ടിക"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%95%e0%b5%8b%e0%b4%ab%e0%b4%bf-%e0%b4%9f%e0%b5%87%e0%b4%ac%e0%b4%bf%e0%b5%be-%e0%b4%ac%e0%b5%81%e0%b4%95%e0%b5%8d%e0%b4%9",
+          "text": "കോഫി ടേബിൾ ബുക്ക്"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%87%e0%b4%b2%e0%b4%95%e0%b5%8d%e0%b4%b7%e0%b5%bb-3/",
+          "text": "ഇലക്ഷൻ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%8e%e0%b4%b8%e0%b5%8d-%e0%b4%90-%e0%b4%86%e0%b5%bc-2026-asd-%e0%b4%b2%e0%b4%bf%e0%b4%b8%e0%b5%8d%e0%b4%b1%e0%b5%8d%e0%b4%",
+          "text": "എസ് ഐ ആർ 2026 ASD ലിസ്റ്റ്"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%87%e0%b4%b2%e0%b4%95%e0%b5%8d%e0%b4%b7%e0%b5%bb/",
+          "text": "ട്രെയിനിങ് മെറ്റീരിയൽസ്-പോളിങ് ഒഫീഷ്യൽസ്"
+        },
+        {
+          "href": "https://wayanad.gov.in/e0-b4-b8-e0-b5-8d-e0-b4-a5-e0-b4-be-e0-b4-a8-e0-b4-be-e0-b5-bc-e0-b4-a5-e0-b4-bf-e0-b4-95-e0-b4-b3-e0-b5-81-e0-b4-9f-e0-b5-86-e",
+          "text": "കേരള നിയമസഭാ തിരഞ്ഞെടുപ്പ് (2026)"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b8%e0%b5%8d%e0%b4%b5%e0%b5%80%e0%b4%b1%e0%b5%8d%e0%b4%b1%e0%b4%bf/",
+          "text": "സ്വീറ്റി"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b5%e0%b4%bf%e0%b4%9c%e0%b5%8d%e0%b4%9e%e0%b4%be%e0%b4%aa%e0%b4%a8%e0%b4%82/",
+          "text": "വിജ്ഞാപനം"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%87%e0%b4%ac%e0%b5%81%e0%b4%95%e0%b5%8d%e0%b4%95%e0%b5%8d%e0%b4%b2%e0%b5%86%e0%b4%b1%e0%b5%8d%e0%b4%b1%e0%b5%8d-%e0%b4%93",
+          "text": "റവന്യൂ ഓൺലൈൻ സേവനങ്ങൾ വിരൽത്തുമ്പിൽ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%aa%e0%b5%81%e0%b4%a4%e0%b4%bf%e0%b4%af-%e0%b4%85%e0%b4%95%e0%b5%8d%e0%b4%b7%e0%b4%af-%e0%b4%95%e0%b5%87%e0%b4%a8%e0%b5%8",
+          "text": "പുതിയ അക്ഷയ കേന്ദ്രം – അപേക്ഷ സ്വീകരിക്കുന്നു"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%ad%e0%b5%82%e0%b4%b0%e0%b4%b9%e0%b4%bf%e0%b4%a4-%e0%b4%ad%e0%b4%b5%e0%b4%a8%e0%b4%b0%e0%b4%b9%e0%b4%bf%e0%b4%a4-%e0%b4%a",
+          "text": "ഭൂരഹിത / ഭവനരഹിത പട്ടിക"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b5%e0%b4%a8%e0%b4%82-%e0%b4%af%e0%b5%8b%e0%b4%97%e0%b5%8d%e0%b4%af%e0%b4%a4%e0%b4%af%e0%b5%81%e0%b4%b3%e0%b5%8d%e0%b4%b3",
+          "text": "വനം -യോഗ്യതയുള്ള പട്ടിക"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%9f%e0%b5%8d%e0%b4%b0%e0%b5%88%e0%b4%ac%e0%b5%bd-%e0%b4%b5%e0%b4%95%e0%b5%81%e0%b4%aa%e0%b5%8d%e0%b4%aa%e0%b5%8d-%e0%b4%a",
+          "text": "ട്രൈബൽ വകുപ്പ് – യോഗ്യതയുള്ള പട്ടിക"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%8e%e0%b4%ac%e0%b4%bf%e0%b4%b8%e0%b4%bf%e0%b4%a1%e0%b4%bf-%e0%b4%aa%e0%b4%a6%e0%b5%8d%e0%b4%a7%e0%b4%a4%e0%b4%bf/",
+          "text": "എബിസിഡി പദ്ധതി"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b8%e0%b4%bf-%e0%b4%8e%e0%b4%b8%e0%b5%8d-%e0%b4%86%e0%b5%bc/",
+          "text": "സി.എസ് .ആർ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%9f%e0%b5%82%e0%b4%b1%e0%b4%bf%e0%b4%b8%e0%b4%82/",
+          "text": "ടൂറിസം"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%a4%e0%b4%be%e0%b4%b2%e0%b5%8d%e0%b4%aa%e0%b4%b0%e0%b5%8d%e0%b4%af%e0%b4%ae%e0%b5%81%e0%b4%b3%e0%b5%8d%e0%b4%b3-%e0%b4%b8",
+          "text": "താല്പര്യമുള്ള സ്ഥലങ്ങള്&#x200d;"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b8%e0%b4%82%e0%b4%b8%e0%b5%8d%e0%b4%95%e0%b4%be%e0%b4%b0%e0%b4%b5%e0%b5%81%e0%b4%82-%e0%b4%aa%e0%b5%88%e0%b4%a4%e0%b5%83",
+          "text": "സംസ്കാരവും പൈതൃകവും"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b5%e0%b4%bf%e0%b4%a8%e0%b5%87%e0%b4%be%e0%b4%a6-%e0%b4%b8%e0%b4%9e%e0%b5%8d%e0%b4%9a%e0%b4%be%e0%b4%b0-%e0%b4%95%e0%b5%8",
+          "text": "വിനോദ സഞ്ചാര കേന്ദ്രങ്ങൾ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%aa%e0%b5%81%e0%b4%b0%e0%b4%be%e0%b4%b0%e0%b5%87%e0%b4%96%e0%b4%95%e0%b5%be/",
+          "text": "പുരാരേഖകൾ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%95%e0%b4%b0%e0%b5%8d%e2%80%8d%e0%b4%ae%e0%b5%8d%e0%b4%ae-%e0%b4%aa%e0%b4%a6%e0%b5%8d%e0%b4%a7%e0%b4%a4%e0%b4%bf/",
+          "text": "കര്&#x200d;മ്മ പദ്ധതി"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b8%e0%b5%87%e0%b4%b5%e0%b4%a8%e0%b4%99%e0%b5%8d%e0%b4%99%e0%b4%b3%e0%b5%8d%e2%80%8d/",
+          "text": "സേവനങ്ങള്&#x200d;"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b5%e0%b4%b0%e0%b4%be%e0%b4%a8%e0%b4%bf%e0%b4%b0%e0%b4%bf%e0%b4%95%e0%b5%8d%e0%b4%95%e0%b5%81%e0%b4%a8%e0%b5%8d%e0%b4%a8-",
+          "text": "വരാനിരിക്കുന്ന പരിപാടികൾ"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%b8%e0%b4%82%e0%b4%ad%e0%b4%b5%e0%b4%99%e0%b5%8d%e0%b4%99%e0%b4%b3%e0%b5%8d%e2%80%8d/",
+          "text": "സംഭവങ്ങള്&#x200d;"
+        },
+        {
+          "href": "https://wayanad.gov.in/document-category/%e0%b4%95%e0%b5%8b%e0%b4%9f%e0%b5%8d%e0%b4%aa-2003/",
+          "text": "കോട്പ-2003"
+        },
+        {
+          "href": "https://wayanad.gov.in/document-category/%e0%b4%86%e0%b5%bc-%e0%b4%9f%e0%b4%bf-%e0%b4%8e-%e0%b4%b5%e0%b4%af%e0%b4%a8%e0%b4%be%e0%b4%9f%e0%b5%8d/",
+          "text": "ആർ ടി എ വയനാട്"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%95%e0%b5%8b%e0%b4%b5%e0%b4%bf%e0%b4%a1%e0%b5%8d-19-%e0%b4%a6%e0%b4%bf%e0%b4%b5%e0%b4%b8%e0%b5%87%e0%b4%a8%e0%b4%af%e0%b5",
+          "text": "പുതിയകാര്യങ്ങള്&#x200d;"
+        },
+        {
+          "href": "https://wayanad.gov.in/document/%e0%b4%95%e0%b5%8b%e0%b4%b5%e0%b4%bf%e0%b4%a1%e0%b5%8d-19-%e0%b4%b5%e0%b5%8d%e0%b4%af%e0%b4%be%e0%b4%aa%e0%b4%a8%e0%b4",
+          "text": "നിര്&#x200d;ദ്ദേശങ്ങള്&#x200d;"
+        },
+        {
+          "href": "https://wayanad.gov.in/video/%e0%b4%95%e0%b5%8b%e0%b4%b5%e0%b4%bf%e0%b4%a1%e0%b5%8d-19-%e0%b4%ae%e0%b5%81%e0%b4%a8%e0%b5%8d%e2%80%8d%e0%b4%95%e0%b4%b0",
+          "text": "മുന്&#x200d;കരുതല്&#x200d;"
+        },
+        {
+          "href": "https://wayanad.gov.in/%e0%b4%9a%e0%b4%bf%e0%b4%a4%e0%b5%8d%e0%b4%b0-%e0%b4%b8%e0%b4%9e%e0%b5%8d%e0%b4%9a%e0%b4%af%e0%b4%82/",
+          "text": "ചിത്ര സഞ്ചയം"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/%e0%b4%8e%e0%b5%bd-%e0%b4%b8%e0%b4%bf-%e0%b4%b8%e0%b4%bf/",
+          "text": "എൽ. സി. സി"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/%e0%b4%ac%e0%b4%a8%e0%b5%8d%e0%b4%a7%e0%b4%aa%e0%b5%8d%e0%b4%aa%e0%b5%86%e0%b4%9f%e0%b4%be%e0%b4%a8%e0%b5%81%e0%b4%b3%e0%b5%",
+          "text": "ബന്ധപ്പെടാനുള്ള വിശദാംശങ്ങൾ"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/%e0%b4%a8%e0%b4%9f%e0%b4%aa%e0%b4%9f%e0%b4%bf%e0%b4%95%e0%b5%be/",
+          "text": "നടപടികൾ"
+        },
+        {
+          "href": "https://wayanad.gov.in/public-utility-category/%e0%b4%95%e0%b5%8b%e0%b4%b3%e0%b5%87%e0%b4%9c%e0%b5%81%e0%b4%95%e0%b5%be-%e0%b4%b8%e0%b5%bc%e0%b4%b5%e0",
+          "text": "21 കോളേജുകൾ"
+        },
+        {
+          "href": "https://wayanad.gov.in/public-utility-category/%e0%b4%a8%e0%b4%97%e0%b4%b0%e0%b4%b8%e0%b4%ad%e0%b4%95%e0%b4%b3%e0%b5%8d/",
+          "text": "3 നഗരസഭകള്‍"
+        }
+      ],
+      "text_hits": {
+        "wayanad": 158,
+        "2024": 21
+      }
+    },
+    {
+      "key": "copernicus_root_nav",
+      "url": "https://emergency.copernicus.eu/",
+      "http_status": 200,
+      "bytes": 20467,
+      "final_url": "https://emergency.copernicus.eu/",
+      "candidate_links": [
+        {
+          "href": "https://mapping.emergency.copernicus.eu/",
+          "text": "On-Demand Mapping"
+        },
+        {
+          "href": "https://human-settlement.emergency.copernicus.eu",
+          "text": "Exposure Mapping"
+        },
+        {
+          "href": "https://mapping.emergency.copernicus.eu/news/workshop-on-artificial-intelligence-for-mapping-building-damage-after-earthquakes-and-storms-using-remote",
+          "text": "WORKSHOP: AI for Building Damage Assessment"
+        },
+        {
+          "href": "https://rapidmapping.emergency.copernicus.eu/EMSR927/reporting",
+          "text": "Flood in Nepal"
+        },
+        {
+          "href": "https://rapidmapping.emergency.copernicus.eu/EMSR935/reporting",
+          "text": "Flood in Alicante-Valencia Regions, Spain - Situational reporting"
+        },
+        {
+          "href": "https://rapidmapping.emergency.copernicus.eu/EMSR934/reporting",
+          "text": "Earthquake in Panama - Situational reporting"
+        },
+        {
+          "href": "https://rapidmapping.emergency.copernicus.eu/EMSR933/reporting",
+          "text": "Flood in Crete, Greece - Situational reporting"
+        },
+        {
+          "href": "https://emergency.copernicus.eu/documents/21/Privacy_Statement_CEMS_16Jan2026.pdf",
+          "text": "Data protection notice"
+        }
+      ],
+      "text_hits": {
+        "2024": 2
+      }
+    },
+    {
+      "key": "copernicus_mapping_no_slash",
+      "url": "https://emergency.copernicus.eu/mapping",
+      "http_status": 404,
+      "bytes": 9678,
+      "final_url": "https://emergency.copernicus.eu/mapping/",
+      "hrefs": [
+        "/",
+        "/about",
+        "/data",
+        "/events/",
+        "/help-support/",
+        "/jobs-tenders/",
+        "/news/",
+        "/static/css/cems.css",
+        "/static/images/favicons/favicon.ico",
+        "/user-corner",
+        "https://atmosphere.copernicus.eu",
+        "https://climate.copernicus.eu",
+        "https://commission.europa.eu/cookies-policy_en",
+        "https://emergency.copernicus.eu",
+        "https://emergency.copernicus.eu/documents/21/Privacy_Statement_CEMS_16Jan2026.pdf",
+        "https://land.copernicus.eu/en?",
+        "https://marine.copernicus.eu",
+        "https://twitter.com/CopernicusEMS",
+        "https://www.copernicus.eu/en/copernicus-services/security",
+        "https://www.copernicus.eu/en/network/get-touch",
+        "https://youtube.com/playlist?list=PLNxdHvTE74JxrHSiSJLuYQW8zkphx7pTT&si=FZpPKD_cVaaJT3Lk"
+      ]
+    },
+    {
+      "key": "copernicus_list_no_rapid",
+      "url": "https://emergency.copernicus.eu/mapping/list-of-activations",
+      "http_status": 404,
+      "bytes": 9678,
+      "final_url": "https://emergency.copernicus.eu/mapping/list-of-activations/",
+      "hrefs": [
+        "/",
+        "/about",
+        "/data",
+        "/events/",
+        "/help-support/",
+        "/jobs-tenders/",
+        "/news/",
+        "/static/css/cems.css",
+        "/static/images/favicons/favicon.ico",
+        "/user-corner",
+        "https://atmosphere.copernicus.eu",
+        "https://climate.copernicus.eu",
+        "https://commission.europa.eu/cookies-policy_en",
+        "https://emergency.copernicus.eu",
+        "https://emergency.copernicus.eu/documents/21/Privacy_Statement_CEMS_16Jan2026.pdf",
+        "https://land.copernicus.eu/en?",
+        "https://marine.copernicus.eu",
+        "https://twitter.com/CopernicusEMS",
+        "https://www.copernicus.eu/en/copernicus-services/security",
+        "https://www.copernicus.eu/en/network/get-touch",
+        "https://youtube.com/playlist?list=PLNxdHvTE74JxrHSiSJLuYQW8zkphx7pTT&si=FZpPKD_cVaaJT3Lk"
+      ]
+    }
+  ]
+}

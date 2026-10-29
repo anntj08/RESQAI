@@ -1,0 +1,234 @@
+{
+  "generated_utc": "2026-10-29T14:43:39.955599+00:00",
+  "probes": [
+    {
+      "key": "ndma_landslide_0",
+      "url": "https://ndma.gov.in/en/landslide-0",
+      "http_status": 200,
+      "bytes": 80100,
+      "final_url": "https://ndma.gov.in/en/landslide-0",
+      "candidate_links": [
+        {
+          "href": "/en/landslide-0",
+          "text": "English"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/India-SFDRR-Midterm-Review-Report.pdf",
+          "text": "SFDRR"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/COMPENDIUM-OF-LAWS-ON-DISASTER-MANAGEMENT.pdf",
+          "text": "Compendium of Laws on DM"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/Jobs/Recruitment_Handbook_Revised_Oct_2025.pdf",
+          "text": "Recruitment Handbook"
+        },
+        {
+          "href": "/index.php/en/flood-hazard-atlases",
+          "text": "Flood Hazard Atlas"
+        },
+        {
+          "href": "/index.php/en/landslide-0",
+          "text": "Landslide"
+        },
+        {
+          "href": "/index.php/en/landslide-425-mb",
+          "text": "Landslide"
+        },
+        {
+          "href": "/index.php/en/landslide-hazard-atlas",
+          "text": "Landslide Hazard Atlas"
+        },
+        {
+          "href": "https://internal.imd.gov.in/section/nhac/dynamic/hmc.pdf",
+          "text": "Mountain Wx Bulletin"
+        }
+      ],
+      "body_excerpt": "Landslide | NDMA भारत सरकार | Government of india Skip to main content A- A A+ | A A | English | हिन्दी Search राष्ट्रीय आपदा प्रबंधन प्राधिकरणNational Disaster Management Authority गृह मंत्रालय | भारत सरकारMinistry of Home Affairs | Government of India ☰ Main navigation Home About Us expand_more Introduction Members chevron_right Shri Krishna S"
+    },
+    {
+      "key": "ndma_landslide_425mb",
+      "url": "https://ndma.gov.in/en/landslide-425-mb",
+      "http_status": 200,
+      "bytes": 65215,
+      "final_url": "https://ndma.gov.in/en/landslide-425-mb",
+      "candidate_links": [
+        {
+          "href": "/en/landslide-425-mb",
+          "text": "English"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/India-SFDRR-Midterm-Review-Report.pdf",
+          "text": "SFDRR"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/COMPENDIUM-OF-LAWS-ON-DISASTER-MANAGEMENT.pdf",
+          "text": "Compendium of Laws on DM"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/Jobs/Recruitment_Handbook_Revised_Oct_2025.pdf",
+          "text": "Recruitment Handbook"
+        },
+        {
+          "href": "/index.php/en/flood-hazard-atlases",
+          "text": "Flood Hazard Atlas"
+        },
+        {
+          "href": "/index.php/en/landslide-0",
+          "text": "Landslide"
+        },
+        {
+          "href": "/index.php/en/landslide-425-mb",
+          "text": "Landslide"
+        },
+        {
+          "href": "/index.php/en/landslide-hazard-atlas",
+          "text": "Landslide Hazard Atlas"
+        },
+        {
+          "href": "https://internal.imd.gov.in/section/nhac/dynamic/hmc.pdf",
+          "text": "Mountain Wx Bulletin"
+        }
+      ],
+      "body_excerpt": "Landslide (42"
+    },
+    {
+      "key": "ndma_landslide_hazard_atlas_en_page",
+      "url": "https://ndma.gov.in/en/landslide-hazard-atlas",
+      "http_status": 200,
+      "bytes": 64510,
+      "final_url": "https://ndma.gov.in/en/landslide-hazard-atlas",
+      "candidate_links": [
+        {
+          "href": "/en/landslide-hazard-atlas",
+          "text": "English"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/India-SFDRR-Midterm-Review-Report.pdf",
+          "text": "SFDRR"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/COMPENDIUM-OF-LAWS-ON-DISASTER-MANAGEMENT.pdf",
+          "text": "Compendium of Laws on DM"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/Jobs/Recruitment_Handbook_Revised_Oct_2025.pdf",
+          "text": "Recruitment Handbook"
+        },
+        {
+          "href": "/en/flood-hazard-atlases",
+          "text": "Flood Hazard Atlas"
+        },
+        {
+          "href": "/en/landslide-0",
+          "text": "Landslide"
+        },
+        {
+          "href": "/en/landslide-425-mb",
+          "text": "Landslide"
+        },
+        {
+          "href": "https://internal.imd.gov.in/section/nhac/dynamic/hmc.pdf",
+          "text": "Mountain Wx Bulletin"
+        },
+        {
+          "href": "/sites/default/files/PDF/Landslide_Atlas_2023.pdf",
+          "text": "Download (60 MB)"
+        }
+      ],
+      "body_excerpt": "Landslide Hazard Atlas | NDMA भारत सरकार | Government of india Skip to main content A- A A+ | A A | English | हिन्दी Search राष्ट्रीय आपदा प्रबंधन प्राधिकरणNational Disaster Management Authority गृह मंत्रालय | भारत सरकारMinistry of Home Affairs | Government of India ☰ Main navigation Home About Us expand_more Introduction Members chevron_right Shri Krishna S"
+    },
+    {
+      "key": "ksdma_hazard_maps_zips",
+      "url": "https://sdma.kerala.gov.in/hazard-maps/",
+      "http_status": 200,
+      "bytes": 115498,
+      "final_url": "https://sdma.kerala.gov.in/hazard-maps/",
+      "zip_links": [
+        {
+          "href": "/wp-content/uploads/2026/06/1.-Flood-Return-Probability-Historical-10-25-50-years.zip",
+          "text": "Flood Return Probability (10, 25, 50 years)"
+        },
+        {
+          "href": "/wp-content/uploads/2026/06/2.Flood-Return-Probability-Historical-100-200-500-years.zip",
+          "text": "Flood Return Probability (100, 200, 500 years)"
+        },
+        {
+          "href": "/wp-content/uploads/2026/06/3.-Flood-Return-Probability-RCP8.5-10-25-50-years.zip",
+          "text": "Flood Return Probability (10, 25, 50 years)"
+        },
+        {
+          "href": "/wp-content/uploads/2026/06/4.Flood-Return-Probability-RCP8.5-100-200-500-years.zip",
+          "text": "Flood Return Probability (100, 200, 500 years)"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/TVM.zip",
+          "text": "Thiruvananthapuram"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Kollam.zip",
+          "text": "Kollam"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Pathanamthitta.zip",
+          "text": "Pathanamthitta"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Kottayam.zip",
+          "text": "Kottayam"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Idukki.zip",
+          "text": "Idukki"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Ernakulam.zip",
+          "text": "Ernakulam"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Thrissur.zip",
+          "text": "Thrissur"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Palakkad.zip",
+          "text": "Palakkad"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Malappuram.zip",
+          "text": "Malappuram"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Kozhikode.zip",
+          "text": "Kozhikode"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Wayanad.zip",
+          "text": "Wayanad"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Kannur.zip",
+          "text": "Kannur"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Kasaragod.zip",
+          "text": "Kasaragod"
+        }
+      ],
+      "lsz_context": [
+        "<a href=\"/landslide-early-warning/\">Landslide Early Warning",
+        "<a href=\"/landslides-2018/\">Landslides 2018",
+        "<a href=\"/landslides-2019/\">Landslides 2019",
+        "<a href=\"/thiruvambadi-landslide-preparedness/\">Thiruvambadi Landslide",
+        "<a href=\"/landslides-2024/\">Landslides 2024",
+        "<a href=\"/reports-landslides-2024/\">Reports – Landslides 2024",
+        "<a href=\"/landslides-2021/\">Landslides 2021",
+        "Landslide Susceptibility zones of District of Kerala (GSI, 2022)- Shape files",
+        "Landslide Susceptibility Zones of Districts of Kerala (GSI, 2022)",
+        "<a href=\"/wp-content/uploads/2025/06/Landslide_Susceptibility_Zones_Districts_FINAL.pdf\" target=\"_blank\" rel=\"noopener\">Click here for the PDF Map",
+        "Landslide Susceptibility Map of Kerala (NCESS, 2010)",
+        "As Geological Survey of India (GSI), the National Nodal Agency for Landslide Hazard Susceptibility Mapping has published the landslide susceptibility map of Kerala, the LSM of GSI will replace all other maps used in an"
+      ]
+    }
+  ]
+}

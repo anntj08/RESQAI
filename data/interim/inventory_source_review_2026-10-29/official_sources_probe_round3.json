@@ -1,0 +1,394 @@
+{
+  "generated_utc": "2026-10-29T14:41:52.729538+00:00",
+  "probes": [
+    {
+      "key": "ndma_landslide_hazard_atlas_en",
+      "url": "https://ndma.gov.in/node/84",
+      "http_status": 200,
+      "bytes": 68418,
+      "final_url": "https://ndma.gov.in/node/84",
+      "candidate_links": [
+        {
+          "href": "/en/landslide-hazard-atlas",
+          "text": "English"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/India-SFDRR-Midterm-Review-Report.pdf",
+          "text": "एसएफडीआरआर"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/COMPENDIUM-OF-LAWS-ON-DISASTER-MANAGEMENT.pdf",
+          "text": "आपदा प्रबंधन पर कानूनों का संकलन"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/Jobs/Recruitment_Handbook_Revised_Oct_2025.pdf",
+          "text": "Recruitment Handbook"
+        },
+        {
+          "href": "/hi/node/84",
+          "text": "Landslide Hazard Atlas"
+        },
+        {
+          "href": "https://internal.imd.gov.in/section/nhac/dynamic/hmc.pdf",
+          "text": "पहाड़ Wx बुलेटिन"
+        },
+        {
+          "href": "/sites/default/files/PDF/Landslide_Atlas_2023.pdf",
+          "text": "Download (60 MB)"
+        }
+      ],
+      "text_hits": {
+        "landslide": 11,
+        "atlas": 11
+      }
+    },
+    {
+      "key": "ndma_landslide_node_en",
+      "url": "https://ndma.gov.in/node/132",
+      "http_status": 200,
+      "bytes": 73505,
+      "final_url": "https://ndma.gov.in/node/132",
+      "candidate_links": [
+        {
+          "href": "/en/landslide",
+          "text": "English"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/India-SFDRR-Midterm-Review-Report.pdf",
+          "text": "एसएफडीआरआर"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/COMPENDIUM-OF-LAWS-ON-DISASTER-MANAGEMENT.pdf",
+          "text": "आपदा प्रबंधन पर कानूनों का संकलन"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/Jobs/Recruitment_Handbook_Revised_Oct_2025.pdf",
+          "text": "Recruitment Handbook"
+        },
+        {
+          "href": "/hi/node/84",
+          "text": "Landslide Hazard Atlas"
+        },
+        {
+          "href": "https://internal.imd.gov.in/section/nhac/dynamic/hmc.pdf",
+          "text": "पहाड़ Wx बुलेटिन"
+        }
+      ],
+      "text_hits": {
+        "landslide": 27,
+        "atlas": 3
+      }
+    },
+    {
+      "key": "dmsuite_redirect_check",
+      "url": "https://dmsuite.kerala.gov.in/",
+      "http_status": 200,
+      "bytes": 187312,
+      "final_url": "https://dmsuite.kerala.gov.in/",
+      "text_hits": {
+        "wayanad": 12,
+        "ddma": 2
+      },
+      "title": "DMSuite &mdash; Disaster Management Suite"
+    },
+    {
+      "key": "wayanad_ddma_english",
+      "url": "https://wayanad.gov.in/en/",
+      "http_status": 200,
+      "bytes": 168447,
+      "final_url": "https://wayanad.gov.in/en/",
+      "candidate_links": [
+        {
+          "href": "https://wayanad.gov.in/",
+          "text": "മലയാളം"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/",
+          "text": "വയനാട് WAYANAD"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/home/",
+          "text": "Home"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/about-district/",
+          "text": "About District"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/history/",
+          "text": "History"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/about-district/whos-who/",
+          "text": "Who’s Who"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/administrative-setup/",
+          "text": "Administrative Setup"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/collectrate/",
+          "text": "Collectorate"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/subdivision-blocks/",
+          "text": "Revenue Subdivision"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/block/",
+          "text": "Blocks"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/municipality/",
+          "text": "Municipality"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/village-panchayats/",
+          "text": "Villages"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/courts/",
+          "text": "Courts"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/police/",
+          "text": "Police"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/map-of-district/",
+          "text": "Map of District"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/demography/",
+          "text": "Demography"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/tribal-cell-helpline-2/",
+          "text": "Directory"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/tribal-cell-helpline/",
+          "text": "DIRECTORY"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/public-utilities/",
+          "text": "Public Utilities"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/departments/",
+          "text": "Departments"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/rti/",
+          "text": "RTI"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/revenue-2/",
+          "text": "REVENUE"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/education/",
+          "text": "Education"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/kswmp/",
+          "text": "KSWMP"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/dmo-2/",
+          "text": "DMO"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/it-mission/",
+          "text": "IT MISSION"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/akshaya-2/",
+          "text": "Akshaya"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/odop/",
+          "text": "ODOP"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/about/",
+          "text": "About"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/wayanad-robusta-coffee/",
+          "text": "Wayanad Robusta coffee"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/the-kerala-plantation-expo/",
+          "text": "The Kerala Plantation Expo"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/odop-team/",
+          "text": "ODOP Team"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/coffee-suppliers/",
+          "text": "Coffee Suppliers"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/disaster-management-2/",
+          "text": "Disaster"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/disaster-management/",
+          "text": "DIRECTORY"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/dm-orders/",
+          "text": "DM – ORDERS &#038; REPORTS"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/initiatives-of-ddma-2020/",
+          "text": "INITIATIVES OF DDMA"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/dm-plan-2021/",
+          "text": "DISASTER MANAGEMENT PLAN"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/colony-dm-plan-2021/",
+          "text": "COLONY DM PLAN-2021"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/i-a-g-application/",
+          "text": "I A G Application"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/dm-news/",
+          "text": "DM News"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/beneficiary-list/",
+          "text": "Beneficiary List"
+        },
+        {
+          "href": "https://wayanad.gov.in/coffee-table-book/",
+          "text": "Coffee Table Book"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/election-2024-2/",
+          "text": "ELECTION"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/election/",
+          "text": "Training Materials -Polling Officers"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/inspection-of-register-of-candidates/",
+          "text": "INSPECTION OF REGISTER OF CANDIDATES EXPENDITURE 2026"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/sweetey/",
+          "text": "SWEETEY"
+        },
+        {
+          "href": "http://wayanad.gov.in",
+          "text": "NOTICES"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/new-akshaya-center-accepting-applications/",
+          "text": "New Akshaya Center – Accepting Applications"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/news/",
+          "text": "News"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/documents/",
+          "text": "Documents"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/forest-list/",
+          "text": "Forest / Tribal List"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/forest-list-2/",
+          "text": "Forest -Eligible list"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/tribal-list/",
+          "text": "Tribal Department Eligible List"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/recruitments/",
+          "text": "Recruitments"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/adhaar-updation/",
+          "text": "Adhaar Updation"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/enrolment-updation/",
+          "text": "Enrolment / Updation"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/abcd-project/",
+          "text": "ABCD Project"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/csr/",
+          "text": "CSR CONCLAVE"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/tourism/",
+          "text": "Tourism"
+        }
+      ],
+      "text_hits": {
+        "wayanad": 161,
+        "2024": 28
+      }
+    },
+    {
+      "key": "cems_rapidmapping_root",
+      "url": "https://rapidmapping.emergency.copernicus.eu/",
+      "http_status": 200,
+      "bytes": 15897,
+      "final_url": "https://mapping.emergency.copernicus.eu/activations/",
+      "candidate_links": [
+        {
+          "href": "/activations/",
+          "text": "Activations"
+        },
+        {
+          "href": "https://mapping.emergency.copernicus.eu/documents/161/Privacy_Statement_CEMS_16Jan2026.pdf",
+          "text": "Privacy statement Accessibility Statement"
+        }
+      ],
+      "text_hits": {}
+    },
+    {
+      "key": "cems_on_demand_root",
+      "url": "https://mapping.emergency.copernicus.eu/",
+      "http_status": 200,
+      "bytes": 25833,
+      "final_url": "https://mapping.emergency.copernicus.eu/",
+      "candidate_links": [
+        {
+          "href": "/activations/",
+          "text": "Activations"
+        },
+        {
+          "href": "/news/flood-in-alicante-valencia-regions-spain-emsr935/",
+          "text": "Flood in Alicante-Valencia Regions, Spain"
+        },
+        {
+          "href": "/news/earthquake-in-los-santos-panama-emsr934/",
+          "text": "Earthquake in Los Santos, Panama"
+        },
+        {
+          "href": "https://mapping.emergency.copernicus.eu/documents/161/Privacy_Statement_CEMS_16Jan2026.pdf",
+          "text": "Privacy statement Accessibility Statement"
+        }
+      ],
+      "text_hits": {
+        "2024": 1
+      }
+    }
+  ]
+}

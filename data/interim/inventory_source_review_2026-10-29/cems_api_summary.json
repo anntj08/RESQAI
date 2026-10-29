@@ -1,0 +1,30 @@
+{
+  "generated_utc": "2026-10-29T14:46:45.155108+00:00",
+  "api_base": "https://mapping.emergency.copernicus.eu/activations/api/activations/",
+  "queries": {
+    "q_wayanad_alltime": {
+      "url": "https://mapping.emergency.copernicus.eu/activations/api/activations/?categories=fire%2Cvolcan%2Cearthquake%2Cmass%2Cstorm%2Cflood%2Chumanitarian%2Cindustrial%2Cenvironment%2Cother&services=&closed=&activationTime=2012-01%2C2026-10-29&q=Wayanad&limit=100&offset=0",
+      "http_status": 200,
+      "bytes": 52,
+      "count_reported": 0,
+      "rows_returned": 0,
+      "rows": []
+    },
+    "india_mass_movement": {
+      "url": "https://mapping.emergency.copernicus.eu/activations/api/activations/?categories=fire%2Cvolcan%2Cearthquake%2Cmass%2Cstorm%2Cflood%2Chumanitarian%2Cindustrial%2Cenvironment%2Cother&services=&closed=&activationTime=2012-01%2C2026-10-29&countries=India&q=&limit=100&offset=0",
+      "http_status": 200,
+      "bytes": 52,
+      "count_reported": 0,
+      "rows_returned": 0,
+      "rows": []
+    },
+    "india_window_jul2024": {
+      "url": "https://mapping.emergency.copernicus.eu/activations/api/activations/?categories=fire%2Cvolcan%2Cearthquake%2Cmass%2Cstorm%2Cflood%2Chumanitarian%2Cindustrial%2Cenvironment%2Cother&services=&closed=&activationTime=2024-07-01%2C2024-08-31&countries=India&q=&limit=100&offset=0",
+      "http_status": 200,
+      "bytes": 52,
+      "count_reported": 0,
+      "rows_returned": 0,
+      "rows": []
+    }
+  }
+}

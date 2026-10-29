@@ -1,0 +1,8 @@
+{
+  "url": "https://mapping.emergency.copernicus.eu/activations/api/activations/?categories=fire%2Cvolcan%2Cearthquake%2Cmass%2Cstorm%2Cflood%2Chumanitarian%2Cindustrial%2Cenvironment%2Cother&services=&closed=&activationTime=2012-01%2C2026-10-29&countries=India&q=&limit=100&offset=0",
+  "http_status": 200,
+  "bytes": 52,
+  "count_reported": 0,
+  "rows_returned": 0,
+  "rows": []
+}

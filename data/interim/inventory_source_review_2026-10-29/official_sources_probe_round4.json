@@ -1,0 +1,286 @@
+{
+  "generated_utc": "2026-10-29T14:42:53.340373+00:00",
+  "probes": [
+    {
+      "key": "wayanad_dm_orders",
+      "url": "https://wayanad.gov.in/en/dm-orders/",
+      "http_status": 200,
+      "bytes": 166234,
+      "final_url": "https://wayanad.gov.in/en/dm-orders/",
+      "candidate_links": [
+        {
+          "href": "https://wayanad.gov.in/en/dm-orders/",
+          "text": "DM – ORDERS &#038; REPORTS"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/election-2024-2/",
+          "text": "ELECTION"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/carbon-neutral-coffee-park-sia-study-report/",
+          "text": "Carbon Neutral Coffee Park – SIA study report"
+        },
+        {
+          "href": "https://www.facebook.com/sharer/sharer.php?u=https://wayanad.gov.in/en/dm-orders/&t=DM+-+ORDERS+%26+REPORTS",
+          "text": "Facebook"
+        },
+        {
+          "href": "https://x.com/share?url=https://wayanad.gov.in/en/dm-orders/&via=TWITTER_HANDLE&text=DM+-+ORDERS+%26+REPORTS",
+          "text": "X"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/document/wayanad-district-disaster-management-authority-building-construction-control-orders-2026/",
+          "text": "Monsoon Preparation 2026 &#8211; Orders issued regarding the works to be completed by various department"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2026/05/17786721542533.pdf",
+          "text": "Monsoon Preparation 2026 &#8211; Orders issued regarding the works to be completed by various department"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2026/04/17768448809583.pdf",
+          "text": "1 : Cutting down trees/branches that pose a threat – giving instructions and issuing orders"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2025/06/2025062636.pdf",
+          "text": "1 : Order &#8211; opening the shutters of Banasura Dam."
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2025/06/2025060555.pdf",
+          "text": "1 :- Things to be implemented by the Transport and Tourism Departments"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2025/06/2025060583.pdf",
+          "text": "2 :- Things to be implemented by the Agriculture and Animal Husbandry Departments"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2025/06/2025060537.pdf",
+          "text": "3 :- Things to be implemented by the Education Department"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2025/06/2025060575.pdf",
+          "text": "4 :- Things to be implemented by KSEB and Public Works Departments"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2025/06/2025060529.pdf",
+          "text": "5 :- Things to be implemented in relief camps"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2025/06/2025060557.pdf",
+          "text": "6 :- Things to be implemented by the Local Self-Government Department"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2025/06/2025060524.pdf",
+          "text": "7 :- Things to be implemented by the SC &amp; ST Development Department and the Forest Department"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2025/06/2025060592.pdf",
+          "text": "8 :-Things to be implemented by the Social Justice and Women and Child Development Departments"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2025/06/2025060574.pdf",
+          "text": "9 :- Order for banning soil excavation in the district."
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2025/06/2025060532.pdf",
+          "text": "10 :- Order regarding the operation of tourist centers operating in the district"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2025/06/2025060672.pdf",
+          "text": "11 :- Order instructing Deputy Collectors to strengthen monsoon prevention activities"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2023/04/2023042046.pdf",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2023/03/2023031623.pdf",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2023/03/2023031648-1.pdf",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/document/soil-cutting-restriction-order-2/",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2022/06/2022061858.pdf",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2022/05/2022053032.pdf",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2021/12/2021121756.pdf",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2020/12/2020121850.pdf",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2021/01/2021011287.pdf",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2021/01/2021011293.pdf",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2021/01/2021011252.pdf",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2025/10/17599918039528.pdf",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2021/01/20210112100.pdf",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2021/06/2021062132.pdf",
+          "text": "View &amp; Download"
+        },
+        {
+          "href": "https://cdn.s3waas.gov.in/s3b73ce398c39f506af761d2277d853a92/uploads/2021/06/2021062140.pdf",
+          "text": "View &amp; Download"
+        }
+      ],
+      "text_hits": {
+        "wayanad": 133,
+        "landslide": 9,
+        "2024": 1
+      }
+    },
+    {
+      "key": "wayanad_disaster_page",
+      "url": "https://wayanad.gov.in/en/disaster-management-2/",
+      "http_status": 200,
+      "bytes": 124938,
+      "final_url": "https://wayanad.gov.in/en/disaster-management-2/",
+      "candidate_links": [
+        {
+          "href": "https://wayanad.gov.in/en/dm-orders/",
+          "text": "DM – ORDERS &#038; REPORTS"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/election-2024-2/",
+          "text": "ELECTION"
+        },
+        {
+          "href": "https://wayanad.gov.in/en/carbon-neutral-coffee-park-sia-study-report/",
+          "text": "Carbon Neutral Coffee Park – SIA study report"
+        }
+      ],
+      "text_hits": {
+        "wayanad": 123,
+        "2024": 1
+      }
+    },
+    {
+      "key": "ndma_landslide_en",
+      "url": "https://ndma.gov.in/en/landslide",
+      "http_status": 200,
+      "bytes": 69580,
+      "final_url": "https://ndma.gov.in/en/landslide",
+      "candidate_links": [
+        {
+          "href": "/en/landslide",
+          "text": "English"
+        },
+        {
+          "href": "/en/ndma-guidelines",
+          "text": "NDMA Guidelines"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/India-SFDRR-Midterm-Review-Report.pdf",
+          "text": "SFDRR"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/COMPENDIUM-OF-LAWS-ON-DISASTER-MANAGEMENT.pdf",
+          "text": "Compendium of Laws on DM"
+        },
+        {
+          "href": "https://ndma.gov.in/sites/default/files/PDF/Jobs/Recruitment_Handbook_Revised_Oct_2025.pdf",
+          "text": "Recruitment Handbook"
+        },
+        {
+          "href": "/en/guidelines",
+          "text": "Guidelines"
+        },
+        {
+          "href": "/en/annual-reports",
+          "text": "Annual Reports"
+        },
+        {
+          "href": "/en/reports-studies",
+          "text": "Reports &amp; Studies"
+        },
+        {
+          "href": "/en/flood-hazard-atlases",
+          "text": "Flood Hazard Atlas"
+        },
+        {
+          "href": "/en/landslide-0",
+          "text": "Landslide"
+        },
+        {
+          "href": "/en/landslide-425-mb",
+          "text": "Landslide"
+        },
+        {
+          "href": "/en/landslide-hazard-atlas",
+          "text": "Landslide Hazard Atlas"
+        },
+        {
+          "href": "https://internal.imd.gov.in/section/nhac/dynamic/hmc.pdf",
+          "text": "Mountain Wx Bulletin"
+        }
+      ],
+      "text_hits": {
+        "landslide": 32
+      }
+    },
+    {
+      "key": "cems_activations_page",
+      "url": "https://mapping.emergency.copernicus.eu/activations/",
+      "http_status": 200,
+      "bytes": 15897,
+      "final_url": "https://mapping.emergency.copernicus.eu/activations/",
+      "script_srcs": [
+        "/static/js/analytics.js",
+        "/static/js/bootstrap/dist/js/bootstrap.bundle.min.js",
+        "/static/js/notifications.js",
+        "https://cems-mapping-website.s3.amazonaws.com/static/datastats/assets/main-B_pdTgP9.js",
+        "https://webtools.europa.eu/load.js"
+      ],
+      "api_strings": []
+    }
+  ],
+  "cems_api_tries": [
+    {
+      "url": "https://mapping.emergency.copernicus.eu/api/activations",
+      "http_status": 404,
+      "bytes": 14753,
+      "content_type": "text/html; charset=utf-8",
+      "preview": "  <!DOCTYPE html> <html lang=\"en\">     <head>         <meta charset=\"utf-8\" />         <link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" /> "
+    },
+    {
+      "url": "https://mapping.emergency.copernicus.eu/jsonapi/node/activation",
+      "http_status": 404,
+      "bytes": 14753,
+      "content_type": "text/html; charset=utf-8",
+      "preview": "  <!DOCTYPE html> <html lang=\"en\">     <head>         <meta charset=\"utf-8\" />         <link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" /> "
+    },
+    {
+      "url": "https://mapping.emergency.copernicus.eu/api/v1/activations",
+      "http_status": 404,
+      "bytes": 14753,
+      "content_type": "text/html; charset=utf-8",
+      "preview": "  <!DOCTYPE html> <html lang=\"en\">     <head>         <meta charset=\"utf-8\" />         <link rel=\"shortcut icon\" href=\"/static/images/favicon.ico\" /> "
+    }
+  ]
+}

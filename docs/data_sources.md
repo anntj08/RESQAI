@@ -166,6 +166,16 @@ Two phase-2 source classes were **closed rather than pursued**:
 
 See `docs/INVENTORY_VERIFICATION_REPORT.md` for what these records show.
 
+**2026-10-29 (RUN-2026-10-29-10) — official-source discovery review for a *multi-event* July-2024
+Wayanad inventory.** No qualifying public source exists. The two KSDMA "Reports – Landslides
+2024" documents not previously on disk (SRH response report 2025; Kerala Legislative Assembly
+Committee on Environment 13th Report, "Wayanad Landslide 2024 – Independent study report") were
+retrieved as review evidence and classified as **discussion reports, not inventories** (no
+coordinate/location-table structures in English or Malayalam text). Copernicus EMS verified
+negative (no Wayanad/Kerala/India-landslide activation; positive controls recorded). Per-candidate
+record: `docs/SOURCE_DISCOVERY_2024_WAYANAD_INVENTORY.md`. No inventory file, manifest status or
+Phase 4/5 output was changed.
+
 ### 1.8 Additional conditioning layers
 
 | Source | Endpoint | Result |
@@ -180,7 +190,7 @@ See `docs/INVENTORY_VERIFICATION_REPORT.md` for what these records show.
 | Source | Status | Exact reason |
 |---|---|---|
 | NASA SRTMGL1 V003 granule download (LP DAAC/ASF) | **ACCESS_RESTRICTED** | CMR granule search returns metadata unauthenticated, but the data endpoint requires an Earthdata Login session. No `.netrc`, `EARTHDATA_USERNAME`, `EARTHDATA_PASSWORD` or token exists on this machine. |
-| GSI Bhukosh (`bhukosh.gsi.gov.in`) | **ACCESS_RESTRICTED** | TCP connection timeout on both 80 and 443, repeatedly. Not a credential issue — the host is unreachable from this network. |
+| GSI Bhukosh (`bhukosh.gsi.gov.in`) | **ACCESS_RESTRICTED** | TCP connection timeout on both 80 and 443, repeatedly. Not a credential issue — the host is unreachable from this network. 2026-10-29 refresh: connect timeout again (40 s). |
 | GSI Bhusanket ArcGIS REST (`gisserver/rest/services/...`) | **ACCESS_RESTRICTED** | `India_All_Landslided/FeatureServer/0` and `Susceptibility/ImageServer` return `499 Token Required`. The token is injected by the authenticated web app, so it was not pursued or circumvented. |
 | Kerala SDI (`ksdi.kerala.gov.in`) | **UNAVAILABLE** | Connection timeout. |
 | OneGeology WFS portal | **UNAVAILABLE** | TLS handshake failure from this network. |
@@ -191,6 +201,9 @@ See `docs/INVENTORY_VERIFICATION_REPORT.md` for what these records show.
 | FABDEM (`data.bris.ac.uk`) | **ACCESS_RESTRICTED** | Connect timeout. |
 | GSI 2019-20 "post-disaster studies in Wayanad and Kannur" (Sulal et al. 2020) | **UNAVAILABLE** | Cited in GSI's own 2025 bibliography but **absent from the public 1,188-report index** (verified by enumerating all 62 Kerala reports). This is why Puthumala 2019 is `SECONDARY_SOURCE_ONLY`. |
 | `easy-migration.zip` (Dataverse export) | Failed | `ConnectionError` from `objectstore.surf.nl`. A Dataverse export artefact, not data — nothing of analytical value is missing. |
+| GSI Bhusanket live catalogue (2026-10-29) | **UNREACHABLE** | TCP connect timeout (`requests`, 40 s) and webfetch transport error on the index JSON; third probe identical. Reachable 2026-10-25 — the on-disk 1,188-report index is the last verified catalogue state and contains no Wayanad-2024 multi-event report entry. |
+| Copernicus EMS legacy activation list | **RETIRED (404)** | `emergency.copernicus.eu/mapping/list-of-activations-rapid` (± trailing slash), `/mapping`, `list-of-activations` all 404; portal migrated to `mapping.emergency.copernicus.eu`. Live API verified 2026-10-29: **no** Wayanad/Kerala/India-landslide activation exists (see `docs/SOURCE_DISCOVERY_2024_WAYANAD_INVENTORY.md` §3). |
+| NIDM (`nidm.gov.in`) | **UNREACHABLE** | TLS certificate hostname mismatch (`CERTIFICATE_VERIFY_FAILED`); host-level misconfiguration, not credentials. |
 
 ---
 

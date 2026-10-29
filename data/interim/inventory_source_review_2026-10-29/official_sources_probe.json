@@ -1,0 +1,560 @@
+{
+  "generated_utc": "2026-10-29T14:36:53.440363+00:00",
+  "probes": [
+    {
+      "key": "gsi_bhusanket_live_index",
+      "url": "https://bhusanket.gsi.gov.in/json/LandslideReport/LandslideReport.json",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='bhusanket.gsi.gov.in', port=443): Max retries exceeded with url: /json/LandslideReport/LandslideReport.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='bhusanket.gsi.gov.in', port=443) at 0x265341d8c20>, 'Connection to bhusanket.gsi.gov.in timed out. (connect timeout=40)'))"
+    },
+    {
+      "key": "gsi_bhukosh",
+      "url": "https://bhukosh.gsi.gov.in/",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='bhukosh.gsi.gov.in', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='bhukosh.gsi.gov.in', port=443) at 0x26534162710>, 'Connection to bhukosh.gsi.gov.in timed out. (connect timeout=40)'))"
+    },
+    {
+      "key": "gsi_portal",
+      "url": "https://www.gsi.gov.in/",
+      "http_status": 200,
+      "bytes": 26334,
+      "final_url": "https://gsi.gov.in:443/"
+    },
+    {
+      "key": "nrsc_bhuvan_landslide_atlas",
+      "url": "https://bhuvan-app1.nrsc.gov.in/disaster/disaster.php?id=ls",
+      "http_status": 200,
+      "bytes": 33406,
+      "final_url": "https://bhuvan-app1.nrsc.gov.in/disaster/disaster.php?id=ls",
+      "text_hits": [
+        "landslide: 4"
+      ],
+      "wayanad_context": []
+    },
+    {
+      "key": "nrsc_root",
+      "url": "https://www.nrsc.gov.in/",
+      "http_status": 200,
+      "bytes": 472521,
+      "final_url": "https://www.nrsc.gov.in/nrscnew/",
+      "text_hits": [],
+      "wayanad_context": []
+    },
+    {
+      "key": "wayanad_district_root",
+      "url": "https://wayanad.gov.in/",
+      "http_status": 200,
+      "bytes": 186048,
+      "final_url": "https://wayanad.gov.in/",
+      "candidate_links": []
+    },
+    {
+      "key": "ndma_root",
+      "url": "https://ndma.gov.in/",
+      "http_status": 200,
+      "bytes": 136852,
+      "final_url": "https://ndma.gov.in/",
+      "text_hits": [
+        "landslide: 8"
+      ],
+      "wayanad_context": []
+    },
+    {
+      "key": "nidm_root",
+      "url": "https://nidm.gov.in/",
+      "error": "SSLError: HTTPSConnectionPool(host='nidm.gov.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'nidm.gov.in'. (_ssl.c:1082)\")))"
+    },
+    {
+      "key": "kerala_dmsuite",
+      "url": "https://dmsuite.kerala.gov.in/",
+      "http_status": 200,
+      "bytes": 187312,
+      "final_url": "https://dmsuite.kerala.gov.in/"
+    },
+    {
+      "key": "copernicus_ems_root",
+      "url": "https://emergency.copernicus.eu/",
+      "http_status": 200,
+      "bytes": 20467,
+      "final_url": "https://emergency.copernicus.eu/",
+      "activation_links": []
+    },
+    {
+      "key": "copernicus_ems_list_old",
+      "url": "https://emergency.copernicus.eu/mapping/list-of-activations-rapid",
+      "http_status": 404,
+      "bytes": 9678,
+      "final_url": "https://emergency.copernicus.eu/mapping/list-of-activations-rapid/"
+    },
+    {
+      "key": "copernicus_ems_list_alt",
+      "url": "https://emergency.copernicus.eu/activations",
+      "http_status": 404,
+      "bytes": 9678,
+      "final_url": "https://emergency.copernicus.eu/activations/",
+      "text_hits": [],
+      "wayanad_context": []
+    },
+    {
+      "key": "ksdma_hazard_maps",
+      "url": "https://sdma.kerala.gov.in/hazard-maps/",
+      "http_status": 200,
+      "bytes": 115498,
+      "final_url": "https://sdma.kerala.gov.in/hazard-maps/",
+      "candidate_links": [
+        {
+          "href": "/meppadi-2024-csr/",
+          "text": "Meppadi 2024 CSR"
+        },
+        {
+          "href": "/maps-2/",
+          "text": "Maps"
+        },
+        {
+          "href": "/hazard-maps/",
+          "text": "Hazard Maps"
+        },
+        {
+          "href": "/event-specific-maps/",
+          "text": "Event Specific Maps"
+        },
+        {
+          "href": "/landslide-early-warning/",
+          "text": "Landslide Early Warning"
+        },
+        {
+          "href": "/meppadi-2024-csr/",
+          "text": "Meppadi 2024 CSR"
+        },
+        {
+          "href": "/unicef-2024/",
+          "text": "UNICEF 2024"
+        },
+        {
+          "href": "/landslides-2018/",
+          "text": "Landslides 2018"
+        },
+        {
+          "href": "/landslides-2019/",
+          "text": "Landslides 2019"
+        },
+        {
+          "href": "/msme-2024/",
+          "text": "MSME 2024"
+        },
+        {
+          "href": "/thiruvambadi-landslide-preparedness/",
+          "text": "Thiruvambadi Landslide"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/Emergency-Response-Vehicle-details-25-05-2025_ERV_Website.pdf",
+          "text": "Emergency Response Vehicles (ERVs)"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/DM-Directory-2025_23.pdf",
+          "text": "DM Directory"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/TALUK-DIRECTORY.pdf",
+          "text": "Taluk Emergency Operation Centres"
+        },
+        {
+          "href": "/helipad-location-and-maps/",
+          "text": "Helipad Location and Maps"
+        },
+        {
+          "href": "/landslides-2024/",
+          "text": "Landslides 2024"
+        },
+        {
+          "href": "/reports-landslides-2024/",
+          "text": "Reports – Landslides 2024"
+        },
+        {
+          "href": "/landslides-2021/",
+          "text": "Landslides 2021"
+        },
+        {
+          "href": "/event-2024-2/",
+          "text": "Events 2024"
+        },
+        {
+          "href": "/wp-content/uploads/2022/06/Flood-Probability-Report-2022_Final.pdf",
+          "text": "Flood Hazard Probability (based on Historic Data) Maps and Exposure of Schools and Hospitals in each district (PDFs)"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Thiruvananthapuram__Hist.pdf",
+          "text": "Thiruvananthapuram"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Kollam_Hist.pdf",
+          "text": "Kollam"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Pathanamthitta_Hist.pdf",
+          "text": "Pathanamthitta"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Alappuzha_Hist.pdf",
+          "text": "Alappuzha"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Kottayam_Hist.pdf",
+          "text": "Kottayam"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Idukki_Hist.pdf",
+          "text": "Idukki"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Ernakulam_Hist.pdf",
+          "text": "Ernakulam"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Thrissur__Hist.pdf",
+          "text": "Thrissur"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Palakkad__Hist.pdf",
+          "text": "Palakkad"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Malappuram_Hist.pdf",
+          "text": "Malappuram"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Kozhikode_Hist.pdf",
+          "text": "Kozhikode"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Wayanad__Hist.pdf",
+          "text": "Wayanad"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Kannur_Hist.pdf",
+          "text": "Kannur"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Kasaragod_Hist.pdf",
+          "text": "Kasragod"
+        },
+        {
+          "href": "/wp-content/uploads/2022/06/Flood-Probability-Report-2022_Final.pdf",
+          "text": "Flood Hazard Probability (based on RCP 8.5 Climate Change Scenario) Maps and Exposure of Schools and Hospitals in each district (PDFs)"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Thiruvananthapuram_RCP85.pdf",
+          "text": "Thiruvananthapuram"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Kollam_RCP85.pdf",
+          "text": "Kollam"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Pathanamthitta_RCP85.pdf",
+          "text": "Pathanamthitta"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Alappuzha_RCP85.pdf",
+          "text": "Alappuzha"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Kottayam_RCP85.pdf",
+          "text": "Kottayam"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Idukki_RCP85.pdf",
+          "text": "Idukki"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Ernakulam_RCP85.pdf",
+          "text": "Ernakulam"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Thrissur_RCP85.pdf",
+          "text": "Thrissur"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Palakkad_RCP85.pdf",
+          "text": "Palakkad"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Malappuram_RCP85.pdf",
+          "text": "Malappuram"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Kozhikde_RCP85.pdf",
+          "text": "Kozhikode"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Wayanad_RCP85.pdf",
+          "text": "Wayanad"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Kannur_RCP85.pdf",
+          "text": "Kannur"
+        },
+        {
+          "href": "http://sdma.kerala.gov.in/wp-content/uploads/2022/05/Kasaragd_RCP85.pdf",
+          "text": "Kasragod"
+        },
+        {
+          "href": "/wp-content/uploads/2022/06/Flood-Probability-Report-2022_Final.pdf",
+          "text": "Flood Hazard Probability of Kerala based on Historic Data (Raster File Zip) (Reference: UNEP, UN GRID, CIMA Italy, KSDMA, 2020; Flood Return"
+        },
+        {
+          "href": "/wp-content/uploads/2026/06/1.-Flood-Return-Probability-Historical-10-25-50-years.zip",
+          "text": "Flood Return Probability (10, 25, 50 years)"
+        },
+        {
+          "href": "/wp-content/uploads/2026/06/2.Flood-Return-Probability-Historical-100-200-500-years.zip",
+          "text": "Flood Return Probability (100, 200, 500 years)"
+        },
+        {
+          "href": "/wp-content/uploads/2022/06/Flood-Probability-Report-2022_Final.pdf",
+          "text": "Flood Hazard Probability of Kerala based on RCP8.5 Climate Change Scenario (Raster File Zip) (Reference: UNEP, UN GRID, CIMA Italy, KSDMA, 2"
+        },
+        {
+          "href": "/wp-content/uploads/2026/06/3.-Flood-Return-Probability-RCP8.5-10-25-50-years.zip",
+          "text": "Flood Return Probability (10, 25, 50 years)"
+        },
+        {
+          "href": "/wp-content/uploads/2026/06/4.Flood-Return-Probability-RCP8.5-100-200-500-years.zip",
+          "text": "Flood Return Probability (100, 200, 500 years)"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/TVM.zip",
+          "text": "Thiruvananthapuram"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Kollam.zip",
+          "text": "Kollam"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Pathanamthitta.zip",
+          "text": "Pathanamthitta"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Kottayam.zip",
+          "text": "Kottayam"
+        },
+        {
+          "href": "/wp-content/uploads/2025/08/Idukki.zip",
+          "text": "Idukki"
+        }
+      ]
+    },
+    {
+      "key": "ksdma_reports_landslides_2024",
+      "url": "https://sdma.kerala.gov.in/reports-landslides-2024/",
+      "http_status": 200,
+      "bytes": 103356,
+      "final_url": "https://sdma.kerala.gov.in/reports-landslides-2024/",
+      "candidate_links": [
+        {
+          "href": "/meppadi-2024-csr/",
+          "text": "Meppadi 2024 CSR"
+        },
+        {
+          "href": "/maps-2/",
+          "text": "Maps"
+        },
+        {
+          "href": "/hazard-maps/",
+          "text": "Hazard Maps"
+        },
+        {
+          "href": "/event-specific-maps/",
+          "text": "Event Specific Maps"
+        },
+        {
+          "href": "/landslide-early-warning/",
+          "text": "Landslide Early Warning"
+        },
+        {
+          "href": "/meppadi-2024-csr/",
+          "text": "Meppadi 2024 CSR"
+        },
+        {
+          "href": "/unicef-2024/",
+          "text": "UNICEF 2024"
+        },
+        {
+          "href": "/landslides-2018/",
+          "text": "Landslides 2018"
+        },
+        {
+          "href": "/landslides-2019/",
+          "text": "Landslides 2019"
+        },
+        {
+          "href": "/msme-2024/",
+          "text": "MSME 2024"
+        },
+        {
+          "href": "/thiruvambadi-landslide-preparedness/",
+          "text": "Thiruvambadi Landslide"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/Emergency-Response-Vehicle-details-25-05-2025_ERV_Website.pdf",
+          "text": "Emergency Response Vehicles (ERVs)"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/DM-Directory-2025_23.pdf",
+          "text": "DM Directory"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/TALUK-DIRECTORY.pdf",
+          "text": "Taluk Emergency Operation Centres"
+        },
+        {
+          "href": "/helipad-location-and-maps/",
+          "text": "Helipad Location and Maps"
+        },
+        {
+          "href": "/landslides-2024/",
+          "text": "Landslides 2024"
+        },
+        {
+          "href": "/reports-landslides-2024/",
+          "text": "Reports – Landslides 2024"
+        },
+        {
+          "href": "/landslides-2021/",
+          "text": "Landslides 2021"
+        },
+        {
+          "href": "/event-2024-2/",
+          "text": "Events 2024"
+        },
+        {
+          "href": "/wp-content/uploads/2026/03/FPS2025.pdf",
+          "text": "Meeting the Essential SRH Needs of Communities Affected by Landslides &#8211; Wayanad, Kerala Response, India &#8211; 2025."
+        },
+        {
+          "href": "/wp-content/uploads/2026/02/Environment-Committee-2025.pdf",
+          "text": "15th Kerala Legislative Assembly &#8211; Committee on Environment (2023-2026)- 13th Report- Wayanad Landslide 2024- Independent study report"
+        },
+        {
+          "href": "/wp-content/uploads/2025/07/Memorandum_17082024.pdf",
+          "text": "Govt. of Kerala, 2024. Memorandum – Meppadi landslide 2024. Contributors: Ms. Tinku Biswal, Kuriakose S.L, Arun Peter, Fahad Marzook, Rajeev"
+        },
+        {
+          "href": "/wp-content/uploads/2025/10/Meppadi-Landslide-PDNA_final_new1-2_compressed-compressed.pdf",
+          "text": "Post Disaster Needs Assessment &#8211; Meppadi Landslide 2024, Wayanad submitted to Govt. of India vide Ltr. No. DMA2/249/2024-DMD dated 13-"
+        }
+      ]
+    },
+    {
+      "key": "ksdma_event_specific_maps",
+      "url": "https://sdma.kerala.gov.in/event-specific-maps/",
+      "http_status": 200,
+      "bytes": 104946,
+      "final_url": "https://sdma.kerala.gov.in/event-specific-maps/",
+      "candidate_links": [
+        {
+          "href": "/meppadi-2024-csr/",
+          "text": "Meppadi 2024 CSR"
+        },
+        {
+          "href": "/maps-2/",
+          "text": "Maps"
+        },
+        {
+          "href": "/hazard-maps/",
+          "text": "Hazard Maps"
+        },
+        {
+          "href": "/event-specific-maps/",
+          "text": "Event Specific Maps"
+        },
+        {
+          "href": "/landslide-early-warning/",
+          "text": "Landslide Early Warning"
+        },
+        {
+          "href": "/meppadi-2024-csr/",
+          "text": "Meppadi 2024 CSR"
+        },
+        {
+          "href": "/unicef-2024/",
+          "text": "UNICEF 2024"
+        },
+        {
+          "href": "/landslides-2018/",
+          "text": "Landslides 2018"
+        },
+        {
+          "href": "/landslides-2019/",
+          "text": "Landslides 2019"
+        },
+        {
+          "href": "/msme-2024/",
+          "text": "MSME 2024"
+        },
+        {
+          "href": "/thiruvambadi-landslide-preparedness/",
+          "text": "Thiruvambadi Landslide"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/Emergency-Response-Vehicle-details-25-05-2025_ERV_Website.pdf",
+          "text": "Emergency Response Vehicles (ERVs)"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/DM-Directory-2025_23.pdf",
+          "text": "DM Directory"
+        },
+        {
+          "href": "/wp-content/uploads/2025/06/TALUK-DIRECTORY.pdf",
+          "text": "Taluk Emergency Operation Centres"
+        },
+        {
+          "href": "/helipad-location-and-maps/",
+          "text": "Helipad Location and Maps"
+        },
+        {
+          "href": "/landslides-2024/",
+          "text": "Landslides 2024"
+        },
+        {
+          "href": "/reports-landslides-2024/",
+          "text": "Reports – Landslides 2024"
+        },
+        {
+          "href": "/landslides-2021/",
+          "text": "Landslides 2021"
+        },
+        {
+          "href": "/event-2024-2/",
+          "text": "Events 2024"
+        },
+        {
+          "href": "/wp-content/uploads/2020/11/Flood-Inundation-Map_2020.pdf",
+          "text": "Click here for the Map"
+        },
+        {
+          "href": "/wp-content/uploads/2020/11/Landslide-2019-1.pdf",
+          "text": "Click here for the Map"
+        },
+        {
+          "href": "/wp-content/uploads/2020/11/Flood_2019-1.pdf",
+          "text": "Click here for the Map"
+        },
+        {
+          "href": "/wp-content/uploads/2020/11/Landslide-2018-1.pdf",
+          "text": "|Click here for the Map"
+        },
+        {
+          "href": "/wp-content/uploads/2020/11/Flood_2018-1.pdf",
+          "text": "Click here for the Map"
+        },
+        {
+          "href": "/wp-content/uploads/2020/11/CROWD_INUNDATION.pdf",
+          "text": "Click here for the Map"
+        },
+        {
+          "href": "/wp-content/uploads/2020/11/FLOOD_INUNDATION2013.pdf",
+          "text": "Click here for the Map"
+        }
+      ]
+    }
+  ]
+}

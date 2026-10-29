@@ -1,0 +1,102 @@
+{
+  "generated_utc": "2026-10-29T14:41:52.822501+00:00",
+  "documents": [
+    {
+      "document": "ksdma_fps2025_srh_needs",
+      "pages": 17,
+      "chars_total": 28086,
+      "chars_per_page_first12": [
+        110,
+        1031,
+        185,
+        4083,
+        2982,
+        2263,
+        2290,
+        3137,
+        1813,
+        1665,
+        2830,
+        2494
+      ],
+      "images_per_page_first12": [
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "image_only_pages": [
+        17
+      ],
+      "en_contexts": [
+        "coordinate",
+        "coordinate"
+      ],
+      "ml_contexts": [],
+      "slno_contexts": [],
+      "en_counts": {
+        "latitude": 0,
+        "longitude": 0,
+        "coordinate": 2,
+        "gps": 0,
+        "survey number": 0,
+        "inventory": 0,
+        "annexure": 0
+      }
+    },
+    {
+      "document": "ksdma_environment_committee_13th_report",
+      "pages": 47,
+      "chars_total": 114004,
+      "chars_per_page_first12": [
+        472,
+        352,
+        221,
+        483,
+        2702,
+        716,
+        2875,
+        2843,
+        3009,
+        3055,
+        2798,
+        2786
+      ],
+      "images_per_page_first12": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "image_only_pages": [],
+      "en_contexts": [],
+      "ml_contexts": [],
+      "slno_contexts": [],
+      "en_counts": {
+        "latitude": 0,
+        "longitude": 0,
+        "coordinate": 0,
+        "gps": 0,
+        "survey number": 0,
+        "inventory": 0,
+        "annexure": 0
+      }
+    }
+  ]
+}

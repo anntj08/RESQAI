@@ -44,6 +44,11 @@ data/interim/p3/inventory_backup/
 *.nc
 *.h5
 
+# RUN-2026-10-29-10: candidate-source assessment PDFs (~8.9 MB binary) kept as
+# local review evidence in data/interim/inventory_source_review_2026-10-29/;
+# the assessment JSONs, logs and CSV in that directory ARE committed.
+data/interim/inventory_source_review_2026-10-29/*.pdf
+
 # Keep the small provenance artefacts
 !data/file_inventory.csv
 !data/interim/inventory_extracts/*.csv
