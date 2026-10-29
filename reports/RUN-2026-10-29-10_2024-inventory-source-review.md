@@ -84,8 +84,9 @@ Copernicus retired-404, NIDM TLS, Bhukosh refresh note); `.gitignore` (evidence-
 
 **Conclusion:** no publicly accessible official multi-event geospatial inventory of the July
 2024 Wayanad disaster exists (or is reachable today). The inventory's 2024 coverage remains
-the two PDLS single-point records. Commit of this run's work + report: **pinned below**;
-the concurrent session's two documents committed separately; tree clean; nothing pushed.
+the two PDLS single-point records. Commit of this run's work + report: **`e6cdde1`**; the
+concurrent session's two documents committed as **`40ac542`**; hash-pin follow-up: **pinned
+below**. Tree clean; nothing pushed.
 
 ## 7. Next-step handoff (prompt material)
 
