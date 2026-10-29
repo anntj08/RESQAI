@@ -1,0 +1,70 @@
+{
+  "purpose": "Provenance for every contact detail used in docs/requests/DRAFT_2026-10-29_official-inventory-request.md. Only published agency contact details are recorded; anything not confirmed is left as a placeholder in the draft.",
+  "run": "RUN-2026-10-29-11",
+  "fetched_local": "2026-10-29T21:14:52+05:30",
+  "entries": [
+    {
+      "agency": "Kerala State Disaster Management Authority (KSDMA)",
+      "url": "https://sdma.kerala.gov.in/contact/",
+      "http_status": 200,
+      "published_text_verbatim": [
+        "OFFICE OF THE KERALA STATE DISASTER MANAGEMENT AUTHORITY",
+        "Observatory Hills, Vikas Bhavan P.O",
+        "Thiruvananthapuram, Keralam - 695033",
+        "Phone: +91-471-2778855",
+        "Website: www.sdma.kerala.gov.in, Email: keralasdma@gmail.com"
+      ],
+      "additional_published_contacts_same_page": {
+        "KSEOC_email": "seoc.ksdma@kerala.gov.in",
+        "KSEOC_phone": "1070/1079/0471-2778800"
+      },
+      "used_for": "KSDMA address block in the draft (confirmed, no placeholder needed).",
+      "notes": "Same address and phone also printed in the site footer; email appears only on the Contact page."
+    },
+    {
+      "agency": "Wayanad District Disaster Management Authority (DDMA) route",
+      "url": "https://wayanad.gov.in/%e0%b4%a1%e0%b4%af%e0%b4%b1%e0%b4%95%e0%b5%8d%e2%80%8c%e0%b4%9f%e0%b4%b1%e0%b4%bf/",
+      "url_label": "wayanad.gov.in > Directory (district directory page)",
+      "http_status": 200,
+      "published_text_verbatim": [
+        "District Collector & District Magistrate | dcwayanad[at]gmail[dot]com | 9447204666 | 04936202230 | 04936203450 | District Collectorate Wayanad, Civil Station North, Kalpetta P.O., Wayanad"
+      ],
+      "used_for": "DDMA address block, labelled as the District Collector's office (the Collector chairs the DDMA) because no DDMA-specific mailbox is published on this page.",
+      "notes": "Page footer states 'last updated 20.12.2021' - the user must re-verify before sending. Do not relabel this as a DDMA mailbox."
+    },
+    {
+      "agency": "Geological Survey of India (GSI)",
+      "url": "https://www.gsi.gov.in/",
+      "http_status": 200,
+      "published_text_verbatim": [
+        "Geological Survey of India / Verifying secure session"
+      ],
+      "used_for": "Nothing. The live site returned an interstitial session-verification shell with no retrievable contact content.",
+      "notes": "Attempted and failed on 2026-10-29: GET /contact-us -> 404; /webcenter/portal/GSI/pages_contactus -> 404; /webcenter/portal/GSI/pages_contactUs -> 404. Therefore no GSI email, phone or street address is asserted."
+    },
+    {
+      "agency": "Geological Survey of India (GSI) - postal address and data-access route",
+      "source_type": "printed in official GSI publications held on disk",
+      "sources": [
+        {
+          "file": "data/interim/gsi_pdf_text/gsi_14768.txt",
+          "lines": "51-52",
+          "text": "Soft copy of the report and digital data can be obtained with the permission of the Director General, Geological Survey of India, Kolkata-700016"
+        },
+        {
+          "file": "data/interim/gsi_pdf_text/gsi_14999.txt",
+          "lines": "49-50",
+          "text": "Soft copy of the report and digital data can be obtained with the permission of the Director General, Geological Survey of India, Kolkata-700016"
+        },
+        {
+          "file": "data/interim/gsi_pdf_text/gsi_PDLS_2024_51817.txt",
+          "lines": "38, 1568, 2134, 3583",
+          "text": "Not to be published in part or full without prior permission of the Director General, Geological Survey of India, Kolkata"
+        }
+      ],
+      "used_for": "GSI address block (Director General, Geological Survey of India, Kolkata - 700016) and the access-route question in the draft.",
+      "notes": "Street address, email and telephone remain placeholders in the draft; only the city and PIN are printed in the GSI documents."
+    }
+  ],
+  "placeholder_policy": "Any contact field not confirmed above is written as an explicit bracketed placeholder in the draft and listed in the run report; no contact detail is inferred, reconstructed from memory or guessed."
+}
