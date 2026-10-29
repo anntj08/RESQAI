@@ -121,7 +121,7 @@ new attachment files, the letter edit, and the reverted churn).
 - Request package: **letter + 3 attachments exist and are internally consistent**, but the package is
   **not ready to send**. It needs (a) every user placeholder filled, (b) current agency contacts
   re-verified, (c) the user's send decision.
-- Commit: `<pending — pinned in the follow-up commit>`.
+- Commit: `af3bb4a` (work + this report; hash pinned in the follow-up commit).
 
 ## 7. Next-step handoff (prompt material)
 
