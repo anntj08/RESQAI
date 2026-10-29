@@ -129,7 +129,7 @@ own `[DATE]`, `[NAME]`, `[DESIGNATION]`, `[INSTITUTION / DEPARTMENT]`, `[CITY]`,
 - `docs/data_manifest.csv` unchanged (44 rows); no dataset status changed.
 - The drafting task is **complete but not executed**: a reviewed, provenance-checked letter exists;
   the send decision, the GSI contact route, and the project note remain with the user.
-- Commit: `<pending — pinned in the follow-up commit>`.
+- Commit: `e527461` (work + this report; hash pinned in the follow-up commit).
 
 ## 7. Next-step handoff (prompt material)
 
