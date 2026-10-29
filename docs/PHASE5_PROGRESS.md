@@ -10,8 +10,10 @@ probability of failure, and nothing here is a forecast, warning, or timing predi
 susceptibility estimates *where* conditions favour failure, never *when* failure will occur.
 
 Sections 2–6 record **confirmed results** (measured on saved files; models audited by
-independent recomputation; full pipeline byte-reproducible). Section 7 lists **limitations**.
-Section 8 holds **interpretation and recommendations only**. Section 9 states status.
+independent recomputation; full pipeline byte-reproducible). Section 7 records the
+**comparison-only LSZ-01 layer** (added 2026-10-29; measured on saved comparison outputs with
+gates against the primary record; nothing upstream modified). Section 8 lists **limitations**.
+Section 9 holds **interpretation and recommendations only**. Section 10 states status.
 
 ---
 
@@ -133,7 +135,73 @@ Permutation importance (held-out folds, mean decrease in ROC-AUC under permutati
 
 `data/interim/p5/verify_p5.json` is the saved evidence.
 
-## 7. Limitations (carried into every reading of the results)
+## 7. Descriptive comparison with the GSI 2022 LSZ zones (LSZ-01) — comparison-only layer (confirmed measurements)
+
+Added 2026-10-29 after the baseline was complete (primary: `RUN-2026-10-28-06`; sensitivity:
+`RUN-2026-10-29-07`). The Phase 5 RF ranking map was compared **descriptively** against the
+KSDMA-hosted GSI 2022 landslide susceptibility zones (LSZ-01). Nothing upstream was modified:
+the GSI zones are **not** part of the model, not in the predictor stack, and LSZ-01 keeps
+manifest status `DOWNLOADED_NOT_FULLY_VALIDATED`.
+
+**Limitations carried by every summary of this comparison:**
+
+1. The RF surface is a relative ranking conditional on the observed inventory, not a
+   calibrated probability or a prediction of timing.
+2. LSZ-01 is another model-derived susceptibility product, not ground truth, geology,
+   validation labels, or a predictor.
+3. The comparison is descriptive and spatially autocorrelated; it does not establish accuracy.
+4. LSZ-01 covers 95.99 % of the GADM district and is not field-validated.
+5. With `all_touched=True`, Moderate absorbs many boundary cells because it is painted last;
+   the resulting area shift is an order-dependent rasterization effect.
+
+### 7.1 Primary comparison (measured; sources: `outputs/lsz_rf_comparison/comparison_domain.json`, RUN-06 report)
+
+- Geometry repair: the 3 delivered LSZ MultiPolygons are formally invalid;
+  `shapely.make_valid` per feature; measured area delta **0.0 km²** (repair changes no
+  measured areas).
+- Comparison domain (GADM 4.1 ∩ GSI coverage ∩ valid RF, 30 m EPSG:32643 grid):
+  **2,248,841 cells = 2,023.96 km²** — 95.43 % of the district mask and 95.97 % of the RF map
+  domain. Excluded without extrapolation: 94,542 cells = 85.09 km² of GADM without GSI
+  zones, plus 13,155 LSZ-covered cells with invalid RF. Zone capture: Low 95.10 %,
+  Moderate 97.30 %, High 95.50 % of each zone inside the domain.
+- RF quintile bands defined over the comparison domain; cuts p20 **0.0**, p40 **0.007447**,
+  p60 **0.082566**, p80 **0.277386** (p20 sits on the exactly-0 tie mass; measured class
+  shares 20.293 / 19.707 / 20.000 / 20.000 / 20.000 %).
+- Measured ordering of the RF vote share by GSI zone — **monotone**:
+  Low **0.1002** < Moderate **0.2725** < High **0.3818** (medians 0.0105 / 0.1882 / 0.3287).
+  GSI-High area sits in the upper RF bands: **89.59 % in Q4∪Q5** (57.03 % in Q5; 0.65 % in
+  Q1∪Q2). GSI-Low spans all bands (24.10 % in Q1 down to 13.17 % in Q5). Q5 composition:
+  50.64 % Low / 38.52 % Moderate / 10.85 % High.
+
+### 7.2 Sensitivity (measured; sources: `outputs/lsz_rf_comparison/sensitivity/sensitivity_summary.json`, RUN-07 report)
+
+Two variants, each recomputed independently and blocker-gated against the primary record:
+
+| | primary | V1 full-map thresholds | V2 `all_touched=True` |
+|---|---|---|---|
+| comparison domain (cells) | 2,248,841 | 2,248,841 (unchanged) | 2,251,769 (+2,928 = +2.64 km²) |
+| cuts p20/p40/p60/p80 | 0.0 / 0.007447 / 0.082566 / 0.277386 | 0.000617 / 0.008528 / 0.092314 / 0.282145 | unchanged (primary cuts) |
+| zone means Low/Med/High | 0.1002 / 0.2725 / 0.3818 | identical to primary | 0.0930 / 0.2606 / 0.3777 (ordering unchanged) |
+| GSI-High % in Q4∪Q5 | 89.59 | 87.53 | 89.544 |
+
+- **V1** changed only the threshold-estimation domain (bands derived over the full RF map
+  domain, 2,343,343 cells, then applied inside the unchanged comparison domain); cells, zone
+  areas and per-cell scores are identical to the primary; largest per-band shift is GSI-High
+  Q3, +2.02 pp.
+- **V2** re-derived the comparison domain after `all_touched=True` rasterization; per-zone
+  area shifts Low −113.57 km², Moderate +141.57 km², High −25.37 km² (Low −126,184 /
+  Moderate +157,298 / High −28,186 cells). Mechanism (limitation 5 above): a cell touched by
+  several classes is painted in shapefile file order High → Low → Moderate, so Moderate wins
+  all multi-class-touched boundary cells — an order-dependent rasterization effect, not a
+  property of the classes.
+- Descriptive stability verdict (measured in every variant): the monotone Low < Moderate <
+  High zone ordering and the High-zone concentration in the top bands (Q4∪Q5 = 89.59 /
+  87.53 / 89.544 %) hold throughout.
+
+Outputs: `outputs/lsz_rf_comparison/` (primary) and `outputs/lsz_rf_comparison/sensitivity/`;
+full tables, methods, gates and caveats live in the two run reports.
+
+## 8. Limitations (carried into every reading of the results)
 
 1. 92.3 % single-year (2018) inventory: scores characterise that event population, not all
    Wayanad landslides; no viable temporal holdout exists (28 non-2018 labels, 17 clusters) —
@@ -155,8 +223,12 @@ Permutation importance (held-out folds, mean decrease in ROC-AUC under permutati
 8. Geology is GLiM at 1:3.75 M (GSI 1:50,000 still missing); one RF configuration was run —
    no sensitivity of results to model settings has been measured.
 
-## 8. Interpretation and recommendations (not confirmed results)
+## 9. Interpretation and recommendations (not confirmed results)
 
+* The descriptive LSZ comparison (§7) measures agreement between two model-derived products
+  that share factor families (terrain, land cover, rainfall enter both lineages); some
+  agreement is therefore expected by construction and cannot establish accuracy for either
+  product. LSZ-01 stays out of the predictor stack.
 * The fold spread (0.772–0.926) and the drop in AP on folds 3–4 are consistent with
   regionally varying event populations under a single-year inventory; read per fold, with
   fold 2 discounted.
@@ -167,12 +239,16 @@ Permutation importance (held-out folds, mean decrease in ROC-AUC under permutati
   obtainable; a multi-year inventory to enable a temporal test; only then any model
   comparison or configuration sensitivity — never tuning toward the fold scores.
 
-## 9. Current project status
+## 10. Current project status
 
 Phase 5 baseline is **complete and verified** (6/6 gates; Phase 4 8/8 gates re-confirmed;
 byte-identical regeneration). What exists now, and only this: the feature table, the five
 fold models + final refit, per-fold ranking metrics with limitations, permutation
-importance, and one labelled susceptibility map. Run report:
-`reports/RUN-2026-10-28-03_phase5-rf-baseline.md`. Any further modelling (tuning, model
-comparison, synthetic events, hazard-vs-susceptibility framing) needs explicit user
-authorisation.
+importance, one labelled susceptibility map, and the **comparison-only descriptive LSZ
+layer** with its sensitivity checks (§7; LSZ-01 remains `DOWNLOADED_NOT_FULLY_VALIDATED`; no
+Phase 5 output modified by it). Run reports:
+`reports/RUN-2026-10-28-03_phase5-rf-baseline.md` (baseline),
+`reports/RUN-2026-10-28-06_lsz-rf-map-comparison.md` (comparison),
+`reports/RUN-2026-10-29-07_lsz-rf-comparison-sensitivity.md` (sensitivity). Any further
+modelling (tuning, model comparison, synthetic events, hazard-vs-susceptibility framing)
+needs explicit user authorisation.
