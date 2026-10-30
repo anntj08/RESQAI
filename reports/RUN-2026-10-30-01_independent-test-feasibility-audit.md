@@ -150,7 +150,7 @@ request file was modified.
   statuses as recorded.
 - **Request package:** unchanged and still **NOT SENT**; placeholders intact.
 - **Independent test:** **not possible with local data.** No validation claim exists or was created.
-- Commit: `<pending — pinned in the follow-up commit>`.
+- Commit: `62142aa` (audit + this report; hash pinned in the follow-up commit).
 
 ## 7. Next-step handoff (prompt material)
 
