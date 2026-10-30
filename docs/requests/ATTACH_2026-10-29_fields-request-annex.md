@@ -26,6 +26,9 @@ useful; nothing needs to be estimated or completed on our behalf.
 | 8 | Source document, page and figure | Provenance for every row and for any later citation | Citation or page reference |
 | 9 | Access conditions and terms of use | Determines what may be published or redistributed | Licence, written condition, or "on request" |
 | 10 | Required citation form | So credit is given exactly as the agency wishes | Text |
+| 11 | Geometry type, and what the point represents | Decides whether a record is comparable with our existing labels, which are source-area points. A runout centroid, a deposition point and a source-area point are different entities | Point, line or polygon, plus one line on what the coordinate marks |
+| 12 | Event grouping / duplicate relationships | Several rows may describe one event or several lobes of it; without a grouping key the same event is counted twice | A grouping key, or a sentence naming which rows belong together |
+| 13 | Administrative location (district / taluk / village) | Lets us confirm district coverage and cross-check the coordinate | As printed |
 
 ## Notes
 

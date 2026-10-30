@@ -31,9 +31,10 @@ Keep one copy of this file as the master. Do not edit a copy after sending; log 
 
 ## 1. Recipients (published contact details only)
 
-Every detail below is either (a) printed on an official agency page fetched on 2026-10-29, or
-(b) printed inside an official GSI publication held on disk. Provenance:
-`data/interim/inventory_source_review_2026-10-29/contact_sources_2026-10-29.json`.
+Every detail below is either (a) printed on an official agency page fetched on 2026-10-29 and
+re-checked on 2026-10-30, or (b) printed inside an official GSI publication held on disk. Provenance:
+`data/interim/inventory_source_review_2026-10-29/contact_sources_2026-10-29.json`; the 2026-10-30
+re-check is logged in `docs/INDEPENDENT_TEST_STAGE2_ACQUISITION_READINESS_2026-10-30.md` §3.
 
 ### 1.1 Geological Survey of India — primary addressee
 
@@ -86,14 +87,19 @@ state-level event record with location attributes exists, KSDMA is the body that
 > Kalpetta P.O., Wayanad, Kerala
 >
 > Email: dcwayanad@gmail.com  *(printed on the district site as `dcwayanad[at]gmail[dot]com`)*
-> Telephone: 04936-202230 · Mobile: 9447204666 · Fax: 04936-203450
+> Telephone: 04936-202230 *(confirmed on the Who's Who page, 2026-10-30)*
+> Mobile: 9447204666 *(unconfirmed — not on the Who's Who page)* · Fax: 04936-203450 *(unconfirmed)*
 
-Source: `wayanad.gov.in` → Directory (district directory page), fetched 2026-10-29.
+Source: `https://wayanad.gov.in/en/whos-who/` (fetched 2026-10-30; page footer "Last Updated: 14.07.2022").
+That page prints the Collector's email as `dcwayanad[at]gmail[dot]com` and the landline as `04936202230`.
+The mobile `9447204666` and fax `04936-203450` quoted above were read from the district directory page on
+2026-10-29 and are **not** repeated on the Who's Who page — treat them as unconfirmed and drop them
+unless re-verified. The old `/directory/` URL now returns 404 on both the English and Malayalam sites.
 
 **Caveats the user must resolve before sending.**
 - This is the **District Collector's office**, not a DDMA-specific mailbox. The Collector chairs the
   DDMA, so this is the published route to the DDMA — describe it that way, do not relabel it.
-- The directory page footer reads "last updated 20.12.2021". Re-verify the email and numbers on
+- The Who's Who page was last updated 14.07.2022, so re-verify the email and landline on
   `wayanad.gov.in` immediately before sending; if they have changed, update §1.3 and §7.
 
 ### 1.4 Suggested sending order
@@ -276,6 +282,9 @@ Keep questions 4–9 unchanged, and keep the "what I am not asking for" paragrap
 | 8 | Source document, page, figure | Provenance for every row | Citation |
 | 9 | Access conditions and terms of use | Determines what we may publish | Licence or written condition |
 | 10 | Required citation form | So credit is given as the agency wishes | Text |
+| 11 | Geometry type, and what the point represents | Distinguishes a source-area point from a runout centroid, a deposition point or a polygon footprint; our existing labels are source-area points, so this decides comparability | point / line / polygon, plus one line on what the coordinate marks |
+| 12 | Event grouping / duplicate relationships | Several rows may describe one event, or several lobes of it; grouping prevents double-counting | a grouping key, or a sentence naming which rows belong together |
+| 13 | Administrative location (district / taluk / village) | Coverage and district-membership check | As printed |
 
 If a field is not recorded by the agency, "not recorded" is a complete and useful answer — it does
 not need to be filled in.
